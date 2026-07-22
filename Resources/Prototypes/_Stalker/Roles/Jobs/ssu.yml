@@ -1,3 +1,4 @@
+# Zona14: Disable StalkerSBU from job selection menu
 - type: job
   id: StalkerSBU
   setPreference: false

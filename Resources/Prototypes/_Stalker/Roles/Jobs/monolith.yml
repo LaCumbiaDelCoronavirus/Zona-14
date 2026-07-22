@@ -1,3 +1,4 @@
+# Zona14: Disable StalkerMonolith from job selection menu
 - type: job
   id: StalkerMonolith
   setPreference: false
@@ -48,6 +49,7 @@
           Unsexed: MaleHumanMonolith
       - type: PsyVoiceEmote # stalker EN change end
 
+# Zona14: Disable StalkerMonolithFree from job selection menu
 - type: job
   id: StalkerMonolithFree
   setPreference: false

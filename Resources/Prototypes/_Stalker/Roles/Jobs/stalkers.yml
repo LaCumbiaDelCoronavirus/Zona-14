@@ -1,3 +1,4 @@
+# Zona14: added displayWeight so the rank will be from highest to lowest
 - type: job
   id: Stalker
   displayWeight: 2
@@ -64,6 +65,7 @@
           Female: FemaleHumanLoner
           Unsexed: MaleHumanLoner # stalker EN change end
 
+# Zona14: added displayWeight so the rank will be from highest to lowest
 - type: job
   id: StalkerVeteran
   displayWeight: 3
@@ -135,6 +137,7 @@
     id: StalkerPDA
     dogtag: ClothingNeckDogtagLoner # EN
 
+# Zona14: Disable StalkerAtom from job selection menu
 - type: job
   id: StalkerAtom
   setPreference: false
@@ -208,7 +211,7 @@
   maxMembers: 10000
   managingRankId: 2
   hierarchy:
-    1: Stalker
-    2: StalkerVeteran
-    3: StalkerGuide
-
+    1: StalkerRookie
+    2: Stalker
+    3: StalkerVeteran
+# Zona14: added StalkerRookie to hierarchy order

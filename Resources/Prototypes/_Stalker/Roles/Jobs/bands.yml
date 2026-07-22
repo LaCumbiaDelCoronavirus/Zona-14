@@ -1,3 +1,4 @@
+# Zona14: added displayWeight so the rank will be from highest to lowest
 - type: job
   id: StalkerBandit
   displayWeight: 1
@@ -45,8 +46,8 @@
             Female: FemaleHumanBandit
             Unsexed: MaleHumanBandit
         - type: CheekiBreeki # stalker EN change end
-          
 
+# Zona14: added displayWeight so the rank will be from highest to lowest
 - type: job
   id: StalkerHeadBandit
   displayWeight: 3
@@ -114,5 +115,6 @@
   managingRankId: 2
   hierarchy:
     1: StalkerBandit
-    2: StalkerHeadBandit
-
+    2: StalkerCutthroat
+    3: StalkerHeadBandit
+# Zona14: added StalkerCutthroat to hierarchy order

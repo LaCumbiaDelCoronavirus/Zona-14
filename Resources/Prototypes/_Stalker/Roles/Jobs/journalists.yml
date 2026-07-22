@@ -1,4 +1,4 @@
-
+# Zona14: Disable StalkerJournalist from job selection menu
 - type: job
   id: StalkerJournalist
   setPreference: false

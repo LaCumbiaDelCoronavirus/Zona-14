@@ -1,3 +1,4 @@
+# Zona14: Disable StalkerClown from job selection menu
 - type: job
   id: StalkerClown
   setPreference: false

@@ -26,13 +26,16 @@
             StalkerCutthroat: [ 0, -1 ]
             StalkerHeadBandit: [ 0, -1 ]
             # Stalker Clans — Freedom
+            # Zona14: added a seperated category for Freedom Faction
             StalkerFreedom: [ 0, -1 ]
             StalkerScout: [ 0, -1 ]
             StalkerHeadFreedom: [ 0, -1 ]
-           # Stalker Clans — Mercenary
+            # Stalker Clans — Mercenary
+            # Zona14: added a seperated category for Mercenary Faction
             StalkerMercenary: [ 0, -1 ]
             StalkerHeadMercenary: [ 0, -1 ]
             # Stalker Clans — Duty
+            # Zona14: added a seperated category for Duty Faction
             StalkerDolg: [ 0, -1 ]
             StalkerDutyNCO: [ 0, -1 ]
             StalkerHeadDolg: [ 0, -1 ]
@@ -40,7 +43,8 @@
             sci: [ 0, -1 ]
             sci_decan: [ 0, -1 ]
             sci_rector: [ 0, -1 ]
-            # Border Guards
+            # Military
+            # Zona14: fix the amount of military roles to unlimited
             Military: [ 0, -1 ]
             MilitaryOfficer: [ 0, -1 ]
             MilitaryHead: [ 0, -1 ]

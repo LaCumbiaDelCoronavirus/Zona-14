@@ -1,3 +1,4 @@
+# Zona14: added displayWeight so the rank will be from highest to lowest
 - type: job
   id: StalkerDolg
   displayWeight: 1
@@ -43,6 +44,7 @@
             Female: FemaleHumanDuty
             Unsexed: MaleHumanDuty # stalker EN change end
 
+# Zona14: added displayWeight so the rank will be from highest to lowest
 - type: job
   id: StalkerHeadDolg
   displayWeight: 3
@@ -109,9 +111,10 @@
   maxMembers: 35
   managingRankId: 3
   hierarchy:
-    1: StalkerNoviceDolg
-    2: StalkerDolg
+    1: StalkerDolg
+    2: StalkerDutyNCO
     3: StalkerHeadDolg
+# Zona14: added StalkerDutyNCO to hierarchy order
 
 # Zona14: Private
 

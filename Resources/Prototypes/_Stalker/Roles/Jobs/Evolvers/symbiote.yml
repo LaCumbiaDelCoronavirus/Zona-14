@@ -1,3 +1,4 @@
+# Zona14: Disable EvolverSymbioteMedium from job selection menu
 - type: job
   id: EvolverSymbioteMedium
   setPreference: false
@@ -35,6 +36,7 @@
           teethCount: 3
           initialTeeth: 3
 
+# Zona14: Disable EvolverSymbioteArchon from job selection menu
 - type: job
   id: EvolverSymbioteArchon
   setPreference: false

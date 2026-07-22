@@ -1,3 +1,4 @@
+# Zona14: Disable StalkerRene from job selection menu
 - type: job
   id: StalkerRene
   setPreference: false

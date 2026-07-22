@@ -1,4 +1,4 @@
-
+# Zona14: Disable StalkerNeutral from job selection menu
 - type: job
   id: StalkerNeutral
   setPreference: false

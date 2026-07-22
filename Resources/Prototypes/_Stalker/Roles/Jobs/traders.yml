@@ -1,3 +1,4 @@
+# Zona14: Disable StalkerTrader from job selection menu
 - type: job
   id: StalkerTrader
   setPreference: false

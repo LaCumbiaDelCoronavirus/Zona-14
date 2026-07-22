@@ -3,6 +3,7 @@
 # StalkerDolg) — they exist as separate selectable slots in the character
 # creation menu.
 
+# Zona14: added displayWeight so the rank will be from highest to lowest
 - type: job
   id: StalkerCutthroat
   displayWeight: 2
@@ -48,6 +49,7 @@
             Unsexed: MaleHumanBandit
         - type: CheekiBreeki
 
+# Zona14: added displayWeight so the rank will be from highest to lowest
 - type: job
   id: StalkerScout
   displayWeight: 1
@@ -91,6 +93,7 @@
             Female: FemaleHumanFreedom
             Unsexed: MaleHumanFreedom
 
+# Zona14: added displayWeight so the rank will be from highest to lowest
 - type: job
   id: StalkerDutyNCO
   displayWeight: 2

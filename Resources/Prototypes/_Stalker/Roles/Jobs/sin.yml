@@ -1,4 +1,4 @@
-
+# Zona14: Disable StalkerGreh from job selection menu
 - type: job
   id: StalkerGreh
   setPreference: false

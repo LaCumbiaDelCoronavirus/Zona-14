@@ -1,3 +1,4 @@
+# Zona14: added displayWeight so the rank will be from highest to lowest
 - type: job
   id: StalkerMercenary
   displayWeight: 1
@@ -48,6 +49,7 @@
     id: BandPDA
     dogtag: ClothingNeckDogtagMercenary
 
+# Zona14: added displayWeight so the rank will be from highest to lowest
 - type: job
   id: StalkerHeadMercenary
   displayWeight: 2

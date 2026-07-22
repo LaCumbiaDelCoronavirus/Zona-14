@@ -1,4 +1,4 @@
-
+# Zona14: Disable StalkerUN from job selection menu
 - type: job
   id: StalkerUN
   setPreference: false

@@ -1,3 +1,4 @@
+# Zona14: Disable StalkerProjectPawn from job selection menu
 - type: job
   id: StalkerProjectPawn
   setPreference: false
@@ -44,6 +45,7 @@
         - type: Damageable
           damageModifierSet: STProjectDamageModifierSet
 
+# Zona14: Disable StalkerProjectSCI from job selection menu
 - type: job
   id: StalkerProjectSCI
   setPreference: false
@@ -101,6 +103,7 @@
     eyes: ClothingEyesGlassesSunglasses
     gloves: ClothingHandsGlovesFingerless
 
+# Zona14: Disable StalkerProjectOrchestrator from job selection menu
 - type: job
   id: StalkerProjectOrchestrator
   setPreference: false

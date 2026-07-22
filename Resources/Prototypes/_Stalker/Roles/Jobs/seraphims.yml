@@ -1,4 +1,5 @@
 # Zona14: translated Russian names/descriptions to English
+# Zona14: Disable Seraphim from job selection menu
 - type: job
   id: Seraphim
   setPreference: false
@@ -51,7 +52,7 @@
     neck: ClothingStalkerNeckTokenSeraphim
     mask: STClothingMaskKufei
 
-
+# Zona14: Disable SeraphimHead from job selection menu
 - type: job
   id: SeraphimHead
   setPreference: false
@@ -119,6 +120,7 @@
     2: SeraphimHead
     3: SeraphimCherubim
 
+# Zona14: Disable SeraphimCherubim from job selection menu
 - type: job
   id: SeraphimCherubim
   setPreference: false

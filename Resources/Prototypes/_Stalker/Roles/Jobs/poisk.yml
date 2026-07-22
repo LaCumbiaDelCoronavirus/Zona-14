@@ -1,4 +1,4 @@
-
+# Zona14: Disable StalkerPoisk from job selection menu
 - type: job
   id: StalkerPoisk
   setPreference: false
