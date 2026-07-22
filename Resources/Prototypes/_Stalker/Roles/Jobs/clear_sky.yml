@@ -1,5 +1,6 @@
 - type: job
   id: StalkerClearSky
+  setPreference: false
   name: job-clearsky
   icon: cn
   description: job-clearsky-desc
@@ -43,6 +44,7 @@
 
 - type: job
   id: StalkerClearSkyHead
+  setPreference: false
   name: job-clearsky-head
   icon: lcn
   description: job-clearsky-desc

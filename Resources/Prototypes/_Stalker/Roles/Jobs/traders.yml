@@ -1,5 +1,6 @@
 - type: job
   id: StalkerTrader
+  setPreference: false
   name: job-trader
   icon: trader
   description: job-trader-desc

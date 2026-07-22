@@ -1,5 +1,6 @@
 - type: job
   id: StalkerEcologist
+  setPreference: false
   name: job-ecologist
   icon: ecologistred
   description: job-scientist-desc
@@ -44,6 +45,7 @@
 
 - type: job
   id: StalkerHeadEcologist
+  setPreference: false
   name: job-head-ecologist
   icon: ecologistred
   description: job-head-scientist-desc

@@ -1,5 +1,6 @@
 - type: job
   id: StalkerGuide
+  setPreference: false
   name: job-guide
   icon: guide
   description: job-stalker-desc

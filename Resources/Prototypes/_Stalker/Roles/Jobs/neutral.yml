@@ -1,6 +1,7 @@
 
 - type: job
   id: StalkerNeutral
+  setPreference: false
   name: job-neutral-stalker
   icon: ne
   description: job-neutral-stalker-desc

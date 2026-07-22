@@ -1,5 +1,6 @@
 - type: job
   id: MilitaryStalker
+  setPreference: false
   name: job-military-stalker
   icon: army
   description: job-military-stalker-desc
@@ -45,6 +46,7 @@
 
 - type: job
   id: Military
+  displayWeight: 1
   name: job-military
   icon: army
   description: job-military-desc
@@ -94,6 +96,7 @@
 
 - type: job
   id: MilitaryHead
+  displayWeight: 3
   name: job-military-head
   icon: army
   description: job-military-head-desc
@@ -136,6 +139,7 @@
           toggleOnAction: GuardFactionControllerOnAction
 - type: job
   id: MilitaryOfficer
+  displayWeight: 2
   name: job-military-officer
   icon: army
   description: job-military-officer-desc

@@ -1,5 +1,6 @@
 - type: job
   id: StalkerClown
+  setPreference: false
   name: job-clown
   icon: clowns
   description: job-clown-desc

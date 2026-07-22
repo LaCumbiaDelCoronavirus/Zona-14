@@ -1,5 +1,6 @@
 - type: job
   id: StalkerMonolith
+  setPreference: false
   name: job-monolith
   icon: monolith
   description: job-monolith-desc
@@ -49,6 +50,7 @@
 
 - type: job
   id: StalkerMonolithFree
+  setPreference: false
   name: job-monolith-free
   icon: monolithfree
   description: job-monolith-free-desc

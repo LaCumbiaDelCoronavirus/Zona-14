@@ -1,5 +1,6 @@
 - type: job
   id: StalkerMilitia
+  setPreference: false
   name: job-militia
   icon: militia
   description: job-militia-desc
@@ -35,6 +36,7 @@
 
 - type: job
   id: StalkerMilitiaCommander
+  setPreference: false
   name: job-militia-commander
   icon: militia
   description: job-militia-commander-desc

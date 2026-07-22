@@ -1,5 +1,6 @@
 - type: job
   id: Stalker
+  displayWeight: 2
   name: job-stalker
   icon: stalker
   description: job-stalker-desc
@@ -65,6 +66,7 @@
 
 - type: job
   id: StalkerVeteran
+  displayWeight: 3
   name: job-stalker-veteran
   icon: ne
   description: job-stalker-desc
@@ -135,6 +137,7 @@
 
 - type: job
   id: StalkerAtom
+  setPreference: false
   name: job-stalker-atom
   icon: atom
   description: job-stalker-desc
@@ -208,4 +211,4 @@
     1: Stalker
     2: StalkerVeteran
     3: StalkerGuide
-    4: StalkerAtom
+

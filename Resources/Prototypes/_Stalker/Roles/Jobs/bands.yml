@@ -1,5 +1,6 @@
 - type: job
   id: StalkerBandit
+  displayWeight: 1
   name: job-bandit
   icon: band
   description: job-bandit-desc
@@ -48,6 +49,7 @@
 
 - type: job
   id: StalkerHeadBandit
+  displayWeight: 3
   name: job-head-bandit
   icon: lband
   description: job-head-bandit-desc

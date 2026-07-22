@@ -1,5 +1,6 @@
 - type: job
   id: StalkerAnomalist
+  setPreference: false
   name: job-anomalist
   icon: tec
   description: job-anomalist-desc
@@ -30,6 +31,7 @@
 
 - type: job
   id: StalkerAnomalistGuardian
+  setPreference: false
   name: job-anomalist-guardian
   icon: tec
   description: job-anomalist-guardian-desc

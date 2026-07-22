@@ -33,30 +33,60 @@
 #   # - StalkerSBU
 #   # - StalkerZavet
 
+
+#Zona14: Stalker Advanced jobs are disabled
+
+#- type: department
+#  id: StalkerAdvanced
+#  name: department-StalkerAdvanced
+#  description: department-StalkerAdvanced-description
+#  color: "#9FED58"
+#  weight: 9
+#  roles:
+
+#  - StalkerClearSkyHead
+#  - StalkerClearSky
+#  #- StalkerClearSky # Stalker-TODO: Jobs cannot have multiple primary departments!
+#  - StalkerNeutral
+#  - StalkerPoisk
+#  - StalkerJournalist
+#  - StalkerMilitia
+#  - StalkerMilitiaCommander
+#  - StalkerProjectOrchestrator
+#  - StalkerProjectPawn
+#  - StalkerProjectSCI
+
 - type: department
-  id: StalkerAdvanced
-  name: department-StalkerAdvanced
-  description: department-StalkerAdvanced-description
+  id: StalkerDolgClan
+  name: department-StalkerDolgClan
+  description: department-StalkerDolgClan-description
   color: "#9FED58"
   weight: 9
   roles:
   - StalkerDolg
   - StalkerDutyNCO # Zona14: new NCO clone for the Duty rank structure
   - StalkerHeadDolg
-  - StalkerFreedom
+
+- type: department
+  id: StalkerFreedomClan
+  name: department-StalkerFreedomClan
+  description: department-StalkerFreedomClan-description
+  color: "#9FED58"
+  weight: 9
+  roles:
   - StalkerScout # Zona14: new Scout clone for the Freedom rank structure
+  - StalkerFreedom
   - StalkerHeadFreedom
-  - StalkerClearSkyHead
-  - StalkerClearSky
-  #- StalkerClearSky # Stalker-TODO: Jobs cannot have multiple primary departments!
-  - StalkerNeutral
-  - StalkerPoisk
-  - StalkerJournalist
-  - StalkerMilitia
-  - StalkerMilitiaCommander
-  - StalkerProjectOrchestrator
-  - StalkerProjectPawn
-  - StalkerProjectSCI
+
+- type: department
+  id: StalkerMercenaryClan
+  name: department-StalkerMercenaryClan
+  description: department-StalkerMercenaryClan-description
+  color: "#9FED58"
+  weight: 9
+  roles:
+  - StalkerMercenary
+  - StalkerHeadMercenary
 
 - type: department
   id: StalkerBrigands
@@ -67,9 +97,7 @@
   roles:
   - StalkerBandit
   - StalkerCutthroat # Zona14: new Cutthroat clone for the Criminal rank structure
-  - StalkerHeadBandit
-  - StalkerMercenary
-  - StalkerHeadMercenary
+  - StalkerHeadBandit 
   - StalkerJaba
   - StalkerJabaAce
   - StalkerDeserter
@@ -93,41 +121,44 @@
   - StalkerEcologist
   - StalkerHeadEcologist
 
-- type: department
-  id: StalkerReligius
-  name: department-StalkerReligius
-  description: department-StalkerReligius-description
-  color: "#C0C0C0"
-  weight: 6
-  roles:
-  - StalkerMonolith
-  - StalkerPostulant
-  - StalkerBishop
-  - StalkerGreh
-  - Seraphim
-  - SeraphimHead
-  - SeraphimCherubim
-  - StalkerZavet
-  - StalkerZavetHead
 
-- type: department
-  id: Evolver
-  name: department-Evolver
-  description: department-Evolver-description
-  color: "#1070C0"
-  weight: -10
-  roles:
-  - EvolverPackFang
-  - EvolverPackAlpha
-  - EvolverSymbioteMedium
-  - EvolverSymbioteArchon
-  - Evolver
+#Zona14: Stalker religious, Evolver, Anomalists departments are disabled
 
-- type: department
-  id: StalkerAnomalists
-  name: department-StalkerAnomalists
-  description: department-StalkerAnomalists-description
-  color: "#9FED58"
-  roles:
-  - StalkerAnomalist
-  - StalkerAnomalistGuardian
+#- type: department
+#  id: StalkerReligius
+#  name: department-StalkerReligius
+#  description: department-StalkerReligius-description
+#  color: "#C0C0C0"
+#  weight: 6
+#  roles:
+#  - StalkerMonolith
+#  - StalkerPostulant
+#  - StalkerBishop
+#  - StalkerGreh
+#  - Seraphim
+#  - SeraphimHead
+#  - SeraphimCherubim
+#  - StalkerZavet
+#  - StalkerZavetHead
+
+#- type: department
+#  id: Evolver
+#  name: department-Evolver
+#  description: department-Evolver-description
+#  color: "#1070C0"
+#  weight: -10
+#  roles:
+#  - EvolverPackFang
+#  - EvolverPackAlpha
+#  - EvolverSymbioteMedium
+#  - EvolverSymbioteArchon
+#  - Evolver
+
+#- type: department
+#  id: StalkerAnomalists
+#  name: department-StalkerAnomalists
+#  description: department-StalkerAnomalists-description
+#  color: "#9FED58"
+#  roles:
+#  - StalkerAnomalist
+#  - StalkerAnomalistGuardian

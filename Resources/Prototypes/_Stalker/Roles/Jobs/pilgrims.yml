@@ -1,5 +1,6 @@
 - type: job
   id: StalkerPostulant
+  setPreference: false
   name: job-postulant
   icon: pilgrim
   description: job-postulant-desc
@@ -37,6 +38,7 @@
 
 - type: job
   id: StalkerBishop
+  setPreference: false
   name: job-bishop
   icon: pilgrim
   description: job-bishop-desc

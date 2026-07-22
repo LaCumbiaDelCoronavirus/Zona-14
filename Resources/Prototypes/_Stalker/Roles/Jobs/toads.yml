@@ -1,5 +1,6 @@
 - type: job
   id: StalkerJaba
+  setPreference: false
   name: job-jaba
   icon: jaba
   description: job-jaba-desc
@@ -35,6 +36,7 @@
 
 - type: job
   id: StalkerJabaAce
+  setPreference: false
   name: job-jaba-ace
   icon: jaba
   description: job-jaba-ace-desc

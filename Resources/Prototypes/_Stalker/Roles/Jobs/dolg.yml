@@ -1,5 +1,6 @@
 - type: job
   id: StalkerDolg
+  displayWeight: 1
   name: job-dolg
   icon: Dolg
   description: job-dolg-desc
@@ -44,6 +45,7 @@
 
 - type: job
   id: StalkerHeadDolg
+  displayWeight: 3
   name: job-head-dolg
   icon: ldolg
   description: job-head-dolg-desc
@@ -115,6 +117,7 @@
 
 - type: job
   id: StalkerNoviceDolg
+  setPreference: false
   name: job-novice-dolg
   icon: 1dolg
   description: job-dolg-desc

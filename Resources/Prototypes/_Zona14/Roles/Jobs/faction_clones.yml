@@ -5,6 +5,7 @@
 
 - type: job
   id: StalkerCutthroat
+  displayWeight: 2
   name: job-cutthroat
   icon: band
   description: job-cutthroat-desc
@@ -49,6 +50,7 @@
 
 - type: job
   id: StalkerScout
+  displayWeight: 1
   name: job-scout
   icon: freedom
   description: job-scout-desc
@@ -91,6 +93,7 @@
 
 - type: job
   id: StalkerDutyNCO
+  displayWeight: 2
   name: job-duty-nco
   icon: Dolg
   description: job-duty-nco-desc

@@ -44,6 +44,7 @@
 
 - type: job
   id: sci
+  displayWeight: 1
   name: job-sci
   icon: sci
   description: job-sci-desc
@@ -88,6 +89,7 @@
 
 - type: job
   id: sci_decan
+  displayWeight: 2
   name: job-sci_decan
   icon: sci
   description: job-sci_decan-desc
@@ -132,6 +134,7 @@
 
 - type: job
   id: sci_rector
+  displayWeight: 3
   name: job-sci_rector
   icon: sci
   description: job-sci_rector-desc

@@ -1,5 +1,6 @@
 - type: job
   id: StalkerSBU
+  setPreference: false
   name: job-sbu
   icon: sbu
   description: job-sbu-desc

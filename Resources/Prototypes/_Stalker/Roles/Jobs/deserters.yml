@@ -1,6 +1,7 @@
 
 - type: job
   id: StalkerDeserter
+  setPreference: false
   name: job-deserter
   icon: "deserter"
   description: job-deserter-desc
@@ -35,6 +36,7 @@
 
 - type: job
   id: StalkerDeserterHead
+  setPreference: false
   name: job-deserter-head
   icon: "deserter"
   description: job-deserter-desc

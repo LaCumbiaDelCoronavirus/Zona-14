@@ -1,5 +1,6 @@
 - type: job
   id: Evolver
+  setPreference: false
   name: job-evolver
   icon: evolver
   description: job-evolver-desc

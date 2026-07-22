@@ -1,5 +1,6 @@
 - type: job
   id: EvolverSymbioteMedium
+  setPreference: false
   name: job-evolver-symbiote-medium
   icon: symbiote
   description: job-evolver-symbiote-medium-desc
@@ -36,6 +37,7 @@
 
 - type: job
   id: EvolverSymbioteArchon
+  setPreference: false
   name: job-evolver-symbiote-archon
   icon: symbiote
   description: job-evolver-symbiote-archon-desc

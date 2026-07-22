@@ -1,5 +1,6 @@
 - type: job
   id: StalkerFreedom
+  displayWeight: 2
   name: job-freedom
   icon: freedom
   description: job-freedom-desc
@@ -45,6 +46,7 @@
 
 - type: job
   id: StalkerHeadFreedom
+  displayWeight: 3
   name: job-head-freedom
   icon: lfreedom
   description: job-head-freedom-desc
@@ -115,6 +117,7 @@
 
 - type: job
   id: StalkerNoviceFreedom
+  setPreference: false
   name: job-novice-freedom
   icon: 1freedom
   description: job-freedom-desc

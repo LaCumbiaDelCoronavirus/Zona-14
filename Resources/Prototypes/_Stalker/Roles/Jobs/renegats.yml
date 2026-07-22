@@ -1,5 +1,6 @@
 - type: job
   id: StalkerRene
+  setPreference: false
   name: job-renegade
   icon: rene
   description: job-renegade-desc

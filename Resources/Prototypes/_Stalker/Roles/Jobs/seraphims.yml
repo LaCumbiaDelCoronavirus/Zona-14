@@ -1,6 +1,7 @@
 # Zona14: translated Russian names/descriptions to English
 - type: job
   id: Seraphim
+  setPreference: false
   name: job-seraphim
   icon: seraphim
   description: job-seraphim-desc
@@ -53,6 +54,7 @@
 
 - type: job
   id: SeraphimHead
+  setPreference: false
   name: job-head-seraphim
   icon: seraphim_officer
   description: job-head-seraphim-desc
@@ -119,6 +121,7 @@
 
 - type: job
   id: SeraphimCherubim
+  setPreference: false
   name: Seraphim cherub
   icon: seraphim_cherubim
   description: job-head-seraphim-desc

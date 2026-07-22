@@ -1,5 +1,6 @@
 - type: job
   id: StalkerMercenary
+  displayWeight: 1
   name: job-mercenary
   icon: merc
   description: job-mercenary-desc
@@ -49,6 +50,7 @@
 
 - type: job
   id: StalkerHeadMercenary
+  displayWeight: 2
   name: job-head-mercenary
   icon: merc
   description: job-head-mercenary-desc
