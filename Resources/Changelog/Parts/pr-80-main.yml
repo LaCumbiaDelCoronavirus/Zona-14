@@ -1,0 +1,57 @@
+author: RebelledCombine
+time: '2026-07-24T18:36:24Z'
+url: https://github.com/Zona-14/Zona-14/pull/80
+changes:
+- type: Fix
+  message: "Zona-14 ammunition now actually fires its own bullets \u2014 cartridges,\
+    \ boxes and crates all handed out untuned upstream rounds."
+- type: Fix
+  message: Caches now contain Zona-14 loot. The curated tables existed but nothing
+    spawned them.
+- type: Fix
+  message: Crafting recipes no longer produce or consume upstream items.
+- type: Fix
+  message: Ammunition boxes now state how many rounds they actually hold.
+- type: Fix
+  message: Crafting a Zona-14 item no longer sometimes produces the untuned upstream
+    version instead.
+- type: Fix
+  message: SEVA suits now give the protection their tier promises.
+- type: Fix
+  message: Starter weapon choices now show their icon and name in the character editor.
+- type: Fix
+  message: The starter pistol no longer drops on the floor at spawn.
+- type: Fix
+  message: Fish can be cooked again.
+- type: Add
+  message: The workbench now tells you why a craft failed (missing or wrong ingredients,
+    wrong bench) instead of silently doing nothing.
+- type: Tweak
+  message: Vendors now sell tier 1 and 2 gear; tier 3 and above is crafted.
+- type: Tweak
+  message: Ammunition is priced per round by caliber, and factions discount the ammo
+    they use.
+- type: Tweak
+  message: Ammunition and weapons are crafted from metal, gunpowder and fittings.
+- type: Tweak
+  message: Helmets and headgear no longer provide combat protection.
+- type: Tweak
+  message: PvP armour grants one fewer artifact slot at every tier. PvE is unchanged.
+- type: Tweak
+  message: Rookie jobs now start with a sidearm or scattergun instead of a service
+    rifle.
+- type: Add
+  message: Every tier 3+ armour suit and weapon can now be crafted.
+- type: Add
+  message: Faction gear blueprints can be bought with war zone capture points.
+- type: Add
+  message: Cache tier 3.
+- type: Tweak
+  message: 9x39 hits harder and fires slower, so it no longer matches 5.45 exactly.
+- type: Fix
+  message: The Rusty MP-40 no longer fires at 20 rounds per second.
+- type: Tweak
+  message: Shotguns are tiered by magazine capacity and fire mode.
+- type: Tweak
+  message: Ammunition boxes hold realistic round counts.
+category: Main
