@@ -4,8 +4,10 @@
     id: StalkerPDA
     dogtag: ClothingNeckDogtagRookie
 
+# Zona14: added displayWeight so the rank will be from highest to lowest
 - type: job
   id: StalkerRookie
+  displayWeight: 1
   name: job-stalker-rookie
   icon: rookie
   description: job-stalker-rookie-desc

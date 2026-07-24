@@ -1,5 +1,7 @@
+# Zona14: Disable StalkerTrader from job selection menu
 - type: job
   id: StalkerTrader
+  setPreference: false
   name: job-trader
   icon: trader
   description: job-trader-desc

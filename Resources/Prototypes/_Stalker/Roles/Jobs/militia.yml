@@ -1,5 +1,7 @@
+# Zona14: Disable StalkerMilitia from job selection menu
 - type: job
   id: StalkerMilitia
+  setPreference: false
   name: job-militia
   icon: militia
   description: job-militia-desc
@@ -33,8 +35,10 @@
           factions:
           - Stalker
 
+# Zona14: Disable StalkerMilitiaCommander from job selection menu
 - type: job
   id: StalkerMilitiaCommander
+  setPreference: false
   name: job-militia-commander
   icon: militia
   description: job-militia-commander-desc

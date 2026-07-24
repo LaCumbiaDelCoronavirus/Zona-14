@@ -1,5 +1,7 @@
+# Zona14: Disable StalkerRene from job selection menu
 - type: job
   id: StalkerRene
+  setPreference: false
   name: job-renegade
   icon: rene
   description: job-renegade-desc

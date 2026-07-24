@@ -1,5 +1,7 @@
+# Zona14: added displayWeight so the rank will be from highest to lowest
 - type: job
   id: StalkerFreedom
+  displayWeight: 2
   name: job-freedom
   icon: freedom
   description: job-freedom-desc
@@ -43,8 +45,10 @@
             Female: FemaleHumanFreedom
             Unsexed: MaleHumanFreedom # stalker EN change end
 
+# Zona14: added displayWeight so the rank will be from highest to lowest
 - type: job
   id: StalkerHeadFreedom
+  displayWeight: 3
   name: job-head-freedom
   icon: lfreedom
   description: job-head-freedom-desc
@@ -109,41 +113,27 @@
   maxMembers: 20
   managingRankId: 2
   hierarchy:
-    1: StalkerNoviceFreedom
+    1: StalkerScout
     2: StalkerFreedom
     3: StalkerHeadFreedom
+# Zona14: added StalkerScout to hierarchy order
 
 - type: job
   id: StalkerNoviceFreedom
+  setPreference: false
   name: job-novice-freedom
   icon: 1freedom
   description: job-freedom-desc
   playTimeTracker: JobNoviceFreedom
   whitelisted: false
   requirements:
-  - !type:DepartmentTimeRequirement
-    department: Stalker
-    time: 15h
-  - !type:DepartmentTimeRequirement
-    department: StalkerAdvanced
-    time: 1h
-    inverted: true
-  - !type:DepartmentTimeRequirement
-    department: StalkerBrigands
-    time: 1h
-    inverted: true
-  - !type:DepartmentTimeRequirement
-    department: StalkerOfficials
-    time: 1h
-    inverted: true
-  - !type:DepartmentTimeRequirement
-    department: StalkerReligius
-    time: 1h
-    inverted: true
-  - !type:SpeciesRequirement
-    species:
-    - Human
-    - Dwarf
+    # - !type:RoleTimeRequirement
+    #   role: JobNoviceFreedom
+    #   time: 1
+    - !type:SpeciesRequirement
+      species:
+      - Human
+      - Dwarf
   startingGear: FreedomGear
   supervisors: job-freedom-supervisor
   canBeAntag: false

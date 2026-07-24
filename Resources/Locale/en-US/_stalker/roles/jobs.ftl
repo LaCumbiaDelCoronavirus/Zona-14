@@ -155,7 +155,8 @@ job-stalker = Loner
 job-stalker-desc = This is a nomadic semi-united faction that simply lives off the Zone to earn some coins for their daily life.
 job-stalker-supervisor = yourself
 # Zona14: Veteran<Guide
-job-stalker-veteran = Guide
+job-stalker-veteran = Guide/Smuggler
+# Zona14: added Smuggler next to the Guide name
 job-guide = Guide
 
 job-jaba = Toad

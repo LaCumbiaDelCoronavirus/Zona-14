@@ -3,8 +3,10 @@
 # StalkerDolg) — they exist as separate selectable slots in the character
 # creation menu.
 
+# Zona14: added displayWeight so the rank will be from highest to lowest
 - type: job
   id: StalkerCutthroat
+  displayWeight: 2
   name: job-cutthroat
   icon: band
   description: job-cutthroat-desc
@@ -47,8 +49,10 @@
             Unsexed: MaleHumanBandit
         - type: CheekiBreeki
 
+# Zona14: added displayWeight so the rank will be from highest to lowest
 - type: job
   id: StalkerScout
+  displayWeight: 1
   name: job-scout
   icon: freedom
   description: job-scout-desc
@@ -89,8 +93,10 @@
             Female: FemaleHumanFreedom
             Unsexed: MaleHumanFreedom
 
+# Zona14: added displayWeight so the rank will be from highest to lowest
 - type: job
   id: StalkerDutyNCO
+  displayWeight: 2
   name: job-duty-nco
   icon: Dolg
   description: job-duty-nco-desc

@@ -1,5 +1,7 @@
+# Zona14: Disable StalkerClearSky from job selection menu
 - type: job
   id: StalkerClearSky
+  setPreference: false
   name: job-clearsky
   icon: cn
   description: job-clearsky-desc
@@ -41,8 +43,10 @@
           Female: FemaleHumanLoner
           Unsexed: MaleHumanLoner # stalker EN change end
 
+# Zona14: Disable StalkerClearSkyHead from job selection menu
 - type: job
   id: StalkerClearSkyHead
+  setPreference: false
   name: job-clearsky-head
   icon: lcn
   description: job-clearsky-desc

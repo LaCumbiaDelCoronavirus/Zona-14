@@ -1,5 +1,7 @@
+# Zona14: Disable StalkerPostulant from job selection menu
 - type: job
   id: StalkerPostulant
+  setPreference: false
   name: job-postulant
   icon: pilgrim
   description: job-postulant-desc
@@ -35,8 +37,10 @@
           teethCount: 3
           initialTeeth: 3
 
+# Zona14: Disable StalkerBishop from job selection menu
 - type: job
   id: StalkerBishop
+  setPreference: false
   name: job-bishop
   icon: pilgrim
   description: job-bishop-desc

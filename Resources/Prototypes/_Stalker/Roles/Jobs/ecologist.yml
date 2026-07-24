@@ -1,5 +1,7 @@
+# Zona14: Disable StalkerEcologist from job selection menu
 - type: job
   id: StalkerEcologist
+  setPreference: false
   name: job-ecologist
   icon: ecologistred
   description: job-scientist-desc
@@ -42,8 +44,10 @@
           Female: FemaleHumanEcologists
           Unsexed: MaleHumanEcologists # stalker EN change end
 
+# Zona14: Disable StalkerHeadEcologist from job selection menu
 - type: job
   id: StalkerHeadEcologist
+  setPreference: false
   name: job-head-ecologist
   icon: ecologistred
   description: job-head-scientist-desc

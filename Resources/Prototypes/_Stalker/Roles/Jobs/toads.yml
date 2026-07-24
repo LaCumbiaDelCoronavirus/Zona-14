@@ -1,5 +1,7 @@
+# Zona14: Disable StalkerJaba from job selection menu
 - type: job
   id: StalkerJaba
+  setPreference: false
   name: job-jaba
   icon: jaba
   description: job-jaba-desc
@@ -33,8 +35,10 @@
         factions:
         - Bandit
 
+# Zona14: Disable StalkerJabaAce from job selection menu
 - type: job
   id: StalkerJabaAce
+  setPreference: false
   name: job-jaba-ace
   icon: jaba
   description: job-jaba-ace-desc

@@ -1,6 +1,7 @@
-
+# Zona14: Disable StalkerDeserter from job selection menu
 - type: job
   id: StalkerDeserter
+  setPreference: false
   name: job-deserter
   icon: "deserter"
   description: job-deserter-desc
@@ -33,8 +34,10 @@
         teethCount: 3
         initialTeeth: 3
 
+# Zona14: Disable StalkerDeserterHead from job selection menu
 - type: job
   id: StalkerDeserterHead
+  setPreference: false
   name: job-deserter-head
   icon: "deserter"
   description: job-deserter-desc

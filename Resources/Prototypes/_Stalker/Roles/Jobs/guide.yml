@@ -1,5 +1,7 @@
+# Zona14: Disable StalkerGuide from job selection menu
 - type: job
   id: StalkerGuide
+  setPreference: false
   name: job-guide
   icon: guide
   description: job-stalker-desc

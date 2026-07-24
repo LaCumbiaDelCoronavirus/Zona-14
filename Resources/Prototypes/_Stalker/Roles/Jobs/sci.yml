@@ -42,8 +42,10 @@
           Female: FemaleHumanEcologists
           Unsexed: MaleHumanEcologists # stalker EN change end
 
+# Zona14: added displayWeight so the rank will be from highest to lowest
 - type: job
   id: sci
+  displayWeight: 1
   name: job-sci
   icon: sci
   description: job-sci-desc
@@ -86,8 +88,10 @@
           Female: FemaleHumanEcologists
           Unsexed: MaleHumanEcologists # stalker EN change end
 
+# Zona14: added displayWeight so the rank will be from highest to lowest
 - type: job
   id: sci_decan
+  displayWeight: 2
   name: job-sci_decan
   icon: sci
   description: job-sci_decan-desc
@@ -130,8 +134,10 @@
           Female: FemaleHumanEcologists
           Unsexed: MaleHumanEcologists # stalker EN change end
 
+# Zona14: added displayWeight so the rank will be from highest to lowest
 - type: job
   id: sci_rector
+  displayWeight: 3
   name: job-sci_rector
   icon: sci
   description: job-sci_rector-desc
@@ -188,8 +194,9 @@
   maxMembers: 20
   managingRankId: 3
   hierarchy:
-    1: StalkerScientist
-
+    1: sci
+    2: sci_decan
+    3: sci_rector
 
 - type: startingGear
   id: SciGear2

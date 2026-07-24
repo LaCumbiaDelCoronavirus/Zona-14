@@ -1,6 +1,7 @@
-
+# Zona14: Disable StalkerGreh from job selection menu
 - type: job
   id: StalkerGreh
+  setPreference: false
   name: job-sin
   icon: greh
   description: job-sin-desc

@@ -1,5 +1,7 @@
+# Zona14: Disable MilitaryStalker from job selection menu
 - type: job
   id: MilitaryStalker
+  setPreference: false
   name: job-military-stalker
   icon: army
   description: job-military-stalker-desc
@@ -43,8 +45,10 @@
           Female: FemaleHumanMilitary
           Unsexed: MaleHumanMilitary # stalker EN change end
 
+# Zona14: added displayWeight so the rank will be from highest to lowest
 - type: job
   id: Military
+  displayWeight: 1
   name: job-military
   icon: army
   description: job-military-desc
@@ -55,9 +59,9 @@
     # - !type:RoleTimeRequirement
     #   role: JobMilitary
     #   time: 1
-    - !type:DepartmentTimeRequirement
-      department: Stalker
-      time: 15h
+    # - !type:DepartmentTimeRequirement
+      # department: Stalker
+      # time: 15h
     - !type:SpeciesRequirement
       species:
       - Human
@@ -92,8 +96,10 @@
           Unsexed: MaleHumanMilitary # stalker EN change end
 
 
+# Zona14: added displayWeight so the rank will be from highest to lowest
 - type: job
   id: MilitaryHead
+  displayWeight: 3
   name: job-military-head
   icon: army
   description: job-military-head-desc
@@ -134,8 +140,11 @@
         - type: GuardFactionController
           toggleOffAction: GuardFactionControllerOffAction
           toggleOnAction: GuardFactionControllerOnAction
+
+# Zona14: added displayWeight so the rank will be from highest to lowest          
 - type: job
   id: MilitaryOfficer
+  displayWeight: 2
   name: job-military-officer
   icon: army
   description: job-military-officer-desc
@@ -145,9 +154,9 @@
     # - !type:RoleTimeRequirement
     #   role: JobOfficerMilitary
     #   time: 1
-    - !type:DepartmentTimeRequirement
-      department: StalkerOfficials
-      time: 15h
+    # - !type:DepartmentTimeRequirement
+    #  department: StalkerOfficials
+    #  time: 15h
     - !type:SpeciesRequirement
       species:
       - Human

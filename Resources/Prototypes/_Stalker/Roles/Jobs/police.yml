@@ -1,5 +1,7 @@
+# Zona14: Disable Police from job selection menu
 - type: job
   id: Police
+  setPreference: false
   name: job-police
   icon: police
   description: job-police-desc

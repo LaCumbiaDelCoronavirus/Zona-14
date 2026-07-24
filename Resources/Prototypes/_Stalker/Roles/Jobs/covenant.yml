@@ -1,5 +1,7 @@
+# Zona14: Disable StalkerZavet from job selection menu
 - type: job
   id: StalkerZavet
+  setPreference: false
   name: job-covenant
   icon: zavet
   description: job-covenant-desc
@@ -34,8 +36,10 @@
         teethCount: 3
         initialTeeth: 3
 
+# Zona14: Disable StalkerZavetHead from job selection menu
 - type: job
   id: StalkerZavetHead
+  setPreference: false
   name: job-covenant-head
   icon: zavet
   description: job-covenant-desc

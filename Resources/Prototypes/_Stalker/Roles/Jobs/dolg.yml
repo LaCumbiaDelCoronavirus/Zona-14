@@ -1,5 +1,7 @@
+# Zona14: added displayWeight so the rank will be from highest to lowest
 - type: job
   id: StalkerDolg
+  displayWeight: 1
   name: job-dolg
   icon: Dolg
   description: job-dolg-desc
@@ -42,8 +44,10 @@
             Female: FemaleHumanDuty
             Unsexed: MaleHumanDuty # stalker EN change end
 
+# Zona14: added displayWeight so the rank will be from highest to lowest
 - type: job
   id: StalkerHeadDolg
+  displayWeight: 3
   name: job-head-dolg
   icon: ldolg
   description: job-head-dolg-desc
@@ -107,43 +111,29 @@
   maxMembers: 35
   managingRankId: 3
   hierarchy:
-    1: StalkerNoviceDolg
-    2: StalkerDolg
+    1: StalkerDolg
+    2: StalkerDutyNCO
     3: StalkerHeadDolg
+# Zona14: added StalkerDutyNCO to hierarchy order
 
 # Zona14: Private
 
 - type: job
   id: StalkerNoviceDolg
+  setPreference: false
   name: job-novice-dolg
   icon: 1dolg
   description: job-dolg-desc
   playTimeTracker: JobNoviceDolg
   whitelisted: false
   requirements:
-  - !type:DepartmentTimeRequirement
-    department: Stalker
-    time: 15h
-  - !type:DepartmentTimeRequirement
-    department: StalkerAdvanced
-    time: 1h
-    inverted: true
-  - !type:DepartmentTimeRequirement
-    department: StalkerBrigands
-    time: 1h
-    inverted: true
-  - !type:DepartmentTimeRequirement
-    department: StalkerOfficials
-    time: 1h
-    inverted: true
-  - !type:DepartmentTimeRequirement
-    department: StalkerReligius
-    time: 1h
-    inverted: true
-  - !type:SpeciesRequirement
-    species:
-    - Human
-    - Dwarf
+    # - !type:RoleTimeRequirement
+    #   role: JobNoviceDolg
+    #   time: 1
+    - !type:SpeciesRequirement
+      species:
+      - Human
+      - Dwarf
   startingGear: DolgGear
   supervisors: job-dolg-supervisor
   canBeAntag: false

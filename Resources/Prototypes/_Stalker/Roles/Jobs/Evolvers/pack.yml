@@ -1,5 +1,7 @@
+# Zona14: Disable EvolverPackFang from job selection menu
 - type: job
   id: EvolverPackFang
+  setPreference: false
   name: job-evolver-pack-fang
   icon: pack
   description: job-evolver-pack-fang-desc
@@ -44,8 +46,10 @@
     shoes: ClothingShoesSwat
 
 
+# Zona14: Disable EvolverPackAlpha from job selection menu
 - type: job
   id: EvolverPackAlpha
+  setPreference: false
   name: job-evolver-pack-alpha
   icon: pack
   description: job-evolver-pack-alpha-desc
