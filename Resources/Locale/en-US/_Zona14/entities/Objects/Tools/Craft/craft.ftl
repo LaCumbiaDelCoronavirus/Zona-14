@@ -30,9 +30,6 @@ ent-Z14CraftLargeCardboard = large cardboard
     .desc = Cardboard from under some large box.
     .suffix = Z14
 
-ent-Z14CraftMaterialGunpowder = black powder
-    .desc = Explosive compound.
-    .suffix = Z14
 
 ent-Z14CraftSmallCardboard = small cardboard
     .desc = Cardboard from under a box or cut.

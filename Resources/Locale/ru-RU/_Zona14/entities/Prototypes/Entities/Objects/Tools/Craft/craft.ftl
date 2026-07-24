@@ -30,9 +30,6 @@ ent-Z14CraftLargeCardboard = большой картон
     .desc = Картон из под какой-то большой коробки.
     .suffix = Z14
 
-ent-Z14CraftMaterialGunpowder = чёрный порох
-    .desc = Взрывчатое соединение.
-    .suffix = Z14
 
 ent-Z14CraftSmallCardboard = маленький картон
     .desc = Картон из под какой-то коробки либо подрезанный.

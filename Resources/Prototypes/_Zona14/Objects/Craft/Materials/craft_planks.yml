@@ -1,47 +1,5 @@
 - type: entity
   parent: STBaseIngridient
-  id: Z14STCraftPinePlankT1
-  categories: [ Zona14 ]
-  name: T1 Pine Planks
-  description: wood is soft, lightweight, used mainly for making plywood, packages, boxes. T1
-  suffix: Z14
-  components:
-    - type: PhysicalComposition
-      materialComposition:
-        Wood: 100
-    - type: Sprite
-      state: pine
-      sprite: _Stalker/Objects/Craft/Materials/wood_planks.rsi
-    - type: Stack
-      stackType: STPinePlanks
-      count: 1
-    - type: Craftable
-    - type: RepositoryItem
-      categoryName: Crafting
-
-- type: entity
-  parent: STBaseIngridient
-  id: Z14STCraftBirchPlankT2
-  categories: [ Zona14 ]
-  name: T2 Birch Planks
-  description: wood is strong and hard, used in the production of furniture, plywood, sports equipment, etc. T2
-  suffix: Z14
-  components:
-    - type: PhysicalComposition
-      materialComposition:
-        Wood: 100
-    - type: Sprite
-      state: birch
-      sprite: _Stalker/Objects/Craft/Materials/wood_planks.rsi
-    - type: Stack
-      stackType: STBirchPlanks
-      count: 1
-    - type: Craftable
-    - type: RepositoryItem
-      categoryName: Crafting
-
-- type: entity
-  parent: STBaseIngridient
   id: Z14STCraftOakPlankT3
   categories: [ Zona14 ]
   name: T3 Oak Planks
