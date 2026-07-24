@@ -4,7 +4,7 @@
   - Svarog
   craftTime: 15
   items:
-    DetectorSvarogBlueprint:
+    Z14DetectorSvarogBlueprint:
       amount: 1
       catalyzer: true
     Veles:

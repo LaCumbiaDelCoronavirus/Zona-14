@@ -9,7 +9,6 @@
     items:
       Z14STWeaponSMGVector9: 35
       STWeaponShotgunSaiga12: 25
-      Z14STWeaponRifleSIG550: 170
   - name: shop-category-magazines
     priority: 2
     items:
@@ -19,22 +18,15 @@
   - name: shop-category-ammunition
     priority: 3
     items:
-      Z14919RIPBoxCink: 15
-      Z14919PBMBoxCink: 25
+      Z14919RIPBoxCink: 12500
+      Z14919PBMBoxCink: 22500
       8mmBuckshotBoxCink: 35
-      Z14556WarmagBoxCink: 35
-      Z14556M856BoxCink: 110
+      Z14556WarmagBoxCink: 21000
+      Z14556M856BoxCink: 21000
   - name: shop-category-armor
     priority: 4
     items:
-      Z14ClothingOuterArmorUzk5: 30
-      Z14ClothingOuterArmorHazmatRf: 450
       Z14ClothingHeadHelmetUlach: 80
-      Z14ClothingOuterArmorSSP99: 300
-      Z14ClothingOuterArmorSSP99White: 300
-      Z14ClothingOuterArmorSSP24Topaz: 400
-      Z14ClothingOuterArmorSSP24Ruby: 250
-      Z14ClothingOuterArmorSSP24Sapfire: 450
   - name: shop-category-storage-and-containers
     priority: 5
     items:
@@ -79,11 +71,3 @@
       STModuleSniperSightT2: 30
       STModuleScopeRiflesT2Nato: 50
       STModuleScopeRiflesT2Ru: 50
-
-
-
-
-
-
-
-

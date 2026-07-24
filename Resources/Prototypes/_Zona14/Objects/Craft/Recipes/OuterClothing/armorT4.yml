@@ -1,16 +1,16 @@
 - type: craftRecipe
   id: Z14newrecipeClothingOuterArmorAVSplateblack
   resultProtos:
-    - STClothingOuterArmorIOTVBlack
+    - Z14STClothingOuterArmorIOTVBlack
   craftTime: 15
   items:
-    ClothingOuterArmorAVSplateblackBlueprint:
+    Z14ClothingOuterArmorAVSplateblackBlueprint:
       amount: 1
       catalyzer: true
     ToolkitTearTwo:
       amount: 1
       catalyzer: true
-    STClothingOuterArmorLightPlateVestBaseStalker:
+    Z14STClothingOuterArmorLightPlateVestBaseStalker:
       amount: 1
     STCraftSheetAluminumT4:
       amount: 2
@@ -22,16 +22,16 @@
 - type: craftRecipe
   id: Z14newrecipeClothingOuterArmorStalkerCombat
   resultProtos:
-    - ClothingOuterArmorStalkerCombat
+    - Z14ClothingOuterArmorStalkerCombat
   craftTime: 15
   items:
-    ClothingOuterArmorStalkerCombatBlueprint:
+    Z14ClothingOuterArmorStalkerCombatBlueprint:
       amount: 1
       catalyzer: true
     ToolkitTearTwo:
       amount: 1
       catalyzer: true
-    ClothingOuterArmorStalker:
+    Z14ClothingOuterArmorStalker:
       amount: 1
     STCraftSheetAluminumT4:
       amount: 2
@@ -45,16 +45,16 @@
 - type: craftRecipe
   id: Z14newrecipeSTClothingOuterArmorIOTVGreen
   resultProtos:
-    - STClothingOuterArmorIOTVGreen
+    - Z14STClothingOuterArmorIOTVGreen
   craftTime: 10
   items:
-    STClothingOuterArmorIOTVGreenBlueprint:
+    Z14STClothingOuterArmorIOTVGreenBlueprint:
       amount: 1
       catalyzer: true
     ToolkitTearTwo:
       amount: 1
       catalyzer: true
-    STClothingOuterArmorLightPlateVestBaseStalker:
+    Z14STClothingOuterArmorLightPlateVestBaseStalker:
       amount: 1
     STCraftSheetAluminumT4:
       amount: 1
@@ -66,16 +66,16 @@
 - type: craftRecipe
   id: Z14newrecipeSTClothingOuterArmor6B13
   resultProtos:
-    - ClothingOuterArmor6B13
+    - Z14ClothingOuterArmor6B13
   craftTime: 11
   items:
-    STClothingOuterArmor6B13Blueprint:
+    Z14STClothingOuterArmor6B13Blueprint:
       amount: 1
       catalyzer: true
     ToolkitTearTwo:
       amount: 1
       catalyzer: true
-    STClothingOuterArmorLightPlateVestBaseStalker:
+    Z14STClothingOuterArmorLightPlateVestBaseStalker:
       amount: 1
     STCraftSheetAluminumT4:
       amount: 1
@@ -87,16 +87,16 @@
 - type: craftRecipe
   id: Z14newrecipeSTClothingOuterArmorBerill5M
   resultProtos:
-    - STClothingOuterArmorBerill5M
+    - Z14STClothingOuterArmorBerill5M
   craftTime: 12
   items:
-    STClothingOuterArmorBerill5MBlueprint:
+    Z14STClothingOuterArmorBerill5MBlueprint:
       amount: 1
       catalyzer: true
     ToolkitTearTwo:
       amount: 1
       catalyzer: true
-    ClothingOuterArmor6B2:
+    Z14ClothingOuterArmor6B2:
       amount: 1
     STCraftPolymerFabricT4:
       amount: 1
@@ -110,16 +110,16 @@
 - type: craftRecipe
   id: Z14newrecipeSTClothingOuterArmorHeavy
   resultProtos:
-    - STClothingOuterArmorVeryHeavy
+    - Z14STClothingOuterArmorVeryHeavy
   craftTime: 9
   items:
-    STClothingOuterArmorHeavyBlueprint:
+    Z14STClothingOuterArmorHeavyBlueprint:
       amount: 1
       catalyzer: true
     ToolkitTearTwo:
       amount: 1
       catalyzer: true
-    ClothingOuterArmorZaryaStalker:
+    Z14ClothingOuterArmorZaryaStalker:
       amount: 1
     STCraftIndustrialThreadStaplesKitT4:
       amount: 1
@@ -133,16 +133,16 @@
 - type: craftRecipe
   id: Z14newrecipeClothingOuterArmorSSP99
   resultProtos:
-    - ClothingOuterArmorSSP99
+    - Z14ClothingOuterArmorSSP99
   craftTime: 6
   items:
-    STClothingOuterArmorSSP99Blueprint:
+    Z14STClothingOuterArmorSSP99Blueprint:
       amount: 1
       catalyzer: true
     ToolkitTearTwo:
       amount: 1
       catalyzer: true
-    ClothingOuterArmorSevaStalker:
+    Z14ClothingOuterArmorSevaStalker:
       amount: 1
     STCraftPlasticFittingT4:
       amount: 1
@@ -156,16 +156,16 @@
 - type: craftRecipe
   id: Z14newrecipeSTClothingOuterArmorYegerFreedom
   resultProtos:
-    - ClothingOuterArmorYegerFreedom
+    - Z14ClothingOuterArmorYegerFreedom
   craftTime: 6
   items:
-    STClothingOuterArmorYegerFreedomBlueprint:
+    Z14STClothingOuterArmorYegerFreedomBlueprint:
       amount: 1
       catalyzer: true
     ToolkitTearTwo:
       amount: 1
       catalyzer: true
-    ClothingOuterArmorZaryaStalker:
+    Z14ClothingOuterArmorZaryaStalker:
       amount: 1
     STCraftPolymerFabricT4:
       amount: 2
@@ -181,16 +181,16 @@
 - type: craftRecipe
   id: Z14newrecipeClothingOuterArmorSSP99White
   resultProtos:
-    - ClothingOuterArmorSSP99White
+    - Z14ClothingOuterArmorSSP99White
   craftTime: 6
   items:
-    STClothingOuterArmorSSP99Blueprint:
+    Z14STClothingOuterArmorSSP99Blueprint:
       amount: 1
       catalyzer: true
     ToolkitTearTwo:
       amount: 1
       catalyzer: true
-    ClothingOuterArmorSSP99:
+    Z14ClothingOuterArmorSSP99:
       amount: 1
     STCraftGlueKitT3:
       amount: 1
@@ -200,16 +200,16 @@
 - type: craftRecipe
   id: Z14newrecipeClothingOuterArmorSSP24Topaz
   resultProtos:
-    - ClothingOuterArmorSSP24Topaz
+    - Z14ClothingOuterArmorSSP24Topaz
   craftTime: 6
   items:
-    ClothingOuterArmorSSP24TopazBlueprint:
+    Z14ClothingOuterArmorSSP24TopazBlueprint:
       amount: 1
       catalyzer: true
     ToolkitTearTwo:
       amount: 1
       catalyzer: true
-    ClothingOuterArmorSSP99:
+    Z14ClothingOuterArmorSSP99:
       amount: 1
     STCraftGlueKitT3:
       amount: 1
@@ -221,16 +221,16 @@
 - type: craftRecipe
   id: Z14newrecipeClothingOuterArmorSSP24Sapfire
   resultProtos:
-    - ClothingOuterArmorSSP24Sapfire
+    - Z14ClothingOuterArmorSSP24Sapfire
   craftTime: 6
   items:
-    ClothingOuterArmorSSP24SapfireBlueprint:
+    Z14ClothingOuterArmorSSP24SapfireBlueprint:
       amount: 1
       catalyzer: true
     ToolkitTearTwo:
       amount: 1
       catalyzer: true
-    ClothingOuterArmorSSP99:
+    Z14ClothingOuterArmorSSP99:
       amount: 1
     STCraftGlueKitT3:
       amount: 1
@@ -242,16 +242,16 @@
 - type: craftRecipe
   id: Z14newrecipeClothingOuterArmorSSP24Ruby
   resultProtos:
-    - ClothingOuterArmorSSP24Ruby
+    - Z14ClothingOuterArmorSSP24Ruby
   craftTime: 6
   items:
-    ClothingOuterArmorSSP24SapfireBlueprint:
+    Z14ClothingOuterArmorSSP24SapfireBlueprint:
       amount: 1
       catalyzer: true
     ToolkitTearTwo:
       amount: 1
       catalyzer: true
-    ClothingOuterArmorSSP99:
+    Z14ClothingOuterArmorSSP99:
       amount: 1
     STCraftGlueKitT3:
       amount: 1
@@ -266,10 +266,10 @@
 - type: craftRecipe
   id: Z14newrecipeClothingOuterArmorPSZ9D
   resultProtos:
-    - ClothingOuterArmorPSZ9D
+    - Z14ClothingOuterArmorPSZ9D
   craftTime: 6
   items:
-    ClothingOuterArmorPSZ9DBlueprint:
+    Z14ClothingOuterArmorPSZ9DBlueprint:
       amount: 1
       catalyzer: true
     ToolkitTearTwo:

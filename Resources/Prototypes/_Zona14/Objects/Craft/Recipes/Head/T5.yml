@@ -1,10 +1,10 @@
 - type: craftRecipe
   id: Z14newrecipeClothingHeadHelmetPSZ9D
   resultProtos:
-    - ClothingHeadHelmetPSZ9D
+    - Z14ClothingHeadHelmetPSZ9D
   craftTime: 20
   items:
-    ClothingHeadHelmetPSZ9DBlueprint:
+    Z14ClothingHeadHelmetPSZ9DBlueprint:
       amount: 1
       catalyzer: true
     ToolkitTearTwo:
@@ -24,10 +24,10 @@
 - type: craftRecipe
   id: Z14newrecipeSTClothingHeadHelmetFASTNeutralBlack
   resultProtos:
-    - STClothingHeadHelmetFASTNeutralBlack
+    - Z14STClothingHeadHelmetFASTNeutralBlack
   craftTime: 20
   items:
-    STClothingHeadHelmetFASTNeutralBlackBlueprint:
+    Z14STClothingHeadHelmetFASTNeutralBlackBlueprint:
       amount: 1
       catalyzer: true
     ToolkitTearTwo:

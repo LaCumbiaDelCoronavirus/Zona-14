@@ -4,13 +4,13 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: Ammo Box (7.62x51) M80
-  description: For NATO rifles, 30 rounds per box. Penetrates class 3 armor.
+  description: For NATO rifles, 40 rounds per box. Penetrates class 3 armor.
   components:
     - type: MagazineVisuals
       magState: 76239ammo
     - type: BallisticAmmoProvider
-      capacity: 30
-      proto: Cartridge751M80
+      capacity: 40
+      proto: Z14Cartridge751M80
       whitelist:
         tags:
           - STCartridge751
@@ -27,10 +27,10 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: Ammo Box (7.62x51) Ultra Noiser
-  description: For NATO rifles, 30 rounds per box. Useless against armor.
+  description: For NATO rifles, 40 rounds per box. Useless against armor.
   components:
     - type: BallisticAmmoProvider
-      proto: Cartridge751Noiser
+      proto: Z14Cartridge751Noiser
     - type: Sprite
       layers:
         - state: 76251
@@ -45,10 +45,10 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: Ammo Box (7.62x51) M61
-  description: For NATO rifles, 30 rounds per box. Penetrates class 4 armor.
+  description: For NATO rifles, 40 rounds per box. Penetrates class 4 armor.
   components:
     - type: BallisticAmmoProvider
-      proto: Cartridge751M61
+      proto: Z14Cartridge751M61
     - type: Sprite
       layers:
         - state: 76251
@@ -62,10 +62,10 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: Ammo Box (7.62x51) M993
-  description: For NATO rifles, 30 rounds per box. Penetrates class 5 armor.
+  description: For NATO rifles, 40 rounds per box. Penetrates class 5 armor.
   components:
     - type: BallisticAmmoProvider
-      proto: Cartridge751M993
+      proto: Z14Cartridge751M993
     - type: Sprite
       layers:
         - state: 76251
@@ -80,11 +80,11 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: Large Ammo Box (7.62x51) M80
-  description: For NATO rifles, 300 rounds per crate. Penetrates class 3 armor.
+  description: For NATO rifles, 400 rounds per crate. Penetrates class 3 armor.
   components:
     - type: BallisticAmmoProvider
-      capacity: 300
-      proto: Cartridge751M80
+      capacity: 400
+      proto: Z14Cartridge751M80
       whitelist:
         tags:
           - STCartridge751
@@ -101,10 +101,10 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: Large Ammo Box (7.62x51) Ultra Noiser
-  description: For NATO rifles, 300 rounds per crate. Useless against armor.
+  description: For NATO rifles, 400 rounds per crate. Useless against armor.
   components:
     - type: BallisticAmmoProvider
-      proto: Cartridge751Noiser
+      proto: Z14Cartridge751Noiser
     - type: Sprite
       layers:
         - state: cink
@@ -118,10 +118,10 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: Large Ammo Box (7.62x51) M61
-  description: For NATO rifles, 300 rounds per crate. Penetrates class 4 armor.
+  description: For NATO rifles, 400 rounds per crate. Penetrates class 4 armor.
   components:
     - type: BallisticAmmoProvider
-      proto: Cartridge751M61
+      proto: Z14Cartridge751M61
     - type: Sprite
       layers:
         - state: cink
@@ -135,10 +135,10 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: Large Ammo Box (7.62x51) M993
-  description: For NATO rifles, 300 rounds per crate. Penetrates class 5 armor.
+  description: For NATO rifles, 400 rounds per crate. Penetrates class 5 armor.
   components:
     - type: BallisticAmmoProvider
-      proto: Cartridge751M993
+      proto: Z14Cartridge751M993
     - type: Sprite
       layers:
         - state: cink
@@ -157,8 +157,8 @@
     - type: MagazineVisuals
       magState: 76239ammo
     - type: BallisticAmmoProvider
-      capacity: 30
-      proto: Cartridge754R
+      capacity: 40
+      proto: Z14Cartridge754R
       whitelist:
         tags:
           - STCartridge754R

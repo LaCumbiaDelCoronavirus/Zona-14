@@ -22,7 +22,7 @@
   - type: ToggleableClothing
     slot: head
     requiredSlot: mask
-    clothingPrototype: STClothingHeadHelmetSerafimSkull
+    clothingPrototype: Z14STClothingHeadHelmetSerafimSkull
 
 - type: entity
   parent: STClothingHeadHelmetSerafim

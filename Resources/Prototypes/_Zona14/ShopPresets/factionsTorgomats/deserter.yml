@@ -86,18 +86,11 @@
         STWeaponShotgunMP153: 1700 # T2
         Z14WeaponPistolStalkerPM: 50 #T1
         Z14WeaponPistolStalkerTT: 50 #T1
-        Z14STWeaponRifleAKS74UBlack: 1200
-        Z14STWeaponRifleAKS74Green: 3900
         Z14WeaponPistolStalkerAPS: 900 #T2
-        Z14STWeaponSniperSKS: 1850 # T2
-        Z14STWeaponSniperMosin: 1500
         Z14STWeaponSMGPPSh41: 2500
         Z14STWeaponSMGPP91: 3000
-        Z14STWeaponRifleAKM: 6700
         Z14STWeaponSMGPP19: 3300
         Z14STWeaponSMGPP1901: 2000
-        Z14STWeaponRifleOC14: 5000
-        Z14STWeaponRifleOC14Alt: 5000
           #BOOM-BA-DA-BAM!
         Z14KhattabkaGrenade: 175
         Z14DG05SmokeGrenade: 225
@@ -130,30 +123,30 @@
         6mmBuckshotBox: 150
         8mmBuckshotBox: 300
         # 5.45
-        Z14545FMJBox: 500
-        Z14545HPBox: 250
-        Z14545PCBox: 1250
+        Z14545FMJBox: 1200
+        Z14545HPBox: 1200
+        Z14545PCBox: 2160
         # 7.39
-        Z14739HPBox: 400
-        Z14739FMJBox: 1350
+        Z14739HPBox: 2400
+        Z14739FMJBox: 2400
         # 7.54
-        Z14754HPBox: 500
-        Z14754FMJBox: 1675
+        Z14754HPBox: 800
+        Z14754FMJBox: 800
         # 9.18
-        Z14918PGJBox: 80
-        Z14918PSTBox: 560
-        Z14918PBMBox: 1000
+        Z14918PGJBox: 250
+        Z14918PSTBox: 450
+        Z14918PBMBox: 450
         Z14918SP7Box: 250
         # 9.19
-        Z14919PSOGJBox: 80
-        Z14919PSTBox: 560
-        Z14919RIPBox: 250
-        Z14919PBMBox: 1000
+        Z14919PSOGJBox: 500
+        Z14919PSTBox: 900
+        Z14919RIPBox: 500
+        Z14919PBMBox: 900
         # 7.25
-        Z14725PBox: 100
-        Z14725LRNPCBox: 50
-        Z14725PTBox: 465
-        Z14725PSTBox: 1000
+        Z14725PBox: 250
+        Z14725LRNPCBox: 250
+        Z14725PTBox: 450
+        Z14725PSTBox: 450
     - name: shop-category-armor
       priority: 4
       items:
@@ -163,10 +156,8 @@
         Z14ClothingHeadHelmetVityaz1T: 2700
         Z14ClothingHeadAssaultHelmetDeserter: 3000
           # OuterClothing #
-        Z14ClothingOuterArmorDeserter6B2: 2000
-        Z14STClothingOuterArmorDesertersZarya: 2000 # T2 - PVE
-        Z14STClothingOuterArmorDesertersPSZ7: 5800
-        Z14STClothingOuterIOTVGEN4: 10000
+        Z14ClothingOuterArmorDeserter6B2: 1250
+        Z14STClothingOuterArmorDesertersZarya: 1250 # T2 - PVE
         # belt
         ClothingBeltWebbingDeserter: 325
         ClothingBeltTarzanDeserter: 150
@@ -333,5 +324,3 @@
       items:
         STWeaponShotgunMP153Raven: 550
         Z14WeaponPistolStalkerAPSHugo: 450
-
-

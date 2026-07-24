@@ -23,7 +23,7 @@
           Quantity: 1
   - type: Butcherable
     spawned:
-    - id: FoodMeatSTFishFilletRaw
+    - id: Z14FoodMeatSTFishFilletRaw
       maxAmount: 1
       prob: 0.1
 
@@ -52,7 +52,7 @@
           Quantity: 1
   - type: Butcherable
     spawned:
-    - id: FoodMeatSTFishFilletRaw
+    - id: Z14FoodMeatSTFishFilletRaw
       maxAmount: 1
       prob: 0.2
 
@@ -81,7 +81,7 @@
           Quantity: 3
   - type: Butcherable
     spawned:
-    - id: FoodMeatSTFishFilletRaw
+    - id: Z14FoodMeatSTFishFilletRaw
 
 - type: entity
   parent: STBaseFish
@@ -107,7 +107,7 @@
           Quantity: 2
   - type: Butcherable
     spawned:
-    - id: FoodMeatSTFishFilletRaw
+    - id: Z14FoodMeatSTFishFilletRaw
       maxAmount: 1
 
 - type: entity
@@ -135,7 +135,7 @@
           Quantity: 2
   - type: Butcherable
     spawned:
-    - id: FoodMeatSTEelRaw
+    - id: Z14FoodMeatSTEelRaw
       maxAmount: 3
       prob: 0.8
 
@@ -164,7 +164,7 @@
           Quantity: 2
   - type: Butcherable
     spawned:
-    - id: FoodMeatSTFishFilletRaw
+    - id: Z14FoodMeatSTFishFilletRaw
       maxAmount: 1
       prob: 0.25
 
@@ -192,7 +192,7 @@
           Quantity: 3
   - type: Butcherable
     spawned:
-    - id: FoodMeatSTFishFilletRaw
+    - id: Z14FoodMeatSTFishFilletRaw
 
 - type: entity
   parent: STBaseFish
@@ -218,7 +218,7 @@
           Quantity: 5
   - type: Butcherable
     spawned:
-    - id: FoodMeatSTFishFilletRaw
+    - id: Z14FoodMeatSTFishFilletRaw
       maxAmount: 3
 
 - type: entity
@@ -245,7 +245,7 @@
           Quantity: 1
   - type: Butcherable
     spawned:
-    - id: FoodMeatSTFishFilletRaw
+    - id: Z14FoodMeatSTFishFilletRaw
       maxAmount: 1
       prob: 0.1
 
@@ -273,7 +273,7 @@
           Quantity: 2
   - type: Butcherable
     spawned:
-    - id: FoodMeatSTFishFilletRaw
+    - id: Z14FoodMeatSTFishFilletRaw
 
 - type: entity
   parent: STBaseFish
@@ -299,7 +299,7 @@
           Quantity: 5
   - type: Butcherable
     spawned:
-    - id: FoodMeatSTFishSteakRaw
+    - id: Z14FoodMeatSTFishSteakRaw
       maxAmount: 2
 
 # 32x32 anomalous
@@ -334,7 +334,7 @@
       prob: 0.35
     - id: GoldRing
       prob: 0.2
-    - id: ZoneArtifactGoldfish
+    - id: Z14ZoneArtifactGoldfish
       prob: 0.01
 
 - type: entity
@@ -361,7 +361,7 @@
           Quantity: 10
   - type: Butcherable
     spawned:
-    - id: FoodMeatSTFishFilletRaw
+    - id: Z14FoodMeatSTFishFilletRaw
   - type: PointLight
     radius: 1.5
     energy: 1.5
@@ -392,8 +392,8 @@
           Quantity: 5
   - type: Butcherable
     spawned:
-    - id: FoodMeatSTFishSteakRaw
-    - id: ZoneArtifactVyvert
+    - id: Z14FoodMeatSTFishSteakRaw
+    - id: Z14ZoneArtifactVyvert
       maxAmount: 1
       prob: 0.25
 
@@ -421,7 +421,7 @@
           Quantity: 25
   - type: Butcherable
     spawned:
-    - id: FoodMeatSTFishFilletRaw
+    - id: Z14FoodMeatSTFishFilletRaw
       maxAmount: 10
 
 # 64x64 normal
@@ -456,7 +456,7 @@
           Quantity: 10
   - type: Butcherable
     spawned:
-    - id: FoodMeatSTFishSteakRaw
+    - id: Z14FoodMeatSTFishSteakRaw
       maxAmount: 5
     - id: Corpse4Stalker
       prob: 0.25
@@ -489,7 +489,7 @@
           Quantity: 5
   - type: Butcherable
     spawned:
-    - id: FoodMeatSTFishFilletRaw
+    - id: Z14FoodMeatSTFishFilletRaw
       maxAmount: 3
   - type: Trash
     time: 1800
@@ -518,10 +518,10 @@
           Quantity: 5
   - type: Butcherable
     spawned:
-    - id: FoodMeatSTFishSteakRaw
+    - id: Z14FoodMeatSTFishSteakRaw
       maxAmount: 1
       prob: 0.9
-    - id: MutantPartFleshEye
+    - id: Z14MutantPartFleshEye
       maxAmount: 1
       prob: 0.1
   - type: Trash
@@ -552,7 +552,7 @@
           Quantity: 4
   - type: Butcherable
     spawned:
-    - id: FoodMeatSTEelRaw
+    - id: Z14FoodMeatSTEelRaw
       maxAmount: 6
       prob: 0.8
   - type: Trash
@@ -582,7 +582,7 @@
           Quantity: 5
   - type: Butcherable
     spawned:
-    - id: STFishJellyfishActive
+    - id: Z14STFishJellyfishActive
       amount: 1
   - type: Trash
     time: 1800
@@ -654,5 +654,5 @@
           Quantity: 5
   - type: Butcherable
     spawned:
-    - id: FoodMeatSTFishFilletRaw
+    - id: Z14FoodMeatSTFishFilletRaw
       maxAmount: 3

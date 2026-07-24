@@ -1,0 +1,68 @@
+# Role loadouts for the Zona-14 mid-rank jobs added in _Zona14/Roles/Jobs/faction_clones.yml.
+#
+# Without a roleLoadout named "Job<jobId>", StationSpawningSystem's TryIndex fails, the
+# loadout stays null and EquipRoleLoadout is skipped entirely — the character spawns with
+# nothing but their startingGear. For these three that is a PDA and a dogtag, i.e. naked.
+#
+# Each mirrors its parent rank's group list so the faction's clothing options are identical:
+#   StalkerCutthroat -> JobStalkerBandit
+#   StalkerScout     -> JobStalkerFreedom
+#   StalkerDutyNCO   -> JobStalkerDolg
+
+- type: roleLoadout
+  id: JobStalkerCutthroat
+  groups:
+  - STTrinketsGroupOne
+  - STTrinketsGroupTwo
+  - STBackpackGroup
+  - STStorageTrinkets
+  - STShoesGroup
+  - STMaskStalkerGroup
+  - STBeltStalkerGroup
+  - STlegsGroup
+  - STTorsoGroupBandit
+  - Z14StarterWeaponGroup
+  - STStorage
+  - STStorageAmmunition
+  - STGlasses
+  - STOuterClothingBandit
+  - Z14StarterSuppliesGroup
+
+- type: roleLoadout
+  id: JobStalkerScout
+  groups:
+  - STTrinketsGroupOne
+  - STTrinketsGroupTwo
+  - STBackpackGroup
+  - STStorageTrinkets
+  - STShoesGroup
+  - STMaskStalkerGroup
+  - STBeltStalkerGroup
+  - STlegsGroupFreedom
+  - STTorsoGroupFreedom
+  - Z14StarterWeaponGroup
+  - STStorage
+  - STStorageAmmunition
+  - STGlasses
+  - STOuterClothingFreedom
+  - Z14StarterSuppliesGroup
+
+- type: roleLoadout
+  id: JobStalkerDutyNCO
+  groups:
+  - STTrinketsGroupOne
+  - STTrinketsGroupTwo
+  - STBackpackGroup
+  - STStorageTrinkets
+  - STShoesGroup
+  - STMaskStalkerGroup
+  - STBeltStalkerGroup
+  - STlegsGroup
+  - STTorsoGroupDolg
+  - Z14StarterWeaponGroup
+  - STStorage
+  - STStorageAmmunition
+  - STGlasses
+  - STOuterClothingDolg
+  - Z14StarterSuppliesGroup
+

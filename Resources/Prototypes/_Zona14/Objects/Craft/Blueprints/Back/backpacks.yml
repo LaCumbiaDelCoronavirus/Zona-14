@@ -6,7 +6,7 @@
   name: army duffel backpack (T3) recipe
   components:
     - type: STBlueprint
-      blueprint: recipeClothingBackpackDuffelCommonStalker
+      blueprint: Z14recipeClothingBackpackDuffelCommonStalker
 
 
 - type: entity
@@ -17,7 +17,7 @@
   name: dark green army duffel backpack (T4) recipe
   components:
     - type: STBlueprint
-      blueprint: recipeClothingBackpackDuffelMilitaryOlive
+      blueprint: Z14recipeClothingBackpackDuffelMilitaryOlive
 
 - type: entity
   parent: STBaseBlueprint
@@ -27,7 +27,7 @@
   name: black tactical duffel backpack (T4) recipe
   components:
     - type: STBlueprint
-      blueprint: recipeClothingBackpackDuffelBlackMilitaryTacticStalker
+      blueprint: Z14recipeClothingBackpackDuffelBlackMilitaryTacticStalker
 
 - type: entity
   parent: STBaseBlueprint
@@ -37,7 +37,7 @@
   name: blue army duffel backpack (T4) recipe
   components:
     - type: STBlueprint
-      blueprint: recipeClothingBackpackDuffelMilitaryBlue
+      blueprint: Z14recipeClothingBackpackDuffelMilitaryBlue
 
 
 - type: entity
@@ -48,7 +48,7 @@
   name: hiking duffel backpack (T4) recipe
   components:
     - type: STBlueprint
-      blueprint: recipeClothingBackpackDuffelHikingVSRF
+      blueprint: Z14recipeClothingBackpackDuffelHikingVSRF
 
 - type: entity
   parent: STBaseBlueprint
@@ -58,7 +58,7 @@
   name: olive tactical duffel backpack (T4) recipe
   components:
     - type: STBlueprint
-      blueprint: recipeClothingBackpackDuffelOliveTacticStalker
+      blueprint: Z14recipeClothingBackpackDuffelOliveTacticStalker
 
 - type: entity
   parent: STBaseBlueprint
@@ -68,7 +68,7 @@
   name: black tactical duffel backpack (T4) recipe
   components:
     - type: STBlueprint
-      blueprint: recipeClothingBackpackDuffelBlackTacticStalker
+      blueprint: Z14recipeClothingBackpackDuffelBlackTacticStalker
 
 # Pseudo blueprint. To avoid making a separate craft for each reskinned item, tags should be used. But vanilla doesn't support this well, hence these workarounds.
 

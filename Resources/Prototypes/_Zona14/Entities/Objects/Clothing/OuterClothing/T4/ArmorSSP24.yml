@@ -47,6 +47,11 @@
   - type: HideLayerClothing
     slots:
     - Hair
+  - type: Armor
+    modifiers:
+      coefficients:
+        Heat: 0.9
+        Radiation: 0.25
 # Ruby
 
 - type: entity
@@ -65,7 +70,7 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/outerClothing/Jewelry/ruby.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetSSP24Ruby
+    clothingPrototype: Z14ClothingHeadHelmetSSP24Ruby
 
 - type: entity
   parent: Z14STClothingHeadHelmetSSP24Base
@@ -100,7 +105,7 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/outerClothing/Jewelry/topaz.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetSSP24Topaz
+    clothingPrototype: Z14ClothingHeadHelmetSSP24Topaz
 
 - type: entity
   parent: Z14STClothingHeadHelmetSSP24Base
@@ -135,7 +140,7 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/outerClothing/Jewelry/sapfire.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetSSP24Sapfire
+    clothingPrototype: Z14ClothingHeadHelmetSSP24Sapfire
 
 - type: entity
   parent: Z14STClothingHeadHelmetSSP24Base

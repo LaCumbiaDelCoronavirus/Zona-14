@@ -1,40 +1,40 @@
 - type: lightCraftingRecipe
   id:  Z14STCraftSkinClothingHeadAssaultHelmetUN
   results:
-    - ClothingHeadAssaultHelmetUN
+    - Z14ClothingHeadAssaultHelmetUN
   steps:
     firstIngredient: STSkinsKitUnitar
-    secondIngredient: ClothingHeadAssaultHelmet
+    secondIngredient: Z14ClothingHeadAssaultHelmet
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingHeadAssaultHelmetDeserter
   results:
-    - ClothingHeadAssaultHelmetDeserter
+    - Z14ClothingHeadAssaultHelmetDeserter
   steps:
     firstIngredient: STSkinsKitDeserters
-    secondIngredient: ClothingHeadAssaultHelmet
+    secondIngredient: Z14ClothingHeadAssaultHelmet
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingHeadAssaultHelmetBand
   results:
-    - ClothingHeadAssaultHelmetBandit
+    - Z14ClothingHeadAssaultHelmetBandit
   steps:
     firstIngredient: STSkinsKitBandits
-    secondIngredient: ClothingHeadAssaultHelmet
+    secondIngredient: Z14ClothingHeadAssaultHelmet
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id:  Z14STCraftSkinClothingHeadAssaultHelmetDolg
   results:
-    - ClothingHeadAssaultHelmetDolg
+    - Z14ClothingHeadAssaultHelmetDolg
   steps:
     firstIngredient: STSkinsKitDolg
-    secondIngredient: ClothingHeadAssaultHelmet
+    secondIngredient: Z14ClothingHeadAssaultHelmet
     keepFirst: true
     time: 5
 
@@ -43,20 +43,20 @@
 - type: lightCraftingRecipe
   id:  Z14STCraftSkinClothingHeadHelmetBerill5MMonolith
   results:
-    - ClothingHeadHelmetBerill5MMonolith
+    - Z14ClothingHeadHelmetBerill5MMonolith
   steps:
     firstIngredient: STSkinsKitMonolith
-    secondIngredient: ClothingHeadHelmetBerill5MMilitary
+    secondIngredient: Z14ClothingHeadHelmetBerill5MMilitary
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id:  Z14STCraftSkinClothingHeadHelmetBerill5MDolg
   results:
-    - ClothingHeadHelmetBerill5MDolg
+    - Z14ClothingHeadHelmetBerill5MDolg
   steps:
     firstIngredient: STSkinsKitDolg
-    secondIngredient: ClothingHeadHelmetBerill5MMilitary
+    secondIngredient: Z14ClothingHeadHelmetBerill5MMilitary
     keepFirst: true
     time: 5
 
@@ -65,10 +65,10 @@
 - type: lightCraftingRecipe
   id:  Z14STCraftSkinClothingHeadHelmetVityaz1M
   results:
-    - ClothingHeadHelmetBerill5MDolg
+    - Z14ClothingHeadHelmetBerill5MDolg
   steps:
     firstIngredient: STSkinsKitDolg
-    secondIngredient: ClothingHeadHelmetVityaz1C
+    secondIngredient: Z14ClothingHeadHelmetVityaz1C
     keepFirst: true
     time: 5
 

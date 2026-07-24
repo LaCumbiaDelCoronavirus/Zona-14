@@ -1,0 +1,385 @@
+# Zona14: per-faction band shop listings.
+# Each faction's Igor variant sells its OWN gear blueprints for war-zone
+# capture points, on top of the shared stock. Faction gear is deliberately
+# NOT in the cache loot tables - holding territory is how you get it.
+
+- type: stBandShopListings
+  id: Z14STBandShopListingsBandits
+  items:
+    - productEntity: FitnessCenterCard
+      price: 500
+    - productEntity: Z14STWeaponSniperVSS
+      price: 420
+    - productEntity: Z14STClothingOuterArmorVeryHeavy
+      price: 400
+    - productEntity: Z14STWeaponRifleOC14939
+      price: 370
+    - productEntity: Z14STWeaponSniperSVDS
+      price: 310
+    - productEntity: Z14ClothingHeadHelmetUlach
+      price: 300
+    - productEntity: Z14STWeaponRifleHK416
+      price: 270
+    - productEntity: Z14STWeaponRifleAM17
+      price: 270
+    - productEntity: Z14ClothingBeltCrafterStalker
+      price: 200
+    - productEntity: Z14StalkerMedBandShopCrate
+      price: 75
+    - productEntity: 939Mag30
+      price: 45
+    - productEntity: 754Mag20
+      price: 45
+    - productEntity: 754Mag10
+      price: 35
+    - productEntity: Z14918PBMBoxCink
+      price: 70
+    - productEntity: Z14919PBMBoxCink
+      price: 70
+    - productEntity: Z14545PCBoxCink
+      price: 90
+    - productEntity: Z14556M855BoxCink
+      price: 90
+    - productEntity: Z14739FMJBoxCink
+      price: 110
+    - productEntity: Z14751M80BoxCink
+      price: 110
+    - productEntity: Z14939BPBoxCink
+      price: 125
+    - productEntity: Z14754FMJBoxCink
+      price: 125
+    - productEntity: Z14545BPBoxCink
+      price: 155
+    - productEntity: Z14556M856BoxCink
+      price: 155
+    - productEntity: Z14739PCBoxCink
+      price: 185
+    - productEntity: Z14751M61BoxCink
+      price: 185
+    - productEntity: Z14754PCBoxCink
+      price: 185
+    - productEntity: Z14939SP6BoxCink
+      price: 195
+  # Bandits gear blueprints - capture points only
+    - productEntity: Z14STClothingOuterArmorLightPlateVestBaseHeavyBanditBlueprint
+      price: 300
+
+- type: stBandShopListings
+  id: Z14STBandShopListingsDuty
+  items:
+    - productEntity: FitnessCenterCard
+      price: 500
+    - productEntity: Z14STWeaponSniperVSS
+      price: 420
+    - productEntity: Z14STClothingOuterArmorVeryHeavy
+      price: 400
+    - productEntity: Z14STWeaponRifleOC14939
+      price: 370
+    - productEntity: Z14STWeaponSniperSVDS
+      price: 310
+    - productEntity: Z14ClothingHeadHelmetUlach
+      price: 300
+    - productEntity: Z14STWeaponRifleHK416
+      price: 270
+    - productEntity: Z14STWeaponRifleAM17
+      price: 270
+    - productEntity: Z14ClothingBeltCrafterStalker
+      price: 200
+    - productEntity: Z14StalkerMedBandShopCrate
+      price: 75
+    - productEntity: 939Mag30
+      price: 45
+    - productEntity: 754Mag20
+      price: 45
+    - productEntity: 754Mag10
+      price: 35
+    - productEntity: Z14918PBMBoxCink
+      price: 70
+    - productEntity: Z14919PBMBoxCink
+      price: 70
+    - productEntity: Z14545PCBoxCink
+      price: 90
+    - productEntity: Z14556M855BoxCink
+      price: 90
+    - productEntity: Z14739FMJBoxCink
+      price: 110
+    - productEntity: Z14751M80BoxCink
+      price: 110
+    - productEntity: Z14939BPBoxCink
+      price: 125
+    - productEntity: Z14754FMJBoxCink
+      price: 125
+    - productEntity: Z14545BPBoxCink
+      price: 155
+    - productEntity: Z14556M856BoxCink
+      price: 155
+    - productEntity: Z14739PCBoxCink
+      price: 185
+    - productEntity: Z14751M61BoxCink
+      price: 185
+    - productEntity: Z14754PCBoxCink
+      price: 185
+    - productEntity: Z14939SP6BoxCink
+      price: 195
+  # Duty gear blueprints - capture points only
+    - productEntity: Z14ClothingOuterArmorHeavyDebtBlueprint
+      price: 300
+    - productEntity: Z14ClothingOuterArmorDolgPS5MBlueprint
+      price: 150
+
+- type: stBandShopListings
+  id: Z14STBandShopListingsEcologist
+  items:
+    - productEntity: FitnessCenterCard
+      price: 500
+    - productEntity: Z14STWeaponSniperVSS
+      price: 420
+    - productEntity: Z14STClothingOuterArmorVeryHeavy
+      price: 400
+    - productEntity: Z14STWeaponRifleOC14939
+      price: 370
+    - productEntity: Z14STWeaponSniperSVDS
+      price: 310
+    - productEntity: Z14ClothingHeadHelmetUlach
+      price: 300
+    - productEntity: Z14STWeaponRifleHK416
+      price: 270
+    - productEntity: Z14STWeaponRifleAM17
+      price: 270
+    - productEntity: Z14ClothingBeltCrafterStalker
+      price: 200
+    - productEntity: Z14StalkerMedBandShopCrate
+      price: 75
+    - productEntity: 939Mag30
+      price: 45
+    - productEntity: 754Mag20
+      price: 45
+    - productEntity: 754Mag10
+      price: 35
+    - productEntity: Z14918PBMBoxCink
+      price: 70
+    - productEntity: Z14919PBMBoxCink
+      price: 70
+    - productEntity: Z14545PCBoxCink
+      price: 90
+    - productEntity: Z14556M855BoxCink
+      price: 90
+    - productEntity: Z14739FMJBoxCink
+      price: 110
+    - productEntity: Z14751M80BoxCink
+      price: 110
+    - productEntity: Z14939BPBoxCink
+      price: 125
+    - productEntity: Z14754FMJBoxCink
+      price: 125
+    - productEntity: Z14545BPBoxCink
+      price: 155
+    - productEntity: Z14556M856BoxCink
+      price: 155
+    - productEntity: Z14739PCBoxCink
+      price: 185
+    - productEntity: Z14751M61BoxCink
+      price: 185
+    - productEntity: Z14754PCBoxCink
+      price: 185
+    - productEntity: Z14939SP6BoxCink
+      price: 195
+  # Ecologist gear blueprints - capture points only
+    - productEntity: Z14ClothingOuterArmorSevaSciWhiteBlueprint
+      price: 500
+    - productEntity: Z14STClothingOuterArmorVeryHeavySciBlueprint
+      price: 300
+    - productEntity: Z14ClothingOuterArmorSevaSciRedBlueprint
+      price: 150
+    - productEntity: Z14STClothingOuterArmorCN-4aResearcherBlueprint
+      price: 150
+
+- type: stBandShopListings
+  id: Z14STBandShopListingsFreedom
+  items:
+    - productEntity: FitnessCenterCard
+      price: 500
+    - productEntity: Z14STWeaponSniperVSS
+      price: 420
+    - productEntity: Z14STClothingOuterArmorVeryHeavy
+      price: 400
+    - productEntity: Z14STWeaponRifleOC14939
+      price: 370
+    - productEntity: Z14STWeaponSniperSVDS
+      price: 310
+    - productEntity: Z14ClothingHeadHelmetUlach
+      price: 300
+    - productEntity: Z14STWeaponRifleHK416
+      price: 270
+    - productEntity: Z14STWeaponRifleAM17
+      price: 270
+    - productEntity: Z14ClothingBeltCrafterStalker
+      price: 200
+    - productEntity: Z14StalkerMedBandShopCrate
+      price: 75
+    - productEntity: 939Mag30
+      price: 45
+    - productEntity: 754Mag20
+      price: 45
+    - productEntity: 754Mag10
+      price: 35
+    - productEntity: Z14918PBMBoxCink
+      price: 70
+    - productEntity: Z14919PBMBoxCink
+      price: 70
+    - productEntity: Z14545PCBoxCink
+      price: 90
+    - productEntity: Z14556M855BoxCink
+      price: 90
+    - productEntity: Z14739FMJBoxCink
+      price: 110
+    - productEntity: Z14751M80BoxCink
+      price: 110
+    - productEntity: Z14939BPBoxCink
+      price: 125
+    - productEntity: Z14754FMJBoxCink
+      price: 125
+    - productEntity: Z14545BPBoxCink
+      price: 155
+    - productEntity: Z14556M856BoxCink
+      price: 155
+    - productEntity: Z14739PCBoxCink
+      price: 185
+    - productEntity: Z14751M61BoxCink
+      price: 185
+    - productEntity: Z14754PCBoxCink
+      price: 185
+    - productEntity: Z14939SP6BoxCink
+      price: 195
+  # Freedom gear blueprints - capture points only
+    - productEntity: Z14ClothingOuterArmorSevaFreedomBlueprint
+      price: 150
+
+- type: stBandShopListings
+  id: Z14STBandShopListingsMercenaries
+  items:
+    - productEntity: FitnessCenterCard
+      price: 500
+    - productEntity: Z14STWeaponSniperVSS
+      price: 420
+    - productEntity: Z14STClothingOuterArmorVeryHeavy
+      price: 400
+    - productEntity: Z14STWeaponRifleOC14939
+      price: 370
+    - productEntity: Z14STWeaponSniperSVDS
+      price: 310
+    - productEntity: Z14ClothingHeadHelmetUlach
+      price: 300
+    - productEntity: Z14STWeaponRifleHK416
+      price: 270
+    - productEntity: Z14STWeaponRifleAM17
+      price: 270
+    - productEntity: Z14ClothingBeltCrafterStalker
+      price: 200
+    - productEntity: Z14StalkerMedBandShopCrate
+      price: 75
+    - productEntity: 939Mag30
+      price: 45
+    - productEntity: 754Mag20
+      price: 45
+    - productEntity: 754Mag10
+      price: 35
+    - productEntity: Z14918PBMBoxCink
+      price: 70
+    - productEntity: Z14919PBMBoxCink
+      price: 70
+    - productEntity: Z14545PCBoxCink
+      price: 90
+    - productEntity: Z14556M855BoxCink
+      price: 90
+    - productEntity: Z14739FMJBoxCink
+      price: 110
+    - productEntity: Z14751M80BoxCink
+      price: 110
+    - productEntity: Z14939BPBoxCink
+      price: 125
+    - productEntity: Z14754FMJBoxCink
+      price: 125
+    - productEntity: Z14545BPBoxCink
+      price: 155
+    - productEntity: Z14556M856BoxCink
+      price: 155
+    - productEntity: Z14739PCBoxCink
+      price: 185
+    - productEntity: Z14751M61BoxCink
+      price: 185
+    - productEntity: Z14754PCBoxCink
+      price: 185
+    - productEntity: Z14939SP6BoxCink
+      price: 195
+  # Mercenaries gear blueprints - capture points only
+    - productEntity: Z14ClothingOuterArmorMerc2Blueprint
+      price: 150
+
+- type: stBandShopListings
+  id: Z14STBandShopListingsMilitary
+  items:
+    - productEntity: FitnessCenterCard
+      price: 500
+    - productEntity: Z14STWeaponSniperVSS
+      price: 420
+    - productEntity: Z14STClothingOuterArmorVeryHeavy
+      price: 400
+    - productEntity: Z14STWeaponRifleOC14939
+      price: 370
+    - productEntity: Z14STWeaponSniperSVDS
+      price: 310
+    - productEntity: Z14ClothingHeadHelmetUlach
+      price: 300
+    - productEntity: Z14STWeaponRifleHK416
+      price: 270
+    - productEntity: Z14STWeaponRifleAM17
+      price: 270
+    - productEntity: Z14ClothingBeltCrafterStalker
+      price: 200
+    - productEntity: Z14StalkerMedBandShopCrate
+      price: 75
+    - productEntity: 939Mag30
+      price: 45
+    - productEntity: 754Mag20
+      price: 45
+    - productEntity: 754Mag10
+      price: 35
+    - productEntity: Z14918PBMBoxCink
+      price: 70
+    - productEntity: Z14919PBMBoxCink
+      price: 70
+    - productEntity: Z14545PCBoxCink
+      price: 90
+    - productEntity: Z14556M855BoxCink
+      price: 90
+    - productEntity: Z14739FMJBoxCink
+      price: 110
+    - productEntity: Z14751M80BoxCink
+      price: 110
+    - productEntity: Z14939BPBoxCink
+      price: 125
+    - productEntity: Z14754FMJBoxCink
+      price: 125
+    - productEntity: Z14545BPBoxCink
+      price: 155
+    - productEntity: Z14556M856BoxCink
+      price: 155
+    - productEntity: Z14739PCBoxCink
+      price: 185
+    - productEntity: Z14751M61BoxCink
+      price: 185
+    - productEntity: Z14754PCBoxCink
+      price: 185
+    - productEntity: Z14939SP6BoxCink
+      price: 195
+  # Military gear blueprints - capture points only
+    - productEntity: Z14ClothingOuterArmorBulatMilitaryBlueprint
+      price: 300
+    - productEntity: Z14ClothingOuterArmorHeavyUNTARBlueprint
+      price: 300
+    - productEntity: Z14ClothingOuterArmorLegatDeserterBlueprint
+      price: 300
+    - productEntity: Z14STClothingOuterArmorLightPlateVestBaseHeavyMilitaryBlueprint
+      price: 300
+

@@ -4,7 +4,7 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: Ammo Box (9x19) PSO gzh
-  description: For MP-5 Viper, 30 rounds per box. Penetrates only class 1 armor.
+  description: For MP-5 Viper, 50 rounds per box. Penetrates only class 1 armor.
   components:
   - type: Item
     size: Small
@@ -13,8 +13,8 @@
   - type: MagazineVisuals
     magState: 919ammo
   - type: BallisticAmmoProvider
-    proto: STCartridge919PSOGJ
-    capacity: 30
+    proto: Z14STCartridge919PSOGJ
+    capacity: 50
     whitelist:
       tags:
         - STCartridge919
@@ -31,10 +31,10 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: Ammo Box (9x19) PST gzh
-  description: For MP-5 Viper, 30 rounds per box. Penetrates only class 2 armor.
+  description: For MP-5 Viper, 50 rounds per box. Penetrates only class 2 armor.
   components:
   - type: BallisticAmmoProvider
-    proto: STCartridge919PST
+    proto: Z14STCartridge919PST
   - type: Sprite
     layers:
     - state: 919
@@ -52,7 +52,7 @@
   description: Expanding ammunition for NATO SMGs and pistols. Cannot penetrate armor, but deals massive damage to lightly armored or unarmored targets.
   components:
   - type: BallisticAmmoProvider
-    proto: STCartridge919RIP
+    proto: Z14STCartridge919RIP
   - type: Sprite
     layers:
     - state: 919
@@ -67,10 +67,10 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: Ammo Box (9x19) PBM gzh
-  description: For MP-5 Viper, 30 rounds per box. Penetrates only class 3 armor.
+  description: For MP-5 Viper, 50 rounds per box. Penetrates only class 3 armor.
   components:
   - type: BallisticAmmoProvider
-    proto: STCartridge919PBM
+    proto: Z14STCartridge919PBM
   - type: Sprite
     layers:
     - state: 919
@@ -86,11 +86,11 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: Large Ammo Box (9x19) PSO gzh
-  description: For MP-5 Viper, 300 rounds per crate. Penetrates only class 1 armor.
+  description: For MP-5 Viper, 1000 rounds per crate. Penetrates only class 1 armor.
   components:
   - type: BallisticAmmoProvider
-    proto: STCartridge919PSOGJ
-    capacity: 300
+    proto: Z14STCartridge919PSOGJ
+    capacity: 1000
     whitelist:
       tags:
         - STCartridge919
@@ -107,10 +107,10 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: Large Ammo Box (9x19) PST gzh
-  description: For MP-5 Viper, 300 rounds per crate. Penetrates only class 2 armor.
+  description: For MP-5 Viper, 1000 rounds per crate. Penetrates only class 2 armor.
   components:
   - type: BallisticAmmoProvider
-    proto: STCartridge919PST
+    proto: Z14STCartridge919PST
   - type: Sprite
     layers:
     - state: cink
@@ -127,7 +127,7 @@
   description: Expanding ammunition for NATO SMGs and pistols. Cannot penetrate armor, but deals massive damage to lightly armored or unarmored targets.
   components:
   - type: BallisticAmmoProvider
-    proto: STCartridge919RIP
+    proto: Z14STCartridge919RIP
   - type: Sprite
     layers:
     - state: cink
@@ -141,10 +141,10 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: Large Ammo Box (9x19) PBM gzh
-  description: For MP-5 Viper, 300 rounds per crate. Penetrates only class 3 armor.
+  description: For MP-5 Viper, 1000 rounds per crate. Penetrates only class 3 armor.
   components:
   - type: BallisticAmmoProvider
-    proto: STCartridge919PBM
+    proto: Z14STCartridge919PBM
   - type: Sprite
     layers:
     - state: cink

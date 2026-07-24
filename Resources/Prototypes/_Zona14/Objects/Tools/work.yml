@@ -132,7 +132,7 @@
   - type: TimedDespawn
     lifetime: 600
   - type: SpawnOnDespawn
-    prototype: StalkerWorkbenchOFF
+    prototype: Z14StalkerWorkbenchOFF
 
 
 ############### Lathes

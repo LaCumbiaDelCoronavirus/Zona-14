@@ -6,7 +6,7 @@
   name: Pahan's Cloak Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeClothingOuterCoatPahan
+      blueprint: Z14newrecipeClothingOuterCoatPahan
 
 - type: entity
   parent: STBaseBlueprint
@@ -16,7 +16,7 @@
   name: Search Cloak Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeClothingOuterCoatPoisk
+      blueprint: Z14newrecipeClothingOuterCoatPoisk
 
 - type: entity
   parent: STBaseBlueprint
@@ -26,4 +26,4 @@
   name: raincoat recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeClothingOuterCoatDoshdevik
+      blueprint: Z14newrecipeClothingOuterCoatDoshdevik

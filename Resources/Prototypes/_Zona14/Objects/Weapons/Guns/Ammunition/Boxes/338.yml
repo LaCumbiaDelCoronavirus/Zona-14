@@ -10,7 +10,7 @@
       magState: 76239ammo
     - type: BallisticAmmoProvider
       capacity: 10
-      proto: STCartridge338FMJ
+      proto: Z14STCartridge338FMJ
       whitelist:
         tags:
           - STCartridge338
@@ -22,7 +22,7 @@
           map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  parent: 338FMJBox
+  parent: Z14338FMJBox
   id: Z14338PartitionBox
   categories: [ Zona14 ]
   name: ammo box (.338 Lapua Magnum) Partition
@@ -30,7 +30,7 @@
   suffix: Z14
   components:
     - type: BallisticAmmoProvider
-      proto: STCartridge338Partition
+      proto: Z14STCartridge338Partition
     - type: Sprite
       layers:
         - state: 338
@@ -40,7 +40,7 @@
         - state: t3
 
 - type: entity
-  parent: 338FMJBox
+  parent: Z14338FMJBox
   id: Z14338FMJBTBox
   categories: [ Zona14 ]
   name: ammo box (.338 Lapua Magnum) FMJ BT
@@ -48,7 +48,7 @@
   suffix: Z14
   components:
     - type: BallisticAmmoProvider
-      proto: STCartridge338FMJBT
+      proto: Z14STCartridge338FMJBT
     - type: Sprite
       layers:
         - state: 338

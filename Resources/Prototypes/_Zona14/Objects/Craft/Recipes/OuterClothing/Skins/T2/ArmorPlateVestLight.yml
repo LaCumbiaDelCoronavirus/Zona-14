@@ -1,139 +1,139 @@
 - type: lightCraftingRecipe
   id: Z14STCraftSkinSTClothingOuterArmorLightPlateVestBaseBand
   results:
-    - STClothingOuterArmorLightPlateVestBaseBand
+    - Z14STClothingOuterArmorLightPlateVestBaseBand
   steps:
     firstIngredient: STSkinsKitBandits
-    secondIngredient: STClothingOuterArmorLightPlateVestBaseStalker
+    secondIngredient: Z14STClothingOuterArmorLightPlateVestBaseStalker
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinSTClothingOuterArmorLightPlateVestBaseFreedom
   results:
-    - STClothingOuterArmorLightPlateVestBaseFreedom
+    - Z14STClothingOuterArmorLightPlateVestBaseFreedom
   steps:
     firstIngredient: STSkinsKitFreedom
-    secondIngredient: STClothingOuterArmorLightPlateVestBaseStalker
+    secondIngredient: Z14STClothingOuterArmorLightPlateVestBaseStalker
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinSTClothingOuterArmorLightPlateVestBaseMerc
   results:
-    - STClothingOuterArmorLightPlateVestBaseMerc
+    - Z14STClothingOuterArmorLightPlateVestBaseMerc
   steps:
     firstIngredient: STSkinsKitMercenary
-    secondIngredient: STClothingOuterArmorLightPlateVestBaseStalker
+    secondIngredient: Z14STClothingOuterArmorLightPlateVestBaseStalker
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinSTClothingOuterArmorLightPlateVestBaseMilitary
   results:
-    - STClothingOuterArmorLightPlateVestBaseMilitary
+    - Z14STClothingOuterArmorLightPlateVestBaseMilitary
   steps:
     firstIngredient: STSkinsKitMilitary
-    secondIngredient: STClothingOuterArmorLightPlateVestBaseStalker
+    secondIngredient: Z14STClothingOuterArmorLightPlateVestBaseStalker
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinSTClothingOuterArmorLightPlateVestBaseMonolith
   results:
-    - STClothingOuterArmorLightPlateVestBaseMonolith
+    - Z14STClothingOuterArmorLightPlateVestBaseMonolith
   steps:
     firstIngredient: STSkinsKitMonolith
-    secondIngredient: STClothingOuterArmorLightPlateVestBaseStalker
+    secondIngredient: Z14STClothingOuterArmorLightPlateVestBaseStalker
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinSTClothingOuterArmorLightPlateVestBasePolice
   results:
-    - STClothingOuterArmorLightPlateVestBasePolice
+    - Z14STClothingOuterArmorLightPlateVestBasePolice
   steps:
     firstIngredient: STSkinsKitNeutral
-    secondIngredient: STClothingOuterArmorLightPlateVestBaseStalker
+    secondIngredient: Z14STClothingOuterArmorLightPlateVestBaseStalker
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinSTClothingOuterArmorLightPlateVestBaseRenegate
   results:
-    - STClothingOuterArmorLightPlateVestBaseRenegate
+    - Z14STClothingOuterArmorLightPlateVestBaseRenegate
   steps:
     firstIngredient: STSkinsKitRenegate
-    secondIngredient: STClothingOuterArmorLightPlateVestBaseStalker
+    secondIngredient: Z14STClothingOuterArmorLightPlateVestBaseStalker
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinSTClothingOuterArmorLightPlateVestBaseUN
   results:
-    - STClothingOuterArmorLightPlateVestBaseUN
+    - Z14STClothingOuterArmorLightPlateVestBaseUN
   steps:
     firstIngredient: STSkinsKitUnitar
-    secondIngredient: STClothingOuterArmorLightPlateVestBaseStalker
+    secondIngredient: Z14STClothingOuterArmorLightPlateVestBaseStalker
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinSTClothingOuterArmorLightPlateVestBaseCN
   results:
-    - STClothingOuterArmorLightPlateVestBaseClearSky
+    - Z14STClothingOuterArmorLightPlateVestBaseClearSky
   steps:
     firstIngredient: STSkinsKitClearSky
-    secondIngredient: STClothingOuterArmorLightPlateVestBaseStalker
+    secondIngredient: Z14STClothingOuterArmorLightPlateVestBaseStalker
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinSTClothingOuterArmorLightPlateVestBaseZavet
   results:
-    - STClothingOuterArmorLightPlateVestBaseZavet
+    - Z14STClothingOuterArmorLightPlateVestBaseZavet
   steps:
     firstIngredient: STSkinsKitCovenant
-    secondIngredient: STClothingOuterArmorLightPlateVestBaseStalker
+    secondIngredient: Z14STClothingOuterArmorLightPlateVestBaseStalker
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinSTClothingOuterArmorLightPlateVestBasePilgrim
   results:
-    - STClothingOuterArmorLightPlateVestBasePilgrim
+    - Z14STClothingOuterArmorLightPlateVestBasePilgrim
   steps:
     firstIngredient: STSkinsKitPilgrim
-    secondIngredient: STClothingOuterArmorLightPlateVestBaseStalker
+    secondIngredient: Z14STClothingOuterArmorLightPlateVestBaseStalker
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinSTClothingOuterArmorLightPlateVestBaseClearSky
   results:
-    - STClothingOuterArmorLightPlateVestBaseClearSky
+    - Z14STClothingOuterArmorLightPlateVestBaseClearSky
   steps:
     firstIngredient: STSkinsKitClearSky
-    secondIngredient: STClothingOuterArmorLightPlateVestBaseStalker
+    secondIngredient: Z14STClothingOuterArmorLightPlateVestBaseStalker
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinSTClothingOuterArmorLightPlateVestBaseDolg
   results:
-    - STClothingOuterArmorLightPlateVestBaseDolg
+    - Z14STClothingOuterArmorLightPlateVestBaseDolg
   steps:
     firstIngredient: STSkinsKitDolg
-    secondIngredient: STClothingOuterArmorLightPlateVestBaseStalker
+    secondIngredient: Z14STClothingOuterArmorLightPlateVestBaseStalker
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingOuterArmorLightPlateVestBaseProject
   results:
-  - STClothingOuterArmorLightPlateVestBaseProject
+  - Z14STClothingOuterArmorLightPlateVestBaseProject
   steps:
     firstIngredient: STSkinsKitProject
-    secondIngredient: STClothingOuterArmorLightPlateVestBaseStalker
+    secondIngredient: Z14STClothingOuterArmorLightPlateVestBaseStalker
     keepFirst: true
     time: 5

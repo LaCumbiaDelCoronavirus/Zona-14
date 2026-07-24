@@ -25,7 +25,7 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/cloak/freechain.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHatChainFreedom
+    clothingPrototype: Z14ClothingHatChainFreedom
     requiredSlot:
     - cloak
     slot: head

@@ -30,7 +30,7 @@
         volume: -10
     minAngle: 45
     maxAngle: 85
-    fireRate: 9
+    fireRate: 6 # VSS Vintorez is ~600 RPM, not the ~900 the July pass assumed
     angleIncrease: 2.0
     angleDecay: 8
     projectileSpeed: 75
@@ -41,7 +41,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Base939Mag10
+        startingItem: Z14Base939Mag10
         insertSound: /Audio/_Stalker/Weapons/Guns/RifleGen/MagIn/rifle_magin.ogg
         ejectSound: /Audio/_Stalker/Weapons/Guns/RifleGen/MagOut/rifle_magout.ogg
         priority: 3
@@ -126,7 +126,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Base751Mag10
+        startingItem: Z14Base751Mag10
         insertSound: /Audio/_Stalker/Weapons/Guns/RifleGen/MagIn/rifle_magin.ogg
         ejectSound: /Audio/_Stalker/Weapons/Guns/RifleGen/MagOut/rifle_magout.ogg
         priority: 3
@@ -164,7 +164,7 @@
   - type: Gun
     minAngle: 45
     maxAngle: 80
-    fireRate: 9
+    fireRate: 7 # VSK-94 is ~700 RPM
     angleIncrease: 2.0
     angleDecay: 8
     projectileSpeed: 75
@@ -176,7 +176,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Base939MagVSK
+        startingItem: Z14Base939MagVSK
         insertSound: /Audio/_Stalker/Weapons/Guns/RifleGen/MagIn/rifle_magin.ogg
         ejectSound: /Audio/_Stalker/Weapons/Guns/RifleGen/MagOut/rifle_magout.ogg
         priority: 3

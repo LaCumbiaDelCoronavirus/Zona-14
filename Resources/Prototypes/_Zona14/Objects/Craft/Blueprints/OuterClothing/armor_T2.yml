@@ -6,7 +6,7 @@
   name: Hunter's Dawn Recipe
   components:
     - type: STBlueprint
-      blueprint: recipeZaryaHunter
+      blueprint: Z14recipeZaryaHunter
 
 - type: entity
   parent: STBaseBlueprint
@@ -16,7 +16,7 @@
   name: Dawn Type 1 Modification Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeClothingOuterArmorZaryaStalkerModifedType1
+      blueprint: Z14newrecipeClothingOuterArmorZaryaStalkerModifedType1
 
 - type: entity
   parent: STBaseBlueprint
@@ -26,7 +26,7 @@
   name: Dawn Type 2 Modification Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeClothingOuterArmorZaryaStalkerModifedType2
+      blueprint: Z14newrecipeClothingOuterArmorZaryaStalkerModifedType2
 
 # 6B2
 
@@ -38,7 +38,7 @@
   name: 6B2 Body Armor Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeClothingOuterArmor6B2
+      blueprint: Z14newrecipeClothingOuterArmor6B2
 
 # Shield-2
 
@@ -50,7 +50,7 @@
   name: “Shield‑2” body armor recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeSTClothingOuterArmorLightPlateVestBaseStalker
+      blueprint: Z14newrecipeSTClothingOuterArmorLightPlateVestBaseStalker
 
 
 # SN-1
@@ -62,7 +62,7 @@
   name: CH-1 Armor Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeClothingOuterArmorCN1
+      blueprint: Z14newrecipeClothingOuterArmorCN1
 
 # Spark
 - type: entity
@@ -73,7 +73,7 @@
   name: Spark Costume Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeClothingOuterArmorSpark
+      blueprint: Z14newrecipeClothingOuterArmorSpark
 
 # Chainmail
 - type: entity
@@ -84,7 +84,7 @@
   name: stalker chainmail jacket recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeClothingOuterArmourJacketStalker
+      blueprint: Z14newrecipeClothingOuterArmourJacketStalker
 
 - type: entity
   parent: STBaseBlueprint
@@ -94,7 +94,7 @@
   name: bandit chainmail jacket recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeClothingOuterArmourJacketBandit
+      blueprint: Z14newrecipeClothingOuterArmourJacketBandit
 
 
 - type: entity
@@ -105,7 +105,7 @@
   name: black chainmail leather coat (bandit) recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeClothingOuterArmourCoatBanditBlack
+      blueprint: Z14newrecipeClothingOuterArmourCoatBanditBlack
 
 - type: entity
   parent: STBaseBlueprint
@@ -115,7 +115,7 @@
   name: brown chainmail leather coat (bandit) recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeClothingOuterArmourCoatBanditBrown
+      blueprint: Z14newrecipeClothingOuterArmourCoatBanditBrown
 
 # ZN-1 
 
@@ -127,6 +127,6 @@
   name: ZN‑1 suit recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeClothingOuterArmorZN1
+      blueprint: Z14newrecipeClothingOuterArmorZN1
 
   

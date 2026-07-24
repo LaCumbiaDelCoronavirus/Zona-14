@@ -7,6 +7,25 @@
     Darkscape: /Maps/_Zona14/World/Darkscape.yml # Zona14 change
     Swamps: /Maps/_Zona14/World/Swamps.yml # Zona14 change
     Garbage: /Maps/_Zona14/World/Garbage.yml # Zona14 change
+    # Zona14: OPEN ISSUE - this entry duplicates the gameMap and is kept only pending an
+    # in-game check.
+    #
+    # Cordon is the gameMap (see _Stalker/Maps/stalker.yml), and LoadMap() does not dedupe,
+    # so listing it here loads a second identical, same-named copy. It was kept because
+    # removing it drops group-portal caching from 1 group to 0 - preloaded maps use
+    # InitializeMaps=true, so their entities are queryable when MapsLoadedEvent fires,
+    # while the gameMap's apparently are not yet.
+    #
+    # That justification does not hold up on inspection: the single cached group is
+    # BaseProject-RandomLocationProject, and BaseProject is placed only on Rostok, which is
+    # disabled four lines below. So the cache buys nothing today and the duplicate load is
+    # pure cost - and two identically-named copies is exactly the input that makes portal
+    # cross-linking ambiguous.
+    #
+    # Not removed here because the effect on warp link-up can only be confirmed by loading
+    # the release preset and walking a portal, which has not been done. Do that, then
+    # delete this line. Preload is live on release/tools (newmap_teleport_preload = true in
+    # strelease.toml / sttools.toml) and pinned false in tests, so CI cannot see any of it.
     Cordon: /Maps/_Zona14/World/Cordon.yml # Zona14 change
     #Agroprom: /Maps/_ST/World/AgropromV109.yml #Zona14 Disabled for now
     #DarkValley: /Maps/_ST/World/TemnajDolinaGEN2V80.yml #Zona14 Disabled for now

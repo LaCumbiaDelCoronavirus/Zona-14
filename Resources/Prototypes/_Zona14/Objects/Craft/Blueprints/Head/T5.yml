@@ -6,7 +6,7 @@
   name: PSZ-9d Helmet Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeClothingHeadHelmetPSZ9D
+      blueprint: Z14newrecipeClothingHeadHelmetPSZ9D
 
 - type: entity
   parent: STBaseBlueprint
@@ -16,5 +16,5 @@
   name: Black FAST Helmet Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeSTClothingHeadHelmetFASTNeutralBlack
+      blueprint: Z14newrecipeSTClothingHeadHelmetFASTNeutralBlack
 

@@ -34,7 +34,7 @@
     # Food
     Z14FoodMeatDogCooked: 84
     Z14STFoodMeatSpiderCooked: 42
-    Z14FoodMeatBoarCooked: 132
+    Z14FoodMeatBoarCooked: 80
 
     # Acidic group - 1
     Z14ZoneArtifactBlood: 1440
@@ -107,11 +107,6 @@
       # 7,62x25
       Z14WeaponPistolStalkerTT: 250 #T1
       # 5,45x39
-      Z14STWeaponRifleSaiga545: 900 # T3
-      Z14STWeaponRifleAKS74U: 1400
-      Z14STWeaponRifleAKS74UBlack: 1400
-      Z14STWeaponRifleAKS74: 4000
-      Z14STWeaponRifleAKS74Green: 4000
       # Other
 
       STWeaponRevolverSWPC325TR: 850
@@ -119,14 +114,9 @@
       Z14WeaponStalkerPistolTec9: 250
       Z14STWeaponSMGMP40: 1000
       Z14WeaponPistolStalkerAPS: 500 #T2
-      Z14STWeaponSniperSKS: 1850 # T2
-      Z14STWeaponSniperMosin: 1500
-      Z14STWeaponRifleL85: 1700
       Z14STWeaponSMGPPSh41: 2500
       Z14STWeaponSMGPP19: 2000
       Z14STWeaponSMGPP91: 2500
-      Z14STWeaponRifleFAL: 1600
-      Z14STWeaponRifleM16: 2500
       Z14STWeaponSMGOTS126: 1000
   - name: shop-category-magazines
     priority: 2
@@ -158,35 +148,35 @@
       7mmBuckshotBox: 40
       6mmBuckshotBox: 150
       # 5.56
-      Z14556FMJBox: 500
-      Z14556WarmagBox: 300
+      Z14556FMJBox: 1200
+      Z14556WarmagBox: 1200
       # 5.45
-      Z14545FMJBox: 500
-      Z14545HPBox: 250
+      Z14545FMJBox: 1200
+      Z14545HPBox: 1200
       # 7.39
-      Z14739HPBox: 350
-      Z14739FMJBox: 1650
+      Z14739HPBox: 2400
+      Z14739FMJBox: 2400
       # 7.54
-      Z14754HPBox: 500
-      Z14754FMJBox: 1700
+      Z14754HPBox: 800
+      Z14754FMJBox: 800
       # 9.18
-      Z14918PGJBox: 80
-      Z14918SP7Box: 200
-      Z14918PSTBox: 400
+      Z14918PGJBox: 250
+      Z14918SP7Box: 250
+      Z14918PSTBox: 450
       # 9.19
-      Z14919PSOGJBox: 100
-      Z14919RIPBox: 200
-      Z14919PSTBox: 400
+      Z14919PSOGJBox: 500
+      Z14919RIPBox: 500
+      Z14919PSTBox: 900
       # 7.25
-      Z14725PBox: 100
-      Z14725LRNPCBox: 50
-      Z14725PTBox: 465
+      Z14725PBox: 250
+      Z14725LRNPCBox: 250
+      Z14725PTBox: 450
       # 7.51
-      Z14751UNBox: 300
+      Z14751UNBox: 1600
       Z14751M80Box: 1600
       #45
-      Z1445ACPRIPBox: 450
-      Z1445ACPLFMJBox: 250
+      Z1445ACPRIPBox: 500
+      Z1445ACPLFMJBox: 500
   - name: shop-category-armor
     priority: 4
     items:
@@ -195,15 +185,14 @@
       Z14ClothingHeadHelmetInfantry: 700 # T2 - uni
       # OuterClothing #
       SetJacketNoviceWhiteBuyableCrate: 100 # T1 - uni
-      Z14STClothingOuterKirasa: 900
-      Z14ClothingOuterArmor6B2: 1350
-      Z14STClothingOuterArmorRCBZ: 1600 # T2 - ENV
-      Z14ClothingOuterArmorZaryaStalker: 1800 # T2 - PVE
-      Z14STClothingOuterSlickBlack: 3000
-      Z14STClothingOuterSlickGreen: 3000
-      Z14STClothingOuterSlickHaki: 3000
+      Z14STClothingOuterKirasa: 500
+      Z14ClothingOuterArmor6B2: 1250
+      Z14STClothingOuterArmorRCBZ: 1250 # T2 - ENV
+      Z14ClothingOuterArmorZaryaStalker: 1250 # T2 - PVE
+      Z14STClothingOuterSlickBlack: 1250
+      Z14STClothingOuterSlickGreen: 1250
+      Z14STClothingOuterSlickHaki: 1250
       SetZaryaStalkerBuyableCrate: 2500
-      Z14ClothingOuterArmorSevaStalker: 6500
       Z14STPsyHelm1: 5000
 
   - name: shop-category-storage-and-containers
@@ -405,5 +394,3 @@
     items:
       STWeaponShotgunMP153Raven: 550
       Z14WeaponPistolStalkerAPSHugo: 450
-
-

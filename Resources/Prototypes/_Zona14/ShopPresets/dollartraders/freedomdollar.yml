@@ -11,15 +11,9 @@
         STWeaponShotgunBenelliM4Super90: 10
         STWeaponShotgunProtecta: 25
           # 5,45x39
-        Z14STWeaponRifleG36: 140
-        Z14STWeaponRifleM4: 200
-        Z14STWeaponRifleASVAL: 500
-        Z14STWeaponRifleAK103: 300
-        Z14STWeaponRifleSIG550: 150
         Z14KhattabkaGrenade: 1
         Z14TearGasGrenadeStalker: 7
         Z14RGD5Grenade: 10
-        Z14STWeaponRifleStalkerRPK16: 1000
     - name: shop-category-magazines
       priority: 2
       items:
@@ -32,17 +26,16 @@
       priority: 3
       items:
         ShotgunFlechetteCink: 35
-        Z14556M856BoxCink: 80
-        Z14739PCBoxCink: 120
-        939SP6BoxCink: 150
-        Z14751M61BoxCink: 120
-        Z14545BPBoxCink: 100
+        Z14556M856BoxCink: 21000
+        Z14739PCBoxCink: 57600
+        Z14939SP6BoxCink: 13500
+        Z14751M61BoxCink: 36000
+        Z14545BPBoxCink: 48600
         BluntRainbow: 1
     - name: shop-category-armor
       priority: 4
       items:
-        Z14ClothingOuterArmorFreedomDefender: 20
-        Z14STClothingOuterArmorVolchankaFreedom: 300
+        Z14STClothingOuterArmorVolchankaFreedom: 500
         Z14ClothingHeadAssaultHelmetMilitary: 30
         Z14ClothingHeadHelmetAborigine: 45
         Z14ClothingHeadHelmetUlach: 80

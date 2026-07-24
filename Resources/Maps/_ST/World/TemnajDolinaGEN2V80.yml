@@ -91644,7 +91644,7 @@ entities:
     - type: Transform
       pos: 62.26329,-106.432884
       parent: 1
-- proto: ClothingHeadBeretUN
+- proto: Z14ClothingHeadBeretUN
   entities:
   - uid: 27327
     components:
@@ -91679,7 +91679,7 @@ entities:
     - type: Transform
       pos: -31.424446,-217.41994
       parent: 1
-- proto: ClothingMaskGasChN
+- proto: Z14ClothingMaskGasChN
   entities:
   - uid: 7718
     components:
@@ -220224,7 +220224,7 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 124.5,-67.5
       parent: 1
-- proto: STWeaponSniperSVUTop
+- proto: Z14STWeaponSniperSVUTop
   entities:
   - uid: 26951
     components:

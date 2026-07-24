@@ -1,18 +1,18 @@
 - type: lightCraftingRecipe
   id: Z14STCraftSTSkinsKitDolg1
   results:
-    - ClothingMaskGasDolg1
+    - Z14ClothingMaskGasDolg1
   steps:
     firstIngredient: STSkinsKitDolg
-    secondIngredient: ClothingMaskGasZarya
+    secondIngredient: Z14ClothingMaskGasZarya
     keepFirst: true
     time: 5
 - type: lightCraftingRecipe
   id: Z14STCraftClothingMaskGasDolg2
   results:
-    - ClothingMaskGasDolg2
+    - Z14ClothingMaskGasDolg2
   steps:
     firstIngredient: STSkinsKitDolg
-    secondIngredient: ClothingMaskXoma
+    secondIngredient: Z14ClothingMaskXoma
     keepFirst: true
     time: 5

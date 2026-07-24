@@ -1,20 +1,20 @@
 - type: lightCraftingRecipe
   id: Z14STCraftSkinSTClothingOuterArmorIOTVFreedom
   results:
-    - STClothingOuterArmorIOTVFreedom
+    - Z14STClothingOuterArmorIOTVFreedom
   steps:
     firstIngredient: STSkinsKitFreedom
-    secondIngredient: STClothingOuterArmorIOTVBlack
+    secondIngredient: Z14STClothingOuterArmorIOTVBlack
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinSTClothingOuterArmorIOTVMerc
   results:
-    - STClothingOuterArmorIOTVMerc
+    - Z14STClothingOuterArmorIOTVMerc
   steps:
     firstIngredient: STSkinsKitMercenary
-    secondIngredient: STClothingOuterArmorIOTVBlack
+    secondIngredient: Z14STClothingOuterArmorIOTVBlack
     keepFirst: true
     time: 5
 

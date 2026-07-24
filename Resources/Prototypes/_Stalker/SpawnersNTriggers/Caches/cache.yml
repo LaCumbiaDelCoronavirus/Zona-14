@@ -1,3 +1,5 @@
+# Zona14: cache spawners now spawn the Z14 cache entities. The maps place these
+# spawner ids, so without this the Zona-14 loot tables never reach a player.
 - type: entity
   id: STCacheT1Spawner25
   name: cache trigger T1 (25%)
@@ -9,9 +11,9 @@
       state: icon
     - type: RandomSpawner
       prototypes:
-        - STCache1T1
-        - STCache2T1
-        - STCache3T1
+        - Z14STCache1T1
+        - Z14STCache2T1
+        - Z14STCache3T1
       chance: 0.25
       offset: 0.0
 
@@ -26,9 +28,9 @@
       state: icon
     - type: RandomSpawner
       prototypes:
-        - STCache1T1
-        - STCache2T1
-        - STCache3T1
+        - Z14STCache1T1
+        - Z14STCache2T1
+        - Z14STCache3T1
       chance: 0.05
       offset: 0.0
 
@@ -43,9 +45,9 @@
       state: icon
     - type: RandomSpawner
       prototypes:
-        - STCache1T2
-        - STCache2T2
-        - STCache3T2
+        - Z14STCache1T2
+        - Z14STCache2T2
+        - Z14STCache3T2
       chance: 0.25
       offset: 0.0
 
@@ -60,9 +62,9 @@
       state: icon
     - type: RandomSpawner
       prototypes:
-        - STCache1T2
-        - STCache2T2
-        - STCache3T2
+        - Z14STCache1T2
+        - Z14STCache2T2
+        - Z14STCache3T2
       chance: 0.05
       offset: 0.0
 
@@ -77,9 +79,9 @@
       state: icon
     - type: RandomSpawner
       prototypes:
-        - STCache1T3
-        - STCache2T3
-        - STCache3T3
+        - Z14STCache1T3
+        - Z14STCache2T3
+        - Z14STCache3T3
       chance: 0.25
       offset: 0.0
 
@@ -94,9 +96,9 @@
       state: icon
     - type: RandomSpawner
       prototypes:
-        - STCache1T3
-        - STCache2T3
-        - STCache3T3
+        - Z14STCache1T3
+        - Z14STCache2T3
+        - Z14STCache3T3
       chance: 0.05
       offset: 0.0
 
@@ -111,9 +113,9 @@
       state: icon
     - type: RandomSpawner
       prototypes:
-        - STCache1T4
-        - STCache2T4
-        - STCache3T4
+        - Z14STCache1T4
+        - Z14STCache2T4
+        - Z14STCache3T4
       chance: 0.25
       offset: 0.0
 
@@ -128,9 +130,9 @@
       state: icon
     - type: RandomSpawner
       prototypes:
-        - STCache1T4
-        - STCache2T4
-        - STCache3T4
+        - Z14STCache1T4
+        - Z14STCache2T4
+        - Z14STCache3T4
       chance: 0.05
       offset: 0.0
 
@@ -145,9 +147,9 @@
       state: icon
     - type: RandomSpawner
       prototypes:
-        - STCache1T5
-        - STCache2T5
-        - STCache3T5
+        - Z14STCache1T5
+        - Z14STCache2T5
+        - Z14STCache3T5
       chance: 0.25
       offset: 0.0
 
@@ -162,8 +164,8 @@
       state: icon
     - type: RandomSpawner
       prototypes:
-        - STCache1T5
-        - STCache2T5
-        - STCache3T5
+        - Z14STCache1T5
+        - Z14STCache2T5
+        - Z14STCache3T5
       chance: 0.05
       offset: 0.0

@@ -6,7 +6,7 @@
   name: Military Helmet "Sphere-12" Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeClothingHeadHelmetBulatMilitary
+      blueprint: Z14newrecipeClothingHeadHelmetBulatMilitary
 
 
 
@@ -18,7 +18,7 @@
   name: Ulach Helmet Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeClothingHeadUlachHelmet
+      blueprint: Z14newrecipeClothingHeadUlachHelmet
 
 
 
@@ -30,4 +30,4 @@
   name: 6B47 Helmet Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeClothingHeadRatnikHelmet
+      blueprint: Z14newrecipeClothingHeadRatnikHelmet

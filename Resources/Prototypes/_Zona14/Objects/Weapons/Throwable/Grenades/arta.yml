@@ -27,7 +27,7 @@
     sound:
       path: /Audio/_Stalker/Effects/artillery.ogg
   - type: SpawnOnDespawn
-    prototype: ArtilleryExplosive
+    prototype: Z14ArtilleryExplosive
 
 - type: entity
   name: Arrival of the explosion
@@ -84,7 +84,7 @@
     sound:
       path: /Audio/_Stalker/Effects/artillery.ogg
   - type: SpawnOnDespawn
-    prototype: HowitzerExplosive
+    prototype: Z14HowitzerExplosive
 
 - type: entity
   name: HowitzerSpawner

@@ -40,28 +40,5 @@ ent-Z14MobFreedomSecurityTop = Охранник Свободы
 ent-Z14MobHostileGuardPatrool = Неизвестно
     .desc = Агрессивный уебан, хрен пойми кто - но враждебен.
 
-ent-Z14MobSeraphimSecurityHeavy = Охранник Серафимов
-    .desc = Охранник Серафимов, приносит божью волю свинцом.
-
-ent-Z14MobSeraphimSecurityLite = Охранник серафимов
-    .desc = Охранник Серафимов, приносит божью волю свинцом.
-    .suffix = Z14
-
-ent-Z14MobSeraphimSecurityMedium = Охранник серафимов
-    .desc = Охранник Серафимов, приносит божью волю свинцом.
-    .suffix = Z14
-
-ent-Z14MobSeraphimsGuardHeavy = Охранник серафимов
-    .desc = Патрульный Серафимов, приносит божью волю свинцом.
-    .suffix = Z14
-
-ent-Z14MobSeraphimsGuardLite = Патрульный Серафимов
-    .desc = Патрульный Серафимов, приносит божью волю свинцом.
-    .suffix = Z14
-
-ent-Z14MobSeraphimsGuardMedium = Патрульный Серафимов
-    .desc = Патрульный Серафимов, приносит божью волю свинцом.
-    .suffix = Z14
-
 ent-Z14MobStalkerGuard = Сталкер-ополченец
     .desc = Ополченец с неплохим снаряжением, стоящий на защите сталкерства.

@@ -6,7 +6,7 @@
   name: M51 Gas Mask Recipe
   components:
     - type: STBlueprint
-      blueprint: recipeGasMaskM51
+      blueprint: Z14recipeGasMaskM51
 
 - type: entity
   parent: STBaseBlueprint
@@ -16,4 +16,4 @@
   name: GP21 Gas Mask Recipe
   components:
     - type: STBlueprint
-      blueprint: recipeGasMaskGP21
+      blueprint: Z14recipeGasMaskGP21

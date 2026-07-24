@@ -13,7 +13,7 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/outerClothing/uzk5.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHardsuitUzk5Helm
+    clothingPrototype: Z14ClothingHeadHardsuitUzk5Helm
     slot: head
   - type: ClothingSpeedModifier
     walkModifier: 1
@@ -49,6 +49,11 @@
       slots:
       - Hair
       - Snout
+    - type: Armor
+      modifiers:
+        coefficients:
+          Heat: 0.9
+          Radiation: 0.25
 
 - type: entity
   parent: [ Z14ArmorBaseT5PvP, Z14ClothingOuterArmorUzk5 ]

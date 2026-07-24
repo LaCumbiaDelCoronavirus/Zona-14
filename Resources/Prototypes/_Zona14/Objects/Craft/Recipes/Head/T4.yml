@@ -1,10 +1,10 @@
 - type: craftRecipe
   id: Z14newrecipeClothingHeadHelmetBulatMilitary
   resultProtos:
-    - ClothingHeadHelmetBulatMilitary
+    - Z14ClothingHeadHelmetBulatMilitary
   craftTime: 10
   items:
-    ClothingHeadHelmetBulatMilitaryBlueprint:
+    Z14ClothingHeadHelmetBulatMilitaryBlueprint:
       amount: 1
       catalyzer: true
     ToolkitTearTwo:
@@ -26,10 +26,10 @@
 - type: craftRecipe
   id: Z14newrecipeClothingHeadUlachHelmet
   resultProtos:
-    - ClothingHeadHelmetUlach
+    - Z14ClothingHeadHelmetUlach
   craftTime: 12
   items:
-    ClothingHeadHelmetUlachBlueprint:
+    Z14ClothingHeadHelmetUlachBlueprint:
       amount: 1
       catalyzer: true
     ToolkitTearTwo:
@@ -49,10 +49,10 @@
 - type: craftRecipe
   id: Z14newrecipeClothingHeadRatnikHelmet
   resultProtos:
-    - ClothingHeadRatnik
+    - Z14ClothingHeadRatnik
   craftTime: 12
   items:
-    ClothingHeadHelmetRatnikBlueprint:
+    Z14ClothingHeadHelmetRatnikBlueprint:
       amount: 1
       catalyzer: true
     ToolkitTearTwo:

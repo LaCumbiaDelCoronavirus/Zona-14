@@ -6,7 +6,7 @@
   name: fresh cheese recipe
   components:
   - type: STBlueprint
-    blueprint: recipeFoodSTFreshCheese
+    blueprint: Z14recipeFoodSTFreshCheese
 
 - type: entity
   parent: STCookingRecipe
@@ -16,7 +16,7 @@
   name: plain rice recipe
   components:
   - type: STBlueprint
-    blueprint: recipeFoodSTRiceCooked
+    blueprint: Z14recipeFoodSTRiceCooked
 
 - type: entity
   parent: STCookingRecipe
@@ -26,7 +26,7 @@
   name: pancakes recipe
   components:
   - type: STBlueprint
-    blueprint: recipeFoodSTPancakes
+    blueprint: Z14recipeFoodSTPancakes
 
 - type: entity
   parent: STCookingRecipe
@@ -36,7 +36,7 @@
   name: onion rings recipe
   components:
   - type: STBlueprint
-    blueprint: recipeFoodSTOnionRings
+    blueprint: Z14recipeFoodSTOnionRings
 
 - type: entity
   parent: STCookingRecipe
@@ -46,7 +46,7 @@
   name: fried eggs recipe
   components:
   - type: STBlueprint
-    blueprint: recipeFoodSTFriedEggs
+    blueprint: Z14recipeFoodSTFriedEggs
 
 - type: entity
   parent: STCookingRecipe
@@ -56,7 +56,7 @@
   name: frog legs recipe
   components:
   - type: STBlueprint
-    blueprint: recipeFoodSTFrogLegs
+    blueprint: Z14recipeFoodSTFrogLegs
 
 # NORMAL
 - type: entity
@@ -67,7 +67,7 @@
   name: borscht recipe
   components:
   - type: STBlueprint
-    blueprint: recipeFoodSTBorscht
+    blueprint: Z14recipeFoodSTBorscht
 
 - type: entity
   parent: STCookingRecipe
@@ -77,7 +77,7 @@
   name: cabbage soup recipe
   components:
   - type: STBlueprint
-    blueprint: recipeFoodSTCabbageSoup
+    blueprint: Z14recipeFoodSTCabbageSoup
 
 - type: entity
   parent: STCookingRecipe
@@ -87,7 +87,7 @@
   name: meat stew recipe
   components:
   - type: STBlueprint
-    blueprint: recipeFoodSTMeatStew
+    blueprint: Z14recipeFoodSTMeatStew
 
 - type: entity
   parent: STCookingRecipe
@@ -97,7 +97,7 @@
   name: deruny recipe
   components:
   - type: STBlueprint
-    blueprint: recipeFoodSTDeruny
+    blueprint: Z14recipeFoodSTDeruny
 
 - type: entity
   parent: STCookingRecipe
@@ -107,7 +107,7 @@
   name: hrechanyky recipe
   components:
   - type: STBlueprint
-    blueprint: recipeFoodSTHrechanyky
+    blueprint: Z14recipeFoodSTHrechanyky
 
 - type: entity
   parent: STCookingRecipe
@@ -117,7 +117,7 @@
   name: syrnyky recipe
   components:
   - type: STBlueprint
-    blueprint: recipeFoodSTSyrnyky
+    blueprint: Z14recipeFoodSTSyrnyky
 
 - type: entity
   parent: STCookingRecipe
@@ -127,7 +127,7 @@
   name: fried fish recipe
   components:
   - type: STBlueprint
-    blueprint: recipeFoodSTFriedFish
+    blueprint: Z14recipeFoodSTFriedFish
 
 - type: entity
   parent: STCookingRecipe
@@ -137,7 +137,7 @@
   name: plain cake recipe
   components:
   - type: STBlueprint
-    blueprint: recipeFoodSTCakePlain
+    blueprint: Z14recipeFoodSTCakePlain
 
 - type: entity
   parent: STCookingRecipe
@@ -147,7 +147,7 @@
   name: meat kebab recipe
   components:
   - type: STBlueprint
-    blueprint: recipeFoodSTKebabMeat
+    blueprint: Z14recipeFoodSTKebabMeat
 
 - type: entity
   parent: STCookingRecipe
@@ -157,7 +157,7 @@
   name: veggie kebab recipe
   components:
   - type: STBlueprint
-    blueprint: recipeFoodSTKebabVeggie
+    blueprint: Z14recipeFoodSTKebabVeggie
 
 # HARD
 - type: entity
@@ -168,7 +168,7 @@
   name: berry-glazed cake recipe
   components:
   - type: STBlueprint
-    blueprint: recipeFoodSTCakeBerry
+    blueprint: Z14recipeFoodSTCakeBerry
 
 # STRANGE
 - type: entity
@@ -179,7 +179,7 @@
   name: snork leg soup recipe
   components:
   - type: STBlueprint
-    blueprint: recipeFoodSTSnorkSoup
+    blueprint: Z14recipeFoodSTSnorkSoup
 
 - type: entity
   parent: STCookingRecipe
@@ -189,7 +189,7 @@
   name: ice cream recipe
   components:
   - type: STBlueprint
-    blueprint: recipeFoodSTIceCream
+    blueprint: Z14recipeFoodSTIceCream
 
 - type: entity
   parent: STCookingRecipe
@@ -199,7 +199,7 @@
   name: braids recipe
   components:
   - type: STBlueprint
-    blueprint: recipeFoodSTBraid
+    blueprint: Z14recipeFoodSTBraid
 
 - type: entity
   parent: STCookingRecipe
@@ -209,7 +209,7 @@
   name: ambrosia recipe
   components:
   - type: STBlueprint
-    blueprint: recipeFoodSTAmbrosia
+    blueprint: Z14recipeFoodSTAmbrosia
 
 - type: entity
   parent: STCookingRecipe
@@ -219,7 +219,7 @@
   name: oracle gumbo recipe
   components:
   - type: STBlueprint
-    blueprint: recipeFoodSTOracleGumbo
+    blueprint: Z14recipeFoodSTOracleGumbo
 
 # jarred
 - type: entity
@@ -230,7 +230,7 @@
   name: pickled cherries recipe
   components:
   - type: STBlueprint
-    blueprint: recipeFoodSTPickledCherries
+    blueprint: Z14recipeFoodSTPickledCherries
 
 - type: entity
   parent: STCookingRecipe
@@ -240,7 +240,7 @@
   name: fermented eel recipe
   components:
   - type: STBlueprint
-    blueprint: recipeFoodSTFermentedEel
+    blueprint: Z14recipeFoodSTFermentedEel
 
 - type: entity
   parent: STCookingRecipe
@@ -250,7 +250,7 @@
   name: preserved eel recipe
   components:
   - type: STBlueprint
-    blueprint: recipeFoodSTPreservedEel
+    blueprint: Z14recipeFoodSTPreservedEel
 
 - type: entity
   parent: STCookingRecipe
@@ -260,7 +260,7 @@
   name: pickled eggs recipe
   components:
   - type: STBlueprint
-    blueprint: recipeFoodSTPickledEggs
+    blueprint: Z14recipeFoodSTPickledEggs
 
 - type: entity
   parent: STCookingRecipe
@@ -270,7 +270,7 @@
   name: fish patties recipe
   components:
   - type: STBlueprint
-    blueprint: recipeFoodSTPreservedFishSteak
+    blueprint: Z14recipeFoodSTPreservedFishSteak
 
 - type: entity
   parent: STCookingRecipe
@@ -280,7 +280,7 @@
   name: berry jam recipe
   components:
   - type: STBlueprint
-    blueprint: recipeFoodSTBerryJam
+    blueprint: Z14recipeFoodSTBerryJam
 
 - type: entity
   parent: STCookingRecipe
@@ -290,7 +290,7 @@
   name: beet kvass recipe
   components:
   - type: STBlueprint
-    blueprint: recipeFoodSTKvass
+    blueprint: Z14recipeFoodSTKvass
 
 - type: entity
   parent: STCookingRecipe
@@ -300,7 +300,7 @@
   name: liver tartare recipe
   components:
   - type: STBlueprint
-    blueprint: recipeFoodSTLiverTartare
+    blueprint: Z14recipeFoodSTLiverTartare
 
 - type: entity
   parent: STCookingRecipe
@@ -310,7 +310,7 @@
   name: rendered salo recipe
   components:
   - type: STBlueprint
-    blueprint: recipeFoodSTRenderedSalo
+    blueprint: Z14recipeFoodSTRenderedSalo
 
 - type: entity
   parent: STCookingRecipe
@@ -320,7 +320,7 @@
   name: pickled sausages recipe
   components:
   - type: STBlueprint
-    blueprint: recipeFoodSTPickledSausage
+    blueprint: Z14recipeFoodSTPickledSausage
 
 - type: entity
   parent: STCookingRecipe
@@ -330,4 +330,4 @@
   name: preserved fish fillets recipe
   components:
   - type: STBlueprint
-    blueprint: recipeFoodSTPreservedFishFillets
+    blueprint: Z14recipeFoodSTPreservedFishFillets

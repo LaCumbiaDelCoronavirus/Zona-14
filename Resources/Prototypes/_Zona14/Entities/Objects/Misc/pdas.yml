@@ -92,7 +92,7 @@
         startingItem: PowerCellSmall
       dogtag_slot:
         name: Dogtag
-#        startingItem: ClothingNeckDogtagStalker
+#        startingItem: Z14ClothingNeckDogtagStalker
         whitelist:
           tags:
             - Dogtag

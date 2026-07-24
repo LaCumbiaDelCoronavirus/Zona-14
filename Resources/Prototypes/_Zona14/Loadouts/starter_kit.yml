@@ -1,0 +1,110 @@
+# Zona-14 rookie starter kit.
+#
+# Replaces STSuitstorageGroup on the roster jobs, which forced every player to spawn
+# with a long gun — including a Saiga-545, a 5.45 rifle on tier-3 ammo. A rookie should
+# start with a sidearm or a cheap scattergun, not a service rifle.
+#
+# These point at the Z14 weapon prototypes, not the upstream ones. That matters: the
+# upstream Makarov fires at 6 rounds/sec while Z14WeaponPistolStalkerPM fires at 3.5,
+# so the old loadout handed out a pistol 71% faster than the balanced version.
+#
+# Every weapon ships with exactly one magazine or one box of shells — enough to survive
+# a first encounter, not enough to go hunting, so the rookie vendor still matters.
+#
+# Every loadout here carries a dummyEntity. These bundle two items (weapon + ammo), and
+# LoadoutSystem only auto-derives an icon/name when a loadout holds exactly ONE item -
+# otherwise the character editor draws an empty button captioned "unknown". Pointing
+# dummyEntity at the weapon itself gives the button the weapon's sprite, name and
+# description. Do not drop it when adding a starter option.
+#
+# All four use suitstorage, NOT pocket1: STTrinketsGroupOne (upstream, untouched) also
+# equips into pocket1 and runs first, so a pocket1 starter weapon loses the container
+# insert and is silently dropped on the floor at spawn.
+
+# ── Weapon: mandatory, pick exactly one ─────────────────────
+
+- type: loadout
+  id: Z14LoadoutStarterPM
+  dummyEntity: Z14WeaponPistolStalkerPM
+  equipment:
+    suitstorage: Z14WeaponPistolStalkerPM
+  storage:
+    back:
+    - Z14BasePMMag
+
+- type: loadout
+  id: Z14LoadoutStarterSawedOff
+  dummyEntity: Z14STWeaponShotgunSawedOf
+  equipment:
+    suitstorage: Z14STWeaponShotgunSawedOf
+  storage:
+    back:
+    - Z1462mmBuckshotBox
+
+- type: loadout
+  id: Z14LoadoutStarterTOZ106
+  dummyEntity: Z14STBaseWeaponShotgunTOZ106
+  equipment:
+    suitstorage: Z14STBaseWeaponShotgunTOZ106
+  storage:
+    back:
+    - Z14TOZ106Mag5
+
+# The rusty MP-40 is a deliberate rookie option: a 9x19 blowback SMG at 5 shots/sec
+# - 500 RPM under the RPM/100 rule - that sprays at minAngle/maxAngle 360, so it
+# trades accuracy for volume. One magazine, like every other starter weapon.
+- type: loadout
+  id: Z14LoadoutStarterMP40
+  dummyEntity: Z14STWeaponSMGMP40ruust
+  equipment:
+    suitstorage: Z14STWeaponSMGMP40ruust
+  storage:
+    back:
+    - Z14MP40Mag
+
+- type: loadoutGroup
+  id: Z14StarterWeaponGroup
+  name: loadout-group-z14-starter-weapon
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - Z14LoadoutStarterPM
+  - Z14LoadoutStarterSawedOff
+  - Z14LoadoutStarterTOZ106
+  - Z14LoadoutStarterMP40
+
+# ── Supplies: all three, no choice ──────────────────────────
+# minLimit == maxLimit == number of options, so every rookie gets the lot.
+# Bolts previously competed with the pistol inside STTrinketsGroupOne, so a player
+# had to choose between anomaly detection and a sidearm. Now they get both.
+
+- type: loadout
+  id: Z14LoadoutStarterMedkit
+  storage:
+    back:
+    - Z14MedkitAI2
+
+- type: loadout
+  id: Z14LoadoutStarterBandage
+  storage:
+    back:
+    - STGauze
+
+- type: loadout
+  id: Z14LoadoutStarterBolts
+  storage:
+    back:
+    - STBoltBagFilled
+
+- type: loadoutGroup
+  id: Z14StarterSuppliesGroup
+  name: loadout-group-z14-starter-supplies
+  minLimit: 3
+  maxLimit: 3
+  # No choice to make (minLimit == maxLimit == every option), so hide the tab rather
+  # than show three entries the player cannot untick - same as upstream's Survival group.
+  hidden: true
+  loadouts:
+  - Z14LoadoutStarterMedkit
+  - Z14LoadoutStarterBandage
+  - Z14LoadoutStarterBolts

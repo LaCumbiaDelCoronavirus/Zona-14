@@ -6,7 +6,7 @@
   parent: BaseSTCartridge754
   components:
     - type: CartridgeAmmo
-      proto: Bullet754FMJ
+      proto: Z14Bullet754FMJ
 
 - type: entity
   id: Z14STCartridge754PC
@@ -16,7 +16,7 @@
   parent: BaseSTCartridge754
   components:
   - type: CartridgeAmmo
-    proto: Bullet754PC
+    proto: Z14Bullet754PC
 
 - type: entity
   id: Z14STCartridge754HPBT
@@ -26,7 +26,7 @@
   parent: BaseSTCartridge754
   components:
   - type: CartridgeAmmo
-    proto: Bullet754HPBT
+    proto: Z14Bullet754HPBT
 
 - type: entity
   id: Z14STCartridge754BT
@@ -36,7 +36,7 @@
   parent: BaseSTCartridge754
   components:
   - type: CartridgeAmmo
-    proto: Bullet754BT
+    proto: Z14Bullet754BT
 
 - type: entity
   id: Z14STCartridge754SNB
@@ -46,4 +46,4 @@
   parent: BaseSTCartridge754
   components:
   - type: CartridgeAmmo
-    proto: Bullet754SAPB
+    proto: Z14Bullet754SAPB

@@ -29,7 +29,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: BasePPSHMag
+        startingItem: Z14BasePPSHMag
         insertSound: /Audio/_Stalker/Weapons/Guns/RifleGen/MagIn/rifle_magin.ogg
         ejectSound: /Audio/_Stalker/Weapons/Guns/RifleGen/MagOut/rifle_magout.ogg
         priority: 4

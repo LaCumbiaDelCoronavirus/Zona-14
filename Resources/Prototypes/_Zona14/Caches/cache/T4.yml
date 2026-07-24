@@ -1,0 +1,325 @@
+# Zona14: cloned from _Stalker/Caches/cache/T4.yml so the high tiers
+# have a Zona-14 loot table. Consumables and BLUEPRINTS use the Z14 twins;
+# raw materials stay on the upstream ids.
+# Zona14: the split is deliberate and load-bearing - crafting matches ingredients
+# by exact prototype id (SharedCraftingSystem.DictEquals), so:
+#   - materials: every loot table grants the upstream id, so recipes must ask for
+#     the upstream id or they silently never match.
+#   - blueprints: the Z14 recipe asks for the Z14 blueprint. That is what keeps it
+#     distinguishable from its _Stalker twin, which has identical ingredients and a
+#     different result - recipe selection is first-match-and-return over an
+#     arbitrarily ordered enumeration, so identical ingredient sets are a coin flip.
+#     If this table hands out the upstream blueprint, the Z14 recipe is uncraftable.
+# Zona14: translated Russian names/descriptions to English
+- type: entity
+  parent: STBaseCache
+  id: Z14STCacheStorageFillT4
+  categories: [ Zona14 ]
+  abstract: true
+  suffix: Z14, Cache, T4
+  name: crate
+  description: A rather old crate. It might be worth searching. Maybe something useful can be found inside.
+  components:
+    # Zona-14 tables carry far more entries than upstream's (blueprints for all
+    # T3+ crafting live here), and TestSufficientSpaceForFill demands the grid
+    # fit the WORST-CASE fill - every prob entry spawning at once.
+    - type: Storage
+      grid:
+        - 0,0,17,17
+    - type: InteractionOutline
+    - type: StorageFill
+      contents:
+        - id: STCraftMultilayerPCBT3
+          prob: 0.01
+        - id: STCraftMultilayerPCBT3
+          prob: 0.01
+        - id: STCraftQuartzCrystalT3
+          prob: 0.05
+        - id: STCraftQuartzCrystalT3
+          prob: 0.05
+        - id: STCraftSturdyHideT3
+          prob: 0.01
+        - id: STCraftSturdyHideT3
+          prob: 0.01
+        - id: STCraftGlueKitT3
+          prob: 0.01
+        - id: STCraftGlueKitT3
+          prob: 0.01
+        - id: STCraftHighPerformanceChipT4
+          prob: 0.1
+        - id: STCraftSheetAluminumT4
+          prob: 0.1
+        - id: STCraftPlasticFittingT4
+          prob: 0.3
+        - id: STCraftPolymerFabricT4
+          prob: 0.1
+        - id: STCraftIndustrialThreadStaplesKitT4
+          prob: 0.1
+        - id: Z14STBrutepack
+          prob: 0.35
+        - id: Z14STBrutepack
+          prob: 0.35
+        - id: Z14STBrutepack
+          prob: 0.35
+        - id: Z14STGauze
+          prob: 0.35
+        - id: Z14STGauze
+          prob: 0.35
+        - id: Z14STGauze
+          prob: 0.35
+        - id: Z14STOintment
+          prob: 0.35
+        - id: Z14STOintment
+          prob: 0.35
+        - id: Z14STOintment
+          prob: 0.35
+        - id: Tourniquet
+          prob: 0.12
+        - id: Z14antiradpill
+          prob: 0.12
+        - id: Z14MedkitAI2
+          prob: 0.2
+        - id: Z14MedkitMilitary
+          prob: 0.08
+        - id: Z14MedkitScience
+          prob: 0.02
+        - id: GeigerCounter
+          prob: 0.06
+        - id: Z14BaseRadio
+          prob: 0.06
+        - id: HandheldGPSBasic
+          prob: 0.06
+        - id: BoxArtcont
+          prob: 0.04
+        - id: STFlashlightSeclite
+          prob: 0.06
+        - id: Z14STHeadLight
+          prob: 0.06
+        - id: PowerCellHyper
+          prob: 0.12
+        - id: IngotGold1
+          prob: 0.08
+        - id: IngotGold1
+          prob: 0.08
+        - id: IngotSilver1
+          prob: 0.08
+        - id: IngotSilver1
+          prob: 0.08
+        - id: MaterialDiamond1
+          prob: 0.08
+        - id: MaterialDiamond1
+          prob: 0.08
+        - id: DrinkGoldenCup
+          prob: 0.08
+        - id: DrinkGoldenCup
+          prob: 0.08
+        - id: CraftMaterialGunpowder
+          prob: 0.08
+        - id: CraftLeatherbox
+          prob: 0.003
+        - id: ToolkitTearOne
+          prob: 0.002
+        - id: ToolkitTearTwo
+          prob: 0.001
+        - id: STCraftBattery
+          prob: 0.02
+        - id: STCraftCoil
+          prob: 0.02
+        - id: STCraftCapacitor
+          prob: 0.02
+        - id: STCraftTransformer
+          prob: 0.02
+        - id: Z14RGD5Grenade
+          prob: 0.1
+        - id: Z14RGD5Grenade
+          prob: 0.1
+        - id: Z14RGD5Grenade
+          prob: 0.1
+        # EN additions
+        - id: Z14STDrinkJarDirtyWater
+          prob: 0.08
+        - id: Z14STDrinkJarBlood
+          prob: 0.05
+        - id: Z14STDrinkJar
+          prob: 0.03
+        - id: Z14STDrinkJarMoonshine
+          prob: 0.03
+        - id: STDrinkJarSap
+          prob: 0.01
+        - id: STDrinkJarJuicePotato
+          prob: 0.01
+        - id: Z14STCookingFermentedEel
+          prob: 0.08
+        - id: Z14ClothingOuterArmorHazmatRfBlueprint
+          prob: 0.02
+        - id: Z14ClothingOuterArmorUzk5Blueprint
+          prob: 0.02
+        - id: Z14ClothingOuterArmorYegerBlueprint
+          prob: 0.02
+        - id: Z14STClothingOuterArmorBerillBerezaBlueprint
+          prob: 0.02
+        - id: Z14STClothingOuterArmorGonchiyBlueprint
+          prob: 0.02
+        - id: Z14STClothingOuterArmorKravaBlueprint
+          prob: 0.02
+        - id: Z14STBaseWeaponRifleAKMPSO1MBlueprint
+          prob: 0.02
+        - id: Z14STWeaponMachineGunRPDBlueprint
+          prob: 0.02
+        - id: Z14STWeaponRifleAH12Blueprint
+          prob: 0.02
+        - id: Z14STWeaponRifleAK103Blueprint
+          prob: 0.02
+        - id: Z14STWeaponRifleAK103KamoBlueprint
+          prob: 0.02
+        - id: Z14STWeaponRifleAK203Blueprint
+          prob: 0.02
+        - id: Z14STWeaponRifleAK308Blueprint
+          prob: 0.02
+        - id: Z14STWeaponRifleAKMBlueprint
+          prob: 0.02
+        - id: Z14STWeaponRifleAKMCBlueprint
+          prob: 0.02
+        - id: Z14STWeaponRifleARX160Blueprint
+          prob: 0.02
+        - id: Z14STWeaponRifleFALoBlueprint
+          prob: 0.02
+        - id: Z14STWeaponRifleM14Blueprint
+          prob: 0.02
+        - id: Z14STWeaponRifleOC14LiturgiaBlueprint
+          prob: 0.02
+        - id: Z14STWeaponRifleSCARHShortBlueprint
+          prob: 0.02
+        - id: Z14STWeaponRifleSCARSSRBlueprint
+          prob: 0.02
+        - id: Z14STWeaponRifleSIG739Blueprint
+          prob: 0.02
+        - id: Z14STWeaponRifleSVDSWoodBlueprint
+          prob: 0.02
+        - id: Z14STWeaponRifleSaiga739AutoBlueprint
+          prob: 0.02
+        - id: Z14STWeaponRifleStalkerAK104Blueprint
+          prob: 0.02
+        - id: Z14STWeaponRifleStalkerAK104_UpgradeTestBlueprint
+          prob: 0.02
+        - id: Z14STWeaponRifleStalkerAK15Blueprint
+          prob: 0.02
+        - id: Z14STWeaponRifleZastavaM92Blueprint
+          prob: 0.02
+        - id: Z14STWeaponSniperHK417Blueprint
+          prob: 0.02
+        - id: Z14STWeaponSniperSKSpersecutorBlueprint
+          prob: 0.02
+        - id: Z14STWeaponSniperSVDSBlueprint
+          prob: 0.02
+        - id: Z14STWeaponSniperSVDSCovenantBlueprint
+          prob: 0.02
+        - id: Z14STWeaponSniperSVDSGrassBlueprint
+          prob: 0.02
+        - id: Z14STWeaponSniperSVUBlueprint
+          prob: 0.02
+        - id: Z14STWeaponSniperSVUSeraphimBlueprint
+          prob: 0.02
+        - id: Z14STWeaponSniperSVUTopBlueprint
+          prob: 0.02
+        - id: Z14STWeaponSniperVeprBlueprint
+          prob: 0.02
+        - id: Z14STWeaponSniperVeprGrassBlueprint
+          prob: 0.02
+        - id: Z14STWeaponSniperVeprSeraphimBlueprint
+          prob: 0.02
+        - id: Z14STBaseWeaponShotgunVepr12De21Blueprint
+          prob: 0.02
+        - id: Z14STBaseWeaponShotgunVepr12MolotBlueprint
+          prob: 0.02
+        - id: Z14STShotgunKS23Blueprint
+          prob: 0.02
+        - id: Z14STWeaponShotgunProtectaBlueprint
+          prob: 0.02
+        - id: Z14STWeaponShotgunSPASBlueprint
+          prob: 0.02
+        - id: Z14STWeaponShotgunSaiga12AutoBlueprint
+          prob: 0.02
+        - id: Z14ClothingEarsPsyHelmT2Blueprint
+          prob: 0.02
+        - id: Z14ClothingHeadHelmetBulatMilitaryBlueprint
+          prob: 0.02
+        - id: Z14ClothingHeadHelmetRatnikBlueprint
+          prob: 0.02
+        - id: Z14ClothingHeadHelmetUlachBlueprint
+          prob: 0.02
+        - id: Z14ClothingOuterArmorAVSplateblackBlueprint
+          prob: 0.02
+        - id: Z14ClothingOuterArmorSSP24SapfireBlueprint
+          prob: 0.02
+        - id: Z14ClothingOuterArmorSSP24TopazBlueprint
+          prob: 0.02
+        - id: Z14ClothingOuterArmorStalkerCombatBlueprint
+          prob: 0.02
+        - id: Z14ST1255BPCinkBlueprint
+          prob: 0.02
+        - id: Z14ST545BPBoxCinkBlueprint
+          prob: 0.02
+        - id: Z14ST556M856BoxCinkBlueprint
+          prob: 0.02
+        - id: Z14ST739PCBoxCinkBlueprint
+          prob: 0.02
+        - id: Z14ST751M61BoxCinkBlueprint
+          prob: 0.02
+        - id: Z14ST754PCBoxCinkBlueprint
+          prob: 0.02
+        - id: Z14ST939BPBoxCinkBlueprint
+          prob: 0.02
+        - id: Z14STClothingCapeArmorChainmailSevaBlueprint
+          prob: 0.02
+        - id: Z14STClothingOuterArmor6B13Blueprint
+          prob: 0.02
+        - id: Z14STClothingOuterArmorBerill5MBlueprint
+          prob: 0.02
+        - id: Z14STClothingOuterArmorHeavyBlueprint
+          prob: 0.02
+        - id: Z14STClothingOuterArmorIOTVGreenBlueprint
+          prob: 0.02
+        - id: Z14STClothingOuterArmorSSP99Blueprint
+          prob: 0.02
+        - id: Z14STClothingOuterArmorYegerFreedomBlueprint
+          prob: 0.02
+        - id: Z14TrashDetectorTier5Blueprint
+          prob: 0.02
+
+- type: entity
+  parent: [ Z14STCacheStorageFillT4, STBaseCache]
+  id: Z14STCache1T4
+  categories: [ HideSpawnMenu , Zona14 ]
+  suffix: Z14
+  components:
+    - type: Sprite
+      sprite: _Stalker/Objects/Other/Boxes/black_crate.rsi
+      state: icon
+    - type: SpawnOnDespawn
+      prototype: Z14STCache1T4
+
+- type: entity
+  parent: [ Z14STCacheStorageFillT4, STBaseCache]
+  id: Z14STCache2T4
+  categories: [ HideSpawnMenu , Zona14 ]
+  suffix: Z14
+  components:
+    - type: Sprite
+      sprite: _Stalker/Objects/Other/Boxes/blue_crate.rsi
+      state: icon
+    - type: SpawnOnDespawn
+      prototype: Z14STCache2T4
+
+- type: entity
+  parent: [ Z14STCacheStorageFillT4, STBaseCache]
+  id: Z14STCache3T4
+  categories: [ HideSpawnMenu , Zona14 ]
+  suffix: Z14
+  components:
+    - type: Sprite
+      sprite: _Stalker/Objects/Other/Boxes/green_crate.rsi
+      state: icon
+    - type: SpawnOnDespawn
+      prototype: Z14STCache3T4
+

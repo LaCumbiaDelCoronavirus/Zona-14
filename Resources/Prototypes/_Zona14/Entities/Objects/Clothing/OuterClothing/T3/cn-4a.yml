@@ -1,5 +1,5 @@
 - type: entity
-  parent: Z14ArmorBaseT1PvP
+  parent: Z14ArmorBaseT1PvE
   id: Z14STClothingOuterArmorCN-4a
   categories: [ Zona14 ]
   name: CN-4A Seva Suit
@@ -15,3 +15,6 @@
     slot: head
 
   - type: Craftable
+  - type: Armor
+    armorClass: 0
+

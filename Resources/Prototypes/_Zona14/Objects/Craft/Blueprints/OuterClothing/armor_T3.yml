@@ -6,7 +6,7 @@
   name: PSZ-9d Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeClothingOuterArmorPSZ9D
+      blueprint: Z14newrecipeClothingOuterArmorPSZ9D
 
 - type: entity
   parent: STBaseBlueprint
@@ -16,7 +16,7 @@
   name: Native Armorsuit Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeClothingOuterArmorAborigineStalker
+      blueprint: Z14newrecipeClothingOuterArmorAborigineStalker
 
 - type: entity
   parent: STBaseBlueprint
@@ -26,7 +26,7 @@
   name: PSZ-7 Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeSTClothingOuterArmorLightPlateVestBasePSZ7
+      blueprint: Z14newrecipeSTClothingOuterArmorLightPlateVestBasePSZ7
 
 - type: entity
   parent: STBaseBlueprint
@@ -36,7 +36,7 @@
   name: SEVA suit recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeClothingOuterArmorSevaStalker
+      blueprint: Z14newrecipeClothingOuterArmorSevaStalker
 
 - type: entity
   parent: STBaseBlueprint
@@ -46,7 +46,7 @@
   name: “Steppe‑4” body armor recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeSTClothingOuterArmorLightPlateVestBaseANAgray
+      blueprint: Z14newrecipeSTClothingOuterArmorLightPlateVestBaseANAgray
 
 - type: entity
   parent: STBaseBlueprint
@@ -56,7 +56,7 @@
   name: “Badger” body armor recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeClothingOuterArmorStalker
+      blueprint: Z14newrecipeClothingOuterArmorStalker
 
 - type: entity
   parent: STBaseBlueprint
@@ -66,4 +66,4 @@
   name: “Guardian” armored suit recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeSTClothingOuterArmorSeraphimStrash
+      blueprint: Z14newrecipeSTClothingOuterArmorSeraphimStrash

@@ -1846,14 +1846,14 @@ entities:
     missingComponents:
     - Item
     - Pullable
-- proto: ClothingMaskGasDolg1
+- proto: Z14ClothingMaskGasDolg1
   entities:
   - uid: 7667
     components:
     - type: Transform
       pos: -11.756557,19.650923
       parent: 1
-- proto: ClothingMaskXoma
+- proto: Z14ClothingMaskXoma
   entities:
   - uid: 1159
     components:
@@ -1862,7 +1862,7 @@ entities:
       parent: 1
     missingComponents:
     - Item
-- proto: ClothingOuterArmorZaryaStalker
+- proto: Z14ClothingOuterArmorZaryaStalker
   entities:
   - uid: 1158
     components:
@@ -6214,7 +6214,7 @@ entities:
       rot: 3.141592653589793 rad
       pos: -4.5,7.5
       parent: 1
-- proto: STClothingHeadHelmetFASTNeutral
+- proto: Z14STClothingHeadHelmetFASTNeutral
   entities:
   - uid: 1581
     components:
@@ -6224,7 +6224,7 @@ entities:
     missingComponents:
     - Item
     - Pullable
-- proto: STClothingOuterArmorLepestokNeutral
+- proto: Z14STClothingOuterArmorLepestokNeutral
   entities:
   - uid: 1582
     components:
@@ -6234,7 +6234,7 @@ entities:
     missingComponents:
     - Item
     - Pullable
-- proto: STClothingOuterArmorSevaNeutral
+- proto: Z14STClothingOuterArmorSevaNeutral
   entities:
   - uid: 1580
     components:

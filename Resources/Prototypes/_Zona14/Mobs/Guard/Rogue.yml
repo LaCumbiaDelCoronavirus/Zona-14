@@ -34,7 +34,7 @@
         Dead:
           Base: dead
     - type: Damageable
-      damageModifierSet: STRogueT3DamageModifierSet
+      damageModifierSet: Z14STRogueT3DamageModifierSet
     - type: Destructible
       thresholds:
         - trigger:
@@ -86,7 +86,7 @@
       rechargeCooldown: 1.5
       rechargeSound: null
     - type: BasicEntityAmmoProvider
-      proto: Bullet545PC
+      proto: Z14Bullet545PC
       capacity: 30
       count: 20
     - type: Gun
@@ -161,7 +161,7 @@
       rechargeCooldown: 1.8
       rechargeSound: null
     - type: BasicEntityAmmoProvider
-      proto: Bullet918PGJ
+      proto: Z14Bullet918PGJ
       capacity: 7
       count: 4
     - type: Gun
@@ -176,7 +176,7 @@
       availableModes:
         - SemiAuto
     - type: Damageable
-      damageModifierSet: STRogueT0DamageModifierSet
+      damageModifierSet: Z14STRogueT0DamageModifierSet
     
 - type: damageModifierSet
   id: Z14STRogueT0DamageModifierSet
@@ -207,7 +207,7 @@
       rechargeCooldown: 0.8
       rechargeSound: null
     - type: BasicEntityAmmoProvider
-      proto: Bullet919PBM
+      proto: Z14Bullet919PBM
       capacity: 35
       count: 31
     - type: Gun
@@ -222,7 +222,7 @@
       availableModes:
         - FullAuto
     - type: Damageable
-      damageModifierSet: STRogueT3DamageModifierSet
+      damageModifierSet: Z14STRogueT3DamageModifierSet
     - type: EmitSoundOnTrigger
       sound:
        collection: FreedomAttack
@@ -244,7 +244,7 @@
       rechargeCooldown: 1.2
       rechargeSound: null
     - type: BasicEntityAmmoProvider
-      proto: Bullet545PC
+      proto: Z14Bullet545PC
       capacity: 30
       count: 23
     - type: Gun
@@ -259,7 +259,7 @@
       availableModes:
         - FullAuto
     - type: Damageable
-      damageModifierSet: STRogueT3DamageModifierSet
+      damageModifierSet: Z14STRogueT3DamageModifierSet
     - type: EmitSoundOnTrigger
       sound:
        collection: DutyAttack
@@ -281,7 +281,7 @@
       rechargeCooldown: 1
       rechargeSound: null
     - type: BasicEntityAmmoProvider
-      proto: Bullet556M856
+      proto: Z14Bullet556M856
       capacity: 30
       count: 28
     - type: Gun
@@ -296,7 +296,7 @@
       availableModes:
         - FullAuto
     - type: Damageable
-      damageModifierSet: STRogueT3DamageModifierSet
+      damageModifierSet: Z14STRogueT3DamageModifierSet
     - type: EmitSoundOnTrigger
       sound:
        collection: MercAttack
@@ -330,7 +330,7 @@
       rechargeCooldown: 1.2
       rechargeSound: null
     - type: BasicEntityAmmoProvider
-      proto: Bullet545BP
+      proto: Z14Bullet545BP
       capacity: 30
       count: 28
     - type: Gun
@@ -345,7 +345,7 @@
       availableModes:
         - FullAuto
     - type: Damageable
-      damageModifierSet: STRogueT3DamageModifierSet
+      damageModifierSet: Z14STRogueT3DamageModifierSet
     - type: EmitSoundOnTrigger
       sound:
        collection: MilitaryAttack

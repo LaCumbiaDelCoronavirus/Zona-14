@@ -31,7 +31,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Vz61Mag
+        startingItem: Z14Vz61Mag
         insertSound: /Audio/_Stalker/Weapons/Guns/RifleGen/MagIn/rifle_magin.ogg
         ejectSound: /Audio/_Stalker/Weapons/Guns/RifleGen/MagOut/rifle_magout.ogg
         priority: 4
@@ -52,7 +52,7 @@
           - STWeaponModuleSMGGrip
       gun_chamber:
         name: Chamber
-        startingItem: STCartridge918PGJ
+        startingItem: Z14STCartridge918PGJ
         priority: 1
         whitelist:
           tags:

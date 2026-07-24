@@ -4,13 +4,13 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: Ammo Box (7.62x54) FMJ
-  description: For Mosin rifle, 10 rounds per box. Penetrates class 3 armor.
+  description: For Mosin rifle, 20 rounds per box. Penetrates class 3 armor.
   components:
   - type: MagazineVisuals
     magState: 76254ammo
   - type: BallisticAmmoProvider
-    capacity: 10
-    proto: STCartridge754FMJ
+    capacity: 20
+    proto: Z14STCartridge754FMJ
     whitelist:
       tags:
         - STCartridge754
@@ -27,13 +27,13 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: Ammo Box (7.62x54) PS
-  description: For Mosin rifle, 10 rounds per box. Penetrates class 4 armor.
+  description: For Mosin rifle, 20 rounds per box. Penetrates class 4 armor.
   components:
     - type: MagazineVisuals
       magState: 76254ammo
     - type: BallisticAmmoProvider
-      capacity: 10
-      proto: STCartridge754PC
+      capacity: 20
+      proto: Z14STCartridge754PC
       whitelist:
         tags:
           - STCartridge754
@@ -51,10 +51,10 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: Ammo Box (7.62x54) HP BT
-  description: For Mosin rifle, 10 rounds per box. Useless against armor.
+  description: For Mosin rifle, 20 rounds per box. Useless against armor.
   components:
     - type: BallisticAmmoProvider
-      proto: STCartridge754HPBT
+      proto: Z14STCartridge754HPBT
     - type: Sprite
       layers:
         - state: 76254
@@ -69,10 +69,10 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: Ammo Box (7.62x54) BT
-  description: For Mosin rifle, 10 rounds per box. Penetrates class 5 armor.
+  description: For Mosin rifle, 20 rounds per box. Penetrates class 5 armor.
   components:
     - type: BallisticAmmoProvider
-      proto: STCartridge754BT
+      proto: Z14STCartridge754BT
     - type: Sprite
       layers:
         - state: 76254
@@ -87,10 +87,10 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: Ammo Box (7.62x54) SNB
-  description: For Mosin rifle, 10 rounds per box. Penetrates class 6 armor.
+  description: For Mosin rifle, 20 rounds per box. Penetrates class 6 armor.
   components:
     - type: BallisticAmmoProvider
-      proto: STCartridge754SNB
+      proto: Z14STCartridge754SNB
     - type: Sprite
       layers:
         - state: 76254
@@ -105,11 +105,11 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: Large Ammo Box (7.62x54) FMJ
-  description: For Mosin rifle, 100 rounds per crate. Penetrates class 3 armor.
+  description: For Mosin rifle, 440 rounds per crate. Penetrates class 3 armor.
   components:
   - type: BallisticAmmoProvider
-    capacity: 100
-    proto: STCartridge754FMJ
+    capacity: 440
+    proto: Z14STCartridge754FMJ
     whitelist:
       tags:
         - STCartridge754
@@ -126,11 +126,11 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: Large Ammo Box (7.62x54) PS
-  description: For Mosin rifle, 100 rounds per crate. Penetrates class 4 armor.
+  description: For Mosin rifle, 440 rounds per crate. Penetrates class 4 armor.
   components:
     - type: BallisticAmmoProvider
-      capacity: 100
-      proto: STCartridge754PC
+      capacity: 440
+      proto: Z14STCartridge754PC
       whitelist:
         tags:
           - STCartridge754
@@ -147,10 +147,10 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: Large Ammo Box (7.62x54) HP BT
-  description: For Mosin rifle, 100 rounds per crate. Useless against armor.
+  description: For Mosin rifle, 440 rounds per crate. Useless against armor.
   components:
     - type: BallisticAmmoProvider
-      proto: STCartridge754HPBT
+      proto: Z14STCartridge754HPBT
     - type: Sprite
       layers:
         - state: cink
@@ -164,10 +164,10 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: Large Ammo Box (7.62x54) BT
-  description: For Mosin rifle, 100 rounds per crate. Penetrates class 5 armor.
+  description: For Mosin rifle, 440 rounds per crate. Penetrates class 5 armor.
   components:
     - type: BallisticAmmoProvider
-      proto: STCartridge754BT
+      proto: Z14STCartridge754BT
     - type: Sprite
       layers:
         - state: cink
@@ -181,10 +181,10 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: Large Ammo Box (7.62x54) SNB
-  description: For Mosin rifle, 100 rounds per crate. Penetrates class 6 armor.
+  description: For Mosin rifle, 440 rounds per crate. Penetrates class 6 armor.
   components:
     - type: BallisticAmmoProvider
-      proto: STCartridge754SNB
+      proto: Z14STCartridge754SNB
     - type: Sprite
       layers:
         - state: cink

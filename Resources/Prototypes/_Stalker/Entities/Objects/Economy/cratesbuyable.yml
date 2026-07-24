@@ -20,8 +20,8 @@
       state: icon
     - type: SpawnItemsOnUse
       items:
-        - id: ClothingOuterJacketStalker
-        - id: ClothingMaskGasMarlya
+        - id: Z14ClothingOuterJacketStalker # Zona14: ClothingOuterJacketStalker<Z14ClothingOuterJacketStalker
+        - id: Z14ClothingMaskGasMarlya # Zona14: ClothingMaskGasMarlya<Z14ClothingMaskGasMarlya
         - id: ClothingBackpackTownBlackStalker
         - id: ClothingBeltBandolierStalker
       sound:
@@ -46,8 +46,8 @@
       state: icon
     - type: SpawnItemsOnUse
       items:
-        - id: ClothingOuterJacketStalkerWhite
-        - id: ClothingMaskGasMarlya
+        - id: Z14ClothingOuterJacketStalkerWhite # Zona14: ClothingOuterJacketStalkerWhite<Z14ClothingOuterJacketStalkerWhite
+        - id: Z14ClothingMaskGasMarlya # Zona14: ClothingMaskGasMarlya<Z14ClothingMaskGasMarlya
         - id: ClothingBackpackTownBlackStalker
         - id: ClothingBeltBandolierStalker
       sound:
@@ -73,7 +73,7 @@
     - type: SpawnItemsOnUse
       items:
         - id: ClothingOuterJacketBandit
-        - id: ClothingMaskGasMarlya
+        - id: Z14ClothingMaskGasMarlya # Zona14: ClothingMaskGasMarlya<Z14ClothingMaskGasMarlya
         - id: ClothingBackpackTownWhiteStalker
         - id: ClothingBeltBandolierStalker
       sound:
@@ -100,8 +100,8 @@
       state: icon
     - type: SpawnItemsOnUse
       items:
-        - id: ClothingOuterArmourJacketStalker
-        - id: ClothingMaskGasMarlya
+        - id: Z14ClothingOuterArmourJacketStalker # Zona14: ClothingOuterArmourJacketStalker<Z14ClothingOuterArmourJacketStalker
+        - id: Z14ClothingMaskGasMarlya # Zona14: ClothingMaskGasMarlya<Z14ClothingMaskGasMarlya
         - id: ClothingBackpackTownBlackStalker
         - id: ClothingBeltBandolierStalker
       sound:
@@ -126,8 +126,8 @@
       state: icon
     - type: SpawnItemsOnUse
       items:
-        - id: ClothingOuterArmourJacketStalkerWhite
-        - id: ClothingMaskGasMarlya
+        - id: Z14ClothingOuterArmourJacketStalkerWhite # Zona14: ClothingOuterArmourJacketStalkerWhite<Z14ClothingOuterArmourJacketStalkerWhite
+        - id: Z14ClothingMaskGasMarlya # Zona14: ClothingMaskGasMarlya<Z14ClothingMaskGasMarlya
         - id: ClothingBackpackTownBlackStalker
         - id: ClothingBeltBandolierStalker
       sound:
@@ -152,8 +152,8 @@
       state: icon
     - type: SpawnItemsOnUse
       items:
-        - id: ClothingOuterArmourJacketBandit
-        - id: ClothingMaskGasMarlya
+        - id: Z14ClothingOuterArmourJacketBandit # Zona14: ClothingOuterArmourJacketBandit<Z14ClothingOuterArmourJacketBandit
+        - id: Z14ClothingMaskGasMarlya # Zona14: ClothingMaskGasMarlya<Z14ClothingMaskGasMarlya
         - id: ClothingBackpackTownWhiteStalker
         - id: ClothingBeltBandolierStalker
       sound:
@@ -180,8 +180,8 @@
       state: icon
     - type: SpawnItemsOnUse
       items:
-        - id: ClothingOuterArmorZaryaStalker
-        - id: ClothingMaskGasZarya
+        - id: Z14ClothingOuterArmorZaryaStalker # Zona14: ClothingOuterArmorZaryaStalker<Z14ClothingOuterArmorZaryaStalker
+        - id: Z14ClothingMaskGasZarya # Zona14: ClothingMaskGasZarya<Z14ClothingMaskGasZarya
         - id: ClothingBackpackStalkerZaryaGreen
         - id: ClothingBeltWebbingHolsterStalkerZarya
       sound:
@@ -208,8 +208,8 @@
       state: icon
     - type: SpawnItemsOnUse
       items:
-        - id: ClothingOuterArmorMerc
-        - id: ClothingMaskGasMercStalker
+        - id: Z14ClothingOuterArmorMerc # Zona14: ClothingOuterArmorMerc<Z14ClothingOuterArmorMerc
+        - id: Z14ClothingMaskGasMercStalker # Zona14: ClothingMaskGasMercStalker<Z14ClothingMaskGasMercStalker
         - id: ClothingBeltWebbingHolsterMerc
       sound:
         path: /Audio/Effects/unwrap.ogg
@@ -231,8 +231,8 @@
       state: icon
     - type: SpawnItemsOnUse
       items:
-        - id: ClothingOuterArmorMerc2
-        - id: ClothingMaskGasMarlya
+        - id: Z14ClothingOuterArmorMerc2 # Zona14: ClothingOuterArmorMerc2<Z14ClothingOuterArmorMerc2
+        - id: Z14ClothingMaskGasMarlya # Zona14: ClothingMaskGasMarlya<Z14ClothingMaskGasMarlya
         - id: ClothingBeltWebbingHolsterMerc2
       sound:
         path: /Audio/Effects/unwrap.ogg
@@ -257,7 +257,7 @@
     - type: SpawnItemsOnUse
       items:
         - id: ClothingOuterArmorBandits
-        - id: ClothingMaskGasMarlya
+        - id: Z14ClothingMaskGasMarlya # Zona14: ClothingMaskGasMarlya<Z14ClothingMaskGasMarlya
         - id: ClothingBeltWebbingHolsterMercBandit
       sound:
         path: /Audio/Effects/unwrap.ogg
@@ -310,8 +310,8 @@
       state: icon
     - type: SpawnItemsOnUse
       items:
-        - id: ClothingOuterArmorDolgPS5M
-        - id: ClothingMaskGasDolg1
+        - id: Z14ClothingOuterArmorDolgPS5M # Zona14: ClothingOuterArmorDolgPS5M<Z14ClothingOuterArmorDolgPS5M
+        - id: Z14ClothingMaskGasDolg1 # Zona14: ClothingMaskGasDolg1<Z14ClothingMaskGasDolg1
         - id: ClothingBeltWebbingHolsterDolgPS5M
         - id: ClothingBackpackStalkerZaryaBlack
       sound:
@@ -338,8 +338,8 @@
       state: icon
     - type: SpawnItemsOnUse
       items:
-        - id: ClothingOuterArmorFreedomDefender
-        - id: ClothingMaskGasFreedom
+        - id: Z14ClothingOuterArmorFreedomDefender # Zona14: ClothingOuterArmorFreedomDefender<Z14ClothingOuterArmorFreedomDefender
+        - id: Z14ClothingMaskGasFreedom # Zona14: ClothingMaskGasFreedom<Z14ClothingMaskGasFreedom
         - id: ClothingBeltWebbingHolsterFreedomDefender
         - id: ClothingBackpackStalkerZaryaGreen
       sound:
@@ -364,8 +364,8 @@
       state: icon
     - type: SpawnItemsOnUse
       items:
-        - id: ClothingOuterArmorFreedomWind
-        - id: ClothingMaskGasZaryaMono
+        - id: Z14ClothingOuterArmorFreedomWind # Zona14: ClothingOuterArmorFreedomWind<Z14ClothingOuterArmorFreedomWind
+        - id: Z14ClothingMaskGasZaryaMono # Zona14: ClothingMaskGasZaryaMono<Z14ClothingMaskGasZaryaMono
         - id: ClothingBeltWebbingDoubleFreedomVeterSmall
         - id: ClothingBackpackStalkerZaryaGreen
       sound:
@@ -459,7 +459,7 @@
     - type: SpawnItemsOnUse
       items:
         - id: ClothingOuterArmorMonolith
-        - id: ClothingMaskGasZarya
+        - id: Z14ClothingMaskGasZarya # Zona14: ClothingMaskGasZarya<Z14ClothingMaskGasZarya
         - id: ClothingBeltWebbingHolsterMonolith
         - id: ClothingBackpackStalkerZaryaGreen
         - id: PowerCellHyper

@@ -599,20 +599,25 @@
   equipment:
     pocket1: STBoltBagFilled
 
+# Zona14: these three hand out the un-rebalanced upstream pistols, which fire far
+# faster than their Z14 twins (upstream PM 6 rounds/sec vs Z14 3.5). They are offered
+# on the same jobs as the Z14 starter kit, so leaving them upstream let a rookie pick
+# the faster gun and skip the rebalance entirely. Loadout ids are unchanged.
 - type: loadout
   id: WeaponPistolStalkerTT
   equipment:
-    pocket1: WeaponPistolStalkerTT
+    pocket1: Z14WeaponPistolStalkerTT  # Zona14: WeaponPistolStalkerTT<Z14WeaponPistolStalkerTT
 
 - type: loadout
   id: WeaponPistolStalkerPM
   equipment:
-    pocket1: WeaponPistolStalkerPM
+    pocket1: Z14WeaponPistolStalkerPM  # Zona14: WeaponPistolStalkerPM<Z14WeaponPistolStalkerPM
 
 - type: loadout
   id: WeaponPistolStalkerGlock
   equipment:
-    pocket1: WeaponPistolStalkerGlock
+    pocket1: Z14WeaponPistolStalkerGlock  # Zona14: WeaponPistolStalkerGlock<Z14WeaponPistolStalkerGlock
+# End Zona14
     # Zona14: Pocket 2
 - type: loadout
   id: STCombatKnife

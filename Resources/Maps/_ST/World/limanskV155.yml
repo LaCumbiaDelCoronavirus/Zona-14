@@ -135532,7 +135532,7 @@ entities:
     - DamageExaminable
     - Currency
     - STWeight
-- proto: ClothingHeadHatBeaniehat
+- proto: Z14ClothingHeadHatBeaniehat
   entities:
   - uid: 8920
     components:
@@ -228696,7 +228696,7 @@ entities:
     - RepositoryItem
     - Item
     - Pullable
-- proto: STWeaponSniperSVDS
+- proto: Z14STWeaponSniperSVDS
   entities:
   - uid: 14699
     components:

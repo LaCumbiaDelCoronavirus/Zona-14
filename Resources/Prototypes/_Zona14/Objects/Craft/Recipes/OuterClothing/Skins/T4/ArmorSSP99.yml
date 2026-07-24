@@ -1,19 +1,19 @@
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingOuterArmorSSP99Zavet
   results:
-    - ClothingOuterArmorSSP99Zavet
+    - Z14ClothingOuterArmorSSP99Zavet
   steps:
     firstIngredient: STSkinsKitCovenant
-    secondIngredient: ClothingOuterArmorSSP99
+    secondIngredient: Z14ClothingOuterArmorSSP99
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinSTClothingOuterArmorSSP99Project
   results:
-  - STClothingOuterArmorSSP99Project
+  - Z14STClothingOuterArmorSSP99Project
   steps:
     firstIngredient: STSkinsKitProject
-    secondIngredient: ClothingOuterArmorSSP99
+    secondIngredient: Z14ClothingOuterArmorSSP99
     keepFirst: true
     time: 5

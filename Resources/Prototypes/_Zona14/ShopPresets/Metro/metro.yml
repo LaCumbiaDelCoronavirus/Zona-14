@@ -32,15 +32,11 @@
       priority: 1
       items:
         Z14STCombatKnife: 10
-        Z14STWeaponRifleAKS74Green: 90
         Z14WeaponPistolStalkerPM: 20
         Z14WeaponPistolStalkerTT: 25
         STWeaponShotgunTOZ34: 30
         Z14STWeaponShotgunSawedOf: 25
-        Z14STWeaponRifleAKS74USERAPH: 45
         arbaletserih: 35
-        Z14STWeaponRifleSVDSWood: 45
-        Z14STWeaponRifleSaiga739: 100
     - name: shop-category-magazines
       priority: 2
       items:
@@ -56,19 +52,18 @@
         8mmBuckshotBox: 8
         Arrowboltpiercing: 6
         Arrowboltrust: 5
-        Z14545FMJBox: 10
-        Z14725PTBox: 10
-        Z14918PSTBox: 10
-        Z14754FMJBox: 25
-        Z14739FMJBox: 25
+        Z14545FMJBox: 1200
+        Z14725PTBox: 450
+        Z14918PSTBox: 450
+        Z14754FMJBox: 800
+        Z14739FMJBox: 2400
     - name: shop-category-armor
       priority: 4
       items:
-        Z14ClothingOuterArmor6B2: 20
+        Z14ClothingOuterArmor6B2: 1250
         ClothingOuterSuitRad: 30
-        Z14STClothingOuterKirasa: 25
-        Z14STClothingOuterArmorLightPlateVestBaseStalker: 40
-        Z14ClothingOuterArmorSSP99: 40
+        Z14STClothingOuterKirasa: 500
+        Z14STClothingOuterArmorLightPlateVestBaseStalker: 1250
     - name: shop-category-storage-and-containers
       priority: 5
       items:
@@ -127,4 +122,3 @@
         Z14ClothingTorsoTankMilitary: 5
         Z14ClothingTorsoTurtlenecksGorkaRus: 5
         Z14STClothingShoesBootsCombat: 5
-

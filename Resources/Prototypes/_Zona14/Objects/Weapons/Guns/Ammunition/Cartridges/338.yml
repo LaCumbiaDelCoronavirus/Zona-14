@@ -6,7 +6,7 @@
   parent: BaseSTCartridge338
   components:
     - type: CartridgeAmmo
-      proto: Bullet338FMJ
+      proto: Z14Bullet338FMJ
 
 - type: entity
   id: Z14STCartridge338Partition
@@ -16,7 +16,7 @@
   parent: BaseSTCartridge338
   components:
   - type: CartridgeAmmo
-    proto: Bullet338Partition
+    proto: Z14Bullet338Partition
 
 - type: entity
   id: Z14STCartridge338FMJBT
@@ -26,4 +26,4 @@
   parent: BaseSTCartridge338
   components:
   - type: CartridgeAmmo
-    proto: Bullet338FMJBT
+    proto: Z14Bullet338FMJBT

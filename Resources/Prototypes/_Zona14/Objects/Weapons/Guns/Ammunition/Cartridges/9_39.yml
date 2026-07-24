@@ -6,7 +6,7 @@
   name: 9x39 PSO Round
   components:
   - type: CartridgeAmmo
-    proto: STBullet9x39PSO
+    proto: Z14STBullet9x39PSO
 
 - type: entity
   parent: STCartridge9x39
@@ -16,7 +16,7 @@
   name: 9x39 SP-6UCh Round
   components:
   - type: CartridgeAmmo
-    proto: STBullet9x39SP6Uch
+    proto: Z14STBullet9x39SP6Uch
 
 - type: entity
   parent: STCartridge9x39
@@ -26,7 +26,7 @@
   name: 9x39 SP-5 Round
   components:
   - type: CartridgeAmmo
-    proto: STBullet9x39SP5
+    proto: Z14STBullet9x39SP5
 
 - type: entity
   parent: STCartridge9x39
@@ -36,7 +36,7 @@
   name: 9x39 PAB-9 Round
   components:
   - type: CartridgeAmmo
-    proto: STBullet9x39PAB9
+    proto: Z14STBullet9x39PAB9
 
 - type: entity
   parent: STCartridge9x39
@@ -46,7 +46,7 @@
   name: 9x39 SP-6 Round
   components:
   - type: CartridgeAmmo
-    proto: STBullet9x39SP6
+    proto: Z14STBullet9x39SP6
 
 - type: entity
   parent: STCartridge9x39
@@ -56,4 +56,4 @@
   name: 9x39 AP Round
   components:
   - type: CartridgeAmmo
-    proto: STBullet9x39AA
+    proto: Z14STBullet9x39AA

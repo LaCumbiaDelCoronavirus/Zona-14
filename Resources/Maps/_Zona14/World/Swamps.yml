@@ -102085,7 +102085,7 @@ entities:
       inSlot: back
     - type: Physics
       canCollide: False
-- proto: ClothingHeadAssaultHelmetFreedom
+- proto: Z14ClothingHeadAssaultHelmetFreedom
   entities:
   - uid: 36649
     components:
@@ -102098,7 +102098,7 @@ entities:
       inRightPlace: True
     - type: Physics
       canCollide: False
-- proto: ClothingHeadBeretMilitary
+- proto: Z14ClothingHeadBeretMilitary
   entities:
   - uid: 24193
     components:
@@ -102130,7 +102130,7 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -150.4851,-185.65149
       parent: 1
-- proto: ClothingMaskGasZaryaMono
+- proto: Z14ClothingMaskGasZaryaMono
   entities:
   - uid: 13935
     components:
@@ -102169,7 +102169,7 @@ entities:
     - DamageExaminable
     - Currency
     - STWeight
-- proto: ClothingMaskRCBZ2
+- proto: Z14ClothingMaskRCBZ2
   entities:
   - uid: 24196
     components:
@@ -102201,7 +102201,7 @@ entities:
       inSlot: neck
     - type: Physics
       canCollide: False
-- proto: ClothingOuterArmorCN3a
+- proto: Z14ClothingOuterArmorCN3a
   entities:
   - uid: 31752
     components:
@@ -102238,7 +102238,7 @@ entities:
     - DamageExaminable
     - Currency
     - AllowSuitStorage
-- proto: ClothingOuterArmorExoskeletMonolith
+- proto: Z14ClothingOuterArmorExoskeletMonolith
   entities:
   - uid: 32893
     components:
@@ -102280,7 +102280,7 @@ entities:
     - DamageExaminable
     - Currency
     - AllowSuitStorage
-- proto: ClothingOuterArmorSevaCN
+- proto: Z14ClothingOuterArmorSevaCN
   entities:
   - uid: 31823
     components:
@@ -102318,7 +102318,7 @@ entities:
     - DamageExaminable
     - Currency
     - AllowSuitStorage
-- proto: ClothingOuterArmorSevaMilitary
+- proto: Z14ClothingOuterArmorSevaMilitary
   entities:
   - uid: 32313
     components:
@@ -268555,7 +268555,7 @@ entities:
     - type: Transform
       pos: -273.5,-163.5
       parent: 1
-- proto: STClothingOuterArmorLightPlateVestBasePSZ7
+- proto: Z14STClothingOuterArmorLightPlateVestBasePSZ7
   entities:
   - uid: 24192
     components:
@@ -268569,7 +268569,7 @@ entities:
       inSlot: outerClothing
     - type: Physics
       canCollide: False
-- proto: STClothingOuterArmorVeryHeavyFreedom
+- proto: Z14STClothingOuterArmorVeryHeavyFreedom
   entities:
   - uid: 36647
     components:
@@ -279608,7 +279608,7 @@ entities:
     - type: Transform
       pos: -179.5,-93.5
       parent: 1
-- proto: STWeaponRifleASVAL
+- proto: Z14STWeaponRifleASVAL
   entities:
   - uid: 24195
     components:

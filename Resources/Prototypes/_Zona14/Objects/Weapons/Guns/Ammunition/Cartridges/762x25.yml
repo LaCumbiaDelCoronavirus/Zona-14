@@ -6,7 +6,7 @@
   parent: BaseSTCartridge725
   components:
   - type: CartridgeAmmo
-    proto: Bullet725PGL
+    proto: Z14Bullet725PGL
 
 - type: entity
   id: Z14STCartridge725PTGJ
@@ -16,7 +16,7 @@
   parent: BaseSTCartridge725
   components:
   - type: CartridgeAmmo
-    proto: Bullet725PTGJ
+    proto: Z14Bullet725PTGJ
 
 - type: entity
   id: Z14STCartridge725LRNPC
@@ -26,7 +26,7 @@
   parent: BaseSTCartridge725
   components:
   - type: CartridgeAmmo
-    proto: Bullet725LRNPC
+    proto: Z14Bullet725LRNPC
 
 - type: entity
   id: Z14STCartridge725PSTGJ
@@ -36,4 +36,4 @@
   parent: BaseSTCartridge725
   components:
   - type: CartridgeAmmo
-    proto: Bullet725PSTGJ
+    proto: Z14Bullet725PSTGJ

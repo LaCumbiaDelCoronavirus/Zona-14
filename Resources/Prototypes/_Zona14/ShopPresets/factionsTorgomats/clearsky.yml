@@ -106,18 +106,8 @@
           # 12mm
         STWeaponShotgunTOZ34: 125 # T2
         STWeaponShotgunSPAS: 1350
-          # Nato
-        Z14STWeaponRifleAKS74U: 1300 #CHANGED
-        Z14STWeaponRifleL85: 1500 #CHANGED
-        Z14STWeaponRifleM16: 2400 #ADDED
-        Z14STWeaponRifleStalkerAK105SwampThing: 4400
-        Z14STWeaponRifleSIG550: 4000 #ADDED
-        Z14STWeaponRifleSIG550Black: 4000 #ADDED
-        Z14STWeaponRifleM14: 3500 #ADDED
-        Z14STWeaponSniperVepr: 5500 #ADDED
           # Smg
         Z14STWeaponSMGMP5: 2300
-        Z14STWeaponSMGStalkerCP2Veresk921: 4000 #ADDED
           # Other
         Z14WeaponPistolStalkerGlock: 400
         STWeaponRevolverSWPC325TR: 850
@@ -148,34 +138,34 @@
         7mmBuckshotBox: 45
         8mmBuckshotBox: 300
         # 9.19
-        Z14919PSOGJBox: 75
-        Z14919PSTBox: 250
-        Z14919PBMBox: 500
-        Z14919RIPBox: 300
-        Z14918PGJBox: 80
-        Z14918PSTBox: 250
-        Z14918PBMBox: 500
-        Z14918SP7Box: 200
+        Z14919PSOGJBox: 500
+        Z14919PSTBox: 900
+        Z14919PBMBox: 900
+        Z14919RIPBox: 500
+        Z14918PGJBox: 250
+        Z14918PSTBox: 450
+        Z14918PBMBox: 450
+        Z14918SP7Box: 250
         # 9.21 #ADDED(ALL 9. 21)
-        Z14921PEGJBox: 450
-        Z14921PGJBox: 650
-        Z14921BTGJBox: 1600
+        Z14921PEGJBox: 800
+        Z14921PGJBox: 800
+        Z14921BTGJBox: 1440
         # 5.56
-        Z14556FMJBox: 500
-        Z14556WarmagBox: 250
-        Z14545FMJBox: 500
-        Z14545HPBox: 150
+        Z14556FMJBox: 1200
+        Z14556WarmagBox: 1200
+        Z14545FMJBox: 1200
+        Z14545HPBox: 1200
         # 7.51
-        Z14751UNBox: 800 #ADDED
-        Z14751M80Box: 1300 #CHANGED
+        Z14751UNBox: 1600 #ADDED
+        Z14751M80Box: 1600 #CHANGED
         # 7.54
-        Z14754FMJBox: 1200
+        Z14754FMJBox: 800
 
         # .45
-        Z1445ACPLFMJBox: 100
-        Z1445ACPMFMJBox: 550
-        Z1445ACPAPBox: 1000
-        Z1445ACPRIPBox: 400
+        Z1445ACPLFMJBox: 500
+        Z1445ACPMFMJBox: 500
+        Z1445ACPAPBox: 900
+        Z1445ACPRIPBox: 500
     - name: shop-category-armor
       priority: 4
       items:
@@ -184,14 +174,11 @@
         Z14ClothingHeadHelmetInfantry: 600 # T2 - PVP
         Z14ClothingHeadHelmetCN3a: 2250 # T2 - PVE
           # OuterClothing #
-        Z14ClothingOuterJacketCN: 70 # T1 - PVE
-        Z14STClothingOuterArmorLightPlateVestBaseClearSky: 900 # T2 - PvP
-        Z14ClothingOuterArmorRCBZCN: 1350 # T2 - ENV
-        Z14ClothingOuterArmorCN1: 2000
-        Z14ClothingOuterArmorCN3a: 4500
-        Z14STClothingOuterArmorCN-4a: 5000
-        Z14STClothingOuterArmorCN-4aResearcher: 9000
-        Z14ClothingOuterArmorCN3b: 9000
+        Z14ClothingOuterJacketCN: 500 # T1 - PVE
+        Z14STClothingOuterArmorLightPlateVestBaseClearSky: 1250 # T2 - PvP
+        Z14ClothingOuterArmorRCBZCN: 1250 # T2 - ENV
+        Z14ClothingOuterArmorCN1: 1250
+        Z14STClothingOuterArmorCN-4a: 500
     - name: shop-category-storage-and-containers
       priority: 5
       items:
@@ -229,7 +216,7 @@
         Z14ZoneArtifactDetectorPulse: 50 # T1
         Z14ZoneArtifactDetectorResponse: 1000 # T2
         Z14ZoneArtifactDetectorSpruce: 4200
-        STZoneArtifactDetectorBarracudaBlueprint: 3000
+        Z14STZoneArtifactDetectorBarracudaBlueprint: 3000
     - name: shop-category-utilities
       priority: 8
       items:

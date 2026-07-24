@@ -1,7 +1,10 @@
 - type: gameMap
   id: STWorld
   mapName: 'StalkerMap'
-  mapPath: "/Maps/_ST/World/KordonV188.yml"
+  # Zona14: spawn on our own Cordon, not upstream's stale KordonV188. mapLoader.yml
+  # already routes the "Cordon" warp here; this line was missed, so players spawned on
+  # the April upstream copy (0 Z14 prototypes) while the warp led to ours (52).
+  mapPath: "/Maps/_Zona14/World/Cordon.yml"
   minPlayers: 0
   stations:
     Stalker:

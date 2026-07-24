@@ -1,9 +1,9 @@
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingOuterCoatRenegat
   results:
-    - ClothingOuterCoatRenegat
+    - Z14ClothingOuterCoatRenegat
   steps:
     firstIngredient: STSkinsKitRenegate
-    secondIngredient: ClothingOuterCoatLoyalist
+    secondIngredient: Z14ClothingOuterCoatLoyalist
     keepFirst: true
     time: 5

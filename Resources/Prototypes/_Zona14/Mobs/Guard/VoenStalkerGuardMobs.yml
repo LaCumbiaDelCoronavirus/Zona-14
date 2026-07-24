@@ -16,7 +16,7 @@
   - type: PredictedBatterySelfRecharger
     autoRechargeRate: 2
   - type: BatteryAmmoProvider
-    proto: Bullet545PC
+    proto: Z14Bullet545PC
     fireCost: 5
   - type: Gun
     soundGunshot:

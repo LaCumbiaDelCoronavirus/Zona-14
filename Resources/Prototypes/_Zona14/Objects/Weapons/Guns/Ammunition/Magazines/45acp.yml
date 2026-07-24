@@ -6,7 +6,7 @@
   suffix: Z14
   components:
     - type: BallisticAmmoProvider
-      proto: Cartridge45ACPLFMJ
+      proto: Z14Cartridge45ACPLFMJ
     - type: Sprite
       sprite: Objects/Weapons/Guns/Ammunition/SpeedLoaders/Magnum/magnum_speed_loader.rsi
       layers:
@@ -21,7 +21,7 @@
     - type: Appearance
 
 - type: entity
-  parent: STSpeedLoader45ACP
+  parent: Z14STSpeedLoader45ACP
   id: Z14STSpeedLoader45ACPEmpty
   categories: [ Zona14 ]
   suffix: Z14

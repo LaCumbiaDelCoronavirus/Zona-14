@@ -104,9 +104,7 @@
       STWeaponRevolverRugerRedhawk: 2750
       STWeaponShotgunSPAS: 1350
       STWeaponRevolverSWModel625: 1650
-      Z14STWeaponRifleAKS74U: 1300
       Z14STWeaponSMGPP19: 1600
-      Z14STWeaponRifleM16: 3000
       Z14WeaponPistolStalkerPM: 100
   - name: shop-category-magazines
     priority: 2
@@ -127,26 +125,26 @@
   - name: shop-category-ammunition
     priority: 3
     items:
-      Z14919PSOGJBox: 75
-      Z14919PSTBox: 180
-      Z14919RIPBox: 100
-      Z14918SP7Box: 100
-      Z14918PGJBox: 75
-      Z14918PSTBox: 180
-      Z1445ACPRIPBox: 150
-      Z1445ACPLFMJBox: 100
-      Z1445ACPMFMJBox: 250
+      Z14919PSOGJBox: 500
+      Z14919PSTBox: 900
+      Z14919RIPBox: 500
+      Z14918SP7Box: 250
+      Z14918PGJBox: 250
+      Z14918PSTBox: 450
+      Z1445ACPRIPBox: 500
+      Z1445ACPLFMJBox: 500
+      Z1445ACPMFMJBox: 500
       6mmBuckshotBox: 115
       7mmBuckshotBox: 45
       8mmBuckshotBox: 420
       Z14MagazineBoxRemingtonMagnum: 320
       Z14MagazineBoxRemingtonMagnumAP: 520
-      Z14545HPBox: 200
-      Z14545FMJBox: 170
-      Z14545PCBox: 2000
-      Z14556WarmagBox: 200
-      Z14556FMJBox: 300
-      Z14556M855Box: 3000
+      Z14545HPBox: 1200
+      Z14545FMJBox: 1200
+      Z14545PCBox: 2160
+      Z14556WarmagBox: 1200
+      Z14556FMJBox: 1200
+      Z14556M855Box: 1200
   - name: shop-category-armor
     priority: 4
     items:
@@ -157,17 +155,9 @@
       Z14ClothingHeadHelmetVityaz1C: 2000
       Z14ClothingHeadAssaultHelmet: 3000
       # OuterClothing #
-      Z14ClothingOuterJacketSCI: 70 # T1 - PVE
-      Z14STClothingOuterArmorLightPlateVestBaseStalker: 900
-      Z14ClothingOuterArmorSSP99Amber: 2750
-      Z14ClothingOuterArmorSSP99White: 3750
-      Z14ClothingOuterArmorSSP24Sapfire: 4225
-      Z14ClothingOuterArmorSevaSciWhite: 4000
-      Z14ClothingOuterArmorSSP99: 4100
-      Z14ClothingOuterArmorSSP24Ruby: 4100
-      Z14ClothingOuterArmorUzk5: 5500
+      Z14ClothingOuterJacketSCI: 500 # T1 - PVE
+      Z14STClothingOuterArmorLightPlateVestBaseStalker: 1250
       Z14STClothingNeckExoskeletonSci: 8000
-      Z14STClothingOuterArmorVeryHeavySci: 8000
   - name: shop-category-storage-and-containers
     priority: 5
     items:
@@ -204,7 +194,7 @@
       Z14ZoneArtifactDetectorSpruce: 3200 # T2
       Z14Veles: 6200 # T3
       Z14ZoneArtifactDetectorBarracuda: 5500 # T3
-      DetectorSvarogBlueprint: 5500
+      Z14DetectorSvarogBlueprint: 5500
       #RP Shit
       Z14BaseMachineAnomalyDestructorFolded: 500
       Z14BaseMachineAnomalyDestructorFolded1: 500
@@ -372,13 +362,12 @@
     items:
       # Tech cards
       TechCardCalibrationDosimeter: 100
-      STDetectorAD1Blueprint: 1000
-      STDetectorAD2Blueprint: 1000
-      STDetectorAD3Blueprint: 3000
+      Z14STDetectorAD1Blueprint: 1000
+      Z14STDetectorAD2Blueprint: 1000
+      Z14STDetectorAD3Blueprint: 3000
       STZoneArtifactDetectorBushBlueprint: 3000
       STZoneArtifactDetectorResponseBlueprint: 6000
       STZoneArtifactDetectorSpruceBlueprint: 12000
-      STZoneArtifactDetectorBarracudaBlueprint: 18000
-      STZoneArtifactDetectorBearBlueprint: 25000
-      STZoneArtifactDetectorWolfhoundBlueprint: 40000
-
+      Z14STZoneArtifactDetectorBarracudaBlueprint: 18000
+      Z14STZoneArtifactDetectorBearBlueprint: 25000
+      Z14STZoneArtifactDetectorWolfhoundBlueprint: 40000

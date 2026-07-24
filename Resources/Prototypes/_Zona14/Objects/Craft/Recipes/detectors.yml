@@ -4,7 +4,7 @@
     - ZoneAnomalyDetectorAD1
   craftTime: 0.5
   items:
-    STDetectorAD1Blueprint:
+    Z14STDetectorAD1Blueprint:
       amount: 1
       catalyzer: true
     STCraftBasicPCBT1:
@@ -24,7 +24,7 @@
     - ZoneAnomalyDetectorAD2
   craftTime: 2
   items:
-    STDetectorAD2Blueprint:
+    Z14STDetectorAD2Blueprint:
       amount: 1
       catalyzer: true
     STCraftStandardPCBT2:
@@ -44,14 +44,14 @@
     - ZoneAnomalyDetectorAD3
   craftTime: 2
   items:
-    STDetectorAD3Blueprint:
+    Z14STDetectorAD3Blueprint:
       amount: 1
       catalyzer: true
     STCraftStandardPCBT2:
       amount: 1
     ZoneAnomalyDetectorAD2:
       amount: 1
-    ZoneArtifactBattery:
+    Z14ZoneArtifactBattery:
       amount: 1
     STCraftTransformer:
       amount: 1
@@ -63,7 +63,7 @@
     - ZoneArtifactDetectorBush
   craftTime: 0.3
   items:
-    STZoneArtifactDetectorBushBlueprint:
+    Z14STZoneArtifactDetectorBushBlueprint:
       amount: 1
       catalyzer: true
     STCraftBattery:
@@ -83,7 +83,7 @@
     - ZoneArtifactDetectorResponse
   craftTime: 2
   items:
-    STZoneArtifactDetectorResponseBlueprint:
+    Z14STZoneArtifactDetectorResponseBlueprint:
       amount: 1
       catalyzer: true
     ZoneArtifactDetectorBush:
@@ -101,7 +101,7 @@
     - ZoneArtifactDetectorSpruce
   craftTime: 5
   items:
-    STZoneArtifactDetectorSpruceBlueprint:
+    Z14STZoneArtifactDetectorSpruceBlueprint:
       amount: 1
       catalyzer: true
     ZoneArtifactDetectorResponse:
@@ -119,7 +119,7 @@
     - ZoneArtifactDetectorBarracuda
   craftTime: 10
   items:
-    STZoneArtifactDetectorBarracudaBlueprint:
+    Z14STZoneArtifactDetectorBarracudaBlueprint:
       amount: 1
       catalyzer: true
     ZoneArtifactDetectorSpruce:
@@ -130,7 +130,7 @@
       amount: 2
     STCraftCoil:
       amount: 1
-    ZoneArtifactBattery:
+    Z14ZoneArtifactBattery:
       amount: 1
 
 - type: craftRecipe
@@ -139,7 +139,7 @@
     - ZoneArtifactDetectorBear
   craftTime: 20
   items:
-    STZoneArtifactDetectorBearBlueprint:
+    Z14STZoneArtifactDetectorBearBlueprint:
       amount: 1
       catalyzer: true
     ZoneArtifactDetectorSpruce:
@@ -165,7 +165,7 @@
     - ZoneArtifactDetectorWolfhound
   craftTime: 60
   items:
-    STZoneArtifactDetectorWolfhoundBlueprint:
+    Z14STZoneArtifactDetectorWolfhoundBlueprint:
       amount: 1
       catalyzer: true
     ZoneArtifactDetectorBear:
@@ -191,7 +191,7 @@
     - TrashDetectorTier2
   craftTime: 0.2
   items:
-    TrashDetectorTier2Blueprint:
+    Z14TrashDetectorTier2Blueprint:
       amount: 1
       catalyzer: true
     TrashDetectorTier1:
@@ -209,7 +209,7 @@
     - TrashDetectorTier3
   craftTime: 1
   items:
-    TrashDetectorTier3Blueprint:
+    Z14TrashDetectorTier3Blueprint:
       amount: 1
       catalyzer: true
     TrashDetectorTier2:
@@ -227,7 +227,7 @@
     - TrashDetectorTier4
   craftTime: 10
   items:
-    TrashDetectorTier4Blueprint:
+    Z14TrashDetectorTier4Blueprint:
       amount: 1
       catalyzer: true
     TrashDetectorTier3:
@@ -251,7 +251,7 @@
     - TrashDetectorTier5
   craftTime: 30
   items:
-    TrashDetectorTier5Blueprint:
+    Z14TrashDetectorTier5Blueprint:
       amount: 1
       catalyzer: true
     TrashDetectorTier4:

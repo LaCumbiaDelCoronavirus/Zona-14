@@ -1,16 +1,16 @@
 - type: craftRecipe
   id: Z14newrecipeReinforcedCoat
   resultProtos:
-    - STClothingCapeCoatReinforced
+    - Z14STClothingCapeCoatReinforced
   craftTime: 10
   items:
     ToolkitTearOne:
       amount: 1
       catalyzer: true
-    STClothingCapeCoatReinforcedBlueprint:
+    Z14STClothingCapeCoatReinforcedBlueprint:
       amount: 1
       catalyzer: true
-    ClothingOuterCoatStalker:
+    Z14ClothingOuterCoatStalker:
       amount: 1
     STCraftSturdyHideT3:
       amount: 1
@@ -22,16 +22,16 @@
 - type: craftRecipe
   id: Z14newrecipeClothingOuterCoatLoyalist
   resultProtos:
-    - ClothingOuterCoatLoyalist
+    - Z14ClothingOuterCoatLoyalist
   craftTime: 10
   items:
     ToolkitTearOne:
       amount: 1
       catalyzer: true
-    ClothingOuterCoatLoyalistBlueprint:
+    Z14ClothingOuterCoatLoyalistBlueprint:
       amount: 1
       catalyzer: true
-    ClothingOuterCoatStalker:
+    Z14ClothingOuterCoatStalker:
       amount: 1
     STCraftSturdyHideT3:
       amount: 3

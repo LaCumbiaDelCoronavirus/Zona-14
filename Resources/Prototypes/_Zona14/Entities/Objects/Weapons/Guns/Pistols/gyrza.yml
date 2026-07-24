@@ -31,7 +31,7 @@
       slots:
         gun_magazine:
           name: Magazine
-          startingItem: SR1Mag
+          startingItem: Z14SR1Mag
           insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
           ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
           priority: 3
@@ -46,7 +46,7 @@
               - STModuleAutoSear
         gun_chamber:
           name: Chamber
-          startingItem: STCartridge921PGJ
+          startingItem: Z14STCartridge921PGJ
           priority: 1
           whitelist:
             tags:

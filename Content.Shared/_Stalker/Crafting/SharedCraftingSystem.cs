@@ -5,6 +5,7 @@ using Content.Shared.Crafting.Events;
 using Content.Shared.Crafting.Prototypes;
 using Content.Shared.DoAfter;
 using Content.Shared.Interaction;
+using Content.Shared.Popups; // Zona14: craft-failure feedback
 using Content.Shared.Prototypes;
 using Content.Shared.Storage;
 using Content.Shared.Tag;
@@ -24,6 +25,7 @@ public sealed class SharedCraftingSystem : EntitySystem
     [Dependency] private readonly INetManager _net = default!;
     [Dependency] private readonly SharedTransformSystem _transform = default!;
     [Dependency] private readonly IRobustRandom _random = default!;
+    [Dependency] private readonly SharedPopupSystem _popup = default!; // Zona14: craft-failure feedback
 
     private List<LightCraftingPrototype> _lightPrototypes = default!;
     private List<string> _tags = new();
@@ -201,7 +203,97 @@ public sealed class SharedCraftingSystem : EntitySystem
             StartDoAfter(player.Value, ent, container, proto, proto.CraftTime);
             return;
         }
+
+        // Zona14: nothing matched — tell the player why instead of failing silently.
+        if (_net.IsServer && storage.Containers.Count > 0)
+            ExplainNoMatch(player.Value, workbenchId, storage.Containers.First().Value);
+        // End Zona14
     }
+
+    // Zona14: begin — craft-failure feedback.
+    // A failed craft used to return silently, which is impossible to debug in-game.
+    // Find the recipe whose catalyzer (blueprint) is present and report the first
+    // concrete problem: wrong workbench, a missing/short ingredient, or a stray extra
+    // item. Best-effort and must never throw — it only runs on an already-failed craft.
+    private void ExplainNoMatch(EntityUid player, string workbenchId, BaseContainer container)
+    {
+        var have = GetElementsInStorage(container);
+        var haveEnts = container.ContainedEntities.ToList();
+        _sawmill.Info("[craft] no recipe matched on '" + workbenchId + "'. Contents: " +
+            (have.Count == 0 ? "(empty)" : string.Join(", ", have.Select(kv => kv.Key + " x" + kv.Value))));
+
+        if (have.Count == 0)
+        {
+            _popup.PopupEntity(Loc.GetString("st-craft-fail-empty"), player, player);
+            return;
+        }
+
+        // The recipe the player most likely intended: its catalyzer is in the grid, and
+        // it shares the most ingredients with what is present.
+        CraftingPrototype? best = null;
+        var bestScore = 0;
+        foreach (var proto in _proto.EnumeratePrototypes<CraftingPrototype>())
+        {
+            if (!proto.Items.Any(kv => kv.Value.Catalyzer && !kv.Value.Tag && have.ContainsKey(kv.Key)))
+                continue;
+            var score = proto.Items.Count(kv => !proto.ResultProtos.Contains(kv.Key)
+                && (kv.Value.Tag ? haveEnts.Any(e => _tag.HasTag(e, kv.Key)) : have.ContainsKey(kv.Key)));
+            if (score > bestScore)
+            {
+                bestScore = score;
+                best = proto;
+            }
+        }
+
+        if (best == null)
+        {
+            _popup.PopupEntity(Loc.GetString("st-craft-fail-no-recipe"), player, player);
+            return;
+        }
+
+        if (!string.IsNullOrEmpty(best.RequiredWorkbench) && workbenchId != best.RequiredWorkbench)
+        {
+            _popup.PopupEntity(Loc.GetString("st-craft-fail-wrong-bench"), player, player);
+            return;
+        }
+
+        foreach (var kv in best.Items)
+        {
+            if (best.ResultProtos.Contains(kv.Key))
+                continue;
+            if (kv.Value.Tag)
+            {
+                if (!haveEnts.Any(e => _tag.HasTag(e, kv.Key)))
+                {
+                    _popup.PopupEntity(Loc.GetString("st-craft-fail-missing", ("item", kv.Key)), player, player);
+                    return;
+                }
+                continue;
+            }
+            have.TryGetValue(kv.Key, out var count);
+            if (count < kv.Value.Amount)
+            {
+                _popup.PopupEntity(Loc.GetString("st-craft-fail-need",
+                    ("amount", kv.Value.Amount), ("item", ItemName(kv.Key)), ("have", count)), player, player);
+                return;
+            }
+        }
+
+        var recipeKeys = best.Items.Keys.Where(k => !best.ResultProtos.Contains(k)).ToHashSet();
+        var extra = have.Keys.Where(k => !recipeKeys.Contains(k)).Select(ItemName).ToList();
+        if (extra.Count > 0)
+        {
+            _popup.PopupEntity(Loc.GetString("st-craft-fail-extra", ("items", string.Join(", ", extra))), player, player);
+            return;
+        }
+
+        _sawmill.Warning("[craft] '" + best.ID + "' has every ingredient present yet did not match on '" + workbenchId + "'.");
+        _popup.PopupEntity(Loc.GetString("st-craft-fail-unknown"), player, player);
+    }
+
+    private string ItemName(string protoId) =>
+        _proto.TryIndex<EntityPrototype>(protoId, out var proto) ? proto.Name : protoId;
+    // End Zona14
 
     private void StartDoAfterDisassemble(EntityUid player, EntityUid storageent, BaseContainer container, CraftingPrototype proto, float time)
     {

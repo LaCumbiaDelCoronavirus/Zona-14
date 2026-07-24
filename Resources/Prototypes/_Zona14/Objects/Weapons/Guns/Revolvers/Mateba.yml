@@ -26,7 +26,7 @@
       - CartridgeRemingtonMagnum
       - SpeedLoaderMagnum
       - SpeedLoaderRemingtonMagnum
-    proto: CartridgeRemingtonMagnum
+    proto: Z14CartridgeRemingtonMagnum
   - type: STWeight
     self: 1.57
   - type: STWeaponDamageFalloff

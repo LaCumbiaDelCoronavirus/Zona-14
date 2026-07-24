@@ -123,7 +123,6 @@
     STFishJellyfish: 600
     STFishPallidSturgeon: 1200
 
-    # Special
     # gonna need adjusting
     STJunkHardDrive: 750
     STJunkHardDriveBroken: 200
@@ -154,15 +153,8 @@
       Z14STWeaponSMGPP19: 2000
       Z14STWeaponSMGMP5: 2000
       # Rifles
-      Z14STWeaponRifleFAL: 1500
-      Z14STWeaponRifleM4: 3000
-      Z14STWeaponRifleM14: 3750
-      Z14STWeaponRifleAKS74: 2800
-      Z14STWeaponRifleAKM: 3500
-      Z14STWeaponRifleStalkerAK105SwampThing: 4000
       STMetroWeaponRifleVSV: 5000
       # Snipers
-      Z14STWeaponSniperVepr: 4000
 
   - name: shop-category-magazines
     priority: 2
@@ -202,42 +194,42 @@
       6mmBuckshotBox: 320 # T1
       7mmBuckshotBox: 75 # T0
       # 7.25
-      Z14725LRNPCBox: 625 # Mutant
-      Z14725PBox: 100 # T1
-      Z14725PTBox: 250 # T2
-      Z14725PSTBox: 1450 # T3
+      Z14725LRNPCBox: 250 # Mutant
+      Z14725PBox: 250 # T1
+      Z14725PTBox: 450 # T2
+      Z14725PSTBox: 450 # T3
       # 9.18
-      Z14918PGJBox: 100 # T1
-      Z14918PSTBox: 560 # T2
-      Z14918SP7Box: 625 # Mutant
-      Z14918PBMBox: 1425 # T3
+      Z14918PGJBox: 250 # T1
+      Z14918PSTBox: 450 # T2
+      Z14918SP7Box: 250 # Mutant
+      Z14918PBMBox: 450 # T3
       # 9.19
-      Z14919RIPBox: 625 # Mutant
-      Z14919PSOGJBox: 100 # T1
-      Z14919PSTBox: 500 # T2
-      Z14919PBMBox: 1450 # T3
+      Z14919RIPBox: 500 # Mutant
+      Z14919PSOGJBox: 500 # T1
+      Z14919PSTBox: 900 # T2
+      Z14919PBMBox: 900 # T3
       # .45
-      Z1445ACPLFMJBox: 110 # T1
-      Z1445ACPMFMJBox: 550 # T2
-      Z1445ACPRIPBox: 700 # Mutant
-      Z1445ACPAPBox: 1500 # T3
+      Z1445ACPLFMJBox: 500 # T1
+      Z1445ACPMFMJBox: 500 # T2
+      Z1445ACPRIPBox: 500 # Mutant
+      Z1445ACPAPBox: 900 # T3
       # 5.45
-      Z14545HPBox: 725 # Mutant
-      Z14545PCBox: 1650 # T3
-      Z14545FMJBox: 650 # T2
+      Z14545HPBox: 1200 # Mutant
+      Z14545PCBox: 2160 # T3
+      Z14545FMJBox: 1200 # T2
       # 5.56
-      Z14556WarmagBox: 725 # Mutant
-      Z14556FMJBox: 650 # T2
-      Z14556M855Box: 1650 # T3
+      Z14556WarmagBox: 1200 # Mutant
+      Z14556FMJBox: 1200 # T2
+      Z14556M855Box: 1200 # T3
       # 7.39
-      Z14739HPBox: 850 # Mutant
-      Z14739FMJBox: 1950 # T3
+      Z14739HPBox: 2400 # Mutant
+      Z14739FMJBox: 2400 # T3
       # 7.51
-      Z14751UNBox: 850 # Mutant
-      Z14751M80Box: 1950 # T3
+      Z14751UNBox: 1600 # Mutant
+      Z14751M80Box: 1600 # T3
       # 7.54
-      Z14754HPBox: 850 # Mutant
-      Z14754FMJBox: 2500 # T3
+      Z14754HPBox: 800 # Mutant
+      Z14754FMJBox: 800 # T3
 
   - name: shop-category-medicine
     priority: 4
@@ -280,16 +272,13 @@
       Z14ClothingHeadHelmetInfantry: 875 # T2 - PVP
 
       # OuterClothing #
-      Z14ClothingOuterJacketCN: 60 # T1 - PVE
-      Z14STClothingOuterArmorLightPlateVestBaseClearSky: 1100 # T2 - PvP
-      Z14ClothingOuterArmor6B2: 1450 # T2 - PvP
-      Z14ClothingOuterArmorRCBZCN: 1450 # T2 - ENV
-      Z14ClothingOuterArmorCN1: 2100 # T2 - universal
-      Z14STClothingOuterArmorLightPlateVestBaseANABlue: 9500 # T3 - PVP
-      Z14ClothingOuterArmorCN3a: 12000 # T3 - PVE
-      Z14ClothingOuterArmorSevaCN: 3600 # T3 - ENVl
-      Z14STClothingOuterArmorCN-4a: 3600 # Illusion of choice
-      Z14STClothingOuterArmorCN-4aResearcher: 4000 # Slightly better SEVA
+      Z14ClothingOuterJacketCN: 500 # T1 - PVE
+      Z14STClothingOuterArmorLightPlateVestBaseClearSky: 1250 # T2 - PvP
+      Z14ClothingOuterArmor6B2: 1250 # T2 - PvP
+      Z14ClothingOuterArmorRCBZCN: 1250 # T2 - ENV
+      Z14ClothingOuterArmorCN1: 1250 # T2 - universal
+      Z14STClothingOuterArmorLightPlateVestBaseANABlue: 1250 # T3 - PVP
+      Z14STClothingOuterArmorCN-4a: 500 # Illusion of choice
 
   - name: shop-category-storage-and-containers
     priority: 7
@@ -457,7 +446,6 @@
       # faction
       ClothingHandsGlovesLatex: 5
       ClothingHandsGlovesNitrile: 5
-      # OUTERCLOTHING
       # CLOAK
       Z14ClothingCloakStalker: 30
       # LEGS
@@ -494,4 +482,4 @@
     priority: 13
     items:
       DetectorVelesBlueprint: 6500
-      DetectorSvarogBlueprint: 20000
+      Z14DetectorSvarogBlueprint: 20000

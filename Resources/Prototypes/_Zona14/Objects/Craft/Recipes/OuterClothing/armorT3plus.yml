@@ -1,0 +1,614 @@
+# Recipes for T3+ suits that had none. Vendors stop at T2, so without these the
+# suits are unobtainable except by loot.
+#
+# Formula (crafting-scheme.md §2), by SUIT tier - the Z14ArmorBaseT<n> it inherits,
+# not armorClass, which is the plate tier:
+#
+#   T3  blueprint + ToolkitTearOne   + 2x tier-2 mats + 2x low-tier mutant drop
+#   T4  blueprint + ToolkitTearTwo   + 4x tier-3 mats + 2x T2 part + 1x T3 suit
+#   T5  blueprint + ToolkitTearThree + 4x tier-4 mats + 2x T3 part + 1x T4 suit + artifact
+#
+# INGREDIENTS COME FROM ONE TIER BELOW THE ITEM. Asking for tier-N materials to
+# build a tier-N suit makes the top of the tree unreachable, because the materials
+# only drop where you already need the suit to survive.
+#
+# Lower-tier suits are consumed as the base, so a craft reads as an UPGRADE of the
+# thing you already own rather than a fresh build. T5 eats a T4, which eats a T3.
+# With vendors capped at T2: buy T2 -> craft T3 -> upgrade to T4 -> upgrade to T5.
+#
+# Material and toolkit ids are the UPSTREAM ones on purpose - crafting matches
+# ingredients by exact prototype ID and every loot table grants those. Mutant parts
+# use the Z14 ids, because _Zona14 spawners are what place mutants (23:1) and the
+# shops already trade in Z14 parts (385:32).
+
+# ── T3 ──────────────────────────────────────────────
+
+- type: craftRecipe
+  id: Z14newrecipeClothingOuterArmorDolgPS5M
+  resultProtos:
+    - Z14ClothingOuterArmorDolgPS5M
+  craftTime: 15
+  items:
+    Z14ClothingOuterArmorDolgPS5MBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 2
+    CraftHide:
+      amount: 2
+
+# ── T4 ──────────────────────────────────────────────
+
+- type: craftRecipe
+  id: Z14newrecipeClothingOuterArmorBulatMilitary
+  resultProtos:
+    - Z14ClothingOuterArmorBulatMilitary
+  craftTime: 18
+  items:
+    Z14ClothingOuterArmorBulatMilitaryBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    Z14ClothingOuterArmorStalker:
+      amount: 1
+    STCraftSheetBrassT3:
+      amount: 2
+    STCraftSturdyHideT3:
+      amount: 2
+    Z14MutantPartSnorkFoot:
+      amount: 2
+
+# ── T5 ──────────────────────────────────────────────
+
+- type: craftRecipe
+  id: Z14newrecipeClothingOuterArmorExoskelet
+  resultProtos:
+    - Z14ClothingOuterArmorExoskelet
+  craftTime: 22
+  items:
+    Z14ClothingOuterArmorExoskeletBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearThree:
+      amount: 1
+      catalyzer: true
+    Z14ClothingOuterArmorBulatMilitary:
+      amount: 1
+    STCraftSheetAluminumT4:
+      amount: 2
+    STCraftPolymerFabricT4:
+      amount: 2
+    Z14MutantPartBloodsuckerTentacles:
+      amount: 2
+    Z14ZoneArtifactBattery:
+      amount: 1
+
+- type: craftRecipe
+  id: Z14newrecipeClothingOuterArmorCN3b
+  resultProtos:
+    - Z14ClothingOuterArmorCN3b
+  craftTime: 15
+  items:
+    Z14ClothingOuterArmorCN3bBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 2
+    CraftHide:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeClothingOuterArmorHazmatRf
+  resultProtos:
+    - Z14ClothingOuterArmorHazmatRf
+  craftTime: 18
+  items:
+    Z14ClothingOuterArmorHazmatRfBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    Z14ClothingOuterArmorStalker:
+      amount: 1
+    STCraftSheetBrassT3:
+      amount: 2
+    STCraftSturdyHideT3:
+      amount: 2
+    Z14MutantPartSnorkFoot:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeClothingOuterArmorHeavyDebt
+  resultProtos:
+    - Z14ClothingOuterArmorHeavyDebt
+  craftTime: 18
+  items:
+    Z14ClothingOuterArmorHeavyDebtBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    Z14ClothingOuterArmorStalker:
+      amount: 1
+    STCraftSheetBrassT3:
+      amount: 2
+    STCraftSturdyHideT3:
+      amount: 2
+    Z14MutantPartSnorkFoot:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeClothingOuterArmorHeavyUNTAR
+  resultProtos:
+    - Z14ClothingOuterArmorHeavyUNTAR
+  craftTime: 18
+  items:
+    Z14ClothingOuterArmorHeavyUNTARBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    Z14ClothingOuterArmorStalker:
+      amount: 1
+    STCraftSheetBrassT3:
+      amount: 2
+    STCraftSturdyHideT3:
+      amount: 2
+    Z14MutantPartSnorkFoot:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeClothingOuterArmorLegatDeserter
+  resultProtos:
+    - Z14ClothingOuterArmorLegatDeserter
+  craftTime: 18
+  items:
+    Z14ClothingOuterArmorLegatDeserterBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    Z14ClothingOuterArmorStalker:
+      amount: 1
+    STCraftSheetBrassT3:
+      amount: 2
+    STCraftSturdyHideT3:
+      amount: 2
+    Z14MutantPartSnorkFoot:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeClothingOuterArmorMerc2
+  resultProtos:
+    - Z14ClothingOuterArmorMerc2
+  craftTime: 15
+  items:
+    Z14ClothingOuterArmorMerc2Blueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 2
+    CraftHide:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeClothingOuterArmorSSP99Amber
+  resultProtos:
+    - Z14ClothingOuterArmorSSP99Amber
+  craftTime: 15
+  items:
+    Z14ClothingOuterArmorSSP99AmberBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 2
+    CraftHide:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeClothingOuterArmorSevaFreedom
+  resultProtos:
+    - Z14ClothingOuterArmorSevaFreedom
+  craftTime: 15
+  items:
+    Z14ClothingOuterArmorSevaFreedomBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 2
+    CraftHide:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeClothingOuterArmorSevaSciRed
+  resultProtos:
+    - Z14ClothingOuterArmorSevaSciRed
+  craftTime: 15
+  items:
+    Z14ClothingOuterArmorSevaSciRedBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 2
+    CraftHide:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeClothingOuterArmorSevaSciWhite
+  resultProtos:
+    - Z14ClothingOuterArmorSevaSciWhite
+  craftTime: 22
+  items:
+    Z14ClothingOuterArmorSevaSciWhiteBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearThree:
+      amount: 1
+      catalyzer: true
+    Z14STClothingOuterArmorBerill5M:
+      amount: 1
+    STCraftSheetAluminumT4:
+      amount: 2
+    STCraftPolymerFabricT4:
+      amount: 2
+    Z14MutantPartBloodsuckerTentacles:
+      amount: 2
+    Z14ZoneArtifactBattery:
+      amount: 1
+
+- type: craftRecipe
+  id: Z14newrecipeClothingOuterArmorSevaVano
+  resultProtos:
+    - Z14ClothingOuterArmorSevaVano
+  craftTime: 15
+  items:
+    Z14ClothingOuterArmorSevaVanoBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 2
+    CraftHide:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeClothingOuterArmorStalkerCombatCN
+  resultProtos:
+    - Z14ClothingOuterArmorStalkerCombatCN
+  craftTime: 15
+  items:
+    Z14ClothingOuterArmorStalkerCombatCNBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 2
+    CraftHide:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeClothingOuterArmorUzk5
+  resultProtos:
+    - Z14ClothingOuterArmorUzk5
+  craftTime: 18
+  items:
+    Z14ClothingOuterArmorUzk5Blueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    Z14ClothingOuterArmorStalker:
+      amount: 1
+    STCraftSheetBrassT3:
+      amount: 2
+    STCraftSturdyHideT3:
+      amount: 2
+    Z14MutantPartSnorkFoot:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeClothingOuterArmorYeger
+  resultProtos:
+    - Z14ClothingOuterArmorYeger
+  craftTime: 18
+  items:
+    Z14ClothingOuterArmorYegerBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    Z14ClothingOuterArmorStalker:
+      amount: 1
+    STCraftSheetBrassT3:
+      amount: 2
+    STCraftSturdyHideT3:
+      amount: 2
+    Z14MutantPartSnorkFoot:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTClothingOuterArmorBerillBereza
+  resultProtos:
+    - Z14STClothingOuterArmorBerillBereza
+  craftTime: 18
+  items:
+    Z14STClothingOuterArmorBerillBerezaBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    Z14ClothingOuterArmorStalker:
+      amount: 1
+    STCraftSheetBrassT3:
+      amount: 2
+    STCraftSturdyHideT3:
+      amount: 2
+    Z14MutantPartSnorkFoot:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTClothingOuterArmorCN-4aResearcher
+  resultProtos:
+    - Z14STClothingOuterArmorCN-4aResearcher
+  craftTime: 15
+  items:
+    Z14STClothingOuterArmorCN-4aResearcherBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 2
+    CraftHide:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTClothingOuterArmorGonchiy
+  resultProtos:
+    - Z14STClothingOuterArmorGonchiy
+  craftTime: 18
+  items:
+    Z14STClothingOuterArmorGonchiyBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    Z14ClothingOuterArmorStalker:
+      amount: 1
+    STCraftSheetBrassT3:
+      amount: 2
+    STCraftSturdyHideT3:
+      amount: 2
+    Z14MutantPartSnorkFoot:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTClothingOuterArmorHeavyM
+  resultProtos:
+    - Z14STClothingOuterArmorHeavyM
+  craftTime: 15
+  items:
+    Z14STClothingOuterArmorHeavyMBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 2
+    CraftHide:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTClothingOuterArmorKrava
+  resultProtos:
+    - Z14STClothingOuterArmorKrava
+  craftTime: 18
+  items:
+    Z14STClothingOuterArmorKravaBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    Z14ClothingOuterArmorStalker:
+      amount: 1
+    STCraftSheetBrassT3:
+      amount: 2
+    STCraftSturdyHideT3:
+      amount: 2
+    Z14MutantPartSnorkFoot:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTClothingOuterArmorLightPlateVestBaseHeavyBandit
+  resultProtos:
+    - Z14STClothingOuterArmorLightPlateVestBaseHeavyBandit
+  craftTime: 18
+  items:
+    Z14STClothingOuterArmorLightPlateVestBaseHeavyBanditBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    Z14ClothingOuterArmorStalker:
+      amount: 1
+    STCraftSheetBrassT3:
+      amount: 2
+    STCraftSturdyHideT3:
+      amount: 2
+    Z14MutantPartSnorkFoot:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTClothingOuterArmorLightPlateVestBaseHeavyMilitary
+  resultProtos:
+    - Z14STClothingOuterArmorLightPlateVestBaseHeavyMilitary
+  craftTime: 18
+  items:
+    Z14STClothingOuterArmorLightPlateVestBaseHeavyMilitaryBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    Z14ClothingOuterArmorStalker:
+      amount: 1
+    STCraftSheetBrassT3:
+      amount: 2
+    STCraftSturdyHideT3:
+      amount: 2
+    Z14MutantPartSnorkFoot:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTClothingOuterArmorPeresvet
+  resultProtos:
+    - Z14STClothingOuterArmorPeresvet
+  craftTime: 15
+  items:
+    Z14STClothingOuterArmorPeresvetBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 2
+    CraftHide:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTClothingOuterArmorSkyWalker
+  resultProtos:
+    - Z14STClothingOuterArmorSkyWalker
+  craftTime: 22
+  items:
+    Z14STClothingOuterArmorSkyWalkerBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearThree:
+      amount: 1
+      catalyzer: true
+    Z14STClothingOuterArmorBerill5M:
+      amount: 1
+    STCraftSheetAluminumT4:
+      amount: 2
+    STCraftPolymerFabricT4:
+      amount: 2
+    Z14MutantPartBloodsuckerTentacles:
+      amount: 2
+    Z14ZoneArtifactBattery:
+      amount: 1
+
+- type: craftRecipe
+  id: Z14newrecipeSTClothingOuterArmorVeryHeavySci
+  resultProtos:
+    - Z14STClothingOuterArmorVeryHeavySci
+  craftTime: 18
+  items:
+    Z14STClothingOuterArmorVeryHeavySciBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    Z14ClothingOuterArmorStalker:
+      amount: 1
+    STCraftSheetBrassT3:
+      amount: 2
+    STCraftSturdyHideT3:
+      amount: 2
+    Z14MutantPartSnorkFoot:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTClothingOuterHeavyTor
+  resultProtos:
+    - Z14STClothingOuterHeavyTor
+  craftTime: 22
+  items:
+    Z14STClothingOuterHeavyTorBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearThree:
+      amount: 1
+      catalyzer: true
+    Z14STClothingOuterArmorBerill5M:
+      amount: 1
+    STCraftSheetAluminumT4:
+      amount: 2
+    STCraftPolymerFabricT4:
+      amount: 2
+    Z14MutantPartBloodsuckerTentacles:
+      amount: 2
+    Z14ZoneArtifactBattery:
+      amount: 1
+
+- type: craftRecipe
+  id: Z14newrecipeSTClothingOuterIOTVGEN4
+  resultProtos:
+    - Z14STClothingOuterIOTVGEN4
+  craftTime: 15
+  items:
+    Z14STClothingOuterIOTVGEN4Blueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 2
+    CraftHide:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTClothingOuterKorynd
+  resultProtos:
+    - Z14STClothingOuterKorynd
+  craftTime: 15
+  items:
+    Z14STClothingOuterKoryndBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 2
+    CraftHide:
+      amount: 2

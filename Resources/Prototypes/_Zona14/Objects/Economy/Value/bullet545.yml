@@ -1,5 +1,5 @@
 - type: entity
-  parent: STCartridge545PC
+  parent: Z14STCartridge545PC
   id: Z14Bullet545
   categories: [ Zona14 ]
   name: 5.45x39 bullet

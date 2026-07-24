@@ -1,9 +1,9 @@
 - type: lightCraftingRecipe
   id: Z14STCraftSkinSTCOuterArmorBulatMercenary
   results:
-    - ClothingOuterArmorBulatMercenary
+    - Z14ClothingOuterArmorBulatMercenary
   steps:
     firstIngredient: STSkinsKitMercenary
-    secondIngredient: ClothingOuterArmorBulatMilitary
+    secondIngredient: Z14ClothingOuterArmorBulatMilitary
     keepFirst: true
     time: 5

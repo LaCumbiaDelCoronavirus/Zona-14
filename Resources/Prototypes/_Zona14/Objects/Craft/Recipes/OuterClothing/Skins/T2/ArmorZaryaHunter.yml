@@ -1,9 +1,9 @@
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingOuterArmorRassvetSera
   results:
-    - STClothingOuterArmorRassvetSera
+    - Z14STClothingOuterArmorRassvetSera
   steps:
     firstIngredient: STSkinsKitSeraphim
-    secondIngredient: ClothingOuterArmorZaryaHunter
+    secondIngredient: Z14ClothingOuterArmorZaryaHunter
     keepFirst: false
     time: 5

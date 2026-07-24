@@ -12,7 +12,7 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/outerClothing/ssp99.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetSSP99
+    clothingPrototype: Z14ClothingHeadHelmetSSP99
   - type: Storage
     maxItemSize: Normal
     grid:
@@ -43,8 +43,14 @@
   - type: PressureProtection
     highPressureMultiplier: 0.1
     lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Heat: 0.9
+        Radiation: 0.25
 
 # Stalker
+
 - type: entity
   parent: [ Z14ArmorBaseT3PvP, Z14STClothingOuterArmorSSP99Base ]
   id: Z14ClothingOuterArmorSSP99
@@ -60,7 +66,7 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/outerClothing/ssp99.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetSSP99
+    clothingPrototype: Z14ClothingHeadHelmetSSP99
 
 - type: entity
   parent: Z14STClothingHeadHelmetSSP99Base
@@ -80,7 +86,7 @@
 # Zavet
 
 - type: entity
-  parent: Z14STClothingOuterArmorSSP99Base
+  parent: [ Z14ArmorBaseT3PvP, Z14STClothingOuterArmorSSP99Base ]
   id: Z14ClothingOuterArmorSSP99Zavet
   categories: [ Zona14 ]
   suffix: Z14
@@ -94,7 +100,7 @@
     - type: Clothing
       sprite: _Stalker/Objects/Clothing/outerClothing/zavet_ssp/zavet_ssp.rsi
     - type: ToggleableClothing
-      clothingPrototype: ClothingHeadHelmetSSPZavet
+      clothingPrototype: Z14ClothingHeadHelmetSSPZavet
 
 - type: entity
   parent: Z14STClothingHeadHelmetSSP99Base
@@ -128,7 +134,7 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/outerClothing/ssp99red.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetSSP99Amber
+    clothingPrototype: Z14ClothingHeadHelmetSSP99Amber
 
 - type: entity
   parent: Z14STClothingHeadHelmetSSP99Base
@@ -162,7 +168,7 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/outerClothing/ssp99white.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetSSP99White
+    clothingPrototype: Z14ClothingHeadHelmetSSP99White
 
 - type: entity
   parent: Z14STClothingHeadHelmetSSP99Base
@@ -182,7 +188,7 @@
 # Project
 
 - type: entity
-  parent: Z14STClothingOuterArmorSSP99Base
+  parent: [ Z14ArmorBaseT3PvP, Z14STClothingOuterArmorSSP99Base ]
   id: Z14STClothingOuterArmorSSP99Project
   categories: [ Zona14 ]
   name: '"NJ-1 SSP" suit'
@@ -196,7 +202,7 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/outerClothing/ssp_nj1.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHardsuitSevaHelmNJ1
+    clothingPrototype: Z14ClothingHeadHardsuitSevaHelmNJ1
     slot: head
 
 - type: entity

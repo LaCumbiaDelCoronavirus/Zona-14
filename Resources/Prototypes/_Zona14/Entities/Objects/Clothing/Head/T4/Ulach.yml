@@ -50,6 +50,19 @@
 
 - type: entity
   parent: Z14STClothingHeadHelmetTacticalT4Base
+  id: Z14ClothingHeadHelmetUlachFreedom
+  categories: [ Zona14 ]
+  name: Freedom Ulach
+  description: Ulach used by the Freedom faction.
+  suffix: Z14
+  components:
+    - type: Sprite
+      sprite: _Stalker/Objects/Clothing/hats/ulach_freedom.rsi
+    - type: Clothing
+      sprite: _Stalker/Objects/Clothing/hats/ulach_freedom.rsi
+
+- type: entity
+  parent: Z14STClothingHeadHelmetTacticalT4Base
   id: Z14ClothingHeadHelmetHardUlachUN
   categories: [ Zona14 ]
   suffix: Z14

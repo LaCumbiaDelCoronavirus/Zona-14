@@ -46,7 +46,7 @@
               - STModuleAutoSear
         gun_chamber:
           name: Chamber
-          startingItem: STCartridge919PSOGJ
+          startingItem: Z14STCartridge919PSOGJ
           priority: 1
           whitelist:
             tags:

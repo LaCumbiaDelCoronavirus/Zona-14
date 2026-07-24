@@ -1,79 +1,79 @@
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingOuterArmorZaryaJabs
   results:
-    - ClothingOuterArmorZaryaJabs
+    - Z14ClothingOuterArmorZaryaJabs
   steps:
     firstIngredient: STSkinsKitBandits
-    secondIngredient: ClothingOuterArmorZaryaStalker
+    secondIngredient: Z14ClothingOuterArmorZaryaStalker
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinSTClothingOuterArmorBandits
   results:
-    - STClothingOuterArmorBandits
+    - Z14STClothingOuterArmorBandits
   steps:
     firstIngredient: STSkinsKitBandits
-    secondIngredient: ClothingOuterArmorZaryaStalker
+    secondIngredient: Z14ClothingOuterArmorZaryaStalker
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingOuterArmorZaryaDolg
   results:
-    - ClothingOuterArmorZaryaDolg
+    - Z14ClothingOuterArmorZaryaDolg
   steps:
     firstIngredient: STSkinsKitDolg
-    secondIngredient: ClothingOuterArmorZaryaStalker
+    secondIngredient: Z14ClothingOuterArmorZaryaStalker
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingOuterArmorZaryaNeutral
   results:
-    - ClothingOuterArmorZaryaNeutral
+    - Z14ClothingOuterArmorZaryaNeutral
   steps:
     firstIngredient: STSkinsKitNeutral
-    secondIngredient: ClothingOuterArmorZaryaStalker
+    secondIngredient: Z14ClothingOuterArmorZaryaStalker
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingOuterArmorZaryaPoisk
   results:
-    - ClothingOuterArmorZaryaPoisk
+    - Z14ClothingOuterArmorZaryaPoisk
   steps:
     firstIngredient: STSkinsKitPoisk
-    secondIngredient: ClothingOuterArmorZaryaStalker
+    secondIngredient: Z14ClothingOuterArmorZaryaStalker
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinSTClothingOuterArmorDesertersZarya
   results:
-    - STClothingOuterArmorDesertersZarya
+    - Z14STClothingOuterArmorDesertersZarya
   steps:
     firstIngredient: STSkinsKitDeserters
-    secondIngredient: ClothingOuterArmorZaryaStalker
+    secondIngredient: Z14ClothingOuterArmorZaryaStalker
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingOuterArmorZaryaRene
   results:
-    - ClothingOuterArmorZaryaRene
+    - Z14ClothingOuterArmorZaryaRene
   steps:
     firstIngredient: STSkinsKitRenegate
-    secondIngredient: ClothingOuterArmorZaryaStalker
+    secondIngredient: Z14ClothingOuterArmorZaryaStalker
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinSTClothingOuterArmorProjectZarya
   results:
-  - STClothingOuterArmorProjectZarya
+  - Z14STClothingOuterArmorProjectZarya
   steps:
     firstIngredient: STSkinsKitProject
-    secondIngredient: ClothingOuterArmorZaryaStalker
+    secondIngredient: Z14ClothingOuterArmorZaryaStalker
     keepFirst: true
     time: 5

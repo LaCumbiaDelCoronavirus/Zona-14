@@ -1,7 +1,7 @@
 - type: entity
   name: AK-104 (modified)
   suffix: Z14
-  parent: STWeaponRifleStalkerAK104
+  parent: Z14STWeaponRifleStalkerAK104
   id: Z14STWeaponRifleStalkerAK104_UpgradeTest
   categories: [ Zona14 ]
   description: A test weapon for the modification system.

@@ -4,13 +4,13 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: Ammo Box (.45 ACP) Lasermatch FMJ
-  description: For select pistols and revolvers, 30 rounds per box. Penetrates only class 1 armor.
+  description: For select pistols and revolvers, 50 rounds per box. Penetrates only class 1 armor.
   components:
     - type: MagazineVisuals
       magState: 45ammo
     - type: BallisticAmmoProvider
-      capacity: 30
-      proto: Cartridge45ACPLFMJ
+      capacity: 50
+      proto: Z14Cartridge45ACPLFMJ
       whitelist:
         tags:
           - Cartridge45ACP
@@ -27,13 +27,13 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: Ammo Box (.45 ACP) Match FMJ
-  description: For select pistols and revolvers, 30 rounds per box. Penetrates class 2 armor.
+  description: For select pistols and revolvers, 50 rounds per box. Penetrates class 2 armor.
   components:
     - type: MagazineVisuals
       magState: 45ammo1
     - type: BallisticAmmoProvider
-      capacity: 30
-      proto: Cartridge45ACPMFMJ
+      capacity: 50
+      proto: Z14Cartridge45ACPMFMJ
       whitelist:
         tags:
           - Cartridge45ACP
@@ -51,13 +51,13 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: Ammo Box (.45 ACP) Hydro-shock
-  description: For select pistols and revolvers, 30 rounds per box. Penetrates class 1 armor.
+  description: For select pistols and revolvers, 50 rounds per box. Penetrates class 1 armor.
   components:
     - type: MagazineVisuals
       magState: 45ammo2
     - type: BallisticAmmoProvider
-      capacity: 30
-      proto: Cartridge45ACPHydroshock
+      capacity: 50
+      proto: Z14Cartridge45ACPHydroshock
       whitelist:
         tags:
           - Cartridge45ACP
@@ -74,11 +74,11 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: Ammo Box (.45 ACP) RIP
-  description: For select pistols and revolvers, 30 rounds per box. Useless against armor.
+  description: For select pistols and revolvers, 50 rounds per box. Useless against armor.
   components:
     - type: BallisticAmmoProvider
-      capacity: 30
-      proto: Cartridge45ACPRIP
+      capacity: 50
+      proto: Z14Cartridge45ACPRIP
       whitelist:
         tags:
           - Cartridge45ACP
@@ -95,11 +95,11 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: Ammo Box (.45 ACP) AP
-  description: For select pistols and revolvers, 30 rounds per box. Penetrates class 3 armor.
+  description: For select pistols and revolvers, 50 rounds per box. Penetrates class 3 armor.
   components:
     - type: BallisticAmmoProvider
-      capacity: 30
-      proto: Cartridge45ACPAP
+      capacity: 50
+      proto: Z14Cartridge45ACPAP
       whitelist:
         tags:
           - Cartridge45ACP
@@ -116,11 +116,11 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: Large Ammo Box (.45 ACP) Lasermatch FMJ
-  description: For select pistols and revolvers, 30 rounds per box. Penetrates only class 1 armor.
+  description: For select pistols and revolvers, 1000 rounds per crate. Penetrates only class 1 armor.
   components:
     - type: BallisticAmmoProvider
-      capacity: 300
-      proto: Cartridge45ACPLFMJ
+      capacity: 1000
+      proto: Z14Cartridge45ACPLFMJ
       whitelist:
         tags:
           - Cartridge45ACP
@@ -137,11 +137,11 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: Large Ammo Box (.45 ACP) Match FMJ
-  description: For select pistols and revolvers, 300 rounds per crate. Penetrates class 2 armor.
+  description: For select pistols and revolvers, 1000 rounds per crate. Penetrates class 2 armor.
   components:
     - type: BallisticAmmoProvider
-      capacity: 300
-      proto: Cartridge45ACPMFMJ
+      capacity: 1000
+      proto: Z14Cartridge45ACPMFMJ
       whitelist:
         tags:
           - Cartridge45ACP
@@ -158,11 +158,11 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: Large Ammo Box (.45 ACP) Hydro-shock
-  description: For select pistols and revolvers, 300 rounds per crate. Penetrates class 1 armor.
+  description: For select pistols and revolvers, 1000 rounds per crate. Penetrates class 1 armor.
   components:
     - type: BallisticAmmoProvider
-      capacity: 300
-      proto: Cartridge45ACPHydroshock
+      capacity: 1000
+      proto: Z14Cartridge45ACPHydroshock
       whitelist:
         tags:
           - Cartridge45ACP
@@ -179,11 +179,11 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: Large Ammo Box (.45 ACP) RIP
-  description: For select pistols and revolvers, 300 rounds per crate. Useless against armor.
+  description: For select pistols and revolvers, 1000 rounds per crate. Useless against armor.
   components:
     - type: BallisticAmmoProvider
-      capacity: 300
-      proto: Cartridge45ACPRIP
+      capacity: 1000
+      proto: Z14Cartridge45ACPRIP
       whitelist:
         tags:
           - Cartridge45ACP
@@ -200,11 +200,11 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: Large Ammo Box (.45 ACP) AP
-  description: For select pistols and revolvers, 30 rounds per box. Penetrates class 3 armor.
+  description: For select pistols and revolvers, 1000 rounds per crate. Penetrates class 3 armor.
   components:
     - type: BallisticAmmoProvider
-      capacity: 30
-      proto: Cartridge45ACPAP
+      capacity: 1000
+      proto: Z14Cartridge45ACPAP
       whitelist:
         tags:
           - Cartridge45ACP

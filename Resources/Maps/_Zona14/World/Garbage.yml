@@ -254448,7 +254448,7 @@ entities:
     missingComponents:
     - Item
     - Pullable
-- proto: ClothingMaskGasRenegats
+- proto: Z14ClothingMaskGasRenegats
   entities:
   - uid: 35280
     components:
@@ -254522,7 +254522,7 @@ entities:
     missingComponents:
     - Item
     - Pullable
-- proto: ClothingOuterArmorSSP24Ruby
+- proto: Z14ClothingOuterArmorSSP24Ruby
   entities:
   - uid: 32686
     components:
@@ -254532,7 +254532,7 @@ entities:
     missingComponents:
     - Item
     - Pullable
-- proto: ClothingOuterArmorSSP24Sapfire
+- proto: Z14ClothingOuterArmorSSP24Sapfire
   entities:
   - uid: 14369
     components:
@@ -254542,7 +254542,7 @@ entities:
     missingComponents:
     - Item
     - Pullable
-- proto: ClothingOuterArmorSSP99White
+- proto: Z14ClothingOuterArmorSSP99White
   entities:
   - uid: 25407
     components:
@@ -395337,7 +395337,7 @@ entities:
     - type: Transform
       pos: -156.5,430.5
       parent: 1
-- proto: STWeaponRifleAKS74Green
+- proto: Z14STWeaponRifleAKS74Green
   entities:
   - uid: 36638
     components:

@@ -4,7 +4,7 @@
     - ClothingBackpackDuffelCommonStalker
   craftTime: 10
   items:
-    ClothingBackpackDuffelCommonStalkerBlueprint:
+    Z14ClothingBackpackDuffelCommonStalkerBlueprint:
       amount: 1
       catalyzer: true
     ClothingBackpackMercStalker:
@@ -20,7 +20,7 @@
     - ClothingBackpackDuffelMilitaryOlive
   craftTime: 10
   items:
-    ClothingBackpackDuffelMilitaryOliveBlueprint:
+    Z14ClothingBackpackDuffelMilitaryOliveBlueprint:
       amount: 1
       catalyzer: true
     ClothingBackpackDuffelCommonStalker:
@@ -38,7 +38,7 @@
     - ClothingBackpackDuffelBlackMilitaryTacticStalker
   craftTime: 10
   items:
-    ClothingBackpackDuffelBlackMilitaryTacticStalkerBlueprint:
+    Z14ClothingBackpackDuffelBlackMilitaryTacticStalkerBlueprint:
       amount: 1
       catalyzer: true
     ClothingBackpackDuffelCommonStalker:
@@ -56,7 +56,7 @@
     - ClothingBackpackDuffelMilitaryBlue
   craftTime: 10
   items:
-    ClothingBackpackDuffelMilitaryBlueBlueprint:
+    Z14ClothingBackpackDuffelMilitaryBlueBlueprint:
       amount: 1
       catalyzer: true
     ClothingBackpackDuffelCommonStalker:
@@ -74,7 +74,7 @@
     - ClothingBackpackDuffelHikingVSRF
   craftTime: 10
   items:
-    ClothingBackpackDuffelHikingVSRFBlueprint:
+    Z14ClothingBackpackDuffelHikingVSRFBlueprint:
       amount: 1
       catalyzer: true
     ClothingBackpackDuffelCommonStalker:
@@ -92,7 +92,7 @@
     - ClothingBackpackDuffelOliveTacticStalker
   craftTime: 10
   items:
-    ClothingBackpackDuffelOliveTacticStalkerBlueprint:
+    Z14ClothingBackpackDuffelOliveTacticStalkerBlueprint:
       amount: 1
       catalyzer: true
     ClothingBackpackDuffelCommonStalker:
@@ -110,7 +110,7 @@
     - ClothingBackpackDuffelBlackTacticStalker
   craftTime: 10
   items:
-    ClothingBackpackDuffelBlackTacticStalkerBlueprint:
+    Z14ClothingBackpackDuffelBlackTacticStalkerBlueprint:
       amount: 1
       catalyzer: true
     ClothingBackpackDuffelCommonStalker:
@@ -128,7 +128,7 @@
     - ClothingBackpackDuffelSuperStalkerGray
   craftTime: 10
   items:
-    ClothingBackpackDuffelSuperStalkerGrayBlueprint:
+    Z14ClothingBackpackDuffelSuperStalkerGrayBlueprint:
       amount: 1
       catalyzer: true
     STClothingBackpackT4:
@@ -147,7 +147,7 @@
     - ClothingBackpackDuffelSuperStalker
   craftTime: 10
   items:
-    ClothingBackpackDuffelSuperStalkerBlueprint:
+    Z14ClothingBackpackDuffelSuperStalkerBlueprint:
       amount: 1
       catalyzer: true
     STClothingBackpackT4:
@@ -166,7 +166,7 @@
     - ClothingBackpackDuffelRareStalker
   craftTime: 10
   items:
-    ClothingBackpackDuffelRareStalkerBlueprint:
+    Z14ClothingBackpackDuffelRareStalkerBlueprint:
       amount: 1
       catalyzer: true
     STClothingBackpackT5:

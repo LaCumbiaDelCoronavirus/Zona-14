@@ -16,7 +16,3 @@ ent-Z14MobClearSkySecurityLow = Clear Sky Guard
 ent-Z14MobDutySecurityLow = Duty Guard
     .desc = A Duty faction guard.
     .suffix = Z14
-
-ent-Z14MobSeraphimsGuardLite = Seraphim Patrolman
-    .desc = A Seraphim patrol guard, delivering divine will through lead.
-    .suffix = Z14

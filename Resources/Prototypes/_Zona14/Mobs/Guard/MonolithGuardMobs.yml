@@ -11,7 +11,7 @@
       state: alive
       sprite: /Textures/_Stalker/NPC/Random/Monolith/Suit/AKS-74/Armed/marlya.rsi
   - type: BatteryAmmoProvider
-    proto: Bullet545PC
+    proto: Z14Bullet545PC
     fireCost: 3.3
   - type: Gun
     soundGunshot:
@@ -38,7 +38,7 @@
       state: alive
       sprite: /Textures/_Stalker/NPC/Random/Monolith/Suit/L85/Armed/gas1.rsi
   - type: BatteryAmmoProvider
-    proto: Bullet556M855
+    proto: Z14Bullet556M855
     fireCost: 3.3
   - type: Gun
     soundGunshot:
@@ -65,7 +65,7 @@
       state: alive
       sprite: /Textures/_Stalker/NPC/Random/Monolith/Suit/LR-300/Armed/balaklava.rsi
   - type: BatteryAmmoProvider
-    proto: Bullet556M855
+    proto: Z14Bullet556M855
     fireCost: 3.3
   - type: Gun
     fireRate: 8
@@ -100,7 +100,7 @@
       20: Critical
       21: Dead
   - type: BatteryAmmoProvider
-    proto: Bullet545PC
+    proto: Z14Bullet545PC
     fireCost: 3.3
   - type: Gun
     soundGunshot:

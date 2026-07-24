@@ -1,19 +1,19 @@
 - type: lightCraftingRecipe
   id: Z14STCraftSkinSTClothingOuterArmorLightPlateVestBaseANAPilgrim
   results:
-    - STClothingOuterArmorLightPlateVestBaseANAPilgrim
+    - Z14STClothingOuterArmorLightPlateVestBaseANAPilgrim
   steps:
     firstIngredient: STSkinsKitPilgrim
-    secondIngredient: STClothingOuterArmorLightPlateVestBaseANAgreen
+    secondIngredient: Z14STClothingOuterArmorLightPlateVestBaseANAgreen
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingOuterArmorLightPlateVestBaseANAproject
   results:
-  - STClothingOuterArmorLightPlateVestBaseANAproject
+  - Z14STClothingOuterArmorLightPlateVestBaseANAproject
   steps:
     firstIngredient: STSkinsKitProject
-    secondIngredient: STClothingOuterArmorLightPlateVestBaseANAgreen
+    secondIngredient: Z14STClothingOuterArmorLightPlateVestBaseANAgreen
     keepFirst: true
     time: 5

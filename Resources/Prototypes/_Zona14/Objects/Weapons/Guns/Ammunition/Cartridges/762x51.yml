@@ -6,7 +6,7 @@
   parent: BaseCartridge751
   components:
   - type: CartridgeAmmo
-    proto: Bullet751M80
+    proto: Z14Bullet751M80
 
 - type: entity
   id: Z14Cartridge751Noiser
@@ -16,7 +16,7 @@
   parent: BaseCartridge751
   components:
   - type: CartridgeAmmo
-    proto: Bullet751Noiser
+    proto: Z14Bullet751Noiser
 
 - type: entity
   id: Z14Cartridge751M61
@@ -26,7 +26,7 @@
   parent: BaseCartridge751
   components:
   - type: CartridgeAmmo
-    proto: Bullet751M61
+    proto: Z14Bullet751M61
 
 - type: entity
   id: Z14Cartridge751M993
@@ -36,7 +36,7 @@
   parent: BaseCartridge751
   components:
   - type: CartridgeAmmo
-    proto: Bullet751M993
+    proto: Z14Bullet751M993
 
 - type: entity
   id: Z14Cartridge754R
@@ -46,4 +46,4 @@
   parent: BaseCartridge754R
   components:
   - type: CartridgeAmmo
-    proto: Bullet754R
+    proto: Z14Bullet754R

@@ -13,7 +13,7 @@
   - type: ToggleableClothing
     slot: head
     requiredSlot: CLOAK
-    clothingPrototype: ClothingHeadHelmetDoshdevikCoat
+    clothingPrototype: Z14ClothingHeadHelmetDoshdevikCoat
 
 - type: entity
   parent: STClothingHeadHatBase
@@ -45,7 +45,7 @@
   - type: ToggleableClothing
     slot: head
     requiredSlot: CLOAK
-    clothingPrototype: ClothingHeadHelmetKKKCoat
+    clothingPrototype: Z14ClothingHeadHelmetKKKCoat
 - type: entity
   parent: STClothingHeadHatBase
   id: Z14ClothingHeadHelmetKKKCoat
@@ -75,7 +75,7 @@
   - type: ToggleableClothing
     slot: head
     requiredSlot: CLOAK
-    clothingPrototype: ClothingHeadHelmetPahanCoat
+    clothingPrototype: Z14ClothingHeadHelmetPahanCoat
 - type: entity
   parent: STClothingHeadHatBase
   id: Z14ClothingHeadHelmetPahanCoat
@@ -140,7 +140,7 @@
     - type: ToggleableClothing
       slot: head
       requiredSlot: CLOAK
-      clothingPrototype: ClothingHeadCassock
+      clothingPrototype: Z14ClothingHeadCassock
 
 - type: entity
   parent: STClothingHeadHatBase
@@ -170,7 +170,7 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/cloak/camouflage.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetSeraRuined
+    clothingPrototype: Z14ClothingHeadHelmetSeraRuined
     requiredSlot:
     - neck
     slot: head
@@ -217,7 +217,7 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/cloak/Sera_/cape_serafim.rsi
   - type: ToggleableClothing
-    clothingPrototype: STClothingHeadHelmetSerafim
+    clothingPrototype: Z14STClothingHeadHelmetSerafim
 - type: entity
   parent: STClothingHeadHatBase
   id: Z14STClothingHeadHelmetSerafim
@@ -260,7 +260,7 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/cloak/oldroad.rsi
   - type: ToggleableClothing
-    clothingPrototype: STClothingHeadOldRoadHelmet
+    clothingPrototype: Z14STClothingHeadOldRoadHelmet
 - type: entity
   parent: STClothingHeadHatBase
   id: Z14STClothingHeadOldRoadHelmet

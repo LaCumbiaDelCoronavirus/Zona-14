@@ -21,7 +21,9 @@ public sealed class ChameleonJobLoadoutTest : InteractionTest
         "StalkerBandit",
         "StalkerClearSky",
         "StalkerClearSkyHead",
+        "StalkerCutthroat", // Zona14: gained a roleLoadout (53a5d95ce7); hand-authored like its siblings
         "StalkerDolg",
+        "StalkerDutyNCO", // Zona14: gained a roleLoadout (53a5d95ce7); hand-authored like its siblings
         "StalkerFreedom",
         "StalkerGuide",
         "StalkerHeadBandit",
@@ -34,6 +36,7 @@ public sealed class ChameleonJobLoadoutTest : InteractionTest
         "StalkerNoviceFreedom",
         "StalkerRene",
         "StalkerRookie",
+        "StalkerScout", // Zona14: gained a roleLoadout (53a5d95ce7); hand-authored like its siblings
         "StalkerVeteran",
         "Seraphim",
         "SeraphimCherubim",

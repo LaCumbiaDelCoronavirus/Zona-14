@@ -173,7 +173,7 @@
       tableId: StalkerMedical
       weight: 20
     - !type:NestedSelector
-      tableId: Tier1STFish
+      tableId: Z14Tier1STFish  # Zona14: Tier1STFish<Z14Tier1STFish - Z14 fish butcher into the Z14 raw meat the Z14 cooking recipes need
       weight: 32
 
 - type: entityTable
@@ -193,7 +193,7 @@
       tableId: StalkerMutant
       weight: 1
     - !type:NestedSelector
-      tableId: Tier2STFish
+      tableId: Z14Tier2STFish  # Zona14: Tier2STFish<Z14Tier2STFish - Z14 fish butcher into the Z14 raw meat the Z14 cooking recipes need
       weight: 15
 
 - type: entityTable
@@ -210,7 +210,7 @@
       tableId: StalkerFishingTier2
       weight: 80
     - !type:NestedSelector
-      tableId: Tier3STFish
+      tableId: Z14Tier3STFish  # Zona14: Tier3STFish<Z14Tier3STFish - Z14 fish butcher into the Z14 raw meat the Z14 cooking recipes need
       weight: 9
 
 - type: entityTable

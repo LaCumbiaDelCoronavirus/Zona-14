@@ -14,7 +14,7 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/outerClothing/exoskelet_stalker.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetExoskelet
+    clothingPrototype: Z14ClothingHeadHelmetExoskelet
   - type: ClothingSpeedModifier
     walkModifier: 0.6
     sprintModifier: 0.5
@@ -59,7 +59,7 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/outerClothing/exoskelet_monolith.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetExoskeletMonolith
+    clothingPrototype: Z14ClothingHeadHelmetExoskeletMonolith
 
 - type: entity
   parent: Z14ClothingOuterArmorExoskelet
@@ -95,7 +95,7 @@
     - type: Clothing
       sprite: _Stalker/Objects/Clothing/outerClothing/zavet_ekzo/zavet_ekzo.rsi
     - type: ToggleableClothing
-      clothingPrototype: ClothingHeadHelmetExoskeletonCovenant
+      clothingPrototype: Z14ClothingHeadHelmetExoskeletonCovenant
 
 - type: entity
   parent: STClothingHeadBase
@@ -130,7 +130,7 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/outerClothing/exoseva_project.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetExoSevaProject
+    clothingPrototype: Z14ClothingHeadHelmetExoSevaProject
 
 - type: entity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
@@ -153,3 +153,9 @@
   - type: IngestionBlocker
   - type: PointLight
     color: white
+  - type: Armor
+    modifiers:
+      coefficients:
+        Heat: 0.9
+        Radiation: 0.25
+

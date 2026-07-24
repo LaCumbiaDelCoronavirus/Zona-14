@@ -164,6 +164,24 @@
     - name: shop-category-weapons
       priority: 1
       items:
+        Z14STWeaponShotgunTOZ34: 1250
+        Z14STWeaponShotgunSawedOf: 1250
+        Z14STBaseWeaponShotgunTOZ106: 1250
+        Z14WeaponPistolStalkerLP08: 500
+        Z14WeaponPistolStalkerPMModifed: 1250
+        Z14WeaponPistolStalkerAPSHugo: 500
+        Z14STWeaponSMGVZ61: 500
+        Z14STWeaponShotgunMP155T: 1250
+        Z14STWeaponShotgunTOZ54: 1250
+        Z14WeaponStalkerPistolTec9: 1250
+        Z14STWeaponSMGFNP90: 1250
+        Z14STWeaponSMGOTS126: 1250
+        Z14STWeaponSMGPP19919: 1250
+        Z14STWeaponSMGPP2000: 1250
+        Z14STWeaponSMGVector9: 1250
+        Z14STWeaponSMGVector9Black: 1250
+        Z14STWeaponSMGVector9Forest: 1250
+        Z14STWeaponShotgunCompact: 1250
         # Melee
         STThrowingknifeYellow: 500
         # Pistols
@@ -174,19 +192,11 @@
         STWeaponRevolverSWModel325: 1000
         STWeaponRevolverSWModel625: 1450
         STWeaponRevolverSWPC325TR: 350
-        # Shotguns
-        STWeaponShotgunMossbergM88: 600
-        STWeaponShotgunSPAS: 2100
         # SMGs
         Z14STWeaponSMGMP5: 2600
         Z14STWeaponSMGPP19: 3300
         Z14STWeaponSMGPP1901: 2000
         # Rifles
-        Z14STWeaponRifleAKS74U: 3000
-        Z14STWeaponRifleAKS74: 5500
-        Z14STWeaponRifleL85: 2250
-        Z14STWeaponRifleAKM: 6700
-        Z14STWeaponRifleFAL: 3000
 
     - name: shop-category-magazines
       priority: 2
@@ -215,37 +225,37 @@
         6mmBuckshotBox: 375 # T1
         8mmBuckshotBox: 825 # T2
         # .45
-        Z1445ACPLFMJBox: 100 # T1
-        Z1445ACPMFMJBox: 590 # T2
-        Z1445ACPRIPBox: 750 # Mutant
-        Z1445ACPAPBox: 1600 # T3
+        Z1445ACPLFMJBox: 500 # T1
+        Z1445ACPMFMJBox: 500 # T2
+        Z1445ACPRIPBox: 500 # Mutant
+        Z1445ACPAPBox: 900 # T3
         # 7.25
-        Z14725PBox: 130 # T1
-        Z14725PTBox: 300 # T2
-        Z14725LRNPCBox: 625 # Mutant
-        Z14725PSTBox: 1450 # T3
+        Z14725PBox: 250 # T1
+        Z14725PTBox: 450 # T2
+        Z14725LRNPCBox: 250 # Mutant
+        Z14725PSTBox: 450 # T3
         # 9.19
-        Z14919PSOGJBox: 80 # T1
-        Z14919PSTBox: 560 # T2
-        Z14919RIPBox: 625 # Mutant
-        Z14919PBMBox: 1450 # T3
+        Z14919PSOGJBox: 500 # T1
+        Z14919PSTBox: 900 # T2
+        Z14919RIPBox: 500 # Mutant
+        Z14919PBMBox: 900 # T3
         # 9.18
-        Z14918PGJBox: 80 # T1
-        Z14918PSTBox: 560 # T2
-        Z14918SP7Box: 625 # Mutant
-        Z14918PBMBox: 1425 # T3
+        Z14918PGJBox: 250 # T1
+        Z14918PSTBox: 450 # T2
+        Z14918SP7Box: 250 # Mutant
+        Z14918PBMBox: 450 # T3
         # 5.45
-        Z14545FMJBox: 650 # T2
-        Z14545HPBox: 725 # Mutant
-        Z14545PCBox: 1650 # T3
+        Z14545FMJBox: 1200 # T2
+        Z14545HPBox: 1200 # Mutant
+        Z14545PCBox: 2160 # T3
         # 5.56
-        Z14556FMJBox: 650 # T2
-        Z14556M855Box: 1650 # T3
-        Z14556WarmagBox: 725 # Mutant
+        Z14556FMJBox: 1200 # T2
+        Z14556M855Box: 1200 # T3
+        Z14556WarmagBox: 1200 # Mutant
         # 7.62
-        Z14739FMJBox: 1950 # T3
-        Z14739HPBox: 850 # Mutant
-        Z14751UNBox: 850 # Mutant
+        Z14739FMJBox: 2400 # T3
+        Z14739HPBox: 2400 # Mutant
+        Z14751UNBox: 1600 # Mutant
 
     - name: shop-category-medicine
       priority: 4
@@ -325,13 +335,10 @@
         # Body Armor
         SetArmourJacketNoviceBrezentBuyableCrate: 1500 # T2 - PvP
         SetArmourJacketNoviceWhiteBuyableCrate: 1500 # T2 - PvP
-        Z14STClothingOuterArmorLightPlateVestBaseANAgreenOld: 2000 # T3 - Weak
-        Z14STClothingOuterArmorLightPlateVestBaseANAgrayOld: 2000 # T3 - Weak
-        Z14ClothingOuterArmorSevaStalker: 7000 # T3 - ENV
+        Z14STClothingOuterArmorLightPlateVestBaseANAgreenOld: 500 # T3 - Weak
+        Z14STClothingOuterArmorLightPlateVestBaseANAgrayOld: 500 # T3 - Weak
         SetZaryaStalkerBuyableCrate: 2250 # T2 - PVE
-        Z14ClothingOuterArmorStalker: 14000 # T3 - PvP
-        Z14ClothingOuterArmorAborigineStalker: 10000 # T3 - PvE
-        Z14ClothingOuterArmor6B2: 2250 # T2
+        Z14ClothingOuterArmor6B2: 1250 # T2
         # Helmet
         Z14ClothingHeadHelmetVityaz1C: 3500 # T3 - PvP
         Z14ClothingHeadHelmetInfantry: 500 # T2
@@ -491,8 +498,6 @@
         # HANDS
         ClothingHandsGlovesFingerless: 30
         ClothingHandsGlovesMercFingerless: 60
-        # OUTERCLOTHING
-        # CLOAK
         # LEGS
         Z14ClothingLegsJeansBlue: 10
         Z14ClothingLegsJeansStalker: 10

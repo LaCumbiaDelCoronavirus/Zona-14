@@ -4,7 +4,7 @@
   - STPsyHelm2
   craftTime: 10
   items:
-    ClothingEarsPsyHelmT2Blueprint:
+    Z14ClothingEarsPsyHelmT2Blueprint:
       amount: 1
       catalyzer: true
     STCraftPlasticFittingT3:

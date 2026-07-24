@@ -300494,7 +300494,7 @@ entities:
     - DamageExaminable
     - Currency
     - STWeight
-- proto: ClothingHeadHelmet1SHBandit
+- proto: Z14ClothingHeadHelmet1SHBandit
   entities:
   - uid: 24081
     components:
@@ -300547,7 +300547,7 @@ entities:
     - type: Transform
       pos: 230.49153,269.82446
       parent: 1
-- proto: ClothingOuterArmorSSP99
+- proto: Z14ClothingOuterArmorSSP99
   entities:
   - uid: 2765
     components:
@@ -300559,7 +300559,7 @@ entities:
     - Storage
     - Item
     - Pullable
-- proto: ClothingOuterArmourCoatBanditBlack
+- proto: Z14ClothingOuterArmourCoatBanditBlack
   entities:
   - uid: 32700
     components:
@@ -300570,7 +300570,7 @@ entities:
     - Item
     - Storage
     - Pullable
-- proto: ClothingOuterArmourCoatBanditBrown
+- proto: Z14ClothingOuterArmourCoatBanditBrown
   entities:
   - uid: 32732
     components:
@@ -409302,7 +409302,7 @@ entities:
       rot: 3.141592653589793 rad
       pos: -31.5,100.5
       parent: 1
-- proto: STClothingOuterArmorLightPlateVestBaseHeavyBandit
+- proto: Z14STClothingOuterArmorLightPlateVestBaseHeavyBandit
   entities:
   - uid: 20552
     components:

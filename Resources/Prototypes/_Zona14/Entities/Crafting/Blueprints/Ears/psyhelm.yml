@@ -6,7 +6,7 @@
   suffix: Z14
   components:
   - type: STBlueprint
-    blueprint: recipeClothingEarsPsyHelmT2
+    blueprint: Z14recipeClothingEarsPsyHelmT2
 
 - type: entity
   parent: STBaseBlueprint

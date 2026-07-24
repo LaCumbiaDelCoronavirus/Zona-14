@@ -1,0 +1,305 @@
+# Blueprints for the T3+ suits that had no recipe. Every armour craftRecipe in the
+# repo takes a blueprint as catalyzer (37 of 37), so a recipe without one would be
+# the odd exception rather than a shortcut.
+#
+# `blueprint:` names the craftRecipe id this unlocks.
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14ClothingOuterArmorDolgPS5MBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: PS5-M Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeClothingOuterArmorDolgPS5M
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14ClothingOuterArmorBulatMilitaryBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Bulat Military Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeClothingOuterArmorBulatMilitary
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14ClothingOuterArmorExoskeletBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Exoskeleton Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeClothingOuterArmorExoskelet
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14ClothingOuterArmorCN3bBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Armor CN3b Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeClothingOuterArmorCN3b
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14ClothingOuterArmorHazmatRfBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Armor Hazmat Rf Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeClothingOuterArmorHazmatRf
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14ClothingOuterArmorHeavyDebtBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Armor Heavy Debt Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeClothingOuterArmorHeavyDebt
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14ClothingOuterArmorHeavyUNTARBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Armor Heavy UNTAR Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeClothingOuterArmorHeavyUNTAR
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14ClothingOuterArmorLegatDeserterBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Armor Legat Deserter Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeClothingOuterArmorLegatDeserter
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14ClothingOuterArmorMerc2Blueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Armor Merc2 Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeClothingOuterArmorMerc2
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14ClothingOuterArmorSSP99AmberBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Armor SSP99 Amber Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeClothingOuterArmorSSP99Amber
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14ClothingOuterArmorSevaFreedomBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Armor Seva Freedom Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeClothingOuterArmorSevaFreedom
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14ClothingOuterArmorSevaSciRedBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Armor Seva Sci Red Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeClothingOuterArmorSevaSciRed
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14ClothingOuterArmorSevaSciWhiteBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Armor Seva Sci White Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeClothingOuterArmorSevaSciWhite
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14ClothingOuterArmorSevaVanoBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Armor Seva Vano Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeClothingOuterArmorSevaVano
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14ClothingOuterArmorStalkerCombatCNBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Armor Stalker Combat CN Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeClothingOuterArmorStalkerCombatCN
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14ClothingOuterArmorUzk5Blueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Armor Uzk5 Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeClothingOuterArmorUzk5
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14ClothingOuterArmorYegerBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Armor Yeger Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeClothingOuterArmorYeger
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STClothingOuterArmorBerillBerezaBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Armor Berill Bereza Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTClothingOuterArmorBerillBereza
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STClothingOuterArmorCN-4aResearcherBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Armor CN-4a Researcher Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTClothingOuterArmorCN-4aResearcher
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STClothingOuterArmorGonchiyBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Armor Gonchiy Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTClothingOuterArmorGonchiy
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STClothingOuterArmorHeavyMBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Armor Heavy M Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTClothingOuterArmorHeavyM
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STClothingOuterArmorKravaBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Armor Krava Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTClothingOuterArmorKrava
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STClothingOuterArmorLightPlateVestBaseHeavyBanditBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Armor Light Plate Vest Base Heavy Bandit Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTClothingOuterArmorLightPlateVestBaseHeavyBandit
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STClothingOuterArmorLightPlateVestBaseHeavyMilitaryBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Armor Light Plate Vest Base Heavy Military Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTClothingOuterArmorLightPlateVestBaseHeavyMilitary
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STClothingOuterArmorPeresvetBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Armor Peresvet Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTClothingOuterArmorPeresvet
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STClothingOuterArmorSkyWalkerBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Armor Sky Walker Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTClothingOuterArmorSkyWalker
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STClothingOuterArmorVeryHeavySciBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Armor Very Heavy Sci Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTClothingOuterArmorVeryHeavySci
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STClothingOuterHeavyTorBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Heavy Tor Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTClothingOuterHeavyTor
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STClothingOuterIOTVGEN4Blueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: IOTVGEN4 Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTClothingOuterIOTVGEN4
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STClothingOuterKoryndBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Korynd Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTClothingOuterKorynd

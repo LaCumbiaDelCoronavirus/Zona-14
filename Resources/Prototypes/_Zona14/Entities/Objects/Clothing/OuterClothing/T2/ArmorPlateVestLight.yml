@@ -117,7 +117,7 @@
 # Zavet - 5
 
 - type: entity
-  parent: Z14STClothingOuterArmorLightPlateVestBase
+  parent: [ Z14ArmorBaseT2PvP, Z14STClothingOuterArmorLightPlateVestBase ]
   id: Z14STClothingOuterArmorLightPlateVestBaseZavet
   categories: [ Zona14 ]
   suffix: Z14
@@ -168,7 +168,7 @@
       tags:
       - STArtifact
 - type: entity
-  parent: Z14STClothingOuterArmorLightPlateVestBase
+  parent: [ Z14ArmorBaseT2PvP, Z14STClothingOuterArmorLightPlateVestBase ]
   id: Z14STClothingOuterArmorLightPlateVestBaseSera
   categories: [ Zona14 ]
   suffix: Z14
@@ -221,7 +221,7 @@
       tags:
       - STArtifact
 - type: entity
-  parent: Z14STClothingOuterArmorLightPlateVestBase
+  parent: [ Z14ArmorBaseT2PvP, Z14STClothingOuterArmorLightPlateVestBase ]
   id: Z14STClothingOuterArmorLightPlateVestBaseUN
   categories: [ Zona14 ]
   suffix: Z14
@@ -236,7 +236,7 @@
     sprite: _Stalker/Objects/Clothing/outerClothing/un_armor.rsi
 
 - type: entity
-  parent: Z14STClothingOuterArmorLightPlateVestBase
+  parent: [ Z14ArmorBaseT2PvP, Z14STClothingOuterArmorLightPlateVestBase ]
   id: Z14STClothingOuterArmorLightPlateVestBaseRenegate
   categories: [ Zona14 ]
   suffix: Z14
@@ -270,7 +270,7 @@
         Radiation: 18.01
 
 - type: entity
-  parent: Z14STClothingOuterArmorLightPlateVestBase
+  parent: [ Z14ArmorBaseT2PvP, Z14STClothingOuterArmorLightPlateVestBase ]
   id: Z14STClothingOuterArmorLightPlateVestBasePilgrim
   categories: [ Zona14 ]
   suffix: Z14
@@ -303,7 +303,7 @@
     sprite: _Stalker/Objects/Clothing/outerClothing/clear_sky_armor.rsi
 
 - type: entity
-  parent: Z14STClothingOuterArmorLightPlateVestBase
+  parent: [ Z14ArmorBaseT2PvP, Z14STClothingOuterArmorLightPlateVestBase ]
   id: Z14STClothingOuterArmorLightPlateVestBaseProject
   categories: [ Zona14 ]
   name: Project Shield-2 body armor

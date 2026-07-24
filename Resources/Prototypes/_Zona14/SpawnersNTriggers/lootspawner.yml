@@ -56,7 +56,7 @@
       - Z14FoodSTPotato
       - Z14FoodSTOnion
       - Z14FoodSTBeet
-      - STCookingPancakes
+      - Z14STCookingPancakes
       - STCookingBorscht
       - STCookingHrechanyky
     rareChance: 0.30
@@ -80,8 +80,8 @@
       # EN additions
       - Z14FoodSTSpice
       - Z14FoodSTSugar
-      - STCookingFreshCheese
-      - STCookingCakePlain
+      - Z14STCookingFreshCheese
+      - Z14STCookingCakePlain
     chance: 0.40
     offset: 0.0
 

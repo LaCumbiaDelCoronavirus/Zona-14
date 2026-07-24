@@ -38,7 +38,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: 754Mag10
+        startingItem: Z14754Mag10
         insertSound: /Audio/_Stalker/Weapons/Guns/RifleGen/MagIn/rifle_magin.ogg
         ejectSound: /Audio/_Stalker/Weapons/Guns/RifleGen/MagOut/rifle_magout.ogg
         priority: 4
@@ -178,7 +178,7 @@
       slots:
         gun_magazine:
           name: Magazine
-          startingItem: 754Mag10
+          startingItem: Z14754Mag10
           insertSound: /Audio/_Stalker/Weapons/Guns/RifleGen/MagIn/rifle_magin.ogg
           ejectSound: /Audio/_Stalker/Weapons/Guns/RifleGen/MagOut/rifle_magout.ogg
           priority: 4
@@ -257,7 +257,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: BasePP2000PearlMag
+        startingItem: Z14BasePP2000PearlMag
         insertSound: /Audio/Weapons/Guns/MagIn/revolver_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/revolver_magout.ogg
         priority: 3

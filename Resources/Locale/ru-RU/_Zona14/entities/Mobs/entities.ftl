@@ -34,9 +34,6 @@ ent-Z14MobStalkerSBU = кукла СБУ (переименуй меня)
 ent-Z14MobStalkerSci = кукла учёный (переименуй меня)
     .desc = Существо Зоны.
     .suffix = Z14
-ent-Z14MobStalkerSeraphim = кукла серафим (переименуй меня)
-    .desc = Существо Зоны.
-    .suffix = Z14
 ent-Z14MobStalkerStalker = кукла Сталкера (переименуй меня)
     .desc = Существо Зоны.
     .suffix = Z14
@@ -69,10 +66,6 @@ ent-Z14MobStalkerMilitiaCommander = кукла последний день (пе
     .suffix = Z14
 
 ent-Z14MobStalkerMonolith = кукла СБУ (переименуй меня)
-    .desc = Объект зоны.
-    .suffix = Z14
-
-ent-Z14MobStalkerProject = кукла циркач (переименуй меня)
     .desc = Объект зоны.
     .suffix = Z14
 

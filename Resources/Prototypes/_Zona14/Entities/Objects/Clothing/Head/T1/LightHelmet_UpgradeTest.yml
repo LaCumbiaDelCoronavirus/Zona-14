@@ -10,3 +10,8 @@
     self: 1
   - type: STItemUpgrades
     tree: STHelmetUpgradeTree
+  - type: Armor
+    modifiers:
+      coefficients:
+        Heat: 0.9
+

@@ -169,19 +169,10 @@
       # SMGs
       Z14STWeaponSMGPP19: 1000
       Z14STWeaponSMGPP1901: 1200
-      # Rifles
       # 5.45
-      Z14STWeaponRifleAKS74U: 600
-      Z14STWeaponRifleAKS74UBlack: 600
-      Z14STWeaponRifleAKS74: 900
-      Z14STWeaponRifleAKS74Green: 900
       # Z14STWeaponRifleStalkerAbakan: 2500
       # 7.62
-      Z14STWeaponSniperSKS: 800
-      Z14STWeaponRifleAKMC: 600
-      Z14STWeaponRifleAKM: 1200
       # Snipers
-      Z14STWeaponSniperMosin: 850
 
   - name: shop-category-magazines
     priority: 2

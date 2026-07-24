@@ -26977,7 +26977,7 @@ entities:
     - type: Transform
       pos: 51.5,48.5
       parent: 1
-- proto: ClothingHeadBeretUN
+- proto: Z14ClothingHeadBeretUN
   entities:
   - uid: 955
     components:
@@ -26989,14 +26989,14 @@ entities:
     - type: Transform
       pos: -7.690743,48.73796
       parent: 1
-- proto: ClothingHeadHatSovietUshankaStalker
+- proto: Z14ClothingHeadHatSovietUshankaStalker
   entities:
   - uid: 957
     components:
     - type: Transform
       pos: -28.274261,48.11869
       parent: 1
-- proto: ClothingHeadHatUNModification
+- proto: Z14ClothingHeadHatUNModification
   entities:
   - uid: 958
     components:

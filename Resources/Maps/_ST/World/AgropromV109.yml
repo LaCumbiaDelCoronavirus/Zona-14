@@ -106826,21 +106826,21 @@ entities:
     - type: Transform
       pos: -198.5,-145.5
       parent: 1
-- proto: ClothingHeadBandana2Military
+- proto: Z14ClothingHeadBandana2Military
   entities:
   - uid: 2171
     components:
     - type: Transform
       pos: -192.59308,-95.37753
       parent: 1
-- proto: ClothingMaskGasM40Military
+- proto: Z14ClothingMaskGasM40Military
   entities:
   - uid: 2172
     components:
     - type: Transform
       pos: -164.50043,-72.785706
       parent: 1
-- proto: ClothingNeckCloakDolg
+- proto: Z14ClothingNeckCloakDolg
   entities:
   - uid: 2174
     components:
@@ -187268,7 +187268,7 @@ entities:
     - type: Transform
       pos: 66.5,-2.5
       parent: 1
-- proto: STWeaponRifleAK74M
+- proto: Z14STWeaponRifleAK74M
   entities:
   - uid: 18929
     components:

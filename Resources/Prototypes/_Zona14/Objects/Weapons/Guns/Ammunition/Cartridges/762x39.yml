@@ -6,7 +6,7 @@
   parent: BaseSTCartridge739
   components:
   - type: CartridgeAmmo
-    proto: Bullet739FMJ
+    proto: Z14Bullet739FMJ
 
 - type: entity
   id: Z14STCartridge739HP
@@ -16,7 +16,7 @@
   parent: BaseSTCartridge739
   components:
   - type: CartridgeAmmo
-    proto: Bullet739HP
+    proto: Z14Bullet739HP
 
 - type: entity
   id: Z14STCartridge739PC
@@ -26,7 +26,7 @@
   parent: BaseSTCartridge739
   components:
   - type: CartridgeAmmo
-    proto: Bullet739PC
+    proto: Z14Bullet739PC
 
 - type: entity
   id: Z14STCartridge739BP
@@ -36,4 +36,4 @@
   parent: BaseSTCartridge739
   components:
   - type: CartridgeAmmo
-    proto: Bullet739BP
+    proto: Z14Bullet739BP

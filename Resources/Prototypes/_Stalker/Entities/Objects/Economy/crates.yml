@@ -434,7 +434,7 @@
       items:
         - id: ClothingBeltTarzanGreen
         - id: STClothingOuterArmorLightPlateVestBasePSZ7
-        - id: ClothingMaskGP7
+        - id: Z14ClothingMaskGP7 # Zona14: ClothingMaskGP7<Z14ClothingMaskGP7
         - id: ClothingHeadHelmetBerill5MMilitary
         - id: 545Mag30
         - id: 545Mag30
@@ -619,19 +619,19 @@
     - type: SpawnItemsOnUse
       items:
         - id: ClothingBackpackTacticBeigeStalker
-        - id: WeaponPistolStalkerGlock
+        - id: Z14WeaponPistolStalkerGlock # Zona14: WeaponPistolStalkerGlock<Z14WeaponPistolStalkerGlock
         - id: BaseGlockMag10
         - id: BaseGlockMag10
         - id: GlockMag17
         - id: GlockMag17
-        - id: 919RIPBox
-        - id: 919RIPBox
-        - id: 919RIPBox
-        - id: 919RIPBox
-        - id: ClothingOuterArmorSSP99
+        - id: Z14919RIPBox # Zona14: 919RIPBox<Z14919RIPBox
+        - id: Z14919RIPBox # Zona14: 919RIPBox<Z14919RIPBox
+        - id: Z14919RIPBox # Zona14: 919RIPBox<Z14919RIPBox
+        - id: Z14919RIPBox # Zona14: 919RIPBox<Z14919RIPBox
+        - id: Z14ClothingOuterArmorSSP99 # Zona14: ClothingOuterArmorSSP99<Z14ClothingOuterArmorSSP99
         - id: MedkitScience
         - id: MedkitScience
-        - id: ClothingMaskGP7
+        - id: Z14ClothingMaskGP7 # Zona14: ClothingMaskGP7<Z14ClothingMaskGP7
         - id: GeigerCounter
         - id: BoxMRE
         - id: BoxMRE
@@ -759,15 +759,15 @@
     - type: SpawnItemsOnUse
       items:
         - id: ClothingOuterArmorSpark
-        - id: ClothingMaskGP7
+        - id: Z14ClothingMaskGP7 # Zona14: ClothingMaskGP7<Z14ClothingMaskGP7
         - id: ZoneArtifactDetectorResponse
         - id: antiradpill
         - id: GeigerCounter
         - id: GlockMag17
         - id: GlockMag17
-        - id: 919RIPBox
-        - id: 919RIPBox
-        - id: WeaponPistolStalkerGlock
+        - id: Z14919RIPBox # Zona14: 919RIPBox<Z14919RIPBox
+        - id: Z14919RIPBox # Zona14: 919RIPBox<Z14919RIPBox
+        - id: Z14WeaponPistolStalkerGlock # Zona14: WeaponPistolStalkerGlock<Z14WeaponPistolStalkerGlock
 
       sound:
         path: /Audio/Effects/unwrap.ogg
@@ -1195,7 +1195,7 @@
         - id: STGauze
         - id: STClothingShoesBootsCombatFilled
         - id: STClothingOuterArmorLightPlateVestBasePSZ7v3
-        - id: ClothingMaskGP7
+        - id: Z14ClothingMaskGP7 # Zona14: ClothingMaskGP7<Z14ClothingMaskGP7
         - id: 545Mag30
         - id: 545Mag30
         - id: 545Mag30

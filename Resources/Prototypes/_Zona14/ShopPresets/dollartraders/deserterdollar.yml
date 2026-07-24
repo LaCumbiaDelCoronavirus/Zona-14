@@ -5,11 +5,7 @@
     ChevronMonolit: 3
 
   categories:
-  - name: shop-category-weapons
-    priority: 1
-    items:
-      Z14STWeaponRifleAK74M: 140
-      Z14STWeaponSniperSVDS: 250
+  # shop-category-weapons removed: its entire stock was T3+ weapons, which are crafted now
   - name: shop-category-magazines
     priority: 2
     items:
@@ -18,16 +14,14 @@
   - name: shop-category-ammunition
     priority: 3
     items:
-      Z14754PCBox: 10
-      Z14739PCBoxCink: 80
+      Z14754PCBox: 1440
+      Z14739PCBoxCink: 57600
       8mmBuckshotBoxCink: 35
-      Z14545BPBoxCink: 100
+      Z14545BPBoxCink: 48600
   - name: shop-category-armor
     priority: 4
     items:
       Z14ClothingHeadAssaultHelmetDeserter: 45
-      Z14STClothingOuterArmorDesertersPSZ7: 20
-      Z14ClothingOuterArmorDeserter: 20
   - name: shop-category-storage-and-containers
     priority: 5
     items:
@@ -50,12 +44,3 @@
       Z14AntiRadMedipen: 5
       Z14STPillboxShiza: 100
       Z14MedkitElite: 10
-
-
-
-
-
-
-
-
-

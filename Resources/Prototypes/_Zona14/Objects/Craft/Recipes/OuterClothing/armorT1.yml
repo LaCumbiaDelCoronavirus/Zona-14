@@ -1,29 +1,29 @@
 - type: craftRecipe
   id: Z14newrecipeJacketStalkerUpgrade
   resultProtos:
-    - ClothingOuterJacketStalkerUpgrade
+    - Z14ClothingOuterJacketStalkerUpgrade
   craftTime: 10
   items:
-    ClothingOuterJacketStalker:
+    Z14ClothingOuterJacketStalker:
       amount: 1
     STCraftCottonFabricT1:
       amount: 1
     STCraftBasicThreadKitT1:
       amount: 1
-    STClothingOuterJacketStalkerUpgradeBlueprint:
+    Z14STClothingOuterJacketStalkerUpgradeBlueprint:
       amount: 1
       catalyzer: true
 
 - type: craftRecipe
   id: Z14newrecipeClothingOuterAnomalyStalkerJacket
   resultProtos:
-  - ClothingOuterAnomalyStalkerJacket
+  - Z14ClothingOuterAnomalyStalkerJacket
   craftTime: 10
   items:
-    ClothingOuterAnomalyStalkerJacketBlueprint:
+    Z14ClothingOuterAnomalyStalkerJacketBlueprint:
       amount: 1
       catalyzer: true
-    ClothingOuterJacketStalker:
+    Z14ClothingOuterJacketStalker:
       amount: 1
     ArtMedusa:
       amount: 1
@@ -31,10 +31,10 @@
 - type: craftRecipe
   id: Z14newrecipeClothingOuterCoatBanditBlack
   resultProtos:
-  - ClothingOuterCoatBanditBlack
+  - Z14ClothingOuterCoatBanditBlack
   craftTime: 10
   items:
-    ClothingOuterCoatBanditBlackBlueprint:
+    Z14ClothingOuterCoatBanditBlackBlueprint:
       amount: 1
       catalyzer: true
     STCraftCottonFabricT1:
@@ -47,10 +47,10 @@
 - type: craftRecipe
   id: Z14newrecipeClothingOuterCoatBanditBrown
   resultProtos:
-  - ClothingOuterCoatBanditBrown
+  - Z14ClothingOuterCoatBanditBrown
   craftTime: 10
   items:
-    ClothingOuterCoatBanditBrownBlueprint:
+    Z14ClothingOuterCoatBanditBrownBlueprint:
       amount: 1
       catalyzer: true
     STCraftCottonFabricT1:
@@ -63,10 +63,10 @@
 - type: craftRecipe
   id: Z14newrecipeCSTClothingOuterArmorRCBZ
   resultProtos:
-  - STClothingOuterArmorRCBZ
+  - Z14STClothingOuterArmorRCBZ
   craftTime: 10
   items:
-    STClothingOuterArmorRCBZBlueprint:
+    Z14STClothingOuterArmorRCBZBlueprint:
       amount: 1
       catalyzer: true
     STCraftBasicThreadKitT1:

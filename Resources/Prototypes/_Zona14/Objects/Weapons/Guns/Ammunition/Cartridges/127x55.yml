@@ -6,7 +6,7 @@
   parent: BaseCartridgeCaselessRifle
   components:
   - type: CartridgeAmmo
-    proto: Bullet1255PS12A
+    proto: Z14Bullet1255PS12A
   - type: Sprite
     sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
     layers:
@@ -25,10 +25,10 @@
   categories: [ Zona14 ]
   suffix: Z14
   name: Cartridge (12.7x55) TP
-  parent: STCartridge1255PS12A
+  parent: Z14STCartridge1255PS12A
   components:
   - type: CartridgeAmmo
-    proto: Bullet1255TP
+    proto: Z14Bullet1255TP
 
 
 - type: entity
@@ -36,9 +36,9 @@
   categories: [ Zona14 ]
   suffix: Z14
   name: Cartridge (12.7x55) BP
-  parent: STCartridge1255PS12A
+  parent: Z14STCartridge1255PS12A
   components:
   - type: CartridgeAmmo
-    proto: Bullet1255BP
+    proto: Z14Bullet1255BP
 
 

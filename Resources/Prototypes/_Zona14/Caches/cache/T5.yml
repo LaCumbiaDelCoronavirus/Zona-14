@@ -1,0 +1,205 @@
+# Zona14: cloned from _Stalker/Caches/cache/T5.yml so the high tiers
+# have a Zona-14 loot table. Consumables and BLUEPRINTS use the Z14 twins;
+# raw materials stay on the upstream ids.
+# Zona14: the split is deliberate and load-bearing - crafting matches ingredients
+# by exact prototype id (SharedCraftingSystem.DictEquals), so:
+#   - materials: every loot table grants the upstream id, so recipes must ask for
+#     the upstream id or they silently never match.
+#   - blueprints: the Z14 recipe asks for the Z14 blueprint. That is what keeps it
+#     distinguishable from its _Stalker twin, which has identical ingredients and a
+#     different result - recipe selection is first-match-and-return over an
+#     arbitrarily ordered enumeration, so identical ingredient sets are a coin flip.
+#     If this table hands out the upstream blueprint, the Z14 recipe is uncraftable.
+# Zona14: translated Russian names/descriptions to English
+- type: entity
+  parent: STBaseCache
+  id: Z14STCacheStorageFillT5
+  categories: [ Zona14 ]
+  abstract: true
+  suffix: Z14, Cache, T5
+  name: crate
+  description: "A rather old crate. Maybe it's worth searching. Perhaps something useful can be found in it."
+  components:
+    # Zona-14 tables carry far more entries than upstream's (blueprints for all
+    # T3+ crafting live here), and TestSufficientSpaceForFill demands the grid
+    # fit the WORST-CASE fill - every prob entry spawning at once.
+    - type: Storage
+      grid:
+        - 0,0,17,17
+    - type: InteractionOutline
+    - type: StorageFill
+      contents:
+        - id: STCraftHighPerformanceChipT4
+          prob: 0.01
+        - id: STCraftHighPerformanceChipT4
+          prob: 0.01
+        - id: STCraftSheetAluminumT4
+          prob: 0.05
+        - id: STCraftSheetAluminumT4
+          prob: 0.05
+        - id: STCraftPlasticFittingT4
+          prob: 0.05
+        - id: STCraftPlasticFittingT4
+          prob: 0.05
+        - id: STCraftPolymerFabricT4
+          prob: 0.01
+        - id: STCraftPolymerFabricT4
+          prob: 0.01
+        - id: STCraftIndustrialThreadStaplesKitT4
+          prob: 0.01
+        - id: STCraftIndustrialThreadStaplesKitT4
+          prob: 0.01
+        - id: STCraftNanoChipT5
+          prob: 0.1
+        - id: STCraftSheetSteelT5
+          prob: 0.1
+        - id: STCraftRedWoodPlankT5
+          prob: 0.1
+        - id: STCraftAluminumOxideT5
+          prob: 0.1
+        - id: STCraftCompositeMaterialT5
+          prob: 0.1
+        - id: STCraftHighStrengthKitT5
+          prob: 0.1
+        - id: Z14ClothingOuterArmorExoskeletBlueprint
+          prob: 0.02
+        - id: Z14STBrutepack
+          prob: 0.4
+        - id: Z14STBrutepack
+          prob: 0.4
+        - id: Z14STBrutepack
+          prob: 0.4
+        - id: Z14STGauze
+          prob: 0.4
+        - id: Z14STGauze
+          prob: 0.4
+        - id: Z14STGauze
+          prob: 0.4
+        - id: Z14STOintment
+          prob: 0.4
+        - id: Z14STOintment
+          prob: 0.4
+        - id: Z14STOintment
+          prob: 0.4
+        - id: Tourniquet
+          prob: 0.15
+        - id: Z14antiradpill
+          prob: 0.15
+        - id: Z14MedkitAI2
+          prob: 0.25
+        - id: Z14MedkitMilitary
+          prob: 0.1
+        - id: Z14MedkitScience
+          prob: 0.025
+        - id: GeigerCounter
+          prob: 0.075
+        - id: Z14BaseRadio
+          prob: 0.075
+        - id: HandheldGPSBasic
+          prob: 0.075
+        - id: BoxArtcont
+          prob: 0.05
+        - id: STFlashlightSeclite
+          prob: 0.075
+        - id: Z14STHeadLight
+          prob: 0.075
+        - id: IngotGold1
+          prob: 0.1
+        - id: IngotGold1
+          prob: 0.1
+        - id: IngotSilver1
+          prob: 0.1
+        - id: IngotSilver1
+          prob: 0.1
+        - id: MaterialDiamond1
+          prob: 0.1
+        - id: MaterialDiamond1
+          prob: 0.1
+        - id: DrinkGoldenCup
+          prob: 0.1
+        - id: DrinkGoldenCup
+          prob: 0.1
+        - id: CraftMaterialGunpowder
+          prob: 0.1
+        - id: CraftLeatherbox
+          prob: 0.004
+        - id: ToolkitTearOne
+          prob: 0.003
+        - id: ToolkitTearTwo
+          prob: 0.002
+        - id: ToolkitTearThree
+          prob: 0.001
+        - id: Z14RGD5Grenade
+          prob: 0.1
+        - id: Z14RGD5Grenade
+          prob: 0.1
+        - id: Z14RGD5Grenade
+          prob: 0.1
+        - id: Z14RGD5Grenade
+          prob: 0.1
+        - id: Z14STClothingOuterArmorSkyWalkerBlueprint
+          prob: 0.02
+        - id: Z14STClothingOuterHeavyTorBlueprint
+          prob: 0.02
+        - id: Z14STWeaponSniperOSV96Blueprint
+          prob: 0.02
+        - id: Z14STWeaponSniperSV98Blueprint
+          prob: 0.02
+        - id: Z14STWeaponShotgunAABlueprint
+          prob: 0.02
+        - id: Z14STWeaponShotgunKS23MBlueprint
+          prob: 0.02
+        - id: Z14STWeaponShotgunUSASBlueprint
+          prob: 0.02
+        - id: Z14ST545BSBoxCinkBlueprint
+          prob: 0.02
+        - id: Z14ST545M995BoxCinkBlueprint
+          prob: 0.02
+        - id: Z14ST545NCBoxCinkBlueprint
+          prob: 0.02
+        - id: Z14ST556SSAAPBoxCinkBlueprint
+          prob: 0.02
+        - id: Z14ST739BPBoxCinkBlueprint
+          prob: 0.02
+        - id: Z14ST751M993BoxCinkBlueprint
+          prob: 0.02
+        - id: Z14ST754BTBoxCinkBlueprint
+          prob: 0.02
+        - id: Z14ST754SNBBoxCinkBlueprint
+          prob: 0.02
+
+- type: entity
+  parent: [ Z14STCacheStorageFillT5, STBaseCache]
+  id: Z14STCache1T5
+  categories: [ HideSpawnMenu , Zona14 ]
+  suffix: Z14
+  components:
+    - type: Sprite
+      sprite: _Stalker/Objects/Other/Boxes/black_crate.rsi
+      state: icon
+    - type: SpawnOnDespawn
+      prototype: Z14STCache1T5
+
+- type: entity
+  parent: [ Z14STCacheStorageFillT5, STBaseCache]
+  id: Z14STCache2T5
+  categories: [ HideSpawnMenu , Zona14 ]
+  suffix: Z14
+  components:
+    - type: Sprite
+      sprite: _Stalker/Objects/Other/Boxes/blue_crate.rsi
+      state: icon
+    - type: SpawnOnDespawn
+      prototype: Z14STCache2T5
+
+- type: entity
+  parent: [ Z14STCacheStorageFillT5, STBaseCache]
+  id: Z14STCache3T5
+  categories: [ HideSpawnMenu , Zona14 ]
+  suffix: Z14
+  components:
+    - type: Sprite
+      sprite: _Stalker/Objects/Other/Boxes/green_crate.rsi
+      state: icon
+    - type: SpawnOnDespawn
+      prototype: Z14STCache3T5

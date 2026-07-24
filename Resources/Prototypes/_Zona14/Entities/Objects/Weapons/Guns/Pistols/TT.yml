@@ -34,7 +34,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: TTMag
+        startingItem: Z14TTMag
         insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
         priority: 3
@@ -49,7 +49,7 @@
             - STModuleAutoSear
       gun_chamber:
         name: Chamber
-        startingItem: STCartridge725PGL
+        startingItem: Z14STCartridge725PGL
         priority: 1
         whitelist:
           tags:

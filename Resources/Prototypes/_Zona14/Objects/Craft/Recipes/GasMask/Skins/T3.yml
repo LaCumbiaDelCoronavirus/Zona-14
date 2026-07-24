@@ -1,19 +1,19 @@
 - type: lightCraftingRecipe
   id: Z14STCraftGasMaskGP7Neutral
   results:
-    - STClothingMaskGP7Neutral
+    - Z14STClothingMaskGP7Neutral
   steps:
     firstIngredient: STSkinsKitNeutral
-    secondIngredient: ClothingMaskGP7
+    secondIngredient: Z14ClothingMaskGP7
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingMaskGasXM40Project
   results:
-    - ClothingMaskGasXM40Project
+    - Z14ClothingMaskGasXM40Project
   steps:
     firstIngredient: STSkinsKitProject
-    secondIngredient: ClothingMaskGasXM40
+    secondIngredient: Z14ClothingMaskGasXM40
     keepFirst: true
     time: 5

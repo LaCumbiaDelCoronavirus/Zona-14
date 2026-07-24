@@ -1,0 +1,931 @@
+# Blueprints for the T3+ weapon recipes. Drop from the matching cache tier.
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STMetroWeaponRifleVSVBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: STMetro Weapon Rifle VSV Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTMetroWeaponRifleVSV
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponMachineGunM249SAWBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Machine Gun M249 SAW Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponMachineGunM249SAW
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleA545Blueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle A545 Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleA545
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleAKS74GreenBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle AKS74 Green Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleAKS74Green
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleAKS74UBlackBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle AKS74 UBlack Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleAKS74UBlack
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleAKS74USERAPHBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle AKS74 USERAPH Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleAKS74USERAPH
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleAKS74UWhiteBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle AKS74 UWhite Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleAKS74UWhite
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleAM17Blueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle AM17 Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleAM17
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleASVALBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle ASVAL Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleASVAL
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleASVALSelebraBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle ASVALSelebra Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleASVALSelebra
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleAUGBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle AUG Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleAUG
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleF2000Blueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle F2000 Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleF2000
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleG36Blueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle G36 Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleG36
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleG36AltBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle G36 Alt Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleG36Alt
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleG36CovenantBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle G36 Covenant Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleG36Covenant
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleGalilBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle Galil Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleGalil
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleHK416Blueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle HK416 Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleHK416
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleL85WhiteStrawberryBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle L85 White Strawberry Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleL85WhiteStrawberry
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleLR300WhiteBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle LR300 White Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleLR300White
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleLR300v1Blueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle LR300v1 Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleLR300v1
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleLR300v2Blueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle LR300v2 Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleLR300v2
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleOC14Blueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle OC14 Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleOC14
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleOC14939Blueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle OC14939 Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleOC14939
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleOC14AltBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle OC14 Alt Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleOC14Alt
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleOC14AltSkin1Blueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle OC14 Alt Skin1 Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleOC14AltSkin1
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleRPK74VedmaBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle RPK74 Vedma Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleRPK74Vedma
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleSCARLBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle SCARL Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleSCARL
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleSIG550BlackBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle SIG550 Black Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleSIG550Black
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleSaiga545Blueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle Saiga545 Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleSaiga545
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleSaiga545AutoBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle Saiga545 Auto Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleSaiga545Auto
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleStalkerAK105SwampThingBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle Stalker AK105 Swamp Thing Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleStalkerAK105SwampThing
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleStalkerAK12Blueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle Stalker AK12 Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleStalkerAK12
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleStalkerAK12SeraBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle Stalker AK12 Sera Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleStalkerAK12Sera
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleStalkerAbakanBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle Stalker Abakan Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleStalkerAbakan
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleStalkerAek971Blueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle Stalker Aek971 Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleStalkerAek971
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleStalkerRPK16Blueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle Stalker RPK16 Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleStalkerRPK16
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleStalkerRPK16CamoBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle Stalker RPK16 Camo Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleStalkerRPK16Camo
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponSMGStalkerCP2Veresk921Blueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: SMG Stalker CP2 Veresk921 Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponSMGStalkerCP2Veresk921
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponSMGStalkerCP2VereskSera921Blueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: SMG Stalker CP2 Veresk Sera921 Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponSMGStalkerCP2VereskSera921
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponSniperVSK94Blueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Sniper VSK94 Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponSniperVSK94
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponSniperVSSBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Sniper VSS Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponSniperVSS
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponSniperVSSOracleBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Sniper VSSOracle Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponSniperVSSOracle
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14WeaponPistolGyrzaTactikalBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Pistol Gyrza Tactikal Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeWeaponPistolGyrzaTactikal
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STBaseWeaponRifleAKMPSO1MBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: STBase Weapon Rifle AKMPSO1 M Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTBaseWeaponRifleAKMPSO1M
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponMachineGunRPDBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Machine Gun RPD Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponMachineGunRPD
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleAH12Blueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle AH12 Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleAH12
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleAK103Blueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle AK103 Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleAK103
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleAK103KamoBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle AK103 Kamo Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleAK103Kamo
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleAK203Blueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle AK203 Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleAK203
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleAK308Blueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle AK308 Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleAK308
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleAKMBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle AKM Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleAKM
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleAKMCBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle AKMC Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleAKMC
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleARX160Blueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle ARX160 Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleARX160
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleFALoBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle FALo Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleFALo
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleM14Blueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle M14 Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleM14
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleOC14LiturgiaBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle OC14 Liturgia Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleOC14Liturgia
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleSCARHShortBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle SCARHShort Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleSCARHShort
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleSCARSSRBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle SCARSSR Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleSCARSSR
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleSIG739Blueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle SIG739 Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleSIG739
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleSVDSWoodBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle SVDSWood Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleSVDSWood
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleSaiga739AutoBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle Saiga739 Auto Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleSaiga739Auto
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleStalkerAK104Blueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle Stalker AK104 Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleStalkerAK104
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleStalkerAK104_UpgradeTestBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle Stalker AK104_Upgrade Test Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleStalkerAK104_UpgradeTest
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleStalkerAK15Blueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle Stalker AK15 Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleStalkerAK15
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponRifleZastavaM92Blueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Rifle Zastava M92 Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponRifleZastavaM92
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponSniperHK417Blueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Sniper HK417 Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponSniperHK417
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponSniperSKSpersecutorBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Sniper SKSpersecutor Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponSniperSKSpersecutor
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponSniperSVDSBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Sniper SVDS Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponSniperSVDS
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponSniperSVDSCovenantBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Sniper SVDSCovenant Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponSniperSVDSCovenant
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponSniperSVDSGrassBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Sniper SVDSGrass Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponSniperSVDSGrass
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponSniperSVUBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Sniper SVU Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponSniperSVU
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponSniperSVUSeraphimBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Sniper SVUSeraphim Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponSniperSVUSeraphim
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponSniperSVUTopBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Sniper SVUTop Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponSniperSVUTop
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponSniperVeprBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Sniper Vepr Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponSniperVepr
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponSniperVeprGrassBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Sniper Vepr Grass Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponSniperVeprGrass
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponSniperVeprSeraphimBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Sniper Vepr Seraphim Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponSniperVeprSeraphim
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponSniperOSV96Blueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Sniper OSV96 Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponSniperOSV96
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponSniperSV98Blueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Sniper SV98 Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponSniperSV98
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponShotgunBenelliM4Super90Blueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Shotgun Benelli M4 Super90 Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponShotgunBenelliM4Super90
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponShotgunMP133Blueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Shotgun MP133 Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponShotgunMP133
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponShotgunMP153Blueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Shotgun MP153 Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponShotgunMP153
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponShotgunMossbergM88Blueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Shotgun Mossberg M88 Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponShotgunMossbergM88
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponShotgunOrigin12Blueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Shotgun Origin12 Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponShotgunOrigin12
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponShotgunSaiga12Blueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Shotgun Saiga12 Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponShotgunSaiga12
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STBaseWeaponShotgunVepr12De21Blueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: STBase Weapon Shotgun Vepr12 De21 Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTBaseWeaponShotgunVepr12De21
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STBaseWeaponShotgunVepr12MolotBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: STBase Weapon Shotgun Vepr12 Molot Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTBaseWeaponShotgunVepr12Molot
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STShotgunKS23Blueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: STShotgun KS23 Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTShotgunKS23
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponShotgunProtectaBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Shotgun Protecta Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponShotgunProtecta
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponShotgunSPASBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Shotgun SPAS Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponShotgunSPAS
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponShotgunSaiga12AutoBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Shotgun Saiga12 Auto Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponShotgunSaiga12Auto
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponShotgunAABlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Shotgun AA Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponShotgunAA
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponShotgunKS23MBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Shotgun KS23 M Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponShotgunKS23M
+
+- type: entity
+  parent: STBaseBlueprint
+  id: Z14STWeaponShotgunUSASBlueprint
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Shotgun USAS Recipe
+  components:
+    - type: STBlueprint
+      blueprint: Z14newrecipeSTWeaponShotgunUSAS

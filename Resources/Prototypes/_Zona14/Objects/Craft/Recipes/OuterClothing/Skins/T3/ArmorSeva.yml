@@ -1,109 +1,109 @@
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingOuterArmorSevaCN
   results:
-    - ClothingOuterArmorSevaCN
+    - Z14ClothingOuterArmorSevaCN
   steps:
     firstIngredient: STSkinsKitClearSky
-    secondIngredient: ClothingOuterArmorSevaStalker
+    secondIngredient: Z14ClothingOuterArmorSevaStalker
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingOuterArmorSevaCovenant
   results:
-    - ClothingOuterArmorSevaCovenant
+    - Z14ClothingOuterArmorSevaCovenant
   steps:
     firstIngredient: STSkinsKitCovenant
-    secondIngredient: ClothingOuterArmorSevaStalker
+    secondIngredient: Z14ClothingOuterArmorSevaStalker
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingOuterArmorSevaMerc
   results:
-    - ClothingOuterArmorSevaMerc
+    - Z14ClothingOuterArmorSevaMerc
   steps:
     firstIngredient: STSkinsKitMercenary
-    secondIngredient: ClothingOuterArmorSevaStalker
+    secondIngredient: Z14ClothingOuterArmorSevaStalker
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingOuterArmorSevaMilitary
   results:
-    - ClothingOuterArmorSevaMilitary
+    - Z14ClothingOuterArmorSevaMilitary
   steps:
     firstIngredient: STSkinsKitMilitary
-    secondIngredient: ClothingOuterArmorSevaStalker
+    secondIngredient: Z14ClothingOuterArmorSevaStalker
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingOuterArmorSevaMonolith
   results:
-    - ClothingOuterArmorSevaMonolith
+    - Z14ClothingOuterArmorSevaMonolith
   steps:
     firstIngredient: STSkinsKitMonolith
-    secondIngredient: ClothingOuterArmorSevaStalker
+    secondIngredient: Z14ClothingOuterArmorSevaStalker
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingOuterArmorSevaPoisk
   results:
-    - ClothingOuterArmorSevaPoisk
+    - Z14ClothingOuterArmorSevaPoisk
   steps:
     firstIngredient: STSkinsKitPoisk
-    secondIngredient: ClothingOuterArmorSevaStalker
+    secondIngredient: Z14ClothingOuterArmorSevaStalker
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingOuterArmorSevasera
   results:
-    - ClothingOuterArmorSevasera
+    - Z14ClothingOuterArmorSevasera
   steps:
     firstIngredient: STSkinsKitSeraphim
-    secondIngredient: ClothingOuterArmorSevaStalker
+    secondIngredient: Z14ClothingOuterArmorSevaStalker
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingOuterArmorSevaNeutral
   results:
-    - STClothingOuterArmorSevaNeutral
+    - Z14STClothingOuterArmorSevaNeutral
   steps:
     firstIngredient: STSkinsKitNeutral
-    secondIngredient: ClothingOuterArmorSevaStalker
+    secondIngredient: Z14ClothingOuterArmorSevaStalker
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingOuterArmorSevaDolgRed
   results:
-    - ClothingOuterArmorSevaDolgRed
+    - Z14ClothingOuterArmorSevaDolgRed
   steps:
     firstIngredient: STSkinsKitNeutral
-    secondIngredient: ClothingOuterArmorSevaStalker
+    secondIngredient: Z14ClothingOuterArmorSevaStalker
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingOuterArmorSevarenegat
   results:
-    - ClothingOuterArmorSevarenegat
+    - Z14ClothingOuterArmorSevarenegat
   steps:
     firstIngredient: STSkinsKitRenegate
-    secondIngredient: ClothingOuterArmorSevaStalker
+    secondIngredient: Z14ClothingOuterArmorSevaStalker
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingOuterArmorSevaProjectGROM9
   results:
-  - ClothingOuterArmorSevaProjectGROM9
+  - Z14ClothingOuterArmorSevaProjectGROM9
   steps:
     firstIngredient: STSkinsKitProject
-    secondIngredient: ClothingOuterArmorSevaStalker
+    secondIngredient: Z14ClothingOuterArmorSevaStalker
     keepFirst: true
     time: 5

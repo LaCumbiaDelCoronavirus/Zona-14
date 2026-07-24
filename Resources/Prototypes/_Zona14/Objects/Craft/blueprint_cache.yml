@@ -9,59 +9,59 @@
     items:
     - id: PresentTrash
       prob: 1
-    - id: STClothingCapeCoatReinforcedBlueprint
+    - id: Z14STClothingCapeCoatReinforcedBlueprint
       prob: 0.025
-    - id: STGasMaskM50Blueprint
+    - id: Z14STGasMaskM50Blueprint
       prob: 0.025
-    - id: ClothingHeadAssaultHelmetBlueprint
+    - id: Z14ClothingHeadAssaultHelmetBlueprint
       prob: 0.025
-    - id: STClothingHeadHelmetMakeshiftTacticalT3Blueprint
+    - id: Z14STClothingHeadHelmetMakeshiftTacticalT3Blueprint
       prob: 0.025
-    - id: ClothingOuterArmorAborigineStalkerBlueprint
+    - id: Z14ClothingOuterArmorAborigineStalkerBlueprint
       prob: 0.025
-    - id: ClothingOuterArmorPSZ9DBlueprint 
+    - id: Z14ClothingOuterArmorPSZ9DBlueprint 
       prob: 0.025
-    - id: STClothingOuterArmorLightPlateVestBasePSZ7Blueprint
+    - id: Z14STClothingOuterArmorLightPlateVestBasePSZ7Blueprint
       prob: 0.025
-    - id: ST6mmBuckshotBoxCinkBluePrint
+    - id: Z14ST6mmBuckshotBoxCinkBluePrint
       prob: 0.025
-    - id: ST545PCBoxCinkBlueprint
+    - id: Z14ST545PCBoxCinkBlueprint
       prob: 0.025
-    - id: ST545HPBoxCinkBlueprint
+    - id: Z14ST545HPBoxCinkBlueprint
       prob: 0.025
-    - id: ST754FMJBoxCinkBlueprint
+    - id: Z14ST754FMJBoxCinkBlueprint
       prob: 0.025
-    - id: ST754HPBoxCinkBlueprint
+    - id: Z14ST754HPBoxCinkBlueprint
       prob: 0.025
-    - id: ST739FMJBoxCinkBlueprint
+    - id: Z14ST739FMJBoxCinkBlueprint
       prob: 0.025
-    - id: ST739HPBoxCinkBlueprint
+    - id: Z14ST739HPBoxCinkBlueprint
       prob: 0.025
-    - id: ST725PSTBoxCinkBlueprint
+    - id: Z14ST725PSTBoxCinkBlueprint
       prob: 0.025
-    - id: ST725LRNPCBoxCinkBlueprint
+    - id: Z14ST725LRNPCBoxCinkBlueprint
       prob: 0.025
-    - id: ST556M855BoxCinkBlueprint
+    - id: Z14ST556M855BoxCinkBlueprint
       prob: 0.025
-    - id: ST556WarmagBoxCinkBlueprint
+    - id: Z14ST556WarmagBoxCinkBlueprint
       prob: 0.025
-    - id: ST918PBMBoxCinkBlueprint
+    - id: Z14ST918PBMBoxCinkBlueprint
       prob: 0.025
-    - id: ST918SP7BoxCinkBlueprint
+    - id: Z14ST918SP7BoxCinkBlueprint
       prob: 0.025
-    - id: ST919PBMBoxCinkBlueprint
+    - id: Z14ST919PBMBoxCinkBlueprint
       prob: 0.025
-    - id: ST919RIPBoxCinkBlueprint
+    - id: Z14ST919RIPBoxCinkBlueprint
       prob: 0.025
-    - id: ST939SP6BoxCinkBlueprint
+    - id: Z14ST939SP6BoxCinkBlueprint
       prob: 0.025
-    - id: STShotgunFlechetteCinkBlueprint
+    - id: Z14STShotgunFlechetteCinkBlueprint
       prob: 0.025
-    - id: STShotgunDarttBoxCinkBlueprint
+    - id: Z14STShotgunDarttBoxCinkBlueprint
       prob: 0.025
-    - id: ST751M80BoxCinkBlueprint
+    - id: Z14ST751M80BoxCinkBlueprint
       prob: 0.025
-    - id: ST751UNBoxCinkBlueprint
+    - id: Z14ST751UNBoxCinkBlueprint
       prob: 0.025
     sound:
       path: /Audio/Effects/unwrap.ogg

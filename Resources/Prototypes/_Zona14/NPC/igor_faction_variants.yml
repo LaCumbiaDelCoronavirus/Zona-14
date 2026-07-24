@@ -5,7 +5,7 @@
   suffix: Z14
   components:
   - type: BandsManaging
-    shopListingsProto: STBandShopListings
+    shopListingsProto: Z14STBandShopListings
     faction: Loners
 
 - type: entity
@@ -15,7 +15,7 @@
   suffix: Z14
   components:
   - type: BandsManaging
-    shopListingsProto: STBandShopListings
+    shopListingsProto: Z14STBandShopListingsFreedom
     faction: Freedom
 
 - type: entity
@@ -25,7 +25,7 @@
   suffix: Z14
   components:
   - type: BandsManaging
-    shopListingsProto: STBandShopListings
+    shopListingsProto: Z14STBandShopListingsBandits
     faction: Bandits
 
 - type: entity
@@ -35,7 +35,7 @@
   suffix: Z14
   components:
   - type: BandsManaging
-    shopListingsProto: STBandShopListings
+    shopListingsProto: Z14STBandShopListingsDuty
     faction: Duty
 
 - type: entity
@@ -45,7 +45,7 @@
   suffix: Z14
   components:
   - type: BandsManaging
-    shopListingsProto: STBandShopListings
+    shopListingsProto: Z14STBandShopListingsEcologist
     faction: Ecologist
 
 - type: entity
@@ -55,7 +55,7 @@
   suffix: Z14
   components:
   - type: BandsManaging
-    shopListingsProto: STBandShopListings
+    shopListingsProto: Z14STBandShopListings
     faction: Neutrals
 
 - type: entity
@@ -65,7 +65,7 @@
   suffix: Z14
   components:
   - type: BandsManaging
-    shopListingsProto: STBandShopListings
+    shopListingsProto: Z14STBandShopListingsMercenaries
     faction: Mercenaries
 
 - type: entity
@@ -75,45 +75,14 @@
   suffix: Z14
   components:
   - type: BandsManaging
-    shopListingsProto: STBandShopListings
+    shopListingsProto: Z14STBandShopListingsMilitary
     faction: Military
 
-- type: entity
-  parent: NPCIgorIvanovich
-  id: Z14NPCIgorIvanovichMonolith
-  categories: [ Zona14 ]
-  suffix: Z14
-  components:
-  - type: BandsManaging
-    shopListingsProto: STBandShopListings
-    faction: Monolith
-
-- type: entity
-  parent: NPCIgorIvanovich
-  id: Z14NPCIgorIvanovichClearSky
-  categories: [ Zona14 ]
-  suffix: Z14
-  components:
-  - type: BandsManaging
-    shopListingsProto: STBandShopListings
-    faction: ClearSky
-
-- type: entity
-  parent: NPCIgorIvanovich
-  id: Z14NPCIgorIvanovichRenegades
-  categories: [ Zona14 ]
-  suffix: Z14
-  components:
-  - type: BandsManaging
-    shopListingsProto: STBandShopListings
-    faction: Renegades
-
-- type: entity
-  parent: NPCIgorIvanovich
-  id: Z14NPCIgorIvanovichSeraphims
-  categories: [ Zona14 ]
-  suffix: Z14
-  components:
-  - type: BandsManaging
-    shopListingsProto: STBandShopListings
-    faction: Seraphims
+# No vendor for Monolith, Clear Sky, Renegades or Seraphim.
+#
+# Monolith is an EVENT faction (admin-spawned, not player-run); the other three are
+# retired and will not exist in Zona-14. The variants used to sit here commented out,
+# but two of them named band-shop listings (…Monolith, …Seraphims) that were never
+# created, so uncommenting produced a dangling reference rather than a working vendor.
+# Deleted instead - git history is the archive. If one of these factions is revived,
+# add the listing prototype first, then the variant.

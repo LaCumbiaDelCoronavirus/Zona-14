@@ -44,7 +44,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Base556Mag10
+        startingItem: Z14Base556Mag10
         insertSound: /Audio/_Stalker/Weapons/Guns/RifleGen/MagIn/rifle_magin.ogg
         ejectSound: /Audio/_Stalker/Weapons/Guns/RifleGen/MagOut/rifle_magout.ogg
         priority: 4

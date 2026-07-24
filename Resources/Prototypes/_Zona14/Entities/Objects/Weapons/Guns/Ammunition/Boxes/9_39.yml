@@ -11,8 +11,8 @@
     steps: 2
     zeroVisible: false
   - type: BallisticAmmoProvider
-    capacity: 30
-    proto: STCartridge9x39SP5
+    capacity: 40
+    proto: Z14STCartridge9x39SP5
     whitelist:
       tags:
       - STCartridge939
@@ -38,7 +38,7 @@
   - type: MagazineVisuals
     magState: pso-open
   - type: BallisticAmmoProvider
-    proto: STCartridge9x39PSO
+    proto: Z14STCartridge9x39PSO
   - type: Sprite
     layers:
     - state: pso
@@ -57,7 +57,7 @@
   - type: MagazineVisuals
     magState: sp6-uch-open
   - type: BallisticAmmoProvider
-    proto: STCartridge9x39SP6Uch
+    proto: Z14STCartridge9x39SP6Uch
   - type: Sprite
     layers:
     - state: sp6-uch
@@ -76,7 +76,7 @@
   - type: MagazineVisuals
     magState: sp5-open
   - type: BallisticAmmoProvider
-    proto: STCartridge9x39SP5
+    proto: Z14STCartridge9x39SP5
   - type: Sprite
     layers:
     - state: sp5
@@ -95,7 +95,7 @@
   - type: MagazineVisuals
     magState: pab9-open
   - type: BallisticAmmoProvider
-    proto: STCartridge9x39PAB9
+    proto: Z14STCartridge9x39PAB9
   - type: Sprite
     layers:
     - state: pab9
@@ -114,7 +114,7 @@
   - type: MagazineVisuals
     magState: sp6-open
   - type: BallisticAmmoProvider
-    proto: STCartridge9x39SP6
+    proto: Z14STCartridge9x39SP6
   - type: Sprite
     layers:
     - state: sp6
@@ -133,7 +133,7 @@
   - type: MagazineVisuals
     magState: aa-open
   - type: BallisticAmmoProvider
-    proto: STCartridge9x39AA
+    proto: Z14STCartridge9x39AA
   - type: Sprite
     layers:
     - state: aa

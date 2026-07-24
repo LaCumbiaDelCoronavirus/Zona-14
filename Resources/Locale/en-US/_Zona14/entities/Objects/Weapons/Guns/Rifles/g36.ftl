@@ -11,5 +11,5 @@ ent-Z14STWeaponRifleG36Alt = HK G-36
     .suffix = Z14
 
 ent-Z14STWeaponRifleG36Covenant = HK G-36 "Prophet"
-    .desc = Custom G-36 with Covenant markings. Distinctive rifle of Zone fanatics, repainted in ominous colors. Rumored to be loaded with "blessed" ammunition. It uses 5.56mm ammo, blessed or not.
+    .desc = Custom G-36 repainted in ominous colors, a distinctive rifle among Zone fanatics. Rumored to be loaded with "blessed" ammunition. It uses 5.56mm ammo, blessed or not.
     .suffix = Z14

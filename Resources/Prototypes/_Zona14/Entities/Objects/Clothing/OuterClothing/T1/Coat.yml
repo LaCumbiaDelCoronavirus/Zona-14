@@ -11,7 +11,7 @@
     shape:
     - 0,0,9,3
   - type: ToggleableClothing
-    clothingPrototype: STClothingHeadHatHoodBase
+    clothingPrototype: Z14STClothingHeadHatHoodBase
     slot: head
 
   - type: UserInterface
@@ -39,7 +39,7 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/outerClothing/coat_bandit_brown.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHatHoodCoatBanditBrown
+    clothingPrototype: Z14ClothingHeadHatHoodCoatBanditBrown
     slot: head
 
 - type: entity
@@ -71,7 +71,7 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/outerClothing/coat_bandit_black.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHatHoodCoatBanditBlack
+    clothingPrototype: Z14ClothingHeadHatHoodCoatBanditBlack
     slot: head
 
 - type: entity

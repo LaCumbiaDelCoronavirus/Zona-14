@@ -6,7 +6,7 @@
   name: Metal Detector "Digger" Recipe
   components:
     - type: STBlueprint
-      blueprint: recipeTrashDetectorTier2
+      blueprint: Z14recipeTrashDetectorTier2
 
 - type: entity
   parent: STBaseBlueprint
@@ -16,7 +16,7 @@
   name: Metal Detector "Shakhter" Recipe
   components:
     - type: STBlueprint
-      blueprint: recipeTrashDetectorTier3
+      blueprint: Z14recipeTrashDetectorTier3
 
 - type: entity
   parent: STBaseBlueprint
@@ -26,7 +26,7 @@
   name: Metal Detector "Nakhodka" Recipe
   components:
     - type: STBlueprint
-      blueprint: recipeTrashDetectorTier4
+      blueprint: Z14recipeTrashDetectorTier4
 
 - type: entity
   parent: STBaseBlueprint
@@ -36,4 +36,4 @@
   name: Metal Detector "Anomalist" Recipe
   components:
     - type: STBlueprint
-      blueprint: recipeTrashDetectorTier5
+      blueprint: Z14recipeTrashDetectorTier5

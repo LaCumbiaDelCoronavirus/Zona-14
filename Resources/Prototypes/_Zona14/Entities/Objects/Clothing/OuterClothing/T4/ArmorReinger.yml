@@ -12,7 +12,7 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/outerClothing/armor_reinger.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetReinger
+    clothingPrototype: Z14ClothingHeadHelmetReinger
     slot: head
   - type: PersonalDamage
     staminaDamage: -3
@@ -49,3 +49,9 @@
     slots:
     - Hair
     - Snout
+  - type: Armor
+    modifiers:
+      coefficients:
+        Heat: 0.9
+        Radiation: 0.25
+

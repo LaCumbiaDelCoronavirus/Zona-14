@@ -6,4 +6,4 @@
   name: Recipe Heavy body armor "Redut"
   components:
     - type: STBlueprint
-      blueprint: newrecipeClothingOuterArmorSTClothingOuterHeavyRedut
+      blueprint: Z14newrecipeClothingOuterArmorSTClothingOuterHeavyRedut

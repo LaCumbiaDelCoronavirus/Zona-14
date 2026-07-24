@@ -6,7 +6,7 @@
   parent: BaseSTCartridge545
   components:
   - type: CartridgeAmmo
-    proto: Bullet545FMJ
+    proto: Z14Bullet545FMJ
 
 - type: entity
   id: Z14STCartridge545PC
@@ -16,7 +16,7 @@
   parent: BaseSTCartridge545
   components:
   - type: CartridgeAmmo
-    proto: Bullet545PC
+    proto: Z14Bullet545PC
 
 - type: entity
   id: Z14STCartridge545HP
@@ -26,7 +26,7 @@
   parent: BaseSTCartridge545
   components:
   - type: CartridgeAmmo
-    proto: Bullet545HP
+    proto: Z14Bullet545HP
 
 - type: entity
   id: Z14STCartridge545BP
@@ -36,7 +36,7 @@
   parent: BaseSTCartridge545
   components:
   - type: CartridgeAmmo
-    proto: Bullet545BP
+    proto: Z14Bullet545BP
 
 - type: entity
   id: Z14STCartridge545BS
@@ -46,7 +46,7 @@
   parent: BaseSTCartridge545
   components:
   - type: CartridgeAmmo
-    proto: Bullet545BS
+    proto: Z14Bullet545BS
 
 - type: entity
   id: Z14STCartridge545NE
@@ -56,4 +56,4 @@
   parent: BaseSTCartridge545
   components:
   - type: CartridgeAmmo
-    proto: Bullet545NE
+    proto: Z14Bullet545NE

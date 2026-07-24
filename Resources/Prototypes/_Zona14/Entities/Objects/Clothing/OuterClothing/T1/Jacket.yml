@@ -7,7 +7,7 @@
   abstract: true
   components:
   - type: ToggleableClothing
-    clothingPrototype: STClothingHeadHatHoodBase
+    clothingPrototype: Z14STClothingHeadHatHoodBase
     slot: head
 
   - type: UserInterface
@@ -48,7 +48,7 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/outerClothing/jacket_bandit.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHatHoodJacketBandit
+    clothingPrototype: Z14ClothingHeadHatHoodJacketBandit
     slot: head
   # bandit's bonus
 - type: entity
@@ -80,7 +80,7 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/outerClothing/jacket_stalker.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHatHoodJacketStalker
+    clothingPrototype: Z14ClothingHeadHatHoodJacketStalker
     slot: head
 
 - type: entity
@@ -112,7 +112,7 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/outerClothing/jacket_stalker_white.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHatHoodJacketStalkerWhite
+    clothingPrototype: Z14ClothingHeadHatHoodJacketStalkerWhite
     slot: head
 
 - type: entity
@@ -145,7 +145,7 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/outerClothing/jacket_svoboda.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHatHoodJacketFreedom
+    clothingPrototype: Z14ClothingHeadHatHoodJacketFreedom
     slot: head
   # Bonus
 - type: entity
@@ -177,7 +177,7 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/outerClothing/jacket_mercenary.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHatHoodJacketMerc
+    clothingPrototype: Z14ClothingHeadHatHoodJacketMerc
     slot: head
   # Bonus
 - type: entity
@@ -209,7 +209,7 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/outerClothing/jacket_cn.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHatHoodJacketCN
+    clothingPrototype: Z14ClothingHeadHatHoodJacketCN
     slot: head
 - type: entity
   parent: Z14STClothingHeadHatHoodBase
@@ -240,7 +240,7 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/outerClothing/jacket_dolg.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHatHoodJacketDolg
+    clothingPrototype: Z14ClothingHeadHatHoodJacketDolg
     slot: head
   # bonus
 - type: entity
@@ -309,7 +309,7 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/outerClothing/jacket_deserters.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHatHoodJacketDeserter
+    clothingPrototype: Z14ClothingHeadHatHoodJacketDeserter
     slot: head
 
 - type: entity
@@ -339,7 +339,7 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/outerClothing/jacket_monolith.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHatHoodJacketMonolith
+    clothingPrototype: Z14ClothingHeadHatHoodJacketMonolith
     slot: head
 
 - type: entity
@@ -408,7 +408,7 @@
   description: Won't save from bullets or anomalies, but comfortable to wear. Smells like dry cleaning...
   components:
   - type: ToggleableClothing
-    clothingPrototype: ClothingJacketSci
+    clothingPrototype: Z14ClothingJacketSci
     slot: head
   - type: Sprite
     sprite: _Stalker/Objects/Clothing/outerClothing/jacket_sci.rsi
@@ -460,7 +460,7 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/outerClothing/jacket-serafim.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingOuterJacketSeraHatHood
+    clothingPrototype: Z14ClothingOuterJacketSeraHatHood
     slot: head
 
 - type: entity

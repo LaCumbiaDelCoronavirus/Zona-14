@@ -28,7 +28,7 @@
       enum.StorageUiKey.Key:
         type: StorageBoundUserInterface
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetLoyalistCoatlight
+    clothingPrototype: Z14ClothingHeadHelmetLoyalistCoatlight
     requiredSlot:
     - cloak
     slot: head
@@ -72,7 +72,7 @@
       enum.StorageUiKey.Key:
         type: StorageBoundUserInterface
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetLoyalistCoat
+    clothingPrototype: Z14ClothingHeadHelmetLoyalistCoat
     requiredSlot:
     - cloak
     slot: head
@@ -118,7 +118,7 @@
       enum.StorageUiKey.Key:
         type: StorageBoundUserInterface
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetGrehCoat
+    clothingPrototype: Z14ClothingHeadHelmetGrehCoat
     requiredSlot:
     - outerClothing
     slot: head
@@ -155,7 +155,7 @@
       enum.StorageUiKey.Key:
         type: StorageBoundUserInterface
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetGrehCoat
+    clothingPrototype: Z14ClothingHeadHelmetGrehCoat
     requiredSlot:
     - outerClothing
     slot: head
@@ -199,7 +199,7 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/cloak/kevlaroviy_monolith.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetKevlarMonolith
+    clothingPrototype: Z14ClothingHeadHelmetKevlarMonolith
     requiredSlot:
     - cloak
     slot: head
@@ -242,7 +242,7 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/cloak/coat_renegat.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetLoyalistCoatRenegat
+    clothingPrototype: Z14ClothingHeadHelmetLoyalistCoatRenegat
     requiredSlot:
     - cloak
     slot: head
@@ -276,7 +276,7 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/cloak/Sera_/seraphim_kevlar_cape.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetLoyalistCoatSeraphim
+    clothingPrototype: Z14ClothingHeadHelmetLoyalistCoatSeraphim
     requiredSlot:
     - cloak
     slot: head
@@ -310,7 +310,7 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/cloak/Sera_/limaphim_kevlar_cape.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetLoyalistCoatLimaSeraphim
+    clothingPrototype: Z14ClothingHeadHelmetLoyalistCoatLimaSeraphim
     requiredSlot:
     - cloak
     slot: head
@@ -344,7 +344,7 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/cloak/coat_Ret.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingOuterCoatRetHat
+    clothingPrototype: Z14ClothingOuterCoatRetHat
     requiredSlot:
     - cloak
     slot: head

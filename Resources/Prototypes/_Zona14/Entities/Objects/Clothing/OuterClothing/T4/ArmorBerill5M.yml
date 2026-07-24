@@ -50,7 +50,7 @@
 # Neutral
 
 - type: entity
-  parent: Z14STClothingOuterArmorBerill5MBase
+  parent: [ Z14ArmorBaseT4PvP, Z14STClothingOuterArmorBerill5MBase ]
   id: Z14STClothingOuterArmorLepestokNeutral
   categories: [ Zona14 ]
   suffix: Z14
@@ -84,7 +84,7 @@
       tags:
       - STArtifact
 - type: entity
-  parent: Z14STClothingOuterArmorBerill5MBase
+  parent: [ Z14ArmorBaseT4PvP, Z14STClothingOuterArmorBerill5MBase ]
   id: Z14ClothingOuterArmorBerill5MProject
   categories: [ Zona14 ]
   suffix: Z14

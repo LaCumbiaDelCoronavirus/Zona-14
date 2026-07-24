@@ -6,7 +6,7 @@
   name: Svarog detector blueprint
   components:
   - type: STBlueprint
-    blueprint: recipeDetectorSvarog
+    blueprint: Z14recipeDetectorSvarog
 
 - type: entity
   parent: STBaseBlueprint

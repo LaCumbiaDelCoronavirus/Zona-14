@@ -1,13 +1,13 @@
 - type: craftRecipe
   id: Z14newrecipeClothingOuterCoatPahan
   resultProtos:
-  - ClothingOuterCoatPahan
+  - Z14ClothingOuterCoatPahan
   craftTime: 10
   items:
-    ClothingOuterCoatPahanBlueprint:
+    Z14ClothingOuterCoatPahanBlueprint:
       amount: 1
       catalyzer: true
-    ClothingOuterCoatDoshdevik:
+    Z14ClothingOuterCoatDoshdevik:
       amount: 1
     STCraftCottonFabricT1:
       amount: 2
@@ -15,10 +15,10 @@
 - type: craftRecipe
   id: Z14newrecipeClothingOuterCoatDoshdevik
   resultProtos:
-  - ClothingOuterCoatDoshdevik
+  - Z14ClothingOuterCoatDoshdevik
   craftTime: 10
   items:
-    ClothingOuterCoatDoshdevikBlueprint:
+    Z14ClothingOuterCoatDoshdevikBlueprint:
       amount: 1
       catalyzer: true
     STCraftCottonFabricT1:
@@ -27,13 +27,13 @@
 - type: craftRecipe
   id: Z14newrecipeClothingOuterCoatPoisk
   resultProtos:
-  - ClothingOuterCoatPoisk
+  - Z14ClothingOuterCoatPoisk
   craftTime: 10
   items:
-    ClothingOuterCoatPoiskBlueprint:
+    Z14ClothingOuterCoatPoiskBlueprint:
       amount: 1
       catalyzer: true
-    ClothingOuterCoatDoshdevik:
+    Z14ClothingOuterCoatDoshdevik:
       amount: 1
     STCraftCottonFabricT1:
       amount: 2

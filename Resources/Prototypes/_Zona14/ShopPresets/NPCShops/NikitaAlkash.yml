@@ -27,6 +27,11 @@
   - name: Vodka
     priority: 1
     items:
+      Z14STWeaponShotgunTOZ34: 1250
+      Z14STWeaponShotgunSawedOf: 1250
+      Z14STBaseWeaponShotgunTOZ106: 1250
+      Z14WeaponPistolStalkerLP08: 500
+      Z14WeaponPistolStalkerPMModifed: 1250
       DrinkVodkaBottleFull: 45
   - name: Miscellaneous
     priority: 2

@@ -6,7 +6,7 @@
   name: Large Ammo Box 7mm Buckshot Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe7mmBuckshotBoxCink
+      blueprint: Z14newrecipe7mmBuckshotBoxCink
 
 - type: entity
   parent: STBaseBlueprint
@@ -16,7 +16,7 @@
   name: Large Ammo Box 6.5mm “Express” Buckshot Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe6mmBuckshotBoxCink
+      blueprint: Z14newrecipe6mmBuckshotBoxCink
 
 - type: entity
   parent: STBaseBlueprint
@@ -26,7 +26,7 @@
   name: Large Ammo Box 8.5mm Magnum Buckshot Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe8mmBuckshotBoxCink
+      blueprint: Z14newrecipe8mmBuckshotBoxCink
 
 - type: entity
   parent: STBaseBlueprint
@@ -36,7 +36,7 @@
   name: Large Ammo Box Flechette (12x70) Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeShotgunFlechetteCink
+      blueprint: Z14newrecipeShotgunFlechetteCink
 
 - type: entity
   parent: STBaseBlueprint
@@ -46,7 +46,7 @@
   name: Large Ammo Box Non-Lethal (12x70) Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeShotgunBulletUnlethalBoxCink
+      blueprint: Z14newrecipeShotgunBulletUnlethalBoxCink
 
 - type: entity
   parent: STBaseBlueprint
@@ -56,7 +56,7 @@
   name: Large Ammo Box Recipe (12x70) Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeShotgunBulletBoxCink
+      blueprint: Z14newrecipeShotgunBulletBoxCink
 
 - type: entity
   parent: STBaseBlueprint
@@ -66,7 +66,7 @@
   name: Large Ammo Box Recipe (12x70) RIP Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeShotgunBulletBoxRIPCink
+      blueprint: Z14newrecipeShotgunBulletBoxRIPCink
 
 - type: entity
   parent: STBaseBlueprint
@@ -76,7 +76,7 @@
   name: Large Ammo Box Dart (12x70) Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeShotgunDarttBoxCink
+      blueprint: Z14newrecipeShotgunDarttBoxCink
 
 ###################################################################### 5,45x39
 
@@ -88,7 +88,7 @@
   name: Large Ammo Box 5.45x39 FMJ Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe545FMJBoxCink
+      blueprint: Z14newrecipe545FMJBoxCink
 
 - type: entity
   parent: STBaseBlueprint
@@ -98,7 +98,7 @@
   name: Large Ammo Box 5.45x39 PC Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe545PCBoxCink
+      blueprint: Z14newrecipe545PCBoxCink
 
 - type: entity
   parent: STBaseBlueprint
@@ -108,7 +108,7 @@
   name: Large Ammo Box 5.45x39 HP Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe545HPBoxCink
+      blueprint: Z14newrecipe545HPBoxCink
 
 - type: entity
   parent: STBaseBlueprint
@@ -118,7 +118,7 @@
   name: Large Ammo Box 5.45x39 BP Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe545BPBoxCink
+      blueprint: Z14newrecipe545BPBoxCink
 
 - type: entity
   parent: STBaseBlueprint
@@ -128,7 +128,7 @@
   name: Large Ammo Box 5.45x39 BC Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe545BSBoxCink
+      blueprint: Z14newrecipe545BSBoxCink
 
 - type: entity
   parent: STBaseBlueprint
@@ -138,7 +138,7 @@
   name: Large Ammo Box 5.45x39 Needlepoints Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe545NCBoxCink
+      blueprint: Z14newrecipe545NCBoxCink
 
 ################################################################################ 9x18
 
@@ -150,7 +150,7 @@
   name: Large Ammo Box 9x18P Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe918PGJBoxCink
+      blueprint: Z14newrecipe918PGJBoxCink
 
 - type: entity
   parent: STBaseBlueprint
@@ -160,7 +160,7 @@
   name: Large Ammo Box 9x18 PST Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe918PSTBoxCink
+      blueprint: Z14newrecipe918PSTBoxCink
 
 - type: entity
   parent: STBaseBlueprint
@@ -170,7 +170,7 @@
   name: Large Ammo Box 9x18 SP7 Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe918SP7BoxCink
+      blueprint: Z14newrecipe918SP7BoxCink
 
 - type: entity
   parent: STBaseBlueprint
@@ -180,7 +180,7 @@
   name: Large Ammo Box 9x18 PBM gzh Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe918PBMBoxCink
+      blueprint: Z14newrecipe918PBMBoxCink
 
 ############################################################################# 9x19
 
@@ -192,7 +192,7 @@
   name: Large Ammo Box 9x19 SIG Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe919PSOGJBoxCink
+      blueprint: Z14newrecipe919PSOGJBoxCink
 
 - type: entity
   parent: STBaseBlueprint
@@ -202,7 +202,7 @@
   name: Large Ammo Box 9x19 PST Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe919PSTBoxCink
+      blueprint: Z14newrecipe919PSTBoxCink
 
 - type: entity
   parent: STBaseBlueprint
@@ -212,7 +212,7 @@
   name: Large Ammo Box 9x19 RIP Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe919RIPBoxCink
+      blueprint: Z14newrecipe919RIPBoxCink
 
 - type: entity
   parent: STBaseBlueprint
@@ -222,7 +222,7 @@
   name: Large Ammo Box 9x19 PBM gzh Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe919PBMBoxCink
+      blueprint: Z14newrecipe919PBMBoxCink
 
 ################################################## 7,62x54
 
@@ -234,7 +234,7 @@
   name: Large Ammo Box 7.62x54 FMJ Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe754FMJBoxCink
+      blueprint: Z14newrecipe754FMJBoxCink
 
 - type: entity
   parent: STBaseBlueprint
@@ -244,7 +244,7 @@
   name: Large Ammo Box 7.62x54 PC Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe754PCBoxCink
+      blueprint: Z14newrecipe754PCBoxCink
 
 - type: entity
   parent: STBaseBlueprint
@@ -254,7 +254,7 @@
   name: Large Ammo Box 7.62x54 HP BT Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe754HPBoxCink
+      blueprint: Z14newrecipe754HPBoxCink
 
 - type: entity
   parent: STBaseBlueprint
@@ -264,7 +264,7 @@
   name: Large Ammo Box 7.62x54 BT Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe754BTBoxCink
+      blueprint: Z14newrecipe754BTBoxCink
 
 - type: entity
   parent: STBaseBlueprint
@@ -274,7 +274,7 @@
   name: Large Ammo Box 7.62x54 SNB Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe754SNBBoxCink
+      blueprint: Z14newrecipe754SNBBoxCink
 
 ########### 5,56
 
@@ -286,7 +286,7 @@
   name: Large Ammo Box 5.56 FMJ Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe556FMJBoxCink
+      blueprint: Z14newrecipe556FMJBoxCink
 
 - type: entity
   parent: STBaseBlueprint
@@ -296,7 +296,7 @@
   name: Large Ammo Box 5.56 M855 Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe556M855BoxCink
+      blueprint: Z14newrecipe556M855BoxCink
 
 - type: entity
   parent: STBaseBlueprint
@@ -306,7 +306,7 @@
   name: Large Ammo Box 5.56 Warmag Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe556WarmagBoxCink
+      blueprint: Z14newrecipe556WarmagBoxCink
 
 - type: entity
   parent: STBaseBlueprint
@@ -316,7 +316,7 @@
   name: Large Ammo Box 5.56 M856 Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe556M856BoxCink
+      blueprint: Z14newrecipe556M856BoxCink
 
 - type: entity
   parent: STBaseBlueprint
@@ -326,7 +326,7 @@
   name: Large Ammo Box 5.56 M995 Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe545M995BoxCink
+      blueprint: Z14newrecipe545M995BoxCink
 
 - type: entity
   parent: STBaseBlueprint
@@ -336,7 +336,7 @@
   name: Large Ammo Box 5.56 SSA AP Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe556SSAAPBoxCink
+      blueprint: Z14newrecipe556SSAAPBoxCink
 
 ################## 7,62x25
 
@@ -348,7 +348,7 @@
   name: Large Ammo Box 7.62x25 Pgl Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe725PBoxCink
+      blueprint: Z14newrecipe725PBoxCink
 
 - type: entity
   parent: STBaseBlueprint
@@ -358,7 +358,7 @@
   name: Large Ammo Box 7.62x25 PT Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe725PTBoxCink
+      blueprint: Z14newrecipe725PTBoxCink
 
 - type: entity
   parent: STBaseBlueprint
@@ -368,7 +368,7 @@
   name: Large Ammo Box 7.62x25 LRNPC Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe725LRNPCBoxCink
+      blueprint: Z14newrecipe725LRNPCBoxCink
 
 - type: entity
   parent: STBaseBlueprint
@@ -378,7 +378,7 @@
   name: Large Ammo Box 7.62x25 PST Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe725PSTBoxCink
+      blueprint: Z14newrecipe725PSTBoxCink
 
 ####################### 7,62x39
 
@@ -390,7 +390,7 @@
   name: Large Ammo Box 7.62x39 FMJ Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe739FMJBoxCink
+      blueprint: Z14newrecipe739FMJBoxCink
 
 - type: entity
   parent: STBaseBlueprint
@@ -400,7 +400,7 @@
   name: Large Ammo Box 7.62x39 PS Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe739PCBoxCink
+      blueprint: Z14newrecipe739PCBoxCink
 
 - type: entity
   parent: STBaseBlueprint
@@ -410,7 +410,7 @@
   name: Large Ammo Box 7.62x39 HP Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe739HPBoxCink
+      blueprint: Z14newrecipe739HPBoxCink
 
 - type: entity
   parent: STBaseBlueprint
@@ -420,7 +420,7 @@
   name: Large Ammo Box 7.62x39 HP Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe739BPBoxCink
+      blueprint: Z14newrecipe739BPBoxCink
 
 ########################## 7,62x51
 
@@ -432,7 +432,7 @@
   name: Large Ammo Box 7.62x51 M80 Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe751M80BoxCink
+      blueprint: Z14newrecipe751M80BoxCink
 
 - type: entity
   parent: STBaseBlueprint
@@ -442,7 +442,7 @@
   name: Large Ammo Box 7.62x51 Ultra Noiser Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe751UNBoxCink
+      blueprint: Z14newrecipe751UNBoxCink
 
 - type: entity
   parent: STBaseBlueprint
@@ -452,7 +452,7 @@
   name: Large Ammo Box 7.62x51 M61 Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe751M61BoxCink
+      blueprint: Z14newrecipe751M61BoxCink
 
 - type: entity
   parent: STBaseBlueprint
@@ -462,7 +462,7 @@
   name: Large Ammo Box 7.62x51 M993 Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe751M993BoxCink
+      blueprint: Z14newrecipe751M993BoxCink
 
 ############################## .45 ACP
 
@@ -474,7 +474,7 @@
   name: Large Ammo Box .45 ACP Lasermatch FMJ Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe45ACPLFMJBoxCink
+      blueprint: Z14newrecipe45ACPLFMJBoxCink
 
 - type: entity
   parent: STBaseBlueprint
@@ -484,7 +484,7 @@
   name: Large Ammo Box .45 ACP Match FMJ Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe45ACPMFMJBoxCink
+      blueprint: Z14newrecipe45ACPMFMJBoxCink
 
 - type: entity
   parent: STBaseBlueprint
@@ -494,7 +494,7 @@
   name: Large Ammo Box .45 ACP Hydro-shock Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe45ACPHydroshockBoxCink
+      blueprint: Z14newrecipe45ACPHydroshockBoxCink
 
 - type: entity
   parent: STBaseBlueprint
@@ -504,7 +504,7 @@
   name: Large Ammo Box .45 ACP RIP Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe45ACPRIPBoxCink
+      blueprint: Z14newrecipe45ACPRIPBoxCink
 
 - type: entity
   parent: STBaseBlueprint
@@ -514,7 +514,7 @@
   name: Large Ammo Box .45 ACP AP Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe45ACPAPBoxCink
+      blueprint: Z14newrecipe45ACPAPBoxCink
 
 ######################### 9x39
 
@@ -526,7 +526,7 @@
   name: Large Ammo Box 9x39 SP-5 Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe939SP5BoxCink
+      blueprint: Z14newrecipe939SP5BoxCink
 
 - type: entity
   parent: STBaseBlueprint
@@ -536,7 +536,7 @@
   name: Large Ammo Box 9x39 SP-6 Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe939SP6BoxCink
+      blueprint: Z14newrecipe939SP6BoxCink
 
 - type: entity
   parent: STBaseBlueprint
@@ -546,7 +546,7 @@
   name: Large Ammo Box 9x39 BP Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe939BPBoxCink
+      blueprint: Z14newrecipe939BPBoxCink
 
 ######################33 12,7x55
 
@@ -558,7 +558,7 @@
   name: Large Ammo Box 12.7x55 PS12A Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe1255PS12ACink
+      blueprint: Z14newrecipe1255PS12ACink
 
 - type: entity
   parent: STBaseBlueprint
@@ -568,7 +568,7 @@
   name: Large Ammo Box 12.7x55 TP Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe1255TPCink
+      blueprint: Z14newrecipe1255TPCink
 
 - type: entity
   parent: STBaseBlueprint
@@ -578,5 +578,5 @@
   name: Large Ammo Box 12.7x55 BP Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipe1255BPCink
+      blueprint: Z14newrecipe1255BPCink
 

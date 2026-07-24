@@ -7,6 +7,12 @@
   name: crate
   description: A rather old crate. It might be worth searching. You may find something useful inside.
   components:
+    # Zona-14 tables carry far more entries than upstream's (blueprints for all
+    # T3+ crafting live here), and TestSufficientSpaceForFill demands the grid
+    # fit the WORST-CASE fill - every prob entry spawning at once.
+    - type: Storage
+      grid:
+        - 0,0,17,17
     - type: InteractionOutline
     - type: StorageFill
       contents:
@@ -24,41 +30,41 @@
           prob: 0.1
         - id: STCraftTapeKitT2
           prob: 0.1
-        - id: ST6mmBuckshotBoxCinkBluePrint
+        - id: Z14ST6mmBuckshotBoxCinkBluePrint
           prob: 0.05
-        - id: ST8mmBuckshotBoxCinkBlueprint
+        - id: Z14ST8mmBuckshotBoxCinkBlueprint
           prob: 0.03
-        - id: ST6mmBuckshotBoxCinkBluePrint
+        - id: Z14ST6mmBuckshotBoxCinkBluePrint
           prob: 0.05
-        - id: ST545FMJBoxCinkBlueprint
+        - id: Z14ST545FMJBoxCinkBlueprint
           prob: 0.05
-        - id: ST918PSTBoxCinkBlueprint
+        - id: Z14ST918PSTBoxCinkBlueprint
           prob: 0.05
-        - id: ST919PSTBoxCinkBlueprint
+        - id: Z14ST919PSTBoxCinkBlueprint
           prob: 0.05
-        - id: ST754HPBoxCinkBlueprint
+        - id: Z14ST754HPBoxCinkBlueprint
           prob: 0.03
-        - id: ST556FMJBoxCinkBlueprint
+        - id: Z14ST556FMJBoxCinkBlueprint
           prob: 0.05
-        - id: ST725PTBoxCinkBlueprint
+        - id: Z14ST725PTBoxCinkBlueprint
           prob: 0.05
-        - id: ST725PTBoxCinkBlueprint
+        - id: Z14ST725PTBoxCinkBlueprint
           prob: 0.05
-        - id: ST739HPBoxCinkBlueprint
+        - id: Z14ST739HPBoxCinkBlueprint
           prob: 0.05
-        - id: ST751UNBoxCinkBlueprint
+        - id: Z14ST751UNBoxCinkBlueprint
           prob: 0.05
-        - id: ST739HPBoxCinkBlueprint
+        - id: Z14ST739HPBoxCinkBlueprint
           prob: 0.05
-        - id: ClothingOuterArmorZaryaHunterBlueprint
+        - id: Z14ClothingOuterArmorZaryaHunterBlueprint
           prob: 0.05
-        - id: STClothingOuterArmor6B2Blueprint
+        - id: Z14STClothingOuterArmor6B2Blueprint
           prob: 0.05
-        - id: STClothingOuterArmorLightPlateVestBaseStalkerBlueprint
+        - id: Z14STClothingOuterArmorLightPlateVestBaseStalkerBlueprint
           prob: 0.05
-        - id: ClothingOuterArmourJacketStalkerBlueprint
+        - id: Z14ClothingOuterArmourJacketStalkerBlueprint
           prob: 0.05
-        - id: STZoneArtifactDetectorResponseBlueprint
+        - id: Z14STZoneArtifactDetectorResponseBlueprint
           prob: 0.05
         - id: Z14STBrutepack
           prob: 0.25
@@ -127,15 +133,15 @@
         - id: Z14RGD5Grenade
           prob: 0.05
         # EN additions
-        - id: STCookingKebabMeat
+        - id: Z14STCookingKebabMeat
           prob: 0.05
-        - id: STCookingKebabVeggie
+        - id: Z14STCookingKebabVeggie
           prob: 0.05
-        - id: STCookingMeatStew
+        - id: Z14STCookingMeatStew
           prob: 0.05
-        - id: STCookingCabbageSoup
+        - id: Z14STCookingCabbageSoup
           prob: 0.05
-        - id: STCookingBorscht
+        - id: Z14STCookingBorscht
           prob: 0.05
         - id: Z14STDrinkJarDirtyWater
           prob: 0.08
@@ -145,15 +151,69 @@
           prob: 0.03
         - id: Z14STDrinkJarMoonshine
           prob: 0.01
-        - id: STCookingPickledEggs
+        - id: Z14STCookingPickledEggs
           prob: 0.02
-        - id: STCookingKvass
+        - id: Z14STCookingKvass
           prob: 0.02
         - id: MakeshiftArtContBlueprint
           prob: 0.05
+        - id: Z14ClothingBackpackDuffelBlackMilitaryTacticStalkerBlueprint
+          prob: 0.04
+        - id: Z14ClothingBackpackDuffelBlackTacticStalkerBlueprint
+          prob: 0.04
+        - id: Z14ClothingBackpackDuffelHikingVSRFBlueprint
+          prob: 0.04
+        - id: Z14ClothingBackpackDuffelMilitaryBlueBlueprint
+          prob: 0.04
+        - id: Z14ClothingBackpackDuffelMilitaryOliveBlueprint
+          prob: 0.04
+        - id: Z14ClothingBackpackDuffelOliveTacticStalkerBlueprint
+          prob: 0.04
+        - id: Z14ClothingBackpackDuffelSuperStalkerBlueprint
+          prob: 0.04
+        - id: Z14ClothingBackpackDuffelSuperStalkerGrayBlueprint
+          prob: 0.04
+        - id: Z14ClothingOuterArmorCN1Blueprint
+          prob: 0.04
+        - id: Z14ClothingOuterArmorZN1Blueprint
+          prob: 0.04
+        - id: Z14ClothingOuterArmorZaryaStalkerModifedType1Blueprint
+          prob: 0.04
+        - id: Z14ClothingOuterArmorZaryaStalkerModifedType2Blueprint
+          prob: 0.04
+        - id: Z14ClothingOuterArmourCoatBanditBlackBlueprint
+          prob: 0.04
+        - id: Z14ClothingOuterArmourCoatBanditBrownBlueprint
+          prob: 0.04
+        - id: Z14ClothingOuterArmourJacketBanditBlueprint
+          prob: 0.04
+        - id: Z14ClothingOuterCoatBolotniyBlueprint
+          prob: 0.04
+        - id: Z14ClothingOuterCoatKolchygaBlueprint
+          prob: 0.04
+        - id: Z14ClothingOuterCoatStalkerBlueprint
+          prob: 0.04
+        - id: Z14ST1255TPCinkBlueprint
+          prob: 0.04
+        - id: Z14ST45ACPHydroshockBoxCinkBlueprint
+          prob: 0.04
+        - id: Z14ST45ACPLFMJBoxCinkBlueprint
+          prob: 0.04
+        - id: Z14ST45ACPMFMJBoxCinkBlueprint
+          prob: 0.04
+        - id: Z14ST939SP5BoxCinkBlueprint
+          prob: 0.04
+        - id: Z14STClothingHeadTinfoilBlueprint
+          prob: 0.04
+        - id: Z14STShotgunBulletBoxRIPCinkBlueprint
+          prob: 0.04
+        - id: Z14STShotgunBulletUnlethalBoxCinkBlueprint
+          prob: 0.04
+        - id: Z14TrashDetectorTier3Blueprint
+          prob: 0.04
 
 - type: entity
-  parent: [ STCacheStorageFillT2, STBaseCache]
+  parent: [ Z14STCacheStorageFillT2, STBaseCache]
   id: Z14STCache1T2
   categories: [ HideSpawnMenu , Zona14 ]
   suffix: Z14
@@ -165,7 +225,7 @@
       prototype: Z14STCache1T2
 
 - type: entity
-  parent: [ STCacheStorageFillT2, STBaseCache]
+  parent: [ Z14STCacheStorageFillT2, STBaseCache]
   id: Z14STCache2T2
   categories: [ HideSpawnMenu , Zona14 ]
   suffix: Z14
@@ -177,7 +237,7 @@
       prototype: Z14STCache2T2
 
 - type: entity
-  parent: [ STCacheStorageFillT2, STBaseCache]
+  parent: [ Z14STCacheStorageFillT2, STBaseCache]
   id: Z14STCache3T2
   categories: [ HideSpawnMenu , Zona14 ]
   suffix: Z14

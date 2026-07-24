@@ -51,6 +51,62 @@ The workflow [`.github/workflows/zona14-convention.yml`](../../.github/workflows
 - `1` — at least one fatal check failed.
 - `2` — usage error or missing dependency (`jq`).
 
+## `test-check-conventions.sh`
+
+Regression tests for `check-conventions.sh`. Run them after touching that script:
+
+```bash
+bash Tools/_Zona14/test-check-conventions.sh
+```
+
+Case 3 is the one with history behind it. `git` reports a rename as a three-field
+`R<score>\told\tnew` row, while every check reads a two-field `status\tpath` shape and
+accepts only `A`/`M` (or `D`). An unnormalised `R` row was therefore dropped by all but
+one check, so renaming a file outside `_Zona14/` and editing it in the same commit slipped
+past the §3 marker gate with a green run. `normalise_renames()` now expands each rename
+into the two events it really is (`M` on the new path, `D` on the old) before any check
+reads the list.
+
+## `check-z14-consistency.py`
+
+Whole-tree consistency checks. `check-conventions.sh` validates the **diff**; this
+validates the **resulting prototype tree** — the class of defect a green diff cannot rule
+out, because each file is individually valid and only the combination is wrong. Every
+check corresponds to a bug that actually shipped:
+
+| Check | Catches |
+| --- | --- |
+| `recipe-ambiguity` | Two craft recipes with identical ingredients and different results. Selection is first-match-and-return over an arbitrarily ordered enumeration, so which one the player gets is a coin flip. |
+| `dead-ingredient` | A `Z14` ingredient nothing produces. Matching is by exact prototype id with no parent tolerance, so the recipe silently never fires. |
+| `armour-override` | An entity under a `Z14ArmorBaseT*` tier base that re-declares `Armor.modifiers` or `GrantsArtifactSlots`. Both are single DataFields with no push-inheritance, so the child replaces the tier wholesale. |
+| `locale-drift` | A `_Zona14` entity with no locale key, or a `.desc` whose stated round count contradicts the real `capacity`. FTL wins over YAML, so the YAML text players never see can drift freely. |
+| `locale-truncation` | Locale names cut off mid-token (unbalanced `"`, `«»`, `“”`) — a past translation pass mangled every name containing a quotation mark. |
+| `clone-drift` | A reference inside `_Zona14/` naming an upstream id that has a `Z14` twin. The twin exists so a rebalance survives the next upstream merge; a missed reference means that rebalance silently does nothing. |
+
+**Crafting ingredients are deliberately exempt from `clone-drift`.** Every loot table grants
+the *upstream* material id, and matching is by exact id, so repointing an ingredient to its
+`Z14` twin makes the recipe unmatchable. The twins share a `stackType`, so the two merge in
+a player's inventory and the breakage stays invisible until someone reports that a recipe
+refuses looted material. Recipe *results* are checked; ingredients are not.
+
+### Usage
+
+```bash
+python3 Tools/_Zona14/check-z14-consistency.py
+```
+
+Pre-existing debt lives in `z14-consistency-baseline.json`, so the script exits non-zero
+only for findings the baseline does not already record. After a deliberate, reviewed
+deferral, re-record it:
+
+```bash
+python3 Tools/_Zona14/check-z14-consistency.py --update-baseline
+```
+
+Do not run `--update-baseline` to silence a finding you have not looked at — the baseline
+is a record of accepted debt, and the diff on it is what a reviewer reads. `--check NAME`
+runs a single check; `--verbose` lists findings that are already baselined.
+
 ## `hooks/pre-commit`
 
 Git pre-commit hook that runs `check-conventions.sh` automatically before each commit.

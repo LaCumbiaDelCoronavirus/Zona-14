@@ -11,7 +11,7 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/outerClothing/zn1.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetZN1
+    clothingPrototype: Z14ClothingHeadHelmetZN1
 
 - type: entity
   parent: STClothingHeadHatBase
@@ -47,7 +47,7 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/outerClothing/cn1.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetCN1
+    clothingPrototype: Z14ClothingHeadHelmetCN1
 
 - type: entity
   parent: Z14ClothingHeadHelmetZN1

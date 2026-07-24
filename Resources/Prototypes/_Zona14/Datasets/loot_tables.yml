@@ -2,36 +2,36 @@
   id: Z14Tier1STFish
   table: !type:GroupSelector
     children:
-    - id: STFishBitterling
-    - id: STFishBleak
-    - id: STFishBream
-    - id: STFishCarp
-    - id: STFishPerch
-    - id: STFishPike
-    - id: STFishSunbleak
-    - id: STFishTench
-    - id: STFishFlish
+    - id: Z14STFishBitterling
+    - id: Z14STFishBleak
+    - id: Z14STFishBream
+    - id: Z14STFishCarp
+    - id: Z14STFishPerch
+    - id: Z14STFishPike
+    - id: Z14STFishSunbleak
+    - id: Z14STFishTench
+    - id: Z14STFishFlish
 
 
 - type: entityTable
   id: Z14Tier2STFish
   table: !type:GroupSelector
     children:
-    - id: STFishEel
-    - id: STFishSturgeon
-    - id: STFishTrout
-    - id: STFishLuminantGudgeon
-    - id: STFishSwiftLurker
-    - id: STFishDenseTench
-    - id: STFishSneakyTench
+    - id: Z14STFishEel
+    - id: Z14STFishSturgeon
+    - id: Z14STFishTrout
+    - id: Z14STFishLuminantGudgeon
+    - id: Z14STFishSwiftLurker
+    - id: Z14STFishDenseTench
+    - id: Z14STFishSneakyTench
 
 
 - type: entityTable
   id: Z14Tier3STFish
   table: !type:GroupSelector
     children:
-    - id: STFishGoldfish
-    - id: STFishCatfish
-    - id: STFishDoubleEel
-    - id: STFishPallidSturgeon
-    - id: STFishJellyfish
+    - id: Z14STFishGoldfish
+    - id: Z14STFishCatfish
+    - id: Z14STFishDoubleEel
+    - id: Z14STFishPallidSturgeon
+    - id: Z14STFishJellyfish

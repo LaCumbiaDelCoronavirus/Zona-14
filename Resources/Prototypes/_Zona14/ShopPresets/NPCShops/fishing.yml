@@ -36,6 +36,11 @@
     - name: shop-category-utilities
       priority: 0
       items:
+        Z14STWeaponShotgunTOZ34: 1250
+        Z14STWeaponShotgunSawedOf: 1250
+        Z14STBaseWeaponShotgunTOZ106: 1250
+        Z14WeaponPistolStalkerLP08: 500
+        Z14WeaponPistolStalkerPMModifed: 1250
         Z14HuntingKnife: 150
         Bucket: 100
         Z14STCombatKnife: 50
@@ -55,8 +60,8 @@
     - name: Cooking
       priority: 3
       items:
-        STCookingFriedFish: 2000
-        STCookingFrogLegs: 2000
-        STCookingPreservedFishFillets: 1000
-        STCookingPreservedFishSteak: 2000
-        STCookingPreservedEel: 3000
+        Z14STCookingFriedFish: 2000
+        Z14STCookingFrogLegs: 2000
+        Z14STCookingPreservedFishFillets: 1000
+        Z14STCookingPreservedFishSteak: 2000
+        Z14STCookingPreservedEel: 3000

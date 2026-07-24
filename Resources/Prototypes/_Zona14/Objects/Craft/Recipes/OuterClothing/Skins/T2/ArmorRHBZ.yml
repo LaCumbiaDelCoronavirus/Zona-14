@@ -1,69 +1,69 @@
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingOuterArmorRCBZSera
   results:
-    - ClothingOuterArmorRCBZSera
+    - Z14ClothingOuterArmorRCBZSera
   steps:
     firstIngredient: STSkinsKitSeraphim
-    secondIngredient: STClothingOuterArmorRCBZ
+    secondIngredient: Z14STClothingOuterArmorRCBZ
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingOuterArmorRCBZFreedom
   results:
-    - ClothingOuterArmorRCBZFreedom
+    - Z14ClothingOuterArmorRCBZFreedom
   steps:
     firstIngredient: STSkinsKitFreedom
-    secondIngredient: STClothingOuterArmorRCBZ
+    secondIngredient: Z14STClothingOuterArmorRCBZ
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingOuterArmorRCBZCN
   results:
-    - ClothingOuterArmorRCBZCN
+    - Z14ClothingOuterArmorRCBZCN
   steps:
     firstIngredient: STSkinsKitClearSky
-    secondIngredient: STClothingOuterArmorRCBZ
+    secondIngredient: Z14STClothingOuterArmorRCBZ
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingOuterArmorRCBZRene
   results:
-    - ClothingOuterArmorRCBZRene
+    - Z14ClothingOuterArmorRCBZRene
   steps:
     firstIngredient: STSkinsKitRenegate
-    secondIngredient: STClothingOuterArmorRCBZ
+    secondIngredient: Z14STClothingOuterArmorRCBZ
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingOuterArmorRCBZJabs
   results:
-    - ClothingOuterArmorRCBZJabs
+    - Z14ClothingOuterArmorRCBZJabs
   steps:
     firstIngredient: STSkinsKitJabs
-    secondIngredient: STClothingOuterArmorRCBZ
+    secondIngredient: Z14STClothingOuterArmorRCBZ
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingOuterArmorRCBZDolg
   results:
-    - ClothingOuterArmorRCBZDolg
+    - Z14ClothingOuterArmorRCBZDolg
   steps:
     firstIngredient: STSkinsKitDolg
-    secondIngredient: STClothingOuterArmorRCBZ
+    secondIngredient: Z14STClothingOuterArmorRCBZ
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingOuterArmorRCBZProjectPJ5
   results:
-  - ClothingOuterArmorRCBZProjectPJ5
+  - Z14ClothingOuterArmorRCBZProjectPJ5
   steps:
     firstIngredient: STSkinsKitProject
-    secondIngredient: STClothingOuterArmorRCBZ
+    secondIngredient: Z14STClothingOuterArmorRCBZ
     keepFirst: true
     time: 5

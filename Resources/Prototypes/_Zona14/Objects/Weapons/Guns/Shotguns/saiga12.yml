@@ -53,7 +53,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Base1270OriginMag
+        startingItem: Z14Base1270OriginMag
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
         priority: 4

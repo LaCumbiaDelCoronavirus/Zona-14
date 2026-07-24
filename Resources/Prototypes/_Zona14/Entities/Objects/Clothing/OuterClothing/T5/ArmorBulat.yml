@@ -14,7 +14,7 @@
 # Coventant
 
 - type: entity
-  parent: Z14STClothingOuterArmorBulatBase
+  parent: [ Z14ArmorBaseT4PvP, Z14STClothingOuterArmorBulatBase ]
   id: Z14ClothingOuterArmorBulatCovenant
   categories: [ Zona14 ]
   suffix: Z14
@@ -82,7 +82,7 @@
 # Deserters
 
 - type: entity
-  parent: Z14STClothingOuterArmorBulatBase
+  parent: [ Z14ArmorBaseT4PvP, Z14STClothingOuterArmorBulatBase ]
   id: Z14ClothingOuterArmorLegatDeserter
   categories: [ Zona14 ]
   suffix: Z14

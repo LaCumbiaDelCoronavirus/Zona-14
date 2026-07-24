@@ -4,7 +4,7 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: ammo pack (9x21) P (steel case)
-  description: For SR-1 and SR-2M, 30 rounds per box. Penetrates class 2 armor.
+  description: For SR-1 and SR-2M, 40 rounds per box. Penetrates class 2 armor.
   components:
   - type: Item
     size: Small
@@ -13,8 +13,8 @@
   - type: MagazineVisuals
     magState: 919ammo
   - type: BallisticAmmoProvider
-    proto: STCartridge921PGJ
-    capacity: 30
+    proto: Z14STCartridge921PGJ
+    capacity: 40
     whitelist:
       tags:
         - STCartridge921
@@ -31,10 +31,10 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: ammo pack (9x21) PE (steel case)
-  description: For SR-1 and SR-2M, 30 rounds per box. Cannot penetrate armor, but deals massive damage to unarmored targets.
+  description: For SR-1 and SR-2M, 40 rounds per box. Cannot penetrate armor, but deals massive damage to unarmored targets.
   components:
   - type: BallisticAmmoProvider
-    proto: STCartridge921PEGJ
+    proto: Z14STCartridge921PEGJ
   - type: Sprite
     layers:
     - state: 921
@@ -49,10 +49,10 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: ammo pack (9x21) BT (steel case)
-  description: For SR-1 and SR-2M, 30 rounds per box. Penetrates class 3 armor.
+  description: For SR-1 and SR-2M, 40 rounds per box. Penetrates class 3 armor.
   components:
   - type: BallisticAmmoProvider
-    proto: STCartridge921BTGJ
+    proto: Z14STCartridge921BTGJ
   - type: Sprite
     layers:
     - state: 921
@@ -67,10 +67,10 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: 'ammo pack (9x21) 7N42 "Zubilo"'
-  description: For SR-1 and SR-2M, 30 rounds per box. Penetrates class 4 armor.
+  description: For SR-1 and SR-2M, 40 rounds per box. Penetrates class 4 armor.
   components:
   - type: BallisticAmmoProvider
-    proto: STCartridge9217N42
+    proto: Z14STCartridge9217N42
   - type: Sprite
     layers:
     - state: 921
@@ -85,11 +85,11 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: ammo box (9x21) P (steel case)
-  description: For SR-1 and SR-2M, 300 rounds per crate. Penetrates class 2 armor.
+  description: For SR-1 and SR-2M, 440 rounds per crate. Penetrates class 2 armor.
   components:
   - type: BallisticAmmoProvider
-    proto: STCartridge921PGJ
-    capacity: 300
+    proto: Z14STCartridge921PGJ
+    capacity: 440
     whitelist:
       tags:
         - STCartridge921
@@ -109,7 +109,7 @@
   description: Expanding ammunition for SR-1 and SR-2M. Cannot penetrate armor, but deals massive damage to lightly armored or unarmored targets.
   components:
   - type: BallisticAmmoProvider
-    proto: STCartridge921PEGJ
+    proto: Z14STCartridge921PEGJ
   - type: Sprite
     layers:
     - state: cink
@@ -123,10 +123,10 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: ammo box (9x21) BT (steel case)
-  description: For SR-1 and SR-2M, 300 rounds per crate. Penetrates class 3 armor.
+  description: For SR-1 and SR-2M, 440 rounds per crate. Penetrates class 3 armor.
   components:
   - type: BallisticAmmoProvider
-    proto: STCartridge921BTGJ
+    proto: Z14STCartridge921BTGJ
   - type: Sprite
     layers:
     - state: cink
@@ -140,10 +140,10 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: 'ammo box (9x21) 7N42 "Zubilo"'
-  description: For SR-1 and SR-2M, 300 rounds per crate. Penetrates class 4 armor.
+  description: For SR-1 and SR-2M, 440 rounds per crate. Penetrates class 4 armor.
   components:
   - type: BallisticAmmoProvider
-    proto: STCartridge9217N42
+    proto: Z14STCartridge9217N42
   - type: Sprite
     layers:
     - state: cink

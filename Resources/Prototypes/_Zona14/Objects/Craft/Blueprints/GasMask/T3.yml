@@ -6,5 +6,5 @@
   name: M50 Gas Mask Recipe
   components:
     - type: STBlueprint
-      blueprint: recipeGasMaskM50
+      blueprint: Z14recipeGasMaskM50
 

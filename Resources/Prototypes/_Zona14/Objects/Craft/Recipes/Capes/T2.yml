@@ -1,13 +1,13 @@
 - type: craftRecipe
   id: Z14newrecipeClothingOuterCoatBolotniy
   resultProtos:
-  - ClothingOuterCoatBolotniy
+  - Z14ClothingOuterCoatBolotniy
   craftTime: 10
   items:
-    ClothingOuterCoatBolotniyBlueprint:
+    Z14ClothingOuterCoatBolotniyBlueprint:
       amount: 1
       catalyzer: true
-    ClothingOuterCoatStalker:
+    Z14ClothingOuterCoatStalker:
       amount: 1
     STCraftHideT2:
       amount: 5
@@ -18,13 +18,13 @@
 - type: craftRecipe
   id: Z14newrecipeClothingOuterCoatKolchyga
   resultProtos:
-  - ClothingOuterCoatKolchyga
+  - Z14ClothingOuterCoatKolchyga
   craftTime: 10
   items:
-    ClothingOuterCoatKolchygaBlueprint:
+    Z14ClothingOuterCoatKolchygaBlueprint:
       amount: 1
       catalyzer: true
-    ClothingOuterCoatStalker:
+    Z14ClothingOuterCoatStalker:
       amount: 1
     STCraftHideT2:
       amount: 1
@@ -36,10 +36,10 @@
 - type: craftRecipe
   id: Z14newrecipeClothingOuterCoatStalker
   resultProtos:
-  - ClothingOuterCoatStalker
+  - Z14ClothingOuterCoatStalker
   craftTime: 10
   items:
-    ClothingOuterCoatStalkerBlueprint:
+    Z14ClothingOuterCoatStalkerBlueprint:
       amount: 1
       catalyzer: true
     STCraftBasicThreadKitT1:

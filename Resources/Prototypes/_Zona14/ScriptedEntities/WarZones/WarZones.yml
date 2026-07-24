@@ -326,7 +326,7 @@
       price: 110
     - productEntity: Z14751M80BoxCink
       price: 110
-    - productEntity: 939BPBoxCink
+    - productEntity: Z14939BPBoxCink
       price: 125
 #    - productEntity: Z14921BTGJBoxCink
 #      price: 125
@@ -342,7 +342,7 @@
       price: 185
     - productEntity: Z14754PCBoxCink
       price: 185
-    - productEntity: 939SP6BoxCink
+    - productEntity: Z14939SP6BoxCink
       price: 195
 #    - productEntity: Z149217N42BoxCink
 #      price: 195

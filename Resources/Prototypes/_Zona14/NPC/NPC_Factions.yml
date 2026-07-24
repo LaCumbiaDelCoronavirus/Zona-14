@@ -140,16 +140,20 @@
     bodyType: Static
   - type: DatasetVocalizer
     dataset: NPCStalkerTraderAds
-  - type: ActivatableUI
-    key: enum.ShopUiKey.Key
-    singleUser: true
-  - type: UserInterface
-    interfaces:
-      enum.ShopUiKey.Key:
-        type: ShopBoundUserInterface
-  - type: Shop
-    moneyId: Roubles
-    shopPresetId: Z14ClearSkyShopPreset
+  # Clear Sky is not a faction in Zona-14 - disabled, not deleted, so it can be
+  # restored if that changes. NOTE: this stops the NPC trading, it does NOT remove
+  # it from the world; map placements are refreshed from server autosaves and need
+  # a mapper pass.
+  # - type: ActivatableUI
+  #   key: enum.ShopUiKey.Key
+  #   singleUser: true
+  # - type: UserInterface
+  #   interfaces:
+  #     enum.ShopUiKey.Key:
+  #       type: ShopBoundUserInterface
+  # - type: Shop
+  #   moneyId: Roubles
+  #   shopPresetId: Z14ClearSkyShopPreset
   - type: TypingIndicator
     proto: robot
   - type: TTS # Corvax-TTS
@@ -225,16 +229,18 @@
     bodyType: Static
   - type: DatasetVocalizer
     dataset: NPCStalkerTraderAds
-  - type: ActivatableUI
-    key: enum.ShopUiKey.Key
-    singleUser: true
-  - type: UserInterface
-    interfaces:
-      enum.ShopUiKey.Key:
-        type: ShopBoundUserInterface
-  - type: Shop
-    moneyId: Roubles
-    shopPresetId: Z14OKSOPShopPreset
+  # Military has no vendor - they are special forces supplied by drops, not a shop.
+  # Commented rather than deleted so the preset can be revived if that changes.
+  # - type: ActivatableUI
+  #   key: enum.ShopUiKey.Key
+  #   singleUser: true
+  # - type: UserInterface
+  #   interfaces:
+  #     enum.ShopUiKey.Key:
+  #       type: ShopBoundUserInterface
+  # - type: Shop
+  #   moneyId: Roubles
+  #   shopPresetId: Z14OKSOPShopPreset
   - type: TypingIndicator
     proto: robot
   - type: TTS # Corvax-TTS
@@ -265,16 +271,17 @@
     bodyType: Static
   - type: DatasetVocalizer
     dataset: NPCStalkerTraderAds
-  - type: ActivatableUI
-    key: enum.ShopUiKey.Key
-    singleUser: true
-  - type: UserInterface
-    interfaces:
-      enum.ShopUiKey.Key:
-        type: ShopBoundUserInterface
-  - type: Shop
-    moneyId: Roubles
-    shopPresetId: Z14OKSOPOfficerShopPreset
+  # Military has no vendor - see Z14NPCMilitaryGrunt above.
+  # - type: ActivatableUI
+  #   key: enum.ShopUiKey.Key
+  #   singleUser: true
+  # - type: UserInterface
+  #   interfaces:
+  #     enum.ShopUiKey.Key:
+  #       type: ShopBoundUserInterface
+  # - type: Shop
+  #   moneyId: Roubles
+  #   shopPresetId: Z14OKSOPOfficerShopPreset
   - type: TypingIndicator
     proto: robot
   - type: TTS # Corvax-TTS

@@ -30,7 +30,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: BasePP2000Mag
+        startingItem: Z14BasePP2000Mag
         insertSound: /Audio/_Stalker/Weapons/Guns/RifleGen/MagIn/rifle_magin.ogg
         ejectSound: /Audio/_Stalker/Weapons/Guns/RifleGen/MagOut/rifle_magout.ogg
         priority: 4
@@ -51,7 +51,7 @@
           - STWeaponModuleSMGGrip
       gun_chamber:
         name: Chamber
-        startingItem: STCartridge919PSOGJ
+        startingItem: Z14STCartridge919PSOGJ
         priority: 1
         whitelist:
           tags:
@@ -102,7 +102,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: BaseOTS126Mag
+        startingItem: Z14BaseOTS126Mag
         insertSound: /Audio/_Stalker/Weapons/Guns/RifleGen/MagIn/rifle_magin.ogg
         ejectSound: /Audio/_Stalker/Weapons/Guns/RifleGen/MagOut/rifle_magout.ogg
         priority: 4
@@ -123,7 +123,7 @@
           - STWeaponModuleSMGGrip
       gun_chamber:
         name: Chamber
-        startingItem: STCartridge919PSOGJ
+        startingItem: Z14STCartridge919PSOGJ
         priority: 1
         whitelist:
           tags:

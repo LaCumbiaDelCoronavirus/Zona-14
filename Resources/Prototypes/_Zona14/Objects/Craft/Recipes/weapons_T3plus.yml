@@ -1,0 +1,1585 @@
+# T3+ weapons are crafted, not bought - vendors stop at T2.
+# Blueprint + toolkit + metal and fittings from ONE TIER BELOW the weapon.
+
+- type: craftRecipe
+  id: Z14newrecipeSTMetroWeaponRifleVSV
+  resultProtos:
+    - Z14STMetroWeaponRifleVSV
+  craftTime: 12
+  items:
+    Z14STMetroWeaponRifleVSVBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponMachineGunM249SAW
+  resultProtos:
+    - Z14STWeaponMachineGunM249SAW
+  craftTime: 12
+  items:
+    Z14STWeaponMachineGunM249SAWBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleA545
+  resultProtos:
+    - Z14STWeaponRifleA545
+  craftTime: 12
+  items:
+    Z14STWeaponRifleA545Blueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleAKS74Green
+  resultProtos:
+    - Z14STWeaponRifleAKS74Green
+  craftTime: 12
+  items:
+    Z14STWeaponRifleAKS74GreenBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleAKS74UBlack
+  resultProtos:
+    - Z14STWeaponRifleAKS74UBlack
+  craftTime: 12
+  items:
+    Z14STWeaponRifleAKS74UBlackBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleAKS74USERAPH
+  resultProtos:
+    - Z14STWeaponRifleAKS74USERAPH
+  craftTime: 12
+  items:
+    Z14STWeaponRifleAKS74USERAPHBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleAKS74UWhite
+  resultProtos:
+    - Z14STWeaponRifleAKS74UWhite
+  craftTime: 12
+  items:
+    Z14STWeaponRifleAKS74UWhiteBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleAM17
+  resultProtos:
+    - Z14STWeaponRifleAM17
+  craftTime: 12
+  items:
+    Z14STWeaponRifleAM17Blueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleASVAL
+  resultProtos:
+    - Z14STWeaponRifleASVAL
+  craftTime: 12
+  items:
+    Z14STWeaponRifleASVALBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleASVALSelebra
+  resultProtos:
+    - Z14STWeaponRifleASVALSelebra
+  craftTime: 12
+  items:
+    Z14STWeaponRifleASVALSelebraBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleAUG
+  resultProtos:
+    - Z14STWeaponRifleAUG
+  craftTime: 12
+  items:
+    Z14STWeaponRifleAUGBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleF2000
+  resultProtos:
+    - Z14STWeaponRifleF2000
+  craftTime: 12
+  items:
+    Z14STWeaponRifleF2000Blueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleG36
+  resultProtos:
+    - Z14STWeaponRifleG36
+  craftTime: 12
+  items:
+    Z14STWeaponRifleG36Blueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleG36Alt
+  resultProtos:
+    - Z14STWeaponRifleG36Alt
+  craftTime: 12
+  items:
+    Z14STWeaponRifleG36AltBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleG36Covenant
+  resultProtos:
+    - Z14STWeaponRifleG36Covenant
+  craftTime: 12
+  items:
+    Z14STWeaponRifleG36CovenantBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleGalil
+  resultProtos:
+    - Z14STWeaponRifleGalil
+  craftTime: 12
+  items:
+    Z14STWeaponRifleGalilBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleHK416
+  resultProtos:
+    - Z14STWeaponRifleHK416
+  craftTime: 12
+  items:
+    Z14STWeaponRifleHK416Blueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleL85WhiteStrawberry
+  resultProtos:
+    - Z14STWeaponRifleL85WhiteStrawberry
+  craftTime: 12
+  items:
+    Z14STWeaponRifleL85WhiteStrawberryBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleLR300White
+  resultProtos:
+    - Z14STWeaponRifleLR300White
+  craftTime: 12
+  items:
+    Z14STWeaponRifleLR300WhiteBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleLR300v1
+  resultProtos:
+    - Z14STWeaponRifleLR300v1
+  craftTime: 12
+  items:
+    Z14STWeaponRifleLR300v1Blueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleLR300v2
+  resultProtos:
+    - Z14STWeaponRifleLR300v2
+  craftTime: 12
+  items:
+    Z14STWeaponRifleLR300v2Blueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleOC14
+  resultProtos:
+    - Z14STWeaponRifleOC14
+  craftTime: 12
+  items:
+    Z14STWeaponRifleOC14Blueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleOC14939
+  resultProtos:
+    - Z14STWeaponRifleOC14939
+  craftTime: 12
+  items:
+    Z14STWeaponRifleOC14939Blueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleOC14Alt
+  resultProtos:
+    - Z14STWeaponRifleOC14Alt
+  craftTime: 12
+  items:
+    Z14STWeaponRifleOC14AltBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleOC14AltSkin1
+  resultProtos:
+    - Z14STWeaponRifleOC14AltSkin1
+  craftTime: 12
+  items:
+    Z14STWeaponRifleOC14AltSkin1Blueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleRPK74Vedma
+  resultProtos:
+    - Z14STWeaponRifleRPK74Vedma
+  craftTime: 12
+  items:
+    Z14STWeaponRifleRPK74VedmaBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleSCARL
+  resultProtos:
+    - Z14STWeaponRifleSCARL
+  craftTime: 12
+  items:
+    Z14STWeaponRifleSCARLBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleSIG550Black
+  resultProtos:
+    - Z14STWeaponRifleSIG550Black
+  craftTime: 12
+  items:
+    Z14STWeaponRifleSIG550BlackBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleSaiga545
+  resultProtos:
+    - Z14STWeaponRifleSaiga545
+  craftTime: 12
+  items:
+    Z14STWeaponRifleSaiga545Blueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleSaiga545Auto
+  resultProtos:
+    - Z14STWeaponRifleSaiga545Auto
+  craftTime: 12
+  items:
+    Z14STWeaponRifleSaiga545AutoBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleStalkerAK105SwampThing
+  resultProtos:
+    - Z14STWeaponRifleStalkerAK105SwampThing
+  craftTime: 12
+  items:
+    Z14STWeaponRifleStalkerAK105SwampThingBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleStalkerAK12
+  resultProtos:
+    - Z14STWeaponRifleStalkerAK12
+  craftTime: 12
+  items:
+    Z14STWeaponRifleStalkerAK12Blueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleStalkerAK12Sera
+  resultProtos:
+    - Z14STWeaponRifleStalkerAK12Sera
+  craftTime: 12
+  items:
+    Z14STWeaponRifleStalkerAK12SeraBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleStalkerAbakan
+  resultProtos:
+    - Z14STWeaponRifleStalkerAbakan
+  craftTime: 12
+  items:
+    Z14STWeaponRifleStalkerAbakanBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleStalkerAek971
+  resultProtos:
+    - Z14STWeaponRifleStalkerAek971
+  craftTime: 12
+  items:
+    Z14STWeaponRifleStalkerAek971Blueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleStalkerRPK16
+  resultProtos:
+    - Z14STWeaponRifleStalkerRPK16
+  craftTime: 12
+  items:
+    Z14STWeaponRifleStalkerRPK16Blueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleStalkerRPK16Camo
+  resultProtos:
+    - Z14STWeaponRifleStalkerRPK16Camo
+  craftTime: 12
+  items:
+    Z14STWeaponRifleStalkerRPK16CamoBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponSMGStalkerCP2Veresk921
+  resultProtos:
+    - Z14STWeaponSMGStalkerCP2Veresk921
+  craftTime: 12
+  items:
+    Z14STWeaponSMGStalkerCP2Veresk921Blueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponSMGStalkerCP2VereskSera921
+  resultProtos:
+    - Z14STWeaponSMGStalkerCP2VereskSera921
+  craftTime: 12
+  items:
+    Z14STWeaponSMGStalkerCP2VereskSera921Blueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponSniperVSK94
+  resultProtos:
+    - Z14STWeaponSniperVSK94
+  craftTime: 12
+  items:
+    Z14STWeaponSniperVSK94Blueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponSniperVSS
+  resultProtos:
+    - Z14STWeaponSniperVSS
+  craftTime: 12
+  items:
+    Z14STWeaponSniperVSSBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponSniperVSSOracle
+  resultProtos:
+    - Z14STWeaponSniperVSSOracle
+  craftTime: 12
+  items:
+    Z14STWeaponSniperVSSOracleBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeWeaponPistolGyrzaTactikal
+  resultProtos:
+    - Z14WeaponPistolGyrzaTactikal
+  craftTime: 12
+  items:
+    Z14WeaponPistolGyrzaTactikalBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTBaseWeaponRifleAKMPSO1M
+  resultProtos:
+    - Z14STBaseWeaponRifleAKMPSO1M
+  craftTime: 16
+  items:
+    Z14STBaseWeaponRifleAKMPSO1MBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    STCraftSheetBrassT3:
+      amount: 3
+    STCraftPlasticFittingT3:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponMachineGunRPD
+  resultProtos:
+    - Z14STWeaponMachineGunRPD
+  craftTime: 16
+  items:
+    Z14STWeaponMachineGunRPDBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    STCraftSheetBrassT3:
+      amount: 3
+    STCraftPlasticFittingT3:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleAH12
+  resultProtos:
+    - Z14STWeaponRifleAH12
+  craftTime: 16
+  items:
+    Z14STWeaponRifleAH12Blueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    STCraftSheetBrassT3:
+      amount: 3
+    STCraftPlasticFittingT3:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleAK103
+  resultProtos:
+    - Z14STWeaponRifleAK103
+  craftTime: 16
+  items:
+    Z14STWeaponRifleAK103Blueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    STCraftSheetBrassT3:
+      amount: 3
+    STCraftPlasticFittingT3:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleAK103Kamo
+  resultProtos:
+    - Z14STWeaponRifleAK103Kamo
+  craftTime: 16
+  items:
+    Z14STWeaponRifleAK103KamoBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    STCraftSheetBrassT3:
+      amount: 3
+    STCraftPlasticFittingT3:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleAK203
+  resultProtos:
+    - Z14STWeaponRifleAK203
+  craftTime: 16
+  items:
+    Z14STWeaponRifleAK203Blueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    STCraftSheetBrassT3:
+      amount: 3
+    STCraftPlasticFittingT3:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleAK308
+  resultProtos:
+    - Z14STWeaponRifleAK308
+  craftTime: 16
+  items:
+    Z14STWeaponRifleAK308Blueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    STCraftSheetBrassT3:
+      amount: 3
+    STCraftPlasticFittingT3:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleAKM
+  resultProtos:
+    - Z14STWeaponRifleAKM
+  craftTime: 16
+  items:
+    Z14STWeaponRifleAKMBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    STCraftSheetBrassT3:
+      amount: 3
+    STCraftPlasticFittingT3:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleAKMC
+  resultProtos:
+    - Z14STWeaponRifleAKMC
+  craftTime: 16
+  items:
+    Z14STWeaponRifleAKMCBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    STCraftSheetBrassT3:
+      amount: 3
+    STCraftPlasticFittingT3:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleARX160
+  resultProtos:
+    - Z14STWeaponRifleARX160
+  craftTime: 16
+  items:
+    Z14STWeaponRifleARX160Blueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    STCraftSheetBrassT3:
+      amount: 3
+    STCraftPlasticFittingT3:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleFALo
+  resultProtos:
+    - Z14STWeaponRifleFALo
+  craftTime: 16
+  items:
+    Z14STWeaponRifleFALoBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    STCraftSheetBrassT3:
+      amount: 3
+    STCraftPlasticFittingT3:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleM14
+  resultProtos:
+    - Z14STWeaponRifleM14
+  craftTime: 16
+  items:
+    Z14STWeaponRifleM14Blueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    STCraftSheetBrassT3:
+      amount: 3
+    STCraftPlasticFittingT3:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleOC14Liturgia
+  resultProtos:
+    - Z14STWeaponRifleOC14Liturgia
+  craftTime: 16
+  items:
+    Z14STWeaponRifleOC14LiturgiaBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    STCraftSheetBrassT3:
+      amount: 3
+    STCraftPlasticFittingT3:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleSCARHShort
+  resultProtos:
+    - Z14STWeaponRifleSCARHShort
+  craftTime: 16
+  items:
+    Z14STWeaponRifleSCARHShortBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    STCraftSheetBrassT3:
+      amount: 3
+    STCraftPlasticFittingT3:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleSCARSSR
+  resultProtos:
+    - Z14STWeaponRifleSCARSSR
+  craftTime: 16
+  items:
+    Z14STWeaponRifleSCARSSRBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    STCraftSheetBrassT3:
+      amount: 3
+    STCraftPlasticFittingT3:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleSIG739
+  resultProtos:
+    - Z14STWeaponRifleSIG739
+  craftTime: 16
+  items:
+    Z14STWeaponRifleSIG739Blueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    STCraftSheetBrassT3:
+      amount: 3
+    STCraftPlasticFittingT3:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleSVDSWood
+  resultProtos:
+    - Z14STWeaponRifleSVDSWood
+  craftTime: 16
+  items:
+    Z14STWeaponRifleSVDSWoodBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    STCraftSheetBrassT3:
+      amount: 3
+    STCraftPlasticFittingT3:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleSaiga739Auto
+  resultProtos:
+    - Z14STWeaponRifleSaiga739Auto
+  craftTime: 16
+  items:
+    Z14STWeaponRifleSaiga739AutoBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    STCraftSheetBrassT3:
+      amount: 3
+    STCraftPlasticFittingT3:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleStalkerAK104
+  resultProtos:
+    - Z14STWeaponRifleStalkerAK104
+  craftTime: 16
+  items:
+    Z14STWeaponRifleStalkerAK104Blueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    STCraftSheetBrassT3:
+      amount: 3
+    STCraftPlasticFittingT3:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleStalkerAK104_UpgradeTest
+  resultProtos:
+    - Z14STWeaponRifleStalkerAK104_UpgradeTest
+  craftTime: 16
+  items:
+    Z14STWeaponRifleStalkerAK104_UpgradeTestBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    STCraftSheetBrassT3:
+      amount: 3
+    STCraftPlasticFittingT3:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleStalkerAK15
+  resultProtos:
+    - Z14STWeaponRifleStalkerAK15
+  craftTime: 16
+  items:
+    Z14STWeaponRifleStalkerAK15Blueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    STCraftSheetBrassT3:
+      amount: 3
+    STCraftPlasticFittingT3:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponRifleZastavaM92
+  resultProtos:
+    - Z14STWeaponRifleZastavaM92
+  craftTime: 16
+  items:
+    Z14STWeaponRifleZastavaM92Blueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    STCraftSheetBrassT3:
+      amount: 3
+    STCraftPlasticFittingT3:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponSniperHK417
+  resultProtos:
+    - Z14STWeaponSniperHK417
+  craftTime: 16
+  items:
+    Z14STWeaponSniperHK417Blueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    STCraftSheetBrassT3:
+      amount: 3
+    STCraftPlasticFittingT3:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponSniperSKSpersecutor
+  resultProtos:
+    - Z14STWeaponSniperSKSpersecutor
+  craftTime: 16
+  items:
+    Z14STWeaponSniperSKSpersecutorBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    STCraftSheetBrassT3:
+      amount: 3
+    STCraftPlasticFittingT3:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponSniperSVDS
+  resultProtos:
+    - Z14STWeaponSniperSVDS
+  craftTime: 16
+  items:
+    Z14STWeaponSniperSVDSBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    STCraftSheetBrassT3:
+      amount: 3
+    STCraftPlasticFittingT3:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponSniperSVDSCovenant
+  resultProtos:
+    - Z14STWeaponSniperSVDSCovenant
+  craftTime: 16
+  items:
+    Z14STWeaponSniperSVDSCovenantBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    STCraftSheetBrassT3:
+      amount: 3
+    STCraftPlasticFittingT3:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponSniperSVDSGrass
+  resultProtos:
+    - Z14STWeaponSniperSVDSGrass
+  craftTime: 16
+  items:
+    Z14STWeaponSniperSVDSGrassBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    STCraftSheetBrassT3:
+      amount: 3
+    STCraftPlasticFittingT3:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponSniperSVU
+  resultProtos:
+    - Z14STWeaponSniperSVU
+  craftTime: 16
+  items:
+    Z14STWeaponSniperSVUBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    STCraftSheetBrassT3:
+      amount: 3
+    STCraftPlasticFittingT3:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponSniperSVUSeraphim
+  resultProtos:
+    - Z14STWeaponSniperSVUSeraphim
+  craftTime: 16
+  items:
+    Z14STWeaponSniperSVUSeraphimBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    STCraftSheetBrassT3:
+      amount: 3
+    STCraftPlasticFittingT3:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponSniperSVUTop
+  resultProtos:
+    - Z14STWeaponSniperSVUTop
+  craftTime: 16
+  items:
+    Z14STWeaponSniperSVUTopBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    STCraftSheetBrassT3:
+      amount: 3
+    STCraftPlasticFittingT3:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponSniperVepr
+  resultProtos:
+    - Z14STWeaponSniperVepr
+  craftTime: 16
+  items:
+    Z14STWeaponSniperVeprBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    STCraftSheetBrassT3:
+      amount: 3
+    STCraftPlasticFittingT3:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponSniperVeprGrass
+  resultProtos:
+    - Z14STWeaponSniperVeprGrass
+  craftTime: 16
+  items:
+    Z14STWeaponSniperVeprGrassBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    STCraftSheetBrassT3:
+      amount: 3
+    STCraftPlasticFittingT3:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponSniperVeprSeraphim
+  resultProtos:
+    - Z14STWeaponSniperVeprSeraphim
+  craftTime: 16
+  items:
+    Z14STWeaponSniperVeprSeraphimBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    STCraftSheetBrassT3:
+      amount: 3
+    STCraftPlasticFittingT3:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponSniperOSV96
+  resultProtos:
+    - Z14STWeaponSniperOSV96
+  craftTime: 20
+  items:
+    Z14STWeaponSniperOSV96Blueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearThree:
+      amount: 1
+      catalyzer: true
+    STCraftSheetAluminumT4:
+      amount: 3
+    STCraftPlasticFittingT4:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponSniperSV98
+  resultProtos:
+    - Z14STWeaponSniperSV98
+  craftTime: 20
+  items:
+    Z14STWeaponSniperSV98Blueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearThree:
+      amount: 1
+      catalyzer: true
+    STCraftSheetAluminumT4:
+      amount: 3
+    STCraftPlasticFittingT4:
+      amount: 2
+
+# ── shotguns re-tiered on capacity and fire mode ────
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponShotgunBenelliM4Super90
+  resultProtos:
+    - Z14STWeaponShotgunBenelliM4Super90
+  craftTime: 12
+  items:
+    Z14STWeaponShotgunBenelliM4Super90Blueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponShotgunMP133
+  resultProtos:
+    - Z14STWeaponShotgunMP133
+  craftTime: 12
+  items:
+    Z14STWeaponShotgunMP133Blueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponShotgunMP153
+  resultProtos:
+    - Z14STWeaponShotgunMP153
+  craftTime: 12
+  items:
+    Z14STWeaponShotgunMP153Blueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponShotgunMossbergM88
+  resultProtos:
+    - Z14STWeaponShotgunMossbergM88
+  craftTime: 12
+  items:
+    Z14STWeaponShotgunMossbergM88Blueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponShotgunOrigin12
+  resultProtos:
+    - Z14STWeaponShotgunOrigin12
+  craftTime: 12
+  items:
+    Z14STWeaponShotgunOrigin12Blueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponShotgunSaiga12
+  resultProtos:
+    - Z14STWeaponShotgunSaiga12
+  craftTime: 12
+  items:
+    Z14STWeaponShotgunSaiga12Blueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearOne:
+      amount: 1
+      catalyzer: true
+    STCraftSheetIronT2:
+      amount: 3
+    STCraftPlasticFittingT2:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTBaseWeaponShotgunVepr12De21
+  resultProtos:
+    - Z14STBaseWeaponShotgunVepr12De21
+  craftTime: 16
+  items:
+    Z14STBaseWeaponShotgunVepr12De21Blueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    STCraftSheetBrassT3:
+      amount: 3
+    STCraftPlasticFittingT3:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTBaseWeaponShotgunVepr12Molot
+  resultProtos:
+    - Z14STBaseWeaponShotgunVepr12Molot
+  craftTime: 16
+  items:
+    Z14STBaseWeaponShotgunVepr12MolotBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    STCraftSheetBrassT3:
+      amount: 3
+    STCraftPlasticFittingT3:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTShotgunKS23
+  resultProtos:
+    - Z14STShotgunKS23
+  craftTime: 16
+  items:
+    Z14STShotgunKS23Blueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    STCraftSheetBrassT3:
+      amount: 3
+    STCraftPlasticFittingT3:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponShotgunProtecta
+  resultProtos:
+    - Z14STWeaponShotgunProtecta
+  craftTime: 16
+  items:
+    Z14STWeaponShotgunProtectaBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    STCraftSheetBrassT3:
+      amount: 3
+    STCraftPlasticFittingT3:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponShotgunSPAS
+  resultProtos:
+    - Z14STWeaponShotgunSPAS
+  craftTime: 16
+  items:
+    Z14STWeaponShotgunSPASBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    STCraftSheetBrassT3:
+      amount: 3
+    STCraftPlasticFittingT3:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponShotgunSaiga12Auto
+  resultProtos:
+    - Z14STWeaponShotgunSaiga12Auto
+  craftTime: 16
+  items:
+    Z14STWeaponShotgunSaiga12AutoBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearTwo:
+      amount: 1
+      catalyzer: true
+    STCraftSheetBrassT3:
+      amount: 3
+    STCraftPlasticFittingT3:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponShotgunAA
+  resultProtos:
+    - Z14STWeaponShotgunAA
+  craftTime: 20
+  items:
+    Z14STWeaponShotgunAABlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearThree:
+      amount: 1
+      catalyzer: true
+    STCraftSheetAluminumT4:
+      amount: 3
+    STCraftPlasticFittingT4:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponShotgunKS23M
+  resultProtos:
+    - Z14STWeaponShotgunKS23M
+  craftTime: 20
+  items:
+    Z14STWeaponShotgunKS23MBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearThree:
+      amount: 1
+      catalyzer: true
+    STCraftSheetAluminumT4:
+      amount: 3
+    STCraftPlasticFittingT4:
+      amount: 2
+
+- type: craftRecipe
+  id: Z14newrecipeSTWeaponShotgunUSAS
+  resultProtos:
+    - Z14STWeaponShotgunUSAS
+  craftTime: 20
+  items:
+    Z14STWeaponShotgunUSASBlueprint:
+      amount: 1
+      catalyzer: true
+    ToolkitTearThree:
+      amount: 1
+      catalyzer: true
+    STCraftSheetAluminumT4:
+      amount: 3
+    STCraftPlasticFittingT4:
+      amount: 2

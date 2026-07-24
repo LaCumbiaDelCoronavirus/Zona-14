@@ -210,7 +210,7 @@
       enum.StorageUiKey.Key:
         type: StorageBoundUserInterface
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetAugustM
+    clothingPrototype: Z14ClothingHeadHelmetAugustM
     requiredSlot:
     - cloak
     slot: head
@@ -262,7 +262,7 @@
       enum.StorageUiKey.Key:
         type: StorageBoundUserInterface
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetKrava
+    clothingPrototype: Z14ClothingHeadHelmetKrava
     requiredSlot:
     - cloak
     slot: head

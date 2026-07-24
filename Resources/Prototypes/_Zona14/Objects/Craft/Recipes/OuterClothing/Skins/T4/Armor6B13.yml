@@ -1,39 +1,39 @@
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingOuterArmor6B13Police
   results:
-    - ClothingOuterArmor6B13Police
+    - Z14ClothingOuterArmor6B13Police
   steps:
     firstIngredient: STSkinsKitPolice
-    secondIngredient: ClothingOuterArmor6B13
+    secondIngredient: Z14ClothingOuterArmor6B13
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingOuterArmorUNTAR
   results:
-    - ClothingOuterArmorUNTAR
+    - Z14ClothingOuterArmorUNTAR
   steps:
     firstIngredient: STSkinsKitUnitar
-    secondIngredient: ClothingOuterArmor6B13
+    secondIngredient: Z14ClothingOuterArmor6B13
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingOuterArmorVolchankaFreedom
   results:
-    - STClothingOuterArmorVolchankaFreedom
+    - Z14STClothingOuterArmorVolchankaFreedom
   steps:
     firstIngredient: STSkinsKitFreedom
-    secondIngredient: ClothingOuterArmor6B13
+    secondIngredient: Z14ClothingOuterArmor6B13
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingOuterArmor6B13Sera
   results:
-    - ClothingOuterArmor6B13Sera
+    - Z14ClothingOuterArmor6B13Sera
   steps:
     firstIngredient: STSkinsKitSeraphim
-    secondIngredient: ClothingOuterArmor6B13
+    secondIngredient: Z14ClothingOuterArmor6B13
     keepFirst: true
     time: 5

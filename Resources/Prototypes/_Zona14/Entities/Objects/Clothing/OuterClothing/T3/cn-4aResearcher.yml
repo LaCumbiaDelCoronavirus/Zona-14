@@ -1,5 +1,5 @@
 - type: entity
-  parent: Z14ArmorBaseT3PvP
+  parent: Z14ArmorBaseT3PvE
   id: Z14STClothingOuterArmorCN-4aResearcher
   categories: [ Zona14 ]
   name: CHN-4a Explorer
@@ -17,3 +17,6 @@
     slot: head
 
   - type: Craftable
+  - type: Armor
+    armorClass: 0
+

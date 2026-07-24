@@ -126,14 +126,10 @@
         Z14HuntingKnife: 250
         STWeaponShotgunMP153: 500
         STWeaponShotgunSPAS: 1200
-        Z14STWeaponRifleAKS74: 3000
-        Z14STWeaponRifleA545: 13000
-        Z14STWeaponRifleLR300v1: 13000
         Z14STWeaponSMGPP91: 1500
         Z14STWeaponSMGPPSh41: 2000
         WeaponGameRevolverMateba: 4000
         Z14STWeaponSMGPP2000: 3500
-        Z14STWeaponRifleRPK74: 4500
         Z14STBaseWeaponShotgunTOZ106: 800 # T1
         STWeaponShotgunOrigin12: 5600
 
@@ -173,46 +169,45 @@
         7mmBuckshotBox: 265
         8mmBuckshotBox: 400
         # .45
-        Z1445ACPLFMJBox: 100
-        Z1445ACPMFMJBox: 350
-        Z1445ACPRIPBox: 200
-        Z1445ACPAPBox: 1000
+        Z1445ACPLFMJBox: 500
+        Z1445ACPMFMJBox: 500
+        Z1445ACPRIPBox: 500
+        Z1445ACPAPBox: 900
         Z14MagazineBoxRemingtonMagnum: 320
         Z14MagazineBoxRemingtonMagnumAP: 520
         # 7.25
-        Z14725PBox: 130
-        Z14725PTBox: 525
-        Z14725LRNPCBox: 100
-        Z14725PSTBox: 1000
+        Z14725PBox: 250
+        Z14725PTBox: 450
+        Z14725LRNPCBox: 250
+        Z14725PSTBox: 450
         # 9.19
-        Z14919PSOGJBox: 80
-        Z14919PSTBox: 560
-        Z14919RIPBox: 250
-        Z14919PBMBox: 1000
+        Z14919PSOGJBox: 500
+        Z14919PSTBox: 900
+        Z14919RIPBox: 500
+        Z14919PBMBox: 900
         # 9.18
-        Z14918PGJBox: 80
-        Z14918PSTBox: 560
-        Z14918PBMBox: 1000
+        Z14918PGJBox: 250
+        Z14918PSTBox: 450
+        Z14918PBMBox: 450
         Z14918SP7Box: 250
         # 5.45
-        Z14545FMJBox: 500
-        Z14545HPBox: 300
-        Z14545PCBox: 1250
+        Z14545FMJBox: 1200
+        Z14545HPBox: 1200
+        Z14545PCBox: 2160
 
         # 5.56
-        Z14556FMJBox: 500
-        Z14556M855Box: 1250
-        Z14556WarmagBox: 300
+        Z14556FMJBox: 1200
+        Z14556M855Box: 1200
+        Z14556WarmagBox: 1200
 
         # 7.39
-        Z14739FMJBox: 1350
-        Z14739HPBox: 500
+        Z14739FMJBox: 2400
+        Z14739HPBox: 2400
     - name: shop-category-armor
       priority: 3
       items:
         # body
         SetArmourJacketNoviceBrezentBuyableCrate: 1500 # T2 - PvP
-        Z14ClothingOuterArmorYeger: 20000 # T2 - PvP
     - name: shop-category-utilities
       priority: 4
       items:
@@ -401,7 +396,7 @@
         STModuleSilencerSMGT1: 600
         STModuleSniperSightT1: 600
         STModuleSilencerSniperT1: 400
-        STCookingPickledCherries: 2000
+        Z14STCookingPickledCherries: 2000
     - name: shop-category-raincoats-and-gasmasks
       priority: 12
       items:

@@ -9,18 +9,15 @@
       6mmBuckshotBox: 115
       7mmBuckshotBox: 45
       # 9.19
-      Z14919PBMBox: 1000
-      Z14918PBMBox: 1000
+      Z14919PBMBox: 900
+      Z14918PBMBox: 450
       # 5.56
-      Z14556M856Box: 2200
+      Z14556M856Box: 1200
       # 5.45
-      Z14545BPBox: 2100
+      Z14545BPBox: 2160
       # .45
-      Z1445ACPAPBox: 1200
-  - name: shop-category-armor
-    priority: 4
-    items:
-      Z14ClothingOuterArmorStalkerCombat: 8500
+      Z1445ACPAPBox: 900
+  # armor category removed: its only stock was a T3 suit, and T3+ is crafted, not sold
   - name: shop-category-utilities
     priority: 8
     items:

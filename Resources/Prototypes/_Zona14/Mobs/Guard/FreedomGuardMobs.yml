@@ -13,7 +13,7 @@
   - type: Sprite
     sprite: /Textures/_Stalker/Mobs/Guards/Freedom/Low.rsi
   - type: BatteryAmmoProvider
-    proto: Bullet556FMJ
+    proto: Z14Bullet556FMJ
     fireCost: 5
   - type: Gun
     minAngle: 2
@@ -51,7 +51,7 @@
   - type: PredictedBatterySelfRecharger
     autoRechargeRate: 2
   - type: BatteryAmmoProvider
-    proto: Bullet545PC
+    proto: Z14Bullet545PC
     fireCost: 5
   - type: Gun
     soundGunshot:
@@ -100,7 +100,7 @@
   - type: PredictedBatterySelfRecharger
     autoRechargeRate: 2
   - type: BatteryAmmoProvider
-    proto: Bullet545PC
+    proto: Z14Bullet545PC
     fireCost: 5
   - type: Gun
     soundGunshot:

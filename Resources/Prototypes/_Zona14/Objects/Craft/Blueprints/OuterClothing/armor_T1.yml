@@ -6,7 +6,7 @@
   name: Improved Stalker Jacket Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeJacketStalkerUpgrade
+      blueprint: Z14newrecipeJacketStalkerUpgrade
 
 - type: entity
   parent: STBaseBlueprint
@@ -16,7 +16,7 @@
   name: Anomalous Stalker Jacket Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeClothingOuterAnomalyStalkerJacket
+      blueprint: Z14newrecipeClothingOuterAnomalyStalkerJacket
 
 - type: entity
   parent: STBaseBlueprint
@@ -26,7 +26,7 @@
   name: black bandit leather coat recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeClothingOuterCoatBanditBlack
+      blueprint: Z14newrecipeClothingOuterCoatBanditBlack
 
 - type: entity
   parent: STBaseBlueprint
@@ -36,7 +36,7 @@
   name: brown bandit leather coat recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeClothingOuterCoatBanditBrown
+      blueprint: Z14newrecipeClothingOuterCoatBanditBrown
 
 - type: entity
   parent: STBaseBlueprint
@@ -46,5 +46,5 @@
   name: NBC suit recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeCSTClothingOuterArmorRCBZ
+      blueprint: Z14newrecipeCSTClothingOuterArmorRCBZ
 

@@ -1,19 +1,4 @@
-ent-Z14STCraftBasicPCBT1 = T1 Basic PCB
-    .desc = single-sided board with a minimum number of components, used for simple electrical circuits. T1
-    .suffix = Z14
 
-ent-Z14STCraftHighPerformanceChipT4 = T4 High-Performance Microprocessor
-    .desc = a complex chip with many transistors, provides high performance, used in high-end computers. T4
-    .suffix = Z14
 
-ent-Z14STCraftMultilayerPCBT3 = T3 Multilayer PCB
-    .desc = multi-layer board, provides greater circuit complexity and component density, used in computers. T3
-    .suffix = Z14
 
-ent-Z14STCraftNanoChipT5 = T5 Nanoelectronic Chip
-    .desc = state-of-the-art chip, uses nanotechnology for maximum density and performance, applied in the latest technology. T5
-    .suffix = Z14
 
-ent-Z14STCraftStandardPCBT2 = T2 Standard PCB
-    .desc = double-sided board with a basic set of components, used in consumer electronics. T2
-    .suffix = Z14

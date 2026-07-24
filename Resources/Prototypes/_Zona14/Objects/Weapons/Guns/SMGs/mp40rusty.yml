@@ -5,3 +5,8 @@
   suffix: Z14
   name: Rusty MP-40
   description: A rusted, war-weary MP-40 - the German 9x19mm blowback submachine gun of WWII. Decades in the Zone's damp have pitted the metal, but its simple open-bolt action still barks when called upon.
+  components:
+  # Inherited 20 from upstream, the only weapon in the game above 9.
+  # RPM/100 on the real MP-40's ~500 RPM gives 5.
+  - type: Gun
+    fireRate: 5

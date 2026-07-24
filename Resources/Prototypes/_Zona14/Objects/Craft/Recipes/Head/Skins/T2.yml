@@ -1,87 +1,87 @@
 - type: lightCraftingRecipe
   id:  Z14STCraftSkinClothingHeadHelmetRenegate
   results:
-    - ClothingHeadInfantryHelmetRenegate
+    - Z14ClothingHeadInfantryHelmetRenegate
   steps:
     firstIngredient: STSkinsKitRenegate
-    secondIngredient: ClothingHeadHelmetInfantry
+    secondIngredient: Z14ClothingHeadHelmetInfantry
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id:  Z14STCraftSkinClothingHeadInfantryHelmetUN
   results:
-    - ClothingHeadInfantryHelmetUN
+    - Z14ClothingHeadInfantryHelmetUN
   steps:
     firstIngredient: STSkinsKitUnitar
-    secondIngredient: ClothingHeadHelmetInfantry
+    secondIngredient: Z14ClothingHeadHelmetInfantry
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id:  Z14STCraftSkinClothingHeadHelmetInfantryPilgrim
   results:
-    - ClothingHeadHelmetInfantryPilgrim
+    - Z14ClothingHeadHelmetInfantryPilgrim
   steps:
     firstIngredient: STSkinsKitPilgrim
-    secondIngredient: ClothingHeadHelmetInfantry
+    secondIngredient: Z14ClothingHeadHelmetInfantry
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id:  Z14STCraftSkinClothingHeadHelmetInfantryBand
   results:
-    - ClothingHeadHelmetInfantryBand
+    - Z14ClothingHeadHelmetInfantryBand
   steps:
     firstIngredient: STSkinsKitBandits
-    secondIngredient: ClothingHeadHelmetInfantry
+    secondIngredient: Z14ClothingHeadHelmetInfantry
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id:  Z14STCraftSkinClothingHeadInfantryHelmetDeserter
   results:
-    - ClothingHeadInfantryHelmetDeserter
+    - Z14ClothingHeadInfantryHelmetDeserter
   steps:
     firstIngredient: STSkinsKitDeserters
-    secondIngredient: ClothingHeadHelmetInfantry
+    secondIngredient: Z14ClothingHeadHelmetInfantry
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingHeadHelmetVityaz1T
   results:
-    - ClothingHeadHelmetVityaz1T
+    - Z14ClothingHeadHelmetVityaz1T
   steps:
     firstIngredient: STSkinsKitDeserters
-    secondIngredient: ClothingHeadHelmetVityaz1C
+    secondIngredient: Z14ClothingHeadHelmetVityaz1C
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingHeadHelmetVityaz1L
   results:
-    - ClothingHeadHelmetVityaz1L
+    - Z14ClothingHeadHelmetVityaz1L
   steps:
     firstIngredient: STSkinsKitRenegate
-    secondIngredient: ClothingHeadHelmetVityaz1C
+    secondIngredient: Z14ClothingHeadHelmetVityaz1C
     keepFirst: true
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingHeadHelmetVityaz1P
   results:
-    - ClothingHeadHelmetVityaz1P
+    - Z14ClothingHeadHelmetVityaz1P
   steps:
     firstIngredient: STSkinsKitPilgrim
-    secondIngredient: ClothingHeadHelmetVityaz1C
+    secondIngredient: Z14ClothingHeadHelmetVityaz1C
     keepFirst: true
   
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingHeadHelmetVityaz1B
   results:
-    - ClothingHeadHelmetVityaz1B
+    - Z14ClothingHeadHelmetVityaz1B
   steps:
     firstIngredient: STSkinsKitBandits
-    secondIngredient: ClothingHeadHelmetVityaz1C
+    secondIngredient: Z14ClothingHeadHelmetVityaz1C
     keepFirst: true
 

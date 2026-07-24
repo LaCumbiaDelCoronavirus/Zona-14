@@ -1,10 +1,10 @@
 - type: craftRecipe
   id: Z14recipeGasMaskM50
   resultProtos:
-    - ClothingMaskM50
+    - Z14ClothingMaskM50
   craftTime: 10
   items:
-    STGasMaskM50Blueprint:
+    Z14STGasMaskM50Blueprint:
       amount: 1
       catalyzer: true
     ToolkitTearOne:

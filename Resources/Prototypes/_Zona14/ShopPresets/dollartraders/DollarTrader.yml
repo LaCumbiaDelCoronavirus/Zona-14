@@ -67,15 +67,7 @@
     #Other
     ChevronMonolit: 3
   categories:
-  - name: shop-category-weapons
-    priority: 1
-    items:
-      Z14STWeaponRifleFALo: 300
-      Z14STWeaponRifleAK103: 300
-      Z14STWeaponSniperSVDS: 250
-      Z14STWeaponSniperVSS: 600
-      Z14STWeaponSniperSV98: 350
-      Z14STWeaponMachineGunRPD: 2000
+  # shop-category-weapons removed: its entire stock was T3+ weapons, which are crafted now
   - name: shop-category-magazines
     priority: 2
     items:
@@ -92,30 +84,27 @@
   - name: shop-category-ammunition
     priority: 3
     items:
-      338FMJBox: 20
-      338PartitionBox: 5
-      338FMJBTBox: 40
-      Z14918PBMBoxCink: 20
-      939SP5BoxCink: 30
-      939BPBoxCink: 55
-      Z14556M855BoxCink: 30
-      Z14751M80BoxCink: 35
-      Z14545PCBoxCink: 25
-      Z14545BPBoxCink: 120
-      Z14556M856BoxCink: 120
-      Z14725PSTBoxCink: 20
+      Z14338FMJBox: 800
+      Z14338PartitionBox: 800
+      Z14338FMJBTBox: 1440
+      Z14918PBMBoxCink: 14400
+      Z14939SP5BoxCink: 7500
+      Z14939BPBoxCink: 13500
+      Z14556M855BoxCink: 21000
+      Z14751M80BoxCink: 20000
+      Z14545PCBoxCink: 48600
+      Z14545BPBoxCink: 48600
+      Z14556M856BoxCink: 21000
+      Z14725PSTBoxCink: 12600
       8mmBuckshotBoxCink: 40
-      Z14754PCBox: 5
-      Z14STBox9x39PSO: 15
+      Z14754PCBox: 1440
+      Z14STBox9x39PSO: 800
       ShotgunBulletBoxRIP: 5
   - name: shop-category-armor
     priority: 4
     items:
       Z14ClothingHeadHelmetBerill5MMilitary: 20
       Z14ClothingHeadHelmetUlach: 75
-      Z14ClothingOuterArmorStalkerCombat: 200
-      Z14STClothingOuterArmorVeryHeavy: 350
-      Z14ClothingOuterArmorHazmatRf: 200
   - name: shop-category-research-equipment
     priority: 7
     items:
@@ -151,11 +140,3 @@
       STModuleSniperSightT2: 30
       STModuleScopeRiflesT2Nato: 50
       STModuleScopeRiflesT2Ru: 50
-
-
-
-
-
-
-
-

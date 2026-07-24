@@ -51,7 +51,7 @@
     sprite: _Stalker/Objects/Clothing/outerClothing/6b13.rsi
 
 - type: entity
-  parent: Z14STClothingOuterArmor6B13Base
+  parent: [ Z14ArmorBaseT4PvP, Z14STClothingOuterArmor6B13Base ]
   id: Z14ClothingOuterArmor6B13Sera
   categories: [ Zona14 ]
   suffix: Z14
@@ -81,7 +81,7 @@
     sprite: _Stalker/Objects/Clothing/outerClothing/6b13_police.rsi
 
 - type: entity
-  parent: Z14STClothingOuterArmor6B13Base
+  parent: [ Z14ArmorBaseT4PvP, Z14STClothingOuterArmor6B13Base ]
   id: Z14ClothingOuterArmorUNTAR
   categories: [ Zona14 ]
   suffix: Z14
@@ -110,7 +110,7 @@
     - type: Clothing
       sprite: _Stalker/Objects/Clothing/outerClothing/freedom_defender.rsi
 - type: entity
-  parent: Z14STClothingOuterArmor6B13Base
+  parent: [ Z14ArmorBaseT4PvP, Z14STClothingOuterArmor6B13Base ]
   id: Z14ClothingOuterArmor6B13Zavet
   categories: [ Zona14 ]
   suffix: Z14
@@ -123,27 +123,3 @@
     sprite: _Stalker/Objects/Clothing/outerClothing/6b13_zavet.rsi
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/outerClothing/6b13_zavet.rsi
-  - type: Armor
-    modifiers:
-      flatReductions:
-        Blunt: 2
-        Slash: 2
-        Piercing: 2
-        Heat: 1
-        Cold: 1
-        Shock: 1
-        Radiation: 1
-        Caustic: 1
-        Compression: 1
-        Psy: 1
-      coefficients:
-        Blunt: 0.90
-        Slash: 0.90
-        Piercing: 0.90
-        Heat: 0.90
-        Cold: 0.90
-        Shock: 0.90
-        Radiation: 0.90
-        Caustic: 0.90
-        Compression: 0.90
-        Psy: 0.90

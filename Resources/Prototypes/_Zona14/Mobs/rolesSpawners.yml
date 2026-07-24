@@ -250,21 +250,23 @@
     - type: Loadout
       prototypes: [ BandGear ]
 
-- type: entity
-  name: Toad doll (rename me)
-  suffix: Z14
-  parent: MobHuman
-  id: Z14MobStalkerZavet
-  categories: [ Zona14 ]
-  components:
-    - type: Access
-      tags:
-        - Covenant
-    - type: Bands
-      band: Stalker
-      bandIcon: zavet
-    - type: Loadout
-      prototypes: [ StalkerZavetGear ]
+# Covenant is not a faction in Zona-14 - disabled, not deleted.
+# Orphaned already (nothing spawned it); commented so it also leaves the admin spawn menu.
+# - type: entity
+#   name: Toad doll (rename me)
+#   suffix: Z14
+#   parent: MobHuman
+#   id: Z14MobStalkerZavet
+#   categories: [ Zona14 ]
+#   components:
+#     - type: Access
+#       tags:
+#         - Covenant
+#     - type: Bands
+#       band: Stalker
+#       bandIcon: zavet
+#     - type: Loadout
+#       prototypes: [ StalkerZavetGear ]
 
 - type: entity
   name: covenant doll (rename me)
@@ -282,42 +284,25 @@
     - type: Loadout
       prototypes: [ StalkerGrehGear ]
 
-- type: entity
-  name: sin doll (rename me)
-  suffix: Z14
-  parent: MobHuman
-  id: Z14MobStalkerCS
-  categories: [ Zona14 ]
-  components:
-    - type: Access
-      tags:
-        - CN
-    - type: Bands
-      band: Stalker
-      bandIcon: cn
-      altBand: stalker
-    - type: Loadout
-      prototypes: [ StalkerClearSkyGear ]
+# Clear Sky is not a faction in Zona-14 - disabled, not deleted.
+# Matches how its trader and Igor variant were retired.
+# - type: entity
+#   name: sin doll (rename me)
+#   suffix: Z14
+#   parent: MobHuman
+#   id: Z14MobStalkerCS
+#   categories: [ Zona14 ]
+#   components:
+#     - type: Access
+#       tags:
+#         - CN
+#     - type: Bands
+#       band: Stalker
+#       bandIcon: cn
+#       altBand: stalker
+#     - type: Loadout
+#       prototypes: [ StalkerClearSkyGear ]
 
-- type: entity
-  name: clear sky doll (rename me)
-  suffix: Z14
-  parent: MobHuman
-  id: Z14MobStalkerProject
-  categories: [ Zona14 ]
-  components:
-  - type: Access
-    tags:
-    - Project
-    #- ProjectPawn # Stalker-TODO: This access does not exist
-    - Stalker
-  - type: Bands
-    band: Stalker
-    bandIcon: project-1
-    altBand: stalker
-    canChange: true
-  - type: Loadout
-    prototypes: [ ProjectPawnGear ]
 
 - type: entity
   name: Project doll (rename me)
@@ -366,21 +351,23 @@
     - type: Loadout
       prototypes: [ AnomalistGear ]
 
-- type: entity
-  name: anomalist doll (rename me)
-  suffix: Z14
-  parent: MobHuman
-  id: Z14MobStalkerSeraphim
-  categories: [ Zona14 ]
-  components:
-    - type: Access
-      tags:
-        - Seraphims
-    - type: Bands
-      band: Stalker
-      bandIcon: seraphim
-    - type: Loadout
-      prototypes: [ StalkerGear ]
+# Seraphim is not a faction in Zona-14 - disabled, not deleted.
+# Orphaned already (nothing spawned it); commented so it also leaves the admin spawn menu.
+# - type: entity
+#   name: anomalist doll (rename me)
+#   suffix: Z14
+#   parent: MobHuman
+#   id: Z14MobStalkerSeraphim
+#   categories: [ Zona14 ]
+#   components:
+#     - type: Access
+#       tags:
+#         - Seraphims
+#     - type: Bands
+#       band: Stalker
+#       bandIcon: seraphim
+#     - type: Loadout
+#       prototypes: [ StalkerGear ]
 
 # Stalker
 - type: entity
@@ -506,10 +493,10 @@
     torso: ClothingTorsoSweaterStalkerGreen
     legs: ClothingLegsJeansBlue
     shoes: STClothingShoesBootsCombatFilled
-    cloak: ClothingOuterCoatLoyalist
-    outerClothing: ClothingOuterArmorStalkerCombat
+    cloak: Z14ClothingOuterCoatLoyalist
+    outerClothing: Z14ClothingOuterArmorStalkerCombat
     back: ClothingBackpackMercStalker
     pocket1: STWeaponShotgunSawedOfAnomaly
     pocket2: 8mmBuckshotBox
-    head: ClothingHeadRatnik
-    mask: ClothingMaskM51
+    head: Z14ClothingHeadRatnik
+    mask: Z14ClothingMaskM51

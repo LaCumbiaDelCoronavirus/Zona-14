@@ -6,7 +6,7 @@
   name: AVS Plate IV Ranger Armor Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeClothingOuterArmorAVSplateblack
+      blueprint: Z14newrecipeClothingOuterArmorAVSplateblack
 
 - type: entity
   parent: STBaseBlueprint
@@ -16,7 +16,7 @@
   name: Combat Armor Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeClothingOuterArmorStalkerCombat
+      blueprint: Z14newrecipeClothingOuterArmorStalkerCombat
 
 - type: entity
   parent: STBaseBlueprint
@@ -26,7 +26,7 @@
   name: Green IOTV Armor Vest Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeSTClothingOuterArmorIOTVGreen
+      blueprint: Z14newrecipeSTClothingOuterArmorIOTVGreen
 
 - type: entity
   parent: STBaseBlueprint
@@ -36,7 +36,7 @@
   name: Military 6B13 Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeSTClothingOuterArmor6B13
+      blueprint: Z14newrecipeSTClothingOuterArmor6B13
 
 - type: entity
   parent: STBaseBlueprint
@@ -46,7 +46,7 @@
   name: Beryl-5M Armor Suit Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeSTClothingOuterArmorBerill5M
+      blueprint: Z14newrecipeSTClothingOuterArmorBerill5M
 
 - type: entity
   parent: STBaseBlueprint
@@ -56,7 +56,7 @@
   name: Armored Coveralls Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeSTClothingOuterArmorHeavy
+      blueprint: Z14newrecipeSTClothingOuterArmorHeavy
 
 - type: entity
   parent: STBaseBlueprint
@@ -66,7 +66,7 @@
   name: Green SSP-99M “Ecologist” Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeClothingOuterArmorSSP99
+      blueprint: Z14newrecipeClothingOuterArmorSSP99
 
 - type: entity
   parent: STBaseBlueprint
@@ -76,7 +76,7 @@
   name: Yeger recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeSTClothingOuterArmorYegerFreedom
+      blueprint: Z14newrecipeSTClothingOuterArmorYegerFreedom
 
 # - type: entity
   # parent: STBaseBlueprint
@@ -94,7 +94,7 @@
   name: white SSP‑99M “Diamond” recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeClothingOuterArmorSSP99White
+      blueprint: Z14newrecipeClothingOuterArmorSSP99White
 
 - type: entity
   parent: STBaseBlueprint
@@ -104,7 +104,7 @@
   name: pale green SSP‑99M “Topaz” recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeClothingOuterArmorSSP24Topaz
+      blueprint: Z14newrecipeClothingOuterArmorSSP24Topaz
 
 - type: entity
   parent: STBaseBlueprint
@@ -114,7 +114,7 @@
   name: blue SSP‑99M “Sapphire” recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeClothingOuterArmorSSP24Sapfire
+      blueprint: Z14newrecipeClothingOuterArmorSSP24Sapfire
 
 - type: entity
   parent: STBaseBlueprint
@@ -124,4 +124,4 @@
   name: red SSP‑99M “Ruby” recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeClothingOuterArmorSSP24Ruby
+      blueprint: Z14newrecipeClothingOuterArmorSSP24Ruby

@@ -11,7 +11,7 @@
     - state: base
       map: ["enum.AmmoVisualLayers.Base"]
   - type: CartridgeAmmo
-    proto: Bullet918PGJ
+    proto: Z14Bullet918PGJ
   - type: SpentAmmoVisuals
     state: "base"
 
@@ -28,7 +28,7 @@
     - state: base
       map: ["enum.AmmoVisualLayers.Base"]
   - type: CartridgeAmmo
-    proto: Bullet918PST
+    proto: Z14Bullet918PST
   - type: SpentAmmoVisuals
     state: "base"
 
@@ -45,7 +45,7 @@
     - state: base
       map: ["enum.AmmoVisualLayers.Base"]
   - type: CartridgeAmmo
-    proto: Bullet918SP7
+    proto: Z14Bullet918SP7
   - type: SpentAmmoVisuals
     state: "base"
 
@@ -62,7 +62,7 @@
     - state: base
       map: ["enum.AmmoVisualLayers.Base"]
   - type: CartridgeAmmo
-    proto: Bullet918PBM
+    proto: Z14Bullet918PBM
   - type: SpentAmmoVisuals
     state: "base"
 

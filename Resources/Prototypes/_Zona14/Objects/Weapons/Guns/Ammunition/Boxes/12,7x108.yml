@@ -10,7 +10,7 @@
     magState: 76254ammo
   - type: BallisticAmmoProvider
     capacity: 10
-    proto: STCartridge13x108FMJ
+    proto: Z14STCartridge13x108FMJ
     whitelist:
       tags:
         - STCartridge13x108
@@ -33,7 +33,7 @@
       magState: 76254ammo
     - type: BallisticAmmoProvider
       capacity: 10
-      proto: STCartridge13x108PC
+      proto: Z14STCartridge13x108PC
       whitelist:
         tags:
           - STCartridge13x108
@@ -46,7 +46,7 @@
         - state: t3
 
 - type: entity
-  parent: 13x108PCBox
+  parent: Z1413x108PCBox
   id: Z1413x108HPBox
   categories: [ Zona14 ]
   name: pack of cartridges (12.7x108) HP BT
@@ -54,7 +54,7 @@
   suffix: Z14
   components:
     - type: BallisticAmmoProvider
-      proto: STCartridge13x108HPBT
+      proto: Z14STCartridge13x108HPBT
     - type: Sprite
       layers:
         - state: 13108

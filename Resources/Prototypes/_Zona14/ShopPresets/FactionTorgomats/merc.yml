@@ -60,7 +60,6 @@
     Z14ZoneArtifactPellicle: 400
     Z14ZoneArtifactBaloon: 3600
 
-
 # MARK: Mutant Parts
      # Mutant parts
 
@@ -96,17 +95,26 @@
     MutantPartBurerBrain: 1000
     MutantPartControllerBrain: 2000
 
-
 # MARK: Items to Buy
   categories:
     - name: shop-category-weapons
       priority: 1
       items:
+        Z14STWeaponShotgunTOZ34: 1250
+        Z14STWeaponShotgunSawedOf: 1250
+        Z14STBaseWeaponShotgunTOZ106: 1250
+        Z14WeaponPistolStalkerLP08: 500
+        Z14WeaponPistolStalkerPMModifed: 1250
+        Z14WeaponStalkerPistolTec9: 1250
+        Z14STWeaponSMGFNP90: 1250
+        Z14STWeaponSMGOTS126: 1250
+        Z14STWeaponSMGPP19919: 1250
+        Z14STWeaponSMGPP2000: 1250
+        Z14STWeaponSMGVector9: 1250
+        Z14STWeaponSMGVector9Black: 1250
+        Z14STWeaponSMGVector9Forest: 1250
+        Z14STWeaponShotgunCompact: 1250
         Z14STCombatKnife: 10
-        # Shotguns
-        STWeaponShotgunMossbergM88: 630
-        STWeaponShotgunBenelliM4Super90: 1200 # T3
-        STWeaponShotgunSPAS: 2200 # T3
         # Pistols
         Z14WeaponPistolStalkerGlock: 200
         STWeaponRevolverSWPC325TR: 350
@@ -114,11 +122,6 @@
         # SMGs
         Z14STWeaponSMGMP5: 2200
         # Rifles
-        Z14STWeaponRifleL85: 2200 # T2
-        Z14STWeaponRifleM4: 3300 # T2
-        Z14STWeaponRifleSCARH: 6820 # T3
-        Z14STWeaponRifleG36: 7500 # T3
-        Z14STWeaponRifleLR300v1: 5250 # T3
 
     - name: shop-category-magazines
       priority: 2
@@ -149,20 +152,20 @@
         6mmBuckshotBox: 320 # T1
         7mmBuckshotBox: 45 # T0
         # 9.19
-        Z14919PSOGJBox: 100 # T1
-        Z14919PSTBox: 200 # T2
-        Z14919PBMBox: 1425 # T3
+        Z14919PSOGJBox: 300 # T1
+        Z14919PSTBox: 540 # T2
+        Z14919PBMBox: 540 # T3
         # .45
-        Z1445ACPLFMJBox: 110 # T1
-        Z1445ACPMFMJBox: 220 # T2
-        Z1445ACPAPBox: 1500 # T3
+        Z1445ACPLFMJBox: 300 # T1
+        Z1445ACPMFMJBox: 300 # T2
+        Z1445ACPAPBox: 540 # T3
         # 5.56
-        Z14556FMJBox: 300
-        Z14556M855Box: 1650 # T3
-        Z14556WarmagBox: 550 # Mutant
+        Z14556FMJBox: 720
+        Z14556M855Box: 720 # T3
+        Z14556WarmagBox: 720 # Mutant
         # 7.51
-        Z14751M80Box: 1950 # T3
-        Z14751UNBox: 850 # Mutant
+        Z14751M80Box: 960 # T3
+        Z14751UNBox: 960 # Mutant
 
     - name: shop-category-medicine
       priority: 4
@@ -197,9 +200,8 @@
     - name: shop-category-armor
       priority: 6
       items:
-        Z14ClothingOuterJacketMerc: 50 # T1
-        Z14STClothingOuterArmorLightPlateVestBaseMerc: 1100 # T2 - PvP
-        Z14ClothingOuterArmorSevaMerc: 4600 # T3 - ENV
+        Z14ClothingOuterJacketMerc: 500 # T1
+        Z14STClothingOuterArmorLightPlateVestBaseMerc: 1250 # T2 - PvP
         SetMerc2BuyableCrate: 12000 # T3 - PvP
         SetMercBuyableCrate: 12000 # T3 - PvP
         #Helmets
@@ -356,8 +358,6 @@
         # HANDS
         ClothingHandsGlovesFingerless: 30
         ClothingHandsGlovesMercFingerless: 60
-        # OUTERCLOTHING
-        # CLOAK
         # LEGS
         Z14ClothingLegsJeansBlue: 10
         Z14ClothingLegsJeansStalker: 10

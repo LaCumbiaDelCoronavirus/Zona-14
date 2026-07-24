@@ -6,7 +6,7 @@
   name: Assault Helmet Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeClothingHeadAssaultHelmet
+      blueprint: Z14newrecipeClothingHeadAssaultHelmet
 
 - type: entity
   parent: STBaseBlueprint
@@ -16,7 +16,7 @@
   name: Homemade Helmet Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeSTClothingHeadHelmetMakeshiftTacticalT3
+      blueprint: Z14newrecipeSTClothingHeadHelmetMakeshiftTacticalT3
 
 - type: entity
   parent: STBaseBlueprint
@@ -26,7 +26,7 @@
   name: “Vityaz 1C” helmet recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeClothingHeadHelmetVityaz1C
+      blueprint: Z14newrecipeClothingHeadHelmetVityaz1C
 
 - type: entity
   parent: STBaseBlueprint
@@ -36,7 +36,7 @@
   name: “Guardian” combat helmet recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeSTClothingHeadHelmetSeraphimAltin
+      blueprint: Z14newrecipeSTClothingHeadHelmetSeraphimAltin
 
 - type: entity
   parent: STBaseBlueprint
@@ -46,5 +46,5 @@
   name: '"Guardian" combat helmet recipe'
   components:
     - type: STBlueprint
-      blueprint: newrecipeClothingHeadAssaultHelmetDeserter
+      blueprint: Z14newrecipeClothingHeadAssaultHelmetDeserter
 

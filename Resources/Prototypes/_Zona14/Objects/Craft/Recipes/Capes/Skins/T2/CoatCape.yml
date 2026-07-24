@@ -1,19 +1,19 @@
 - type: lightCraftingRecipe
   id:  Z14STCraftSkinClothingCloakT2Seraphim
   results:
-    - STClothingCapeT2SerafimPrestige
+    - Z14STClothingCapeT2SerafimPrestige
   steps:
     firstIngredient: STSkinsKitSeraphim
-    secondIngredient: ClothingOuterCoatStalker
+    secondIngredient: Z14ClothingOuterCoatStalker
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id:  Z14STCraftSkinClothingCloakT2Monolith
   results:
-    - STClothingOuterCoatTihiy
+    - Z14STClothingOuterCoatTihiy
   steps:
     firstIngredient: STSkinsKitMonolith
-    secondIngredient: ClothingOuterCoatKolchyga
+    secondIngredient: Z14ClothingOuterCoatKolchyga
     keepFirst: true
     time: 5

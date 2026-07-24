@@ -6,7 +6,7 @@
   name: Swamp Cloak Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeClothingOuterCoatBolotniy
+      blueprint: Z14newrecipeClothingOuterCoatBolotniy
 
 - type: entity
   parent: STBaseBlueprint
@@ -16,7 +16,7 @@
   name: Kolchuga Cloak Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeClothingOuterCoatKolchyga
+      blueprint: Z14newrecipeClothingOuterCoatKolchyga
 
 - type: entity
   parent: STBaseBlueprint
@@ -26,4 +26,4 @@
   name: leather coat recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeClothingOuterCoatStalker
+      blueprint: Z14newrecipeClothingOuterCoatStalker

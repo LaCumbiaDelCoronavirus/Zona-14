@@ -10,8 +10,8 @@ ent-Z14STWeaponSniperSVDS = SVDS (Dragunov Sniper Rifle)
     .desc = A modernized folding version of the legendary SVD sniper rifle, chambered in 7.62x54mmR. Features improved ergonomics and comes equipped with a medium-range scope. A favorite among Zone marksmen for its reliability and stopping power.
     .suffix = Z14
 
-ent-Z14STWeaponSniperSVDSCovenant = Covenant SVDS Sniper Rifle
-    .desc = A custom SVDS variant used by Covenant faction snipers. Features unique camouflage and faction markings while retaining all the deadly precision of the original. Chambered in 7.62x54mmR.
+ent-Z14STWeaponSniperSVDSCovenant = SVDS Sniper Rifle "Emerald"
+    .desc = A custom SVDS variant in distinctive green livery. Unknown provenance, but it keeps all the deadly precision of the original. Chambered in 7.62x54mmR.
     .suffix = Z14
 
 ent-Z14STWeaponSniperSVDSGrass = SVDS Ghillie Sniper Rifle

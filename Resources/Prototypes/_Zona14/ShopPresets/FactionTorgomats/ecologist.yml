@@ -119,6 +119,10 @@
     - name: shop-category-weapons
       priority: 1
       items:
+        Z14STWeaponShotgunSawedOf: 1250
+        Z14STBaseWeaponShotgunTOZ106: 1250
+        Z14WeaponPistolStalkerLP08: 500
+        Z14WeaponPistolStalkerPMModifed: 1250
         # Melee
         Z14STCombatKnife: 10
         # Pistols
@@ -126,15 +130,12 @@
         STWeaponRevolverRugerRedhawk: 750
         STWeaponRevolverSWModel625: 1650
         # Shotguns
-        STWeaponShotgunTOZ34: 200
+        Z14STWeaponShotgunTOZ34: 200
         STWeaponShotgunMossbergM88: 650
         STWeaponShotgunSPAS: 1550
         # SMGs
         Z14STWeaponSMGPP1901: 2450
         # Rifles
-        Z14STWeaponRifleAKS74U: 2050
-        Z14STWeaponRifleM16: 3200
-        Z14STWeaponRifleAKS74: 3800
 
     - name: shop-category-magazines
       priority: 2
@@ -157,21 +158,21 @@
         6mmBuckshotBox: 250
         7mmBuckshotBox: 45
         # 9.19
-        Z14919PSOGJBox: 75
-        Z14919PSTBox: 180
-        Z14919RIPBox: 400
+        Z14919PSOGJBox: 500
+        Z14919PSTBox: 900
+        Z14919RIPBox: 500
         # .45
-        Z1445ACPRIPBox: 450
-        Z1445ACPLFMJBox: 90
-        Z1445ACPMFMJBox: 200
+        Z1445ACPRIPBox: 500
+        Z1445ACPLFMJBox: 500
+        Z1445ACPMFMJBox: 500
         # 5.45
-        Z14545HPBox: 400
-        Z14545FMJBox: 270
-        Z14545PCBox: 2500
+        Z14545HPBox: 1200
+        Z14545FMJBox: 1200
+        Z14545PCBox: 2160
         # 5.56
-        Z14556WarmagBox: 500
-        Z14556FMJBox: 300
-        Z14556M855Box: 3000
+        Z14556WarmagBox: 1200
+        Z14556FMJBox: 1200
+        Z14556M855Box: 1200
 
     - name: shop-category-medicine # 70% discount from stalkers
       priority: 4
@@ -214,15 +215,7 @@
           # Helmets #
         Z14STClothingHeadTinfoil: 200
           # OuterClothing #
-        Z14ClothingOuterJacketSCI: 60 # T1 - PVE
-        Z14ClothingOuterArmorSSP99Amber: 4000
-        Z14ClothingOuterArmorSSP99: 4000
-        Z14ClothingOuterArmorSSP24Topaz: 4000
-        Z14ClothingOuterArmorSSP99White: 4500
-        Z14ClothingOuterArmorSSP24Ruby: 4500
-        Z14ClothingOuterArmorSSP24Sapfire: 4500
-        Z14ClothingOuterArmorSevaSciWhite: 1550
-        Z14ClothingOuterArmorSevaSciRed: 1750
+        Z14ClothingOuterJacketSCI: 500 # T1 - PVE
 
     - name: shop-category-storage-and-containers
       priority: 7
@@ -380,7 +373,6 @@
         # faction
         ClothingHandsGlovesNitrile: 35
         ClothingHandsGlovesLatex: 35
-        # OUTERCLOTHING
         # faction
         ClothingOuterCoatLab: 100
         ClothingOuterHospitalGown: 10
@@ -422,17 +414,17 @@
       items:
         # Tech cards
         TechCardCalibrationDosimeter: 100
-        STDetectorAD1Blueprint: 1000
-        STDetectorAD2Blueprint: 1000
-        STDetectorAD3Blueprint: 3000
+        Z14STDetectorAD1Blueprint: 1000
+        Z14STDetectorAD2Blueprint: 1000
+        Z14STDetectorAD3Blueprint: 3000
         STZoneArtifactDetectorBushBlueprint: 3000
         ClothingEarsPsyHelmBlueprint: 5000
         STZoneArtifactDetectorResponseBlueprint: 6000
         STZoneArtifactDetectorSpruceBlueprint: 12000
         DetectorVelesBlueprint: 10000
-        STZoneArtifactDetectorBarracudaBlueprint: 18000
-        STZoneArtifactDetectorBearBlueprint: 25000
-        # STZoneArtifactDetectorWolfhoundBlueprint: 40000 Disabled for now
+        Z14STZoneArtifactDetectorBarracudaBlueprint: 18000
+        Z14STZoneArtifactDetectorBearBlueprint: 25000
+        # Z14STZoneArtifactDetectorWolfhoundBlueprint: 40000 Disabled for now
 
     - name: shop-category-entertainment
       priority: 13

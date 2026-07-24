@@ -16,7 +16,7 @@
     slots:
       film_slot:
         name: st-camera-film-slot-name
-        startingItem: STCameraFilm
+        startingItem: Z14STCameraFilm
         swap: true
         whitelist:
           tags:

@@ -6,7 +6,7 @@
   name: Reinforced Coat Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeReinforcedCoat
+      blueprint: Z14newrecipeReinforcedCoat
 
 - type: entity
   parent: STBaseBlueprint
@@ -16,4 +16,4 @@
   name: loyalist coat recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeClothingOuterCoatLoyalist
+      blueprint: Z14newrecipeClothingOuterCoatLoyalist

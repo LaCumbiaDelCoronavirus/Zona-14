@@ -6,7 +6,7 @@
   parent: BaseSTCartridge13x108
   components:
     - type: CartridgeAmmo
-      proto: Bullet13x108FMJ
+      proto: Z14Bullet13x108FMJ
 
 - type: entity
   id: Z14STCartridge13x108PC
@@ -16,7 +16,7 @@
   parent: BaseSTCartridge13x108
   components:
   - type: CartridgeAmmo
-    proto: Bullet13x108PC
+    proto: Z14Bullet13x108PC
 
 - type: entity
   id: Z14STCartridge13x108HPBT
@@ -26,4 +26,4 @@
   parent: BaseSTCartridge13x108
   components:
   - type: CartridgeAmmo
-    proto: Bullet13x108HPBT
+    proto: Z14Bullet13x108HPBT

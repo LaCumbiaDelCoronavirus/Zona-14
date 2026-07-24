@@ -6,4 +6,4 @@
   name: Foil Hat Recipe
   components:
     - type: STBlueprint
-      blueprint: newrecipeSTClothingHeadTinfoil
+      blueprint: Z14newrecipeSTClothingHeadTinfoil

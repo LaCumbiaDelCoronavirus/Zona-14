@@ -42,7 +42,6 @@
       Z14STWeaponSMGMP5: 2500
       Z14STWeaponSMGPP91: 2000
       # Other
-      Z14STWeaponRifleGalatz: 3500
       STWeaponRevolverSWPC325TR: 140
       STWeaponRevolverChiappaRhino60DS: 1100
   - name: shop-category-magazines
@@ -65,45 +64,43 @@
       7mmBuckshotBox: 20
       8mmBuckshotBox: 400
       # 7.25
-      Z14725PBox: 100
-      Z14725PTBox: 500
-      Z14725PSTBox: 2000
-      Z14725LRNPCBox: 50
+      Z14725PBox: 250
+      Z14725PTBox: 450
+      Z14725PSTBox: 450
+      Z14725LRNPCBox: 250
       # 9.19
-      Z14919PSOGJBox: 65
-      Z14919PSTBox: 400
-      Z14919RIPBox: 200
-      Z14919PBMBox: 1000
+      Z14919PSOGJBox: 500
+      Z14919PSTBox: 900
+      Z14919RIPBox: 500
+      Z14919PBMBox: 900
       # 5.56
-      Z14556FMJBox: 700
-      Z14556M855Box: 1500
-      Z14556WarmagBox: 300
+      Z14556FMJBox: 1200
+      Z14556M855Box: 1200
+      Z14556WarmagBox: 1200
       # 5.45
-      Z14545FMJBox: 700
-      Z14545HPBox: 200
-      Z14545PCBox: 1500
+      Z14545FMJBox: 1200
+      Z14545HPBox: 1200
+      Z14545PCBox: 2160
       # .45
-      Z1445ACPLFMJBox: 100
-      Z1445ACPMFMJBox: 450
-      Z1445ACPRIPBox: 300
-      Z1445ACPAPBox: 1000
+      Z1445ACPLFMJBox: 500
+      Z1445ACPMFMJBox: 500
+      Z1445ACPRIPBox: 500
+      Z1445ACPAPBox: 900
 
   - name: shop-category-armor
     priority: 4
     items:
       # OuterClothing #
-      STClothingOuterArmorRCBZ: 2000
-      STClothingOuterArmorLightPlateVestBaseStalker: 2000
-      ClothingOuterArmor6B2: 3000
-      ClothingHeadHelmetInfantry: 400
-      STClothingHeadHelmetMakeshiftTacticalT3: 1500
-      ClothingOuterArmorSpark: 1500
-      ClothingOuterArmorZaryaStalkerModifedType2: 2000
-      ClothingOuterArmorZaryaStalkerModifedType1: 3500
-      ClothingOuterArmorZaryaHunter: 2000
-      ClothingHeadHelmetVityaz1C: 3500
-      ClothingOuterArmorAborigineStalker: 6000
-      ClothingOuterArmorStalker: 7500
+      Z14STClothingOuterArmorRCBZ: 1250
+      Z14STClothingOuterArmorLightPlateVestBaseStalker: 1250
+      Z14ClothingOuterArmor6B2: 1250
+      Z14ClothingHeadHelmetInfantry: 400
+      Z14STClothingHeadHelmetMakeshiftTacticalT3: 1500
+      Z14ClothingOuterArmorSpark: 500
+      Z14ClothingOuterArmorZaryaStalkerModifedType2: 1250
+      Z14ClothingOuterArmorZaryaStalkerModifedType1: 1250
+      Z14ClothingOuterArmorZaryaHunter: 1250
+      Z14ClothingHeadHelmetVityaz1C: 3500
   - name: shop-category-storage-and-containers
     priority: 5
     items:
@@ -119,9 +116,9 @@
   - name: shop-category-raincoats-and-gasmasks
     priority: 6
     items:
-      ClothingMaskXoma: 100 # T1
-      ClothingMaskGP5: 200 # T2
-      ClothingMaskGP7: 600 # T3
+      Z14ClothingMaskXoma: 100 # T1
+      Z14ClothingMaskGP5: 200 # T2
+      Z14ClothingMaskGP7: 600 # T3
   - name: shop-category-research-equipment
     priority: 7
     items:
@@ -180,7 +177,7 @@
       Bloodpack: 1000
       MedkitAI2: 200
       Defibrillator: 1000
-      AntiRadMedipen: 200
+      Z14AntiRadMedipen: 200
   - name: shop-category-modules
     priority: 11
     items:
@@ -203,8 +200,8 @@
     # Thermal group - 1
     ZoneArtifactFireball: 400
     ZoneArtifactEye: 600
-    ZoneArtifactFlame: 1200
-    ZoneArtifactBunch: 1150
+    Z14ZoneArtifactFlame: 1200
+    Z14ZoneArtifactBunch: 1150
     ZoneArtifactRock: 1000
     ZoneArtifactSun: 1900
     ZoneArtifactRoot: 2100
@@ -214,10 +211,10 @@
     ZoneArtifactLithosphere: 4800
     # Electrical group - 1
     ZoneArtifactSparkler: 400
-    ZoneArtifactBattery: 600
-    ZoneArtifactFlash: 1200
+    Z14ZoneArtifactBattery: 600
+    Z14ZoneArtifactFlash: 1200
     ZoneArtifactAccumulator: 900
-    ZoneArtifactDiamond: 1900
+    Z14ZoneArtifactDiamond: 1900
     ZoneArtifactCharger: 1900
     ArtMoon: 2400
     ZoneArtifactTesla: 3600
@@ -239,23 +236,23 @@
     ZoneArtifactGoldfish: 4800
     ZoneArtifactSpring: 3600
     ZoneArtifactFocus: 3600
-    ZoneArtifactStuntman: 4800
+    Z14ZoneArtifactStuntman: 4800
     ZoneArtifactDistorter: 4800
-    ZoneArtifactSoul: 3600
+    Z14ZoneArtifactSoul: 3600
     ZoneArtifactCompass: 2450
     ZoneArtifactCrucifix: 2800
-    ZoneArtifactThorn: 2500 # kesha whimsy
+    Z14ZoneArtifactThorn: 2500 # kesha whimsy
     ZoneArtifactArf: 410
     # Acidic group - 1
     ZoneArtifactToxic: 500
     ZoneArtifactCytoplasm: 2100
     ZoneArtifactBlood: 1200
-    ZoneArtifactMeat: 2400
-    ZoneArtifactKolobok: 3600
+    Z14ZoneArtifactMeat: 2400
+    Z14ZoneArtifactKolobok: 3600
     ZoneArtifactBeer: 750
     # Acidic group - 2
     ZoneArtifactPellicle: 400
-    ZoneArtifactBaloon: 3600
+    Z14ZoneArtifactBaloon: 3600
 
 # MARK: Mutant Parts
      # Mutant parts
@@ -360,13 +357,13 @@
 
     #.45 acp
     STWeaponRevolverRugerRedhawk: 150
-    STWeaponRevolverSWPC325TR: 425
+    STWeaponRevolverSWPC325TR: 100
     STWeaponRevolverChiappaRhino60DS: 450
     STWeaponRevolverSWModel325: 200
     STWeaponRevolverSWModel625: 725
 
     #medical
-    Defibrillator: 650
+    Defibrillator: 350
 
     #values
     TradeBox: 3000
@@ -376,6 +373,11 @@
     - name: shop-category-weapons
       priority: 1
       items:
+        Z14STWeaponShotgunTOZ34: 1250
+        Z14STWeaponShotgunSawedOf: 1250
+        Z14STBaseWeaponShotgunTOZ106: 1250
+        Z14WeaponPistolStalkerLP08: 500
+        Z14WeaponPistolStalkerPMModifed: 1250
             # Melee
         StalkerBallBat: 70
             # Guns
@@ -387,7 +389,6 @@
         Z14STWeaponSMGPP91: 2750
         Z14STWeaponSMGStalkerCP2Veresk: 5000
         # Other
-        Z14STWeaponRifleSaiga739: 1400
         Z14WeaponPistolStalkerTT: 250
         Z14WeaponPistolStalkerAPS: 500
         STWeaponRevolverSWPC325TR: 1000
@@ -413,41 +414,41 @@
         7mmBuckshotBox: 45
         8mmBuckshotBox: 650
          # 7.25
-        Z14725PBox: 120
-        Z14725PTBox: 280
-        Z14725PSTBox: 1325
-        Z14725LRNPCBox: 600
+        Z14725PBox: 250
+        Z14725PTBox: 450
+        Z14725PSTBox: 450
+        Z14725LRNPCBox: 250
         # 9.19
-        Z14919PSOGJBox: 75
-        Z14919PSTBox: 525
-        Z14919RIPBox: 575
-        Z14919PBMBox: 1325
+        Z14919PSOGJBox: 500
+        Z14919PSTBox: 900
+        Z14919RIPBox: 500
+        Z14919PBMBox: 900
         # 5.56
-        Z14556FMJBox: 600
-        Z14556M855Box: 1500
-        Z14556WarmagBox: 655
+        Z14556FMJBox: 1200
+        Z14556M855Box: 1200
+        Z14556WarmagBox: 1200
         # 5.45
-        Z14545FMJBox: 625
-        Z14545HPBox: 690
-        Z14545PCBox: 1500
+        Z14545FMJBox: 1200
+        Z14545HPBox: 1200
+        Z14545PCBox: 2160
          # .45
-        Z1445ACPLFMJBox: 80
-        Z1445ACPMFMJBox: 550
-        Z1445ACPRIPBox: 625
-        Z1445ACPAPBox: 1400
+        Z1445ACPLFMJBox: 500
+        Z1445ACPMFMJBox: 500
+        Z1445ACPRIPBox: 500
+        Z1445ACPAPBox: 900
 
     - name: shop-category-armor
       priority: 4
       items:
           # OuterClothing #
-        STClothingOuterArmorLightPlateVestBaseStalker: 1250
-        ClothingOuterArmor6B2: 2000
-        ClothingHeadHelmetInfantry: 400
-        STClothingHeadHelmetMakeshiftTacticalT3: 1000
-        ClothingOuterArmorSpark: 1750
-        ClothingOuterArmorZaryaStalkerModifedType2: 2500
-        ClothingOuterArmorZaryaStalkerModifedType1: 3800
-        ClothingOuterArmorZaryaHunter: 2500
+        Z14STClothingOuterArmorLightPlateVestBaseStalker: 1250
+        Z14ClothingOuterArmor6B2: 1250
+        Z14ClothingHeadHelmetInfantry: 400
+        Z14STClothingHeadHelmetMakeshiftTacticalT3: 1000
+        Z14ClothingOuterArmorSpark: 500
+        Z14ClothingOuterArmorZaryaStalkerModifedType2: 1250
+        Z14ClothingOuterArmorZaryaStalkerModifedType1: 1250
+        Z14ClothingOuterArmorZaryaHunter: 1250
     - name: shop-category-storage-and-containers
       priority: 5
       items:
@@ -463,9 +464,9 @@
     - name: shop-category-raincoats-and-gasmasks
       priority: 6
       items:
-        ClothingMaskXoma: 600 # T1
-        ClothingMaskGP5: 500 # T1
-        ClothingMaskGP7: 3800 # T3
+        Z14ClothingMaskXoma: 600 # T1
+        Z14ClothingMaskGP5: 500 # T1
+        Z14ClothingMaskGP7: 3800 # T3
     - name: shop-category-research-equipment
       priority: 7
       items:
@@ -528,7 +529,7 @@
         Bloodpack: 1000
         MedkitAI2: 200
         Defibrillator: 1000
-        AntiRadMedipen: 200
+        Z14AntiRadMedipen: 200
     - name: shop-category-modules
       priority: 11
       items:

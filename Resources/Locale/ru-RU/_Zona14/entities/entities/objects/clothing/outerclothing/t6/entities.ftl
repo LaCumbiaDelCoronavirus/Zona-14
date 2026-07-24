@@ -1,3 +1,3 @@
-ent-Z14STClothingOuterHeavyTor = Тяжёлый бронежилет "Тор
-    .desc = Экипировка зоны.
+ent-Z14STClothingOuterHeavyTor = Тяжёлый бронежилет "Тор"
+    .desc = Тяжёлая штурмовая плитоноска. Главное — плиты, а не подвижность.
     .suffix = Z14

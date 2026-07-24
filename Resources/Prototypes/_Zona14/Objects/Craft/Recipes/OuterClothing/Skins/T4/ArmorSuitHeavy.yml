@@ -1,19 +1,19 @@
 - type: lightCraftingRecipe
   id: Z14STCraftSkinSTClothingOuterArmorVeryHeavyFreedomBaseFreedom
   results:
-    - STClothingOuterArmorVeryHeavyFreedom
+    - Z14STClothingOuterArmorVeryHeavyFreedom
   steps:
     firstIngredient: STSkinsKitFreedom
-    secondIngredient: STClothingOuterArmorVeryHeavy
+    secondIngredient: Z14STClothingOuterArmorVeryHeavy
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingHeadHelmetUlachFreedomFreedom
   results:
-    - ClothingHeadHelmetUlachFreedom
+    - Z14ClothingHeadHelmetUlachFreedom
   steps:
     firstIngredient: STSkinsKitFreedom
-    secondIngredient: ClothingHeadHelmetUlach
+    secondIngredient: Z14ClothingHeadHelmetUlach
     keepFirst: true
     time: 5

@@ -22,9 +22,6 @@ ent-Z14STCopper = stack-st-copper
 
 ent-Z14STCottonFabricT1 = stack-st-cotton-fabric-t1
 
-ent-Z14STCraftAnomalyDust = аномальная эссенция
-    .desc = нестабильная аномальная субстанция. Используется в разборе и сборке.
-    .suffix = Z14
 
 ent-Z14STGlassT1 = stack-st-glass-t1
 

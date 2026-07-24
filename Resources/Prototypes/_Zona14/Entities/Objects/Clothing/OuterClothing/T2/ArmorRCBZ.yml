@@ -1,5 +1,5 @@
 - type: entity
-  parent: STClothingOuterBaseLarge
+  parent: [ Z14ArmorBaseT2PvE, STClothingOuterBaseLarge ]
   id: Z14STClothingOuterArmorRCBZ
   categories: [ Zona14 ]
   name: Seeker CBRN Suit
@@ -14,40 +14,21 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/outerClothing/rhbz_iskatel.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHelmRCBZ
+    clothingPrototype: Z14ClothingHelmRCBZ
     slot: head
   - type: Armor
-    modifiers:
-      flatReductions:
-        Blunt: 2
-        Slash: 2
-        Piercing: 2
-        Heat: 1
-        Cold: 1
-        Shock: 1
-        Radiation: 1
-        Caustic: 1
-        Compression: 1
-        Psy: 1
-      coefficients:
-        Blunt: 0.90
-        Slash: 0.90
-        Piercing: 0.90
-        Heat: 0.90
-        Cold: 0.90
-        Shock: 0.90
-        Radiation: 0.90
-        Caustic: 0.90
-        Compression: 0.90
-        Psy: 0.90
-  - type: GrantsArtifactSlots
-    slots: 4 # Stalker-Changes | Number of artifact slots this armor grants
+    armorClass: 0
   - type: ClothingSpeedModifier
     walkModifier: 1
     sprintModifier: 1
+  # ContainerContainer is a single DataField, so this declaration REPLACES the
+  # parent's wholesale - omitting storagebase here wipes it from the declared
+  # state while Storage recreates it at spawn, and UninitializedSaveTest flags
+  # the mismatch. Declare both.
   - type: ContainerContainer
     containers:
       toggleable-clothing: !type:ContainerSlot {}
+      storagebase: !type:Container {}
 
 - type: entity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
@@ -72,10 +53,15 @@
     sprite: _Stalker/Objects/Clothing/mask/gasmask_rhbz.rsi
   - type: Armor
     modifiers:
+      coefficients:
+        Heat: 0.9
+        Cold: 0.9
+        Shock: 0.9
+        Radiation: 0.9
+        Caustic: 0.9
+        Compression: 0.9
+        Psy: 0.9
       flatReductions:
-        Blunt: 2
-        Slash: 2
-        Piercing: 2
         Heat: 1
         Cold: 1
         Shock: 1
@@ -83,19 +69,6 @@
         Caustic: 1
         Compression: 1
         Psy: 1
-      coefficients:
-        Blunt: 0.90
-        Slash: 0.90
-        Piercing: 0.90
-        Heat: 0.90
-        Cold: 0.90
-        Shock: 0.90
-        Radiation: 0.90
-        Caustic: 0.90
-        Compression: 0.90
-        Psy: 0.90
-  - type: GrantsArtifactSlots
-    slots: 4 # Stalker-Changes | Number of artifact slots this armor grants
   - type: HideLayerClothing
     slots:
     - Hair
@@ -108,7 +81,7 @@
 # Dolg - 1
 
 - type: entity
-  parent: [ Z14ArmorBaseT2PvP, Z14STClothingOuterArmorRCBZ ]
+  parent: [ Z14ArmorBaseT2PvE, Z14STClothingOuterArmorRCBZ ]
   id: Z14ClothingOuterArmorRCBZDolg
   categories: [ Zona14 ]
   suffix: Z14
@@ -122,7 +95,9 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/outerClothing/rcbz-dolg.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHelmRCBZDolg
+    clothingPrototype: Z14ClothingHelmRCBZDolg
+  - type: Armor
+    armorClass: 0
 
 - type: entity
   parent: Z14ClothingHelmRCBZ
@@ -140,7 +115,7 @@
 # Freedom - 2 +
 
 - type: entity
-  parent: [ Z14ArmorBaseT2PvP, Z14STClothingOuterArmorRCBZ ]
+  parent: [ Z14ArmorBaseT2PvE, Z14STClothingOuterArmorRCBZ ]
   id: Z14ClothingOuterArmorRCBZFreedom
   categories: [ Zona14 ]
   suffix: Z14
@@ -154,7 +129,9 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/outerClothing/rcbz-freedom.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHelmRCBZFreedom
+    clothingPrototype: Z14ClothingHelmRCBZFreedom
+  - type: Armor
+    armorClass: 0
 
 - type: entity
   parent: Z14ClothingHelmRCBZ
@@ -172,7 +149,7 @@
 # Jabs - 3
 
 - type: entity
-  parent: Z14STClothingOuterArmorRCBZ
+  parent: [ Z14ArmorBaseT2PvE, Z14STClothingOuterArmorRCBZ ]
   id: Z14ClothingOuterArmorRCBZJabs
   categories: [ Zona14 ]
   suffix: Z14
@@ -185,11 +162,13 @@
     sprite: _Stalker/Objects/Clothing/outerClothing/rcbz-jabs.rsi
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/outerClothing/rcbz-jabs.rsi
+  - type: Armor
+    armorClass: 0
 
 # Renegates - 4
 
 - type: entity
-  parent: Z14STClothingOuterArmorRCBZ
+  parent: [ Z14ArmorBaseT2PvE, Z14STClothingOuterArmorRCBZ ]
   id: Z14ClothingOuterArmorRCBZRene
   categories: [ Zona14 ]
   suffix: Z14
@@ -203,7 +182,9 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/outerClothing/rcbz-renegate.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHelmRCBZRene
+    clothingPrototype: Z14ClothingHelmRCBZRene
+  - type: Armor
+    armorClass: 0
 
 - type: entity
   parent: Z14ClothingHelmRCBZ
@@ -221,7 +202,7 @@
 # Serafims - 5
 
 - type: entity
-  parent: [ Z14ArmorBaseT2PvP, Z14STClothingOuterArmorRCBZ ]
+  parent: [ Z14ArmorBaseT2PvE, Z14STClothingOuterArmorRCBZ ]
   id: Z14ClothingOuterArmorRCBZSera
   categories: [ Zona14 ]
   suffix: Z14
@@ -235,7 +216,9 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/outerClothing/RCBZ-Serafim.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHelmRCBZSera
+    clothingPrototype: Z14ClothingHelmRCBZSera
+  - type: Armor
+    armorClass: 0
 
 - type: entity
   parent: Z14ClothingHelmRCBZ
@@ -267,7 +250,7 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/outerClothing/rhbz-clearsky.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHelmRCBZCN
+    clothingPrototype: Z14ClothingHelmRCBZCN
 
 - type: entity
   parent: Z14ClothingHelmRCBZ
@@ -285,7 +268,7 @@
 # Journalists - 8 +
 
 - type: entity
-  parent: [ Z14ArmorBaseT2PvP, Z14STClothingOuterArmorRCBZ ]
+  parent: [ Z14ArmorBaseT2PvE, Z14STClothingOuterArmorRCBZ ]
   id: Z14ClothingOuterArmorRCBZJournalists
   categories: [ Zona14 ]
   suffix: Z14
@@ -299,7 +282,9 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/outerClothing/rhbz-journalists.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHelmRCBZJournalists
+    clothingPrototype: Z14ClothingHelmRCBZJournalists
+  - type: Armor
+    armorClass: 0
 
 - type: entity
   parent: Z14ClothingHelmRCBZ
@@ -333,7 +318,7 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/outerClothing/rcbz_pj5.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHelmRCBZProjectPJ5
+    clothingPrototype: Z14ClothingHelmRCBZProjectPJ5
 
 - type: entity
   parent: Z14ClothingHelmRCBZ

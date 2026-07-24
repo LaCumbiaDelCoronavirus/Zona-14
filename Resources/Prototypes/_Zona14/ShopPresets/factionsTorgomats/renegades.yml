@@ -90,8 +90,6 @@
          Z14STWeaponSMGPPSh41: 2200
          Z14STWeaponSMGPP19: 3000
          Z14STWeaponSMGPP91: 2200
-         Z14STWeaponRifleAKS74U: 1600
-         Z14STWeaponSniperMosin: 1600
     - name: shop-category-magazines
       priority: 2
       items:
@@ -112,26 +110,26 @@
       items:
         7mmBuckshotBox: 50
         6mmBuckshotBox: 100
-        Z14545HPBox: 200
-        Z1445ACPRIPBox: 300
-        Z1445ACPLFMJBox: 250
-        Z1445ACPAPBox: 1400
-        Z14725PBox: 100
-        Z14725LRNPCBox: 50
-        Z14725PTBox: 465
-        Z14739FMJBox: 2100
-        Z14754FMJBox: 2000
-        Z14725PSTBox: 1200
-        Z14918PGJBox: 80
-        Z14918SP7Box: 200
-        Z14918PBMBox: 1200
-        Z14919PSOGJBox: 100
-        Z14919RIPBox: 400
-        Z14919PBMBox: 1200
-        Z14545FMJBox: 500
-        Z14545PCBox: 1800
-        Z14754HPBox: 500
-        Z14739HPBox: 400
+        Z14545HPBox: 1200
+        Z1445ACPRIPBox: 500
+        Z1445ACPLFMJBox: 500
+        Z1445ACPAPBox: 900
+        Z14725PBox: 250
+        Z14725LRNPCBox: 250
+        Z14725PTBox: 450
+        Z14739FMJBox: 2400
+        Z14754FMJBox: 800
+        Z14725PSTBox: 450
+        Z14918PGJBox: 250
+        Z14918SP7Box: 250
+        Z14918PBMBox: 450
+        Z14919PSOGJBox: 500
+        Z14919RIPBox: 500
+        Z14919PBMBox: 900
+        Z14545FMJBox: 1200
+        Z14545PCBox: 2160
+        Z14754HPBox: 800
+        Z14739HPBox: 2400
         Z1462mmBuckshotBox: 30 #T0
         Z1475mmBuckshotBox: 250 #T1
     - name: shop-category-armor
@@ -139,10 +137,10 @@
       items:
         Z14ClothingHeadInfantryHelmetRenegate: 700
         Z14ClothingHeadHelmetSH6Renegate: 400
-        Z14ClothingOuterArmorRene6B2: 1000
-        Z14STClothingOuterArmorLightPlateVestBaseStalker: 1800
-        Z14ClothingOuterArmorRCBZRene: 2000
-        Z14ClothingOuterArmorZaryaRene: 1800
+        Z14ClothingOuterArmorRene6B2: 1250
+        Z14STClothingOuterArmorLightPlateVestBaseStalker: 1250
+        Z14ClothingOuterArmorRCBZRene: 1250
+        Z14ClothingOuterArmorZaryaRene: 500
         STSkinsKitRenegate: 1000
     - name: shop-category-storage-and-containers
       priority: 5
@@ -320,4 +318,4 @@
     - name: shop-category-blueprints
       priority: 14
       items:
-        STCookingLiverTartare: 2000
+        Z14STCookingLiverTartare: 2000

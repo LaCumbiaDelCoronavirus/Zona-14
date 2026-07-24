@@ -1,5 +1,5 @@
 - type: entity
-  parent: STClothingOuterBaseLargeToggleable
+  parent: [ Z14ArmorBaseT4PvP, STClothingOuterBaseLargeToggleable ]
   id: Z14ClothingOuterArmorYeger
   categories: [ Zona14 ]
   name: Jaeger
@@ -13,34 +13,8 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/outerClothing/yeger.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetYeger
+    clothingPrototype: Z14ClothingHeadHelmetYeger
     slot: head
-  - type: Armor
-    modifiers:
-      flatReductions:
-        Blunt: 2
-        Slash: 2
-        Piercing: 2
-        Heat: 1
-        Cold: 1
-        Shock: 1
-        Radiation: 1
-        Caustic: 1
-        Compression: 1
-        Psy: 1
-      coefficients:
-        Blunt: 0.90
-        Slash: 0.90
-        Piercing: 0.90
-        Heat: 0.90
-        Cold: 0.90
-        Shock: 0.90
-        Radiation: 0.90
-        Caustic: 0.90
-        Compression: 0.90
-        Psy: 0.90
-  - type: GrantsArtifactSlots
-    slots: 4 # Stalker-Changes | Number of artifact slots this armor grants
 - type: entity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: Z14ClothingHeadHelmetYeger
@@ -65,11 +39,16 @@
   - type: HideLayerClothing
     slots:
     - Hair
+  - type: Armor
+    modifiers:
+      coefficients:
+        Heat: 0.9
+        Radiation: 0.25
 
 # Freedom - 1 +
 
 - type: entity
-  parent: Z14ClothingOuterArmorYeger
+  parent: [ Z14ArmorBaseT4PvP, Z14ClothingOuterArmorYeger ]
   id: Z14ClothingOuterArmorYegerFreedom
   categories: [ Zona14 ]
   suffix: Z14
@@ -83,31 +62,7 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/outerClothing/yeger-freedom.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetYegerFreedom
-  - type: Armor
-    modifiers:
-      flatReductions:
-        Blunt: 2
-        Slash: 2
-        Piercing: 2
-        Heat: 1
-        Cold: 1
-        Shock: 1
-        Radiation: 1
-        Caustic: 1
-        Compression: 1
-        Psy: 1
-      coefficients:
-        Blunt: 0.90
-        Slash: 0.90
-        Piercing: 0.90
-        Heat: 0.90
-        Cold: 0.90
-        Shock: 0.90
-        Radiation: 0.90
-        Caustic: 0.90
-        Compression: 0.90
-        Psy: 0.90
+    clothingPrototype: Z14ClothingHeadHelmetYegerFreedom
 - type: entity
   parent: Z14ClothingHeadHelmetYeger
   id: Z14ClothingHeadHelmetYegerFreedom

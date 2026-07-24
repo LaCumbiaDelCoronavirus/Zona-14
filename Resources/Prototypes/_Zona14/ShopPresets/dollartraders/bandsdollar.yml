@@ -11,18 +11,12 @@
           # 7mm
         STWeaponShotgunSaiga12: 40
           # 5,45x39
-        Z14STWeaponRifleAK74M: 140
-        Z14STWeaponRifleGalil: 200
-        Z14STWeaponRifleASVAL: 500
-        Z14STWeaponRifleAK103: 300
-        Z14STWeaponRifleOC14: 150
         Z14StielhandgranateM24: 4
         Z14DG05SmokeGrenade: 2
         Z14HydrocyanicGrenadeStalker: 7
         Z14StielhandgranateM24Bundle: 10
         Z14PhosphorusGrenadeStalker: 20
         TrashDetectorTier4: 100
-        Z14STWeaponRifleStalkerRPK16: 1000
     - name: shop-category-magazines
       priority: 2
       items:
@@ -40,22 +34,19 @@
       priority: 3
       items:
         ShotgunFlechetteCink: 35
-        Z14545BPBoxCink: 100
-        Z14556M856BoxCink: 100
-        Z14739PCBoxCink: 120
-        939SP6BoxCink: 150
-        Z14751M61BoxCink: 120
+        Z14545BPBoxCink: 48600
+        Z14556M856BoxCink: 21000
+        Z14739PCBoxCink: 57600
+        Z14939SP6BoxCink: 13500
+        Z14751M61BoxCink: 36000
 
     - name: shop-category-armor
       priority: 4
       items:
-        Z14ClothingOuterArmorBandits: 20
-        Z14STClothingOuterArmorHeavyM: 300
         Z14ClothingHeadHelmetBerill5MMilitary: 30
         Z14ClothingHeadAssaultHelmetBandit: 45
         Z14ClothingHeadHelmetUlach: 80
         Z14STPsyHelm2: 20
-        Z14STClothingOuterArmorLightPlateVestBaseHeavyBandit: 300
         Z14ClothingHeadHelmet1SHBandit: 80
 
     - name: shop-category-storage-and-containers

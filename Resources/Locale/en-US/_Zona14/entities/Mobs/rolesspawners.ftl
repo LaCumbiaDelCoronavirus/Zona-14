@@ -50,10 +50,6 @@ ent-Z14MobStalkerMonolith = Monolith doll (rename me)
     .desc = NPC spawner
     .suffix = Z14
 
-ent-Z14MobStalkerProject = Project doll (rename me)
-    .desc = NPC spawner
-    .suffix = Z14
-
 ent-Z14MobStalkerRene = renegade doll (rename me)
     .desc = NPC spawner
     .suffix = Z14
@@ -72,10 +68,6 @@ ent-Z14MobStalkerSci_decan = dean puppet (rename me)
 
 ent-Z14MobStalkerSci_rector = rector puppet (rename me)
     .desc = { "" }
-    .suffix = Z14
-
-ent-Z14MobStalkerSeraphim = seraphim doll (rename me)
-    .desc = NPC spawner
     .suffix = Z14
 
 ent-Z14MobStalkerStalker = stalker doll (rename me)

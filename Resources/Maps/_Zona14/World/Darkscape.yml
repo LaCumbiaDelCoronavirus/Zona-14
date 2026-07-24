@@ -138444,7 +138444,7 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 113.5,-9.5
       parent: 1
-- proto: ClothingHeadAssaultHelmetDolg
+- proto: Z14ClothingHeadAssaultHelmetDolg
   entities:
   - uid: 24945
     components:
@@ -138454,7 +138454,7 @@ entities:
     missingComponents:
     - Item
     - Pullable
-- proto: ClothingHeadHatBeaniehat
+- proto: Z14ClothingHeadHatBeaniehat
   entities:
   - uid: 1418
     components:
@@ -138462,14 +138462,14 @@ entities:
       rot: -0.5235987755982988 rad
       pos: 223.66518,-72.28117
       parent: 1
-- proto: ClothingHeadHatMilitary
+- proto: Z14ClothingHeadHatMilitary
   entities:
   - uid: 1419
     components:
     - type: Transform
       pos: 227.35765,-72.311775
       parent: 1
-- proto: ClothingHeadHelmetBerill5MDolg
+- proto: Z14ClothingHeadHelmetBerill5MDolg
   entities:
   - uid: 24961
     components:
@@ -138479,7 +138479,7 @@ entities:
     missingComponents:
     - Item
     - Pullable
-- proto: ClothingHeadHelmetInfantryDolg
+- proto: Z14ClothingHeadHelmetInfantryDolg
   entities:
   - uid: 24963
     components:
@@ -138489,7 +138489,7 @@ entities:
     missingComponents:
     - Item
     - Pullable
-- proto: ClothingMaskGasDolg1
+- proto: Z14ClothingMaskGasDolg1
   entities:
   - uid: 24964
     components:
@@ -138506,7 +138506,7 @@ entities:
     missingComponents:
     - Item
     - Pullable
-- proto: ClothingOuterArmorDolgPS5M
+- proto: Z14ClothingOuterArmorDolgPS5M
   entities:
   - uid: 24958
     components:
@@ -138516,7 +138516,7 @@ entities:
     missingComponents:
     - Item
     - Pullable
-- proto: ClothingOuterArmorPSZ9D
+- proto: Z14ClothingOuterArmorPSZ9D
   entities:
   - uid: 24966
     components:
@@ -138526,7 +138526,7 @@ entities:
     missingComponents:
     - Item
     - Pullable
-- proto: ClothingOuterArmorRCBZDolg
+- proto: Z14ClothingOuterArmorRCBZDolg
   entities:
   - uid: 1136
     components:
@@ -138534,7 +138534,7 @@ entities:
       parent: 24962
     - type: Physics
       canCollide: False
-- proto: ClothingOuterArmorSevaDolgRed
+- proto: Z14ClothingOuterArmorSevaDolgRed
   entities:
   - uid: 24962
     components:
@@ -138562,7 +138562,7 @@ entities:
     missingComponents:
     - Item
     - Pullable
-- proto: ClothingOuterArmorZaryaDolg
+- proto: Z14ClothingOuterArmorZaryaDolg
   entities:
   - uid: 24944
     components:
@@ -251199,7 +251199,7 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 177.5,86.5
       parent: 1
-- proto: STClothingHeadTankHelm
+- proto: Z14STClothingHeadTankHelm
   entities:
   - uid: 22989
     components:
@@ -279339,7 +279339,7 @@ entities:
     - type: Transform
       pos: 221.5,84.5
       parent: 1
-- proto: STWeaponRifleAH12
+- proto: Z14STWeaponRifleAH12
   entities:
   - uid: 25060
     components:
@@ -279349,7 +279349,7 @@ entities:
     missingComponents:
     - Item
     - Pullable
-- proto: STWeaponRifleAK103
+- proto: Z14STWeaponRifleAK103
   entities:
   - uid: 1143
     components:
@@ -279372,7 +279372,7 @@ entities:
     - Item
     - ItemSlots
     - Pullable
-- proto: STWeaponRifleAK308
+- proto: Z14STWeaponRifleAK308
   entities:
   - uid: 25068
     components:
@@ -279408,7 +279408,7 @@ entities:
     missingComponents:
     - Item
     - Pullable
-- proto: STWeaponRifleAKMC
+- proto: Z14STWeaponRifleAKMC
   entities:
   - uid: 25061
     components:
@@ -279418,7 +279418,7 @@ entities:
     missingComponents:
     - Item
     - Pullable
-- proto: STWeaponRifleAKS74U
+- proto: Z14STWeaponRifleAKS74U
   entities:
   - uid: 28595
     components:
@@ -279434,7 +279434,7 @@ entities:
       rot: 1.3089969389957472 rad
       pos: 217.10645,90.03312
       parent: 1
-- proto: STWeaponSMGStalkerCP2Veresk
+- proto: Z14STWeaponSMGStalkerCP2Veresk
   entities:
   - uid: 428
     components:
@@ -295598,7 +295598,7 @@ entities:
     - type: Transform
       pos: 141.5,-86.5
       parent: 1
-- proto: WeaponPistolGSH18
+- proto: Z14WeaponPistolGSH18
   entities:
   - uid: 24473
     components:
@@ -295610,7 +295610,7 @@ entities:
     missingComponents:
     - Item
     - Pullable
-- proto: WeaponPistolStalkerPM
+- proto: Z14WeaponPistolStalkerPM
   entities:
   - uid: 1147
     components:

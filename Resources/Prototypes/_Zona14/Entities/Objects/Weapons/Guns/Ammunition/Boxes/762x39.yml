@@ -4,13 +4,13 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: Ammo Box (7.62x39) FMJ
-  description: For select Kalashnikov rifle models, 30 rounds per box. Penetrates class 3 armor.
+  description: For select Kalashnikov rifle models, 60 rounds per box. Penetrates class 3 armor.
   components:
   - type: MagazineVisuals
     magState: 76239ammo
   - type: BallisticAmmoProvider
-    capacity: 30
-    proto: STCartridge739FMJ
+    capacity: 60
+    proto: Z14STCartridge739FMJ
     whitelist:
       tags:
         - STCartridge739
@@ -27,10 +27,10 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: PS Ammo Box (7.62x39)
-  description: For select Kalashnikov rifle models, 30 rounds per box. Penetrates class 4 armor.
+  description: For select Kalashnikov rifle models, 60 rounds per box. Penetrates class 4 armor.
   components:
   - type: BallisticAmmoProvider
-    proto: STCartridge739PC
+    proto: Z14STCartridge739PC
   - type: Sprite
     layers:
     - state: 76239
@@ -45,10 +45,10 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: Ammo Box (7.62x39) HP
-  description: For select Kalashnikov rifle models, 30 rounds per box. Useless against armor.
+  description: For select Kalashnikov rifle models, 60 rounds per box. Useless against armor.
   components:
   - type: BallisticAmmoProvider
-    proto: STCartridge739HP
+    proto: Z14STCartridge739HP
   - type: Sprite
     layers:
     - state: 76239
@@ -63,10 +63,10 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: Ammo Box (7.62x39) BP
-  description: For select Kalashnikov rifle models, 30 rounds per box. Penetrates class 5 armor.
+  description: For select Kalashnikov rifle models, 60 rounds per box. Penetrates class 5 armor.
   components:
   - type: BallisticAmmoProvider
-    proto: STCartridge739BP
+    proto: Z14STCartridge739BP
   - type: Sprite
     layers:
     - state: 76239
@@ -81,11 +81,11 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: Large Ammo Box (7.62x39) FMJ
-  description: For select Kalashnikov rifle models, 300 rounds per crate. Penetrates class 3 armor.
+  description: For select Kalashnikov rifle models, 640 rounds per crate. Penetrates class 3 armor.
   components:
   - type: BallisticAmmoProvider
-    capacity: 300
-    proto: STCartridge739FMJ
+    capacity: 640
+    proto: Z14STCartridge739FMJ
     whitelist:
       tags:
         - STCartridge739
@@ -102,10 +102,10 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: Large Ammo Box (7.62x39) PS
-  description: For select Kalashnikov rifle models, 300 rounds per crate. Penetrates class 4 armor.
+  description: For select Kalashnikov rifle models, 640 rounds per crate. Penetrates class 4 armor.
   components:
   - type: BallisticAmmoProvider
-    proto: STCartridge739PC
+    proto: Z14STCartridge739PC
   - type: Sprite
     layers:
     - state: cink
@@ -119,10 +119,10 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: Large Ammo Box (7.62x39) HP
-  description: For select Kalashnikov rifle models, 300 rounds per crate. Useless against armor.
+  description: For select Kalashnikov rifle models, 640 rounds per crate. Useless against armor.
   components:
   - type: BallisticAmmoProvider
-    proto: STCartridge739HP
+    proto: Z14STCartridge739HP
   - type: Sprite
     layers:
     - state: cink
@@ -136,10 +136,10 @@
   suffix: Z14
   categories: [ Zona14 ]
   name: Large Ammo Box (7.62x39) BP
-  description: For select Kalashnikov rifle models, 300 rounds per crate. Penetrates class 5 armor.
+  description: For select Kalashnikov rifle models, 640 rounds per crate. Penetrates class 5 armor.
   components:
   - type: BallisticAmmoProvider
-    proto: STCartridge739BP
+    proto: Z14STCartridge739BP
   - type: Sprite
     layers:
     - state: cink

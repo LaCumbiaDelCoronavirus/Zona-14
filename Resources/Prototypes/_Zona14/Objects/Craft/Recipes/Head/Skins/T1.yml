@@ -1,40 +1,40 @@
 - type: lightCraftingRecipe
   id: Z14STCraftSkinSTCraftSkinClothingHeadHelmetDolg
   results:
-    - ClothingHeadHelmetDolg
+    - Z14ClothingHeadHelmetDolg
   steps:
     firstIngredient: STSkinsKitDolg
-    secondIngredient: ClothingHeadHelmetLight
+    secondIngredient: Z14ClothingHeadHelmetLight
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinSTCraftSkinClothingHeadMercLight
   results:
-    - ClothingHeadMercLight
+    - Z14ClothingHeadMercLight
   steps:
     firstIngredient: STSkinsKitMercenary
-    secondIngredient: ClothingHeadHelmetLight
+    secondIngredient: Z14ClothingHeadHelmetLight
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingHeadHelmetLightDeserters
   results:
-    - ClothingHeadHelmetLightDeserters
+    - Z14ClothingHeadHelmetLightDeserters
   steps:
     firstIngredient: STSkinsKitDeserters
-    secondIngredient: ClothingHeadHelmetLight
+    secondIngredient: Z14ClothingHeadHelmetLight
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingHeadHelmetLightProject
   results:
-  - ClothingHeadHelmetLightProject
+  - Z14ClothingHeadHelmetLightProject
   steps:
     firstIngredient: STSkinsKitProject
-    secondIngredient: ClothingHeadHelmetLight
+    secondIngredient: Z14ClothingHeadHelmetLight
     keepFirst: true
     time: 5
 
@@ -42,19 +42,19 @@
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingHeadHelmetSH6Renegate
   results:
-    - ClothingHeadHelmetSH6Renegate
+    - Z14ClothingHeadHelmetSH6Renegate
   steps:
     firstIngredient: STSkinsKitRenegate
-    secondIngredient: ClothingHeadHelmetSH68
+    secondIngredient: Z14ClothingHeadHelmetSH68
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingHeadHelmetSH68Band
   results:
-    - ClothingHeadHelmetSH68Band
+    - Z14ClothingHeadHelmetSH68Band
   steps:
     firstIngredient: STSkinsKitBandits
-    secondIngredient: ClothingHeadHelmetLight
+    secondIngredient: Z14ClothingHeadHelmetLight
     keepFirst: true
     time: 5

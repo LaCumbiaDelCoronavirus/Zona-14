@@ -6,7 +6,7 @@
   parent: BaseCartridge556
   components:
   - type: CartridgeAmmo
-    proto: Bullet556FMJ
+    proto: Z14Bullet556FMJ
 
 - type: entity
   id: Z14Cartridge556M855
@@ -16,7 +16,7 @@
   parent: BaseCartridge556
   components:
   - type: CartridgeAmmo
-    proto: Bullet556M855
+    proto: Z14Bullet556M855
 
 - type: entity
   id: Z14Cartridge556M856
@@ -26,7 +26,7 @@
   parent: BaseCartridge556
   components:
   - type: CartridgeAmmo
-    proto: Bullet556M856
+    proto: Z14Bullet556M856
 
 - type: entity
   id: Z14Cartridge556Warmag
@@ -36,7 +36,7 @@
   parent: BaseCartridge556
   components:
   - type: CartridgeAmmo
-    proto: Bullet556Warmag
+    proto: Z14Bullet556Warmag
 
 - type: entity
   id: Z14Cartridge556M995
@@ -46,7 +46,7 @@
   parent: BaseCartridge556
   components:
   - type: CartridgeAmmo
-    proto: Bullet556M995
+    proto: Z14Bullet556M995
 
 - type: entity
   id: Z14Cartridge556SSAAP
@@ -56,4 +56,4 @@
   parent: BaseCartridge556
   components:
   - type: CartridgeAmmo
-    proto: Bullet556SSAAP
+    proto: Z14Bullet556SSAAP

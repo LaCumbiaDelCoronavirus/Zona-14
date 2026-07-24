@@ -244709,7 +244709,7 @@ entities:
     - type: Transform
       pos: -71.17353,64.52353
       parent: 1
-- proto: ClothingHeadBear
+- proto: Z14ClothingHeadBear
   entities:
   - uid: 1382
     components:
@@ -244739,7 +244739,7 @@ entities:
     - Pullable
     - DamageExaminable
     - Currency
-- proto: ClothingMaskGasDolg1
+- proto: Z14ClothingMaskGasDolg1
   entities:
   - uid: 1383
     components:
@@ -244809,7 +244809,7 @@ entities:
     - DamageExaminable
     - Currency
     - STWeight
-- proto: ClothingMaskGasDolg2
+- proto: Z14ClothingMaskGasDolg2
   entities:
   - uid: 1385
     components:
@@ -244844,7 +244844,7 @@ entities:
     - DamageExaminable
     - Currency
     - STWeight
-- proto: ClothingMaskGasZaryaMono
+- proto: Z14ClothingMaskGasZaryaMono
   entities:
   - uid: 1386
     components:
@@ -244883,7 +244883,7 @@ entities:
     - DamageExaminable
     - Currency
     - STWeight
-- proto: ClothingOuterArmorDolgPS5M
+- proto: Z14ClothingOuterArmorDolgPS5M
   entities:
   - uid: 1387
     components:
@@ -244920,7 +244920,7 @@ entities:
     - DamageExaminable
     - Currency
     - AllowSuitStorage
-- proto: ClothingOuterArmorExoskelet
+- proto: Z14ClothingOuterArmorExoskelet
   entities:
   - uid: 1388
     components:
@@ -244961,7 +244961,7 @@ entities:
     - DamageExaminable
     - Currency
     - AllowSuitStorage
-- proto: ClothingOuterArmorSevaDolgRed
+- proto: Z14ClothingOuterArmorSevaDolgRed
   entities:
   - uid: 1389
     components:
@@ -244999,7 +244999,7 @@ entities:
     - DamageExaminable
     - Currency
     - AllowSuitStorage
-- proto: ClothingOuterArmorZaryaDolg
+- proto: Z14ClothingOuterArmorZaryaDolg
   entities:
   - uid: 1390
     components:
@@ -245036,7 +245036,7 @@ entities:
     - DamageExaminable
     - Currency
     - AllowSuitStorage
-- proto: ClothingOuterArmorZaryaStalker
+- proto: Z14ClothingOuterArmorZaryaStalker
   entities:
   - uid: 28818
     components:
@@ -350481,14 +350481,14 @@ entities:
       rot: 3.141592653589793 rad
       pos: -157.5,203.5
       parent: 1
-- proto: STClothingHeadBeretDolg
+- proto: Z14STClothingHeadBeretDolg
   entities:
   - uid: 18536
     components:
     - type: Transform
       pos: -10.539477,139.43486
       parent: 1
-- proto: STClothingHeadHatFoma
+- proto: Z14STClothingHeadHatFoma
   entities:
   - uid: 18537
     components:
@@ -370318,7 +370318,7 @@ entities:
     - type: Transform
       pos: -124.5,99.5
       parent: 1
-- proto: STWeaponRifleAKS74
+- proto: Z14STWeaponRifleAKS74
   entities:
   - uid: 22437
     components:
@@ -370360,7 +370360,7 @@ entities:
     - Animateable
     - GravityAffected
     - Currency
-- proto: STWeaponRifleAKS74Green
+- proto: Z14STWeaponRifleAKS74Green
   entities:
   - uid: 22438
     components:
@@ -370473,7 +370473,7 @@ entities:
     - Animateable
     - GravityAffected
     - Currency
-- proto: STWeaponRifleAKS74U
+- proto: Z14STWeaponRifleAKS74U
   entities:
   - uid: 22441
     components:
@@ -370516,7 +370516,7 @@ entities:
     - Animateable
     - GravityAffected
     - Currency
-- proto: STWeaponSniperSKS
+- proto: Z14STWeaponSniperSKS
   entities:
   - uid: 22442
     components:

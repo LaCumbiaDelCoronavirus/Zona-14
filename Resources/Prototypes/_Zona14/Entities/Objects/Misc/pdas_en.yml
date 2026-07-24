@@ -39,7 +39,7 @@
       dogtag_slot:
         name: Stalker PDA
         priority: 1
-#        startingItem: ClothingNeckDogtagBrigand
+#        startingItem: Z14ClothingNeckDogtagBrigand
         whitelist:
           tags:
           - Dogtag
@@ -146,7 +146,7 @@
       dogtag_slot:
         name: Stalker PDA
         priority: 1
-#        startingItem: ClothingNeckDogtagOfficial
+#        startingItem: Z14ClothingNeckDogtagOfficial
         whitelist:
           tags:
           - Dogtag

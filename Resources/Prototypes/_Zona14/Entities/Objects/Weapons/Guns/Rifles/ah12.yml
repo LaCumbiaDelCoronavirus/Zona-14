@@ -33,7 +33,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: AS12Mag
+        startingItem: Z14AS12Mag
         insertSound: /Audio/_Stalker/Weapons/Guns/RifleGen/MagIn/rifle_magin.ogg
         ejectSound: /Audio/_Stalker/Weapons/Guns/RifleGen/MagOut/rifle_magout.ogg
         priority: 4
@@ -49,13 +49,13 @@
       gun_module_scope:
         name: Scope
         priority: 2
-        startingItem: STModuleScopeRiflesT1Ru
+        startingItem: Z14STModuleScopeRiflesT1Ru
         whitelist:
           tags:
           - STWeaponModuleRifleScopeRu
       gun_chamber:
         name: Chamber
-        startingItem: STCartridge1255BP
+        startingItem: Z14STCartridge1255BP
         priority: 1
         whitelist:
           tags:

@@ -1,19 +1,19 @@
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingCloakT3KevlarSeraphim
   results:
-    - ClothingOuterCoatSeraphim
+    - Z14ClothingOuterCoatSeraphim
   steps:
     firstIngredient: STSkinsKitSeraphim
-    secondIngredient: ClothingOuterCoatLoyalist
+    secondIngredient: Z14ClothingOuterCoatLoyalist
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingCloakT3KevlarMonolith
   results:
-    - ClothingOuterCoatKevlarMonolith
+    - Z14ClothingOuterCoatKevlarMonolith
   steps:
     firstIngredient: STSkinsKitMonolith
-    secondIngredient: ClothingOuterCoatLoyalist
+    secondIngredient: Z14ClothingOuterCoatLoyalist
     keepFirst: true
     time: 5

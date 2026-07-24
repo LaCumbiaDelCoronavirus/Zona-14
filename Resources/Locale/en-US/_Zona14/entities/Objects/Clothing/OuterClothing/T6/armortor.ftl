@@ -1,3 +1,3 @@
 ent-Z14STClothingOuterHeavyTor = Heavy "Thor" Body Armor
-    .desc = Type VI heavy body armor providing maximum protection from all types of damage.
+    .desc = Heavy assault plate carrier. The plates are the point; mobility is not.
     .suffix = Z14

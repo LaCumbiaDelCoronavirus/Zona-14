@@ -165,30 +165,70 @@
     - name: shop-category-weapons
       priority: 1
       items:
+
+        Z14STWeaponShotgunSawedOf: 1250
+
+        Z14STBaseWeaponShotgunTOZ106: 1250
+
+        Z14WeaponPistolStalkerLP08: 500
+
+        Z14WeaponPistolStalkerPMModifed: 1250
+
+        Z14WeaponPistolStalkerAPSHugo: 500
+
+        Z14STWeaponSMGVZ61: 500
+
+        Z14STWeaponShotgunMP155T: 1250
+
+        Z14STWeaponShotgunTOZ54: 1250
+
+        Z14WeaponStalkerPistolTec9: 1250
+
+        Z14STWeaponSMGFNP90: 1250
+
+        Z14STWeaponSMGOTS126: 1250
+
+        Z14STWeaponSMGPP19919: 1250
+
+        Z14STWeaponSMGPP2000: 1250
+
+        Z14STWeaponSMGVector9: 1250
+
+        Z14STWeaponSMGVector9Black: 1250
+
+        Z14STWeaponSMGVector9Forest: 1250
+
+        Z14STWeaponShotgunCompact: 1250
+
+        Z14STWeaponRevolverChiappaRhino60DS: 1250
+
+        Z14STWeaponRevolverDanWesson715: 1250
+
+        Z14STWeaponRevolverRH12: 1250
+
+        Z14STWeaponRevolverRugerRedhawk: 1250
+
+        Z14STWeaponRevolverSWModel625: 1250
+
+        Z14STWeaponRevolverTaurusJudge: 1250
+
+        Z14STWeaponRevolverTaurusTracker455: 1250
         # Melee
         Z14StalkerBallBat: 50
         STThrowingknifeBlue: 250
         # Shotguns
-        STWeaponShotgunTOZ34: 250 # T1
-        STWeaponShotgunMP133: 500 # T2
-        STWeaponShotgunMP153: 1700 # T2
+        Z14STWeaponShotgunTOZ34: 250 # T2
         # Pistols
         Z14WeaponPistolStalkerPM: 50 #T1
         Z14WeaponPistolStalkerTT: 50 #T1
-        STWeaponRevolverSWModel325: 500
+        Z14STWeaponRevolverSWModel325: 500
         Z14WeaponPistolStalkerAPS: 900 #T2
-        STWeaponRevolverSWPC325TR: 1000
+        Z14STWeaponRevolverSWPC325TR: 1000
         # SMGs
         Z14STWeaponSMGMP40: 1000
         Z14STWeaponSMGPPSh41: 2500
         Z14STWeaponSMGPP91: 3000
-        # Rifles
-        Z14STWeaponRifleSaiga545: 1750 # T3
-        Z14STWeaponRifleAKS74U: 2000
-        Z14STWeaponRifleAKS74: 4200
         # Snipers
-        Z14STWeaponSniperSKS: 1850 # T2
-        Z14STWeaponSniperMosin: 1500
 
     - name: shop-category-magazines
       priority: 2
@@ -215,28 +255,28 @@
         7mmBuckshotBox: 50 # T0
         6mmBuckshotBox: 275 # T1
         # 5.45
-        Z14545FMJBox: 700 # T2
-        Z14545HPBox: 500 # Mutant
+        Z14545FMJBox: 1200 # T2
+        Z14545HPBox: 1200 # Mutant
         # 7.39
-        Z14739HPBox: 750 # Mutant
+        Z14739HPBox: 2400 # Mutant
         # 7.54
-        Z14754HPBox: 850 # Mutant
+        Z14754HPBox: 800 # Mutant
         # 9.18
-        Z14918PGJBox: 80 # T1
-        Z14918PSTBox: 245 # T2
-        Z14918SP7Box: 625 # Mutant
+        Z14918PGJBox: 250 # T1
+        Z14918PSTBox: 450 # T2
+        Z14918SP7Box: 250 # Mutant
         # 9.19
-        Z14919PSOGJBox: 100 # T1
-        Z14919PSTBox: 265 # T2
-        Z14919RIPBox: 625 # Mutant
+        Z14919PSOGJBox: 500 # T1
+        Z14919PSTBox: 900 # T2
+        Z14919RIPBox: 500 # Mutant
         # 7.25
-        Z14725PBox: 100 # T1
-        Z14725LRNPCBox: 625 # Mutant
-        Z14725PTBox: 465 # T2
+        Z14725PBox: 250 # T1
+        Z14725LRNPCBox: 250 # Mutant
+        Z14725PTBox: 450 # T2
         # .45
-        Z1445ACPLFMJBox: 100 # T1
-        Z1445ACPRIPBox: 675 # Mutant
-        Z1445ACPMFMJBox: 275 # T2
+        Z1445ACPLFMJBox: 500 # T1
+        Z1445ACPRIPBox: 500 # Mutant
+        Z1445ACPMFMJBox: 500 # T2
 
     - name: shop-category-medicine
       priority: 4
@@ -291,11 +331,10 @@
         Z14STClothingOuterArmorLightPlateVestBaseStalker: 1250 # T2 - PvP
         SetArmourJacketNoviceBrezentBuyableCrate: 1500 # T2 - PvP
         SetArmourJacketNoviceWhiteBuyableCrate: 1500 # T2 - PvP
-        Z14ClothingOuterArmor6B2: 2000
-        Z14STClothingOuterArmorRCBZ: 1800 # T2 - ENV
-        Z14ClothingOuterArmorZaryaStalker: 2000 # T2 - PVE
+        Z14ClothingOuterArmor6B2: 1250
+        Z14STClothingOuterArmorRCBZ: 1250 # T2 - ENV
+        Z14ClothingOuterArmorZaryaStalker: 1250 # T2 - PVE
         SetZaryaStalkerBuyableCrate: 3300 # T2 - ENV
-        Z14ClothingOuterArmorSevaStalker: 5000 # T3 - ENV
 
     - name: shop-category-storage-and-containers
       priority: 7
@@ -434,8 +473,6 @@
         # HANDS
         ClothingHandsGlovesFingerless: 30
         ClothingHandsGlovesMercFingerless: 60
-        # OUTERCLOTHING
-        # CLOAK
         # LEGS
         Z14ClothingLegsJeansBlue: 10
         Z14ClothingLegsJeansStalker: 10
@@ -484,9 +521,9 @@
     - name: shop-category-blueprints
       priority: 13
       items:
-        STDetectorAD1Blueprint: 2000
+        Z14STDetectorAD1Blueprint: 2000
         STZoneArtifactDetectorBushBlueprint: 4000
         STZoneArtifactDetectorResponseBlueprint: 8000
         DetectorVelesBlueprint: 12000
         STClothingOuterJacketStalkerUpgradeBlueprint: 2000
-        ClothingOuterAnomalyStalkerJacketBlueprint: 2000
+        Z14ClothingOuterAnomalyStalkerJacketBlueprint: 2000

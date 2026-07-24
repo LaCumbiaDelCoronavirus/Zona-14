@@ -133,28 +133,33 @@
     - name: shop-category-weapons
       priority: 1
       items:
+        Z14STWeaponShotgunSawedOf: 1250
+        Z14STBaseWeaponShotgunTOZ106: 1250
+        Z14WeaponPistolStalkerLP08: 500
+        Z14WeaponPistolStalkerPMModifed: 1250
+        Z14STWeaponRevolverChiappaRhino60DS: 1250
+        Z14STWeaponRevolverDanWesson715: 1250
+        Z14STWeaponRevolverRH12: 1250
+        Z14STWeaponRevolverRugerRedhawk: 1250
+        Z14STWeaponRevolverSWModel325: 1250
+        Z14STWeaponRevolverSWModel625: 1250
+        Z14STWeaponRevolverTaurusJudge: 1250
+        Z14STWeaponRevolverTaurusTracker455: 1250
         # Melee
         Z14StalkerBallBat: 50
         # Pistols
         Z14WeaponPistolStalkerTT: 250
         Z14WeaponPistolStalkerAPS: 500
-        STWeaponRevolverSWPC325TR: 700
+        Z14STWeaponRevolverSWPC325TR: 700
         # Shotguns
-        STWeaponShotgunTOZ34: 100 # T2
+        Z14STWeaponShotgunTOZ34: 100 # T2
         STWeaponShotgunMossbergM88: 500 # T2
         STWeaponShotgunMP153: 1000 # T3
-        # Rifles
-        Z14STWeaponRifleSaiga545: 1200
-        Z14STWeaponRifleAKS74U: 2000
-        Z14STWeaponRifleL85: 3000
-        Z14STWeaponRifleAKS74: 3000
         # SMGs
         Z14STWeaponSMGMP5: 2000
         Z14STWeaponSMGMP40: 500
         Z14STWeaponSMGPP19: 3000
         # Snipers
-        Z14STWeaponSniperMosin: 1000
-        Z14STWeaponSniperSKS: 1500
 
     - name: shop-category-magazines
       priority: 2
@@ -186,39 +191,39 @@
         7mmBuckshotBox: 75 # T0
         8mmBuckshotBox: 800 # T2
         # 7.25
-        Z14725PBox: 90 # T1
-        Z14725LRNPCBox: 625 # Mutant
-        Z14725PTBox: 200 # T2
-        Z14725PSTBox: 1450 # T3
+        Z14725PBox: 150 # T1
+        Z14725LRNPCBox: 150 # Mutant
+        Z14725PTBox: 270 # T2
+        Z14725PSTBox: 270 # T3
         # 9.19
-        Z14919PSOGJBox: 100 # T1
-        Z14919PSTBox: 500 # T2
-        Z14919PBMBox: 1450 # T3
-        Z14919RIPBox: 625 # Mutant
+        Z14919PSOGJBox: 300 # T1
+        Z14919PSTBox: 540 # T2
+        Z14919PBMBox: 540 # T3
+        Z14919RIPBox: 300 # Mutant
         # 9.18
-        Z14918PGJBox: 100 # T1
-        Z14918PSTBox: 500 # T2
-        Z14918PBMBox: 1450 # T3
-        Z14918SP7Box: 625 # Mutant
+        Z14918PGJBox: 150 # T1
+        Z14918PSTBox: 270 # T2
+        Z14918PBMBox: 270 # T3
+        Z14918SP7Box: 150 # Mutant
         # 5.45
-        Z14545FMJBox: 500 # T2
-        Z14545HPBox: 725 # Mutant
-        Z14545PCBox: 1650 # T3
+        Z14545FMJBox: 1440 # T2
+        Z14545HPBox: 1440 # Mutant
+        Z14545PCBox: 2590 # T3
         # 5.56
-        Z14556FMJBox: 500 # T2
-        Z14556WarmagBox: 725 # Mutant
-        Z14556M855Box: 1650 # T3
+        Z14556FMJBox: 1440 # T2
+        Z14556WarmagBox: 1440 # Mutant
+        Z14556M855Box: 1440 # T3
         # 7.39
-        Z14739HPBox: 850 # Mutant
-        Z14739FMJBox: 1950 # T3
+        Z14739HPBox: 2880 # Mutant
+        Z14739FMJBox: 2880 # T3
         # 7.54
-        Z14754FMJBox: 2500 # T3
-        Z14754HPBox: 1350 # Mutant
+        Z14754FMJBox: 960 # T3
+        Z14754HPBox: 960 # Mutant
         # .45
-        Z1445ACPLFMJBox: 110 # T1
-        Z1445ACPMFMJBox: 550 # T2
-        Z1445ACPAPBox: 1550 # T3
-        Z1445ACPRIPBox: 750 # Mutant
+        Z1445ACPLFMJBox: 300 # T1
+        Z1445ACPMFMJBox: 300 # T2
+        Z1445ACPAPBox: 540 # T3
+        Z1445ACPRIPBox: 300 # Mutant
 
     - name: shop-category-medicine # 50% discount from stalkers
       priority: 4
@@ -263,15 +268,14 @@
         Z14ClothingHeadHelmetVityaz1B: 3500 # T3 - PVE
         Z14ClothingHeadAssaultHelmetBandit: 3000 # T3 - PVP
           # OuterClothing #
-        Z14ClothingOuterCoatBanditBrown: 550 # T1 - uni
-        Z14ClothingOuterCoatBanditBlack: 550 # T1 - uni
-        Z14STClothingOuterArmorLightPlateVestBaseBand: 1000 # T2 - PvP
+        Z14ClothingOuterCoatBanditBrown: 500 # T1 - uni
+        Z14ClothingOuterCoatBanditBlack: 500 # T1 - uni
+        Z14STClothingOuterArmorLightPlateVestBaseBand: 1250 # T2 - PvP
         SetArmoutJacketBanditBuyableCrate: 1025 # T2 - PvP
-        Z14ClothingOuterArmourCoatBanditBrown: 1050 # T2 - PvP
-        Z14ClothingOuterArmourCoatBanditBlack: 1050 # T2 - PvP
-        Z14STClothingOuterArmorBandits: 2000 #T2
-        Z14STClothingOuterArmorRCBZ: 2000
-        Z14ClothingOuterArmorBandits: 13000 #T3
+        Z14ClothingOuterArmourCoatBanditBrown: 500 # T2 - PvP
+        Z14ClothingOuterArmourCoatBanditBlack: 500 # T2 - PvP
+        Z14STClothingOuterArmorBandits: 1250 #T2
+        Z14STClothingOuterArmorRCBZ: 1250
 
     - name: shop-category-storage-and-containers
       priority: 7
@@ -403,7 +407,6 @@
         Z14ClothingMaskNeckBalaklava3: 10
         # faction
         Z14ClothingMaskSkull: 100
-        # NECK
         # faction
         Z14ClothingNeckScarfBandit: 100
         # TORSO
@@ -427,8 +430,6 @@
         Z14ClothingTorsoJacketAdidasRed: 5
         # HANDS
         ClothingHandsGlovesFingerless: 30
-        # OUTERCLOTHING
-        # CLOAK
         # LEGS
         Z14ClothingLegsJeansBlue: 10
         Z14ClothingLegsJeansStalker: 10

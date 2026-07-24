@@ -1,89 +1,89 @@
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingOuterArmorRenegate
   results:
-    - ClothingOuterArmorRenegate
+    - Z14ClothingOuterArmorRenegate
   steps:
     firstIngredient: STSkinsKitRenegate
-    secondIngredient: ClothingOuterArmorStalker
+    secondIngredient: Z14ClothingOuterArmorStalker
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingOuterArmorBandits
   results:
-    - ClothingOuterArmorBandits
+    - Z14ClothingOuterArmorBandits
   steps:
     firstIngredient: STSkinsKitBandits
-    secondIngredient: ClothingOuterArmorStalker
+    secondIngredient: Z14ClothingOuterArmorStalker
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingOuterArmorCN3a
   results:
-    - ClothingOuterArmorCN3a
+    - Z14ClothingOuterArmorCN3a
   steps:
     firstIngredient: STSkinsKitClearSky
-    secondIngredient: ClothingOuterArmorStalker
+    secondIngredient: Z14ClothingOuterArmorStalker
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingOuterArmorDeserter
   results:
-    - ClothingOuterArmorDeserter
+    - Z14ClothingOuterArmorDeserter
   steps:
     firstIngredient: STSkinsKitDeserters
-    secondIngredient: ClothingOuterArmorStalker
+    secondIngredient: Z14ClothingOuterArmorStalker
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingOuterArmorFreedomDefender
   results:
-    - ClothingOuterArmorFreedomDefender
+    - Z14ClothingOuterArmorFreedomDefender
   steps:
     firstIngredient: STSkinsKitFreedom
-    secondIngredient: ClothingOuterArmorStalker
+    secondIngredient: Z14ClothingOuterArmorStalker
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingOuterArmorJaba
   results:
-    - ClothingOuterArmorJaba
+    - Z14ClothingOuterArmorJaba
   steps:
     firstIngredient: STSkinsKitJabs
-    secondIngredient: ClothingOuterArmorStalker
+    secondIngredient: Z14ClothingOuterArmorStalker
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingOuterArmorMerc
   results:
-    - ClothingOuterArmorMerc
+    - Z14ClothingOuterArmorMerc
   steps:
     firstIngredient: STSkinsKitMercenary
-    secondIngredient: ClothingOuterArmorStalker
+    secondIngredient: Z14ClothingOuterArmorStalker
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingOuterArmorMonolith
   results:
-    - ClothingOuterArmorMonolith
+    - Z14ClothingOuterArmorMonolith
   steps:
     firstIngredient: STSkinsKitMonolith
-    secondIngredient: ClothingOuterArmorStalker
+    secondIngredient: Z14ClothingOuterArmorStalker
     keepFirst: true
     time: 5
 
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingOuterArmorPilgrim
   results:
-    - ClothingOuterArmorPilgrim
+    - Z14ClothingOuterArmorPilgrim
   steps:
     firstIngredient: STSkinsKitPilgrim
-    secondIngredient: ClothingOuterArmorStalker
+    secondIngredient: Z14ClothingOuterArmorStalker
     keepFirst: true
     time: 5

@@ -1,9 +1,9 @@
 - type: lightCraftingRecipe
   id: Z14STCraftSkinClothingOuterArmorAborigineFreedom
   results:
-    - ClothingOuterArmorAborigineFreedom
+    - Z14ClothingOuterArmorAborigineFreedom
   steps:
     firstIngredient: STSkinsKitFreedom
-    secondIngredient: ClothingOuterArmorAborigineStalker
+    secondIngredient: Z14ClothingOuterArmorAborigineStalker
     keepFirst: true
     time: 5
