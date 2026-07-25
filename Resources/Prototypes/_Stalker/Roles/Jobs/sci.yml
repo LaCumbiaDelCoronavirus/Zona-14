@@ -70,7 +70,7 @@
           - Sci
       - type: Bands
         band: Stalker
-        bandIcon: ecologists
+        bandIcon: sci # Zona 14: changes the sci icon to a better one
         bandProto: STSciBand
         bandRankId: 2
       - type: BlockTackingHolyItems
@@ -93,7 +93,7 @@
   id: sci_decan
   displayWeight: 2
   name: job-sci_decan
-  icon: sci
+  icon: sci_decan # Zona 14: changes the sci icon to a better one
   description: job-sci_decan-desc
   playTimeTracker: Jobsci_decan
   whitelisted: true
@@ -105,7 +105,7 @@
       species:
       - Human
       - Dwarf
-  startingGear: SciGear2
+  startingGear: SciGear # Zona 14: changes the startingGear to match with the role
   supervisors: job-scientist-supervisor
   canBeAntag: false
   special:
@@ -139,7 +139,7 @@
   id: sci_rector
   displayWeight: 3
   name: job-sci_rector
-  icon: sci
+  icon: sci_rector # Zona 14: changes the sci icon to a better one
   description: job-sci_rector-desc
   playTimeTracker: JobSci_rector
   whitelisted: true
@@ -151,7 +151,7 @@
       species:
       - Human
       - Dwarf
-  startingGear: SciGear3
+  startingGear: SciGear2 # Zona 14: changes the startingGear to match with the role
   supervisors: job-scientist-supervisor
   canBeAntag: false
   special:
@@ -202,10 +202,12 @@
   id: SciGear2
   equipment:
     id: ScientistPDA
-    legs: ClothingLegsJeansSandCargo
-    shoes: STClothingShoesBootsCombatFilled
-    torso: ClothingTorsoShirtWhiteScientific
-    outerClothing: ClothingOuterCoatLabSeniorResearcher
+    dogtag: ClothingNeckDogtagEcoLeader # EN # Zona 14: added DogtagEcoLeader
+    # Zona14: Removed the unnecessary clothes that spawn along with starting equipments
+    #legs: ClothingLegsJeansSandCargo
+    #shoes: STClothingShoesBootsCombatFilled
+    #torso: ClothingTorsoShirtWhiteScientific
+    #outerClothing: ClothingOuterCoatLabSeniorResearcher
     head: ClothingHeadHatBeretRND
     gloves: ClothingHandsGlovesNitrile
 
@@ -218,15 +220,15 @@
   # hierarchy:
      # 1: sci_decan
 
-
-- type: startingGear
-  id: SciGear3
-  equipment:
-    id: ScientistPDA
-    dogtag: ClothingNeckDogtagEcoLeader # EN
-    outerClothing: ClothingOuterCoatRD
-    head: ClothingHeadBeretUN
-    gloves: ClothingHandsGlovesNitrile
+# Zona14: Disabled SciGear3 and replace it with SciGear2 for Eco Leader instead
+#- type: startingGear
+#  id: SciGear3
+#  equipment:
+#    id: ScientistPDA
+#    dogtag: ClothingNeckDogtagEcoLeader # EN
+#    outerClothing: ClothingOuterCoatRD
+#    head: ClothingHeadBeretUN
+#    gloves: ClothingHandsGlovesNitrile
 
 # - type: stBand # Stalker-TODO: Why not combine them all under "STSciBand" band prototype? Also, factionId "ScientistsRector" does not exist!
   # id: STSciRectorBand

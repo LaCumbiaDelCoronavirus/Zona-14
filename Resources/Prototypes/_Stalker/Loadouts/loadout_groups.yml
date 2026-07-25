@@ -17,8 +17,9 @@
   - STlegsClothingLegsJeansBlackCargo
   - STlegsClothingLegsJeansBrownCargo
   - STlegsClothingLegsJeansSandCargo
-  - STlegsClothingLegsJeansUa
-  - STlegsClothingLegsJeansUa2
+  # Zona 14: Disabled Ukrainian Army Pants
+  #- STlegsClothingLegsJeansUa
+  #- STlegsClothingLegsJeansUa2
   - STlegsSTClothingLegsPantsGray
   - STlegsClothingLegsBattlePantsBlack
   - STlegsClothingLegsVeryBlueJenas
@@ -47,8 +48,9 @@
   - STlegsClothingLegsJeansBlackCargo
   - STlegsClothingLegsJeansBrownCargo
   - STlegsClothingLegsJeansSandCargo
-  - STlegsClothingLegsJeansUa
-  - STlegsClothingLegsJeansUa2
+  # Zona 14: Disabled Ukrainian Army Pants
+  #- STlegsClothingLegsJeansUa
+  #- STlegsClothingLegsJeansUa2
   - STlegsSTClothingLegsPantsGray
   - STlegsClothingLegsBattlePantsBlack
   - STlegsClothingLegsVeryBlueJenas
@@ -86,9 +88,10 @@
   - STTorsoClothingTorsoTurtlenecksGorka6
   - STTorsoClothingTorsoTurtlenecksBereza
   - STTorsoClothingTorsoTurtlenecksGorkaRus
-  - STTorsoClothingTorsoTurtlenecksUN
-  - STTorsoClothingTorsoTurtlenecksUa
-  - STTorsoClothingTorsoTurtlenecksUa2
+  # Zona 14: Disabled UN and Ukrainian shirts
+  #- STTorsoClothingTorsoTurtlenecksUN 
+  #- STTorsoClothingTorsoTurtlenecksUa
+  #- STTorsoClothingTorsoTurtlenecksUa2
   - STTorsoClothingTorsoTurtlenecksBattleTurtleneckbBlack
   - STTorsoClothingTorsoTurtlenecksBlackTurtleneck
   - STTorsoClothingTorsoTurtlenecksCombatForest
@@ -96,12 +99,13 @@
   - STTorsoClothingTorsoTurtlenecksGorka6B
   - STTorsoClothingTorsoTurtlenecksKhakiTurtleneck
   - STTorsoClothingTorsoTurtlenecksMatrosska
-  - STTorsoSTClothingTosroTurtlenecksCZ
-  - STTorsoSTClothingTosroTurtlenecksFr
-  - STTorsoSTClothingTosroTurtlenecksKz
-  - STTorsoSTClothingTosroTurtlenecksLit
-  - STTorsoSTClothingTosroTurtlenecksPol
-  - STTorsoSTClothingTosroTurtlenecksRu
+  # Zona 14: Disabled all of the foreign army shirts
+  #- STTorsoSTClothingTosroTurtlenecksCZ
+  #- STTorsoSTClothingTosroTurtlenecksFr
+  #- STTorsoSTClothingTosroTurtlenecksKz
+  #- STTorsoSTClothingTosroTurtlenecksLit
+  #- STTorsoSTClothingTosroTurtlenecksPol
+  #- STTorsoSTClothingTosroTurtlenecksRu
 
 - type: loadoutGroup
   id: STTorsoGroup
@@ -119,9 +123,10 @@
   - STTorsoClothingTorsoTurtlenecksGorka6
   - STTorsoClothingTorsoTurtlenecksBereza
   - STTorsoClothingTorsoTurtlenecksGorkaRus
-  - STTorsoClothingTorsoTurtlenecksUN
-  - STTorsoClothingTorsoTurtlenecksUa
-  - STTorsoClothingTorsoTurtlenecksUa2
+  # Zona 14: Disabled UN and Ukrainian shirts
+  #- STTorsoClothingTorsoTurtlenecksUN
+  #- STTorsoClothingTorsoTurtlenecksUa
+  #- STTorsoClothingTorsoTurtlenecksUa2
   - STTorsoClothingTorsoTurtlenecksBattleTurtleneckbBlack
   - STTorsoClothingTorsoTurtlenecksBlackTurtleneck
   - STTorsoClothingTorsoTurtlenecksCombatForest
@@ -129,12 +134,13 @@
   - STTorsoClothingTorsoTurtlenecksGorka6B
   - STTorsoClothingTorsoTurtlenecksKhakiTurtleneck
   - STTorsoClothingTorsoTurtlenecksMatrosska
-  - STTorsoSTClothingTosroTurtlenecksCZ
-  - STTorsoSTClothingTosroTurtlenecksFr
-  - STTorsoSTClothingTosroTurtlenecksKz
-  - STTorsoSTClothingTosroTurtlenecksLit
-  - STTorsoSTClothingTosroTurtlenecksPol
-  - STTorsoSTClothingTosroTurtlenecksRu
+  # Zona 14: Disabled all of the foreign army shirts
+  #- STTorsoSTClothingTosroTurtlenecksCZ
+  #- STTorsoSTClothingTosroTurtlenecksFr
+  #- STTorsoSTClothingTosroTurtlenecksKz
+  #- STTorsoSTClothingTosroTurtlenecksLit
+  #- STTorsoSTClothingTosroTurtlenecksPol
+  #- STTorsoSTClothingTosroTurtlenecksRu
 
 - type: loadoutGroup
   id: STOuterClothingStalkerGroup
@@ -195,11 +201,13 @@
   minLimit: 0
   maxLimit: 3
   loadouts:
-  - BaseGlockMag10
-  - BasePMMag
-  - TTMag
-  - STOintment
-  - STGauze
+  # Zona 14: Disable the extra items from loadout 
+  #- BaseGlockMag10
+  #- BasePMMag
+  #- TTMag
+  - Z14STOintment
+  - Z14STBrutepack
+  #- STGauze
   - DrinkWaterBottleFull
   - FoodTinPeaches
 
@@ -207,16 +215,19 @@
   id: STStorageAmmunition
   name: loadout-group-st-ammunition
   minLimit: 0
-  maxLimit: 2
+  maxLimit: 1
   loadouts:
-  - 7mmBuckshotBox
-  - 7mmBuckshotBoxTwo
-  - 545HPBox
-  - 545FMJBox
-  - 919RIPBox
-  - 918SP7Box
-  - 919PSOGJBox
-  - 918PGJBox
+  - Z147mmBuckshotBox # Zona 14: replace the ammo with Zona14 suffix
+  #- 7mmBuckshotBoxTwo # Zona 14: Disabled the extra ammo
+  #- 545HPBox # Zona 14: Disabled the extra ammo
+  #- 545FMJBox # Zona 14: Disabled the extra ammo
+  - Z14919RIPBox # Zona 14: replace the ammo with Zona14 suffix
+  - Z14918SP7Box # Zona 14: replace the ammo with Zona14 suffix
+  - Z14919PSOGJBox # Zona 14: replace the ammo with Zona14 suffix
+  - Z14918PGJBox # Zona 14: replace the ammo with Zona14 suffix
+  - Z14725LRNPCBox # Zona 14: add the new ammo with Zona14 suffix
+  - Z14725PBox # Zona 14: add the new ammo with Zona14 suffix
+  - Z1462mmBuckshotBox # Zona 14: add the new ammo with Zona14 suffix
 
 - type: loadoutGroup
   id: STBackpackGroup
@@ -234,18 +245,20 @@
   minLimit: 0
   maxLimit: 1
   loadouts:
-  - STBoltBagFilled
-  - WeaponPistolStalkerTT
-  - WeaponPistolStalkerPM
-  - WeaponPistolStalkerGlock
-
-- type: loadoutGroup
-  id: STTrinketsGroupTwo
-  name: loadout-group-st-pocket-two
-  minLimit: 0
-  maxLimit: 1
-  loadouts:
-  - STCombatKnife
+  - Z14STCombatKnife
+  # Zona 14: Disable unnecessary items from pocket one and added knife instead
+  #- STBoltBagFilled
+  #- WeaponPistolStalkerTT
+  #- WeaponPistolStalkerPM
+  #- WeaponPistolStalkerGlock
+# Zona 14: Disable STTrinketsGroupTwo since it isn't neccessary to have
+#- type: loadoutGroup
+#  id: STTrinketsGroupTwo
+#  name: loadout-group-st-pocket-two
+#  minLimit: 0
+#  maxLimit: 1
+#  loadouts:
+#  - STCombatKnife
 
 - type: loadoutGroup
   id: STBeltStalkerGroup
@@ -303,9 +316,10 @@
   - STTorsoClothingTorsoTurtlenecksGorka6
   - STTorsoClothingTorsoTurtlenecksBereza
   - STTorsoClothingTorsoTurtlenecksGorkaRus
-  - STTorsoClothingTorsoTurtlenecksUN
-  - STTorsoClothingTorsoTurtlenecksUa
-  - STTorsoClothingTorsoTurtlenecksUa2
+  # Zona 14: Disabled UN and Ukrainian shirts
+  #- STTorsoClothingTorsoTurtlenecksUN
+  #- STTorsoClothingTorsoTurtlenecksUa
+  #- STTorsoClothingTorsoTurtlenecksUa2
   - STTorsoClothingTorsoTurtlenecksBattleTurtleneckbBlack
   - STTorsoClothingTorsoTurtlenecksBlackTurtleneck
   - STTorsoClothingTorsoTurtlenecksCombatForest
@@ -313,12 +327,13 @@
   - STTorsoClothingTorsoTurtlenecksGorka6B
   - STTorsoClothingTorsoTurtlenecksKhakiTurtleneck
   - STTorsoClothingTorsoTurtlenecksMatrosska
-  - STTorsoSTClothingTosroTurtlenecksCZ
-  - STTorsoSTClothingTosroTurtlenecksFr
-  - STTorsoSTClothingTosroTurtlenecksKz
-  - STTorsoSTClothingTosroTurtlenecksLit
-  - STTorsoSTClothingTosroTurtlenecksPol
-  - STTorsoSTClothingTosroTurtlenecksRu
+  # Zona 14: Disabled all of the foreign army shirts
+  #- STTorsoSTClothingTosroTurtlenecksCZ
+  #- STTorsoSTClothingTosroTurtlenecksFr
+  #- STTorsoSTClothingTosroTurtlenecksKz
+  #- STTorsoSTClothingTosroTurtlenecksLit
+  #- STTorsoSTClothingTosroTurtlenecksPol
+  #- STTorsoSTClothingTosroTurtlenecksRu
 
 # Zona14: Duty
 - type: loadoutGroup
@@ -347,9 +362,10 @@
   - STTorsoClothingTorsoTurtlenecksGorka6
   - STTorsoClothingTorsoTurtlenecksBereza
   - STTorsoClothingTorsoTurtlenecksGorkaRus
-  - STTorsoClothingTorsoTurtlenecksUN
-  - STTorsoClothingTorsoTurtlenecksUa
-  - STTorsoClothingTorsoTurtlenecksUa2
+  # Zona 14: Disabled UN and Ukrainian shirts
+  #- STTorsoClothingTorsoTurtlenecksUN
+  #- STTorsoClothingTorsoTurtlenecksUa
+  #- STTorsoClothingTorsoTurtlenecksUa2
   - STTorsoClothingTorsoTurtlenecksBattleTurtleneckbBlack
   - STTorsoClothingTorsoTurtlenecksBlackTurtleneck
   - STTorsoClothingTorsoTurtlenecksCombatForest
@@ -357,12 +373,13 @@
   - STTorsoClothingTorsoTurtlenecksGorka6B
   - STTorsoClothingTorsoTurtlenecksKhakiTurtleneck
   - STTorsoClothingTorsoTurtlenecksMatrosska
-  - STTorsoSTClothingTosroTurtlenecksCZ
-  - STTorsoSTClothingTosroTurtlenecksFr
-  - STTorsoSTClothingTosroTurtlenecksKz
-  - STTorsoSTClothingTosroTurtlenecksLit
-  - STTorsoSTClothingTosroTurtlenecksPol
-  - STTorsoSTClothingTosroTurtlenecksRu
+  # Zona 14: Disabled all of the foreign army shirts
+  #- STTorsoSTClothingTosroTurtlenecksCZ
+  #- STTorsoSTClothingTosroTurtlenecksFr
+  #- STTorsoSTClothingTosroTurtlenecksKz
+  #- STTorsoSTClothingTosroTurtlenecksLit
+  #- STTorsoSTClothingTosroTurtlenecksPol
+  #- STTorsoSTClothingTosroTurtlenecksRu
 
 # Zona14: Freedom
 - type: loadoutGroup
@@ -390,9 +407,10 @@
   - STTorsoClothingTorsoTurtlenecksGorka6
   - STTorsoClothingTorsoTurtlenecksBereza
   - STTorsoClothingTorsoTurtlenecksGorkaRus
-  - STTorsoClothingTorsoTurtlenecksUN
-  - STTorsoClothingTorsoTurtlenecksUa
-  - STTorsoClothingTorsoTurtlenecksUa2
+  # Zona 14: Disabled UN and Ukrainian shirts
+  #- STTorsoClothingTorsoTurtlenecksUN
+  #- STTorsoClothingTorsoTurtlenecksUa
+  #- STTorsoClothingTorsoTurtlenecksUa2
   - STTorsoClothingTorsoTurtlenecksBattleTurtleneckbBlack
   - STTorsoClothingTorsoTurtlenecksBlackTurtleneck
   - STTorsoClothingTorsoTurtlenecksCombatForest
@@ -400,12 +418,13 @@
   - STTorsoClothingTorsoTurtlenecksGorka6B
   - STTorsoClothingTorsoTurtlenecksKhakiTurtleneck
   - STTorsoClothingTorsoTurtlenecksMatrosska
-  - STTorsoSTClothingTosroTurtlenecksCZ
-  - STTorsoSTClothingTosroTurtlenecksFr
-  - STTorsoSTClothingTosroTurtlenecksKz
-  - STTorsoSTClothingTosroTurtlenecksLit
-  - STTorsoSTClothingTosroTurtlenecksPol
-  - STTorsoSTClothingTosroTurtlenecksRu
+  # Zona 14: Disabled all of the foreign army shirts
+  #- STTorsoSTClothingTosroTurtlenecksCZ
+  #- STTorsoSTClothingTosroTurtlenecksFr
+  #- STTorsoSTClothingTosroTurtlenecksKz
+  #- STTorsoSTClothingTosroTurtlenecksLit
+  #- STTorsoSTClothingTosroTurtlenecksPol
+  #- STTorsoSTClothingTosroTurtlenecksRu
 
 - type: loadoutGroup
   id: STlegsGroupFreedom
@@ -426,8 +445,9 @@
   - STlegsClothingLegsJeansBlackCargo
   - STlegsClothingLegsJeansBrownCargo
   - STlegsClothingLegsJeansSandCargo
-  - STlegsClothingLegsJeansUa
-  - STlegsClothingLegsJeansUa2
+  # Zona 14: Disabled Ukrainian Army Pants
+  #- STlegsClothingLegsJeansUa
+  #- STlegsClothingLegsJeansUa2
   - STlegsSTClothingLegsPantsGray
   - STlegsClothingLegsBattlePantsBlack
   - STlegsClothingLegsVeryBlueJenas
@@ -463,9 +483,10 @@
   - STTorsoClothingTorsoTurtlenecksGorka6
   - STTorsoClothingTorsoTurtlenecksBereza
   - STTorsoClothingTorsoTurtlenecksGorkaRus
-  - STTorsoClothingTorsoTurtlenecksUN
-  - STTorsoClothingTorsoTurtlenecksUa
-  - STTorsoClothingTorsoTurtlenecksUa2
+  # Zona 14: Disabled UN and Ukrainian shirts
+  #- STTorsoClothingTorsoTurtlenecksUN
+  #- STTorsoClothingTorsoTurtlenecksUa
+  #- STTorsoClothingTorsoTurtlenecksUa2
   - STTorsoClothingTorsoTurtlenecksBattleTurtleneckbBlack
   - STTorsoClothingTorsoTurtlenecksBlackTurtleneck
   - STTorsoClothingTorsoTurtlenecksCombatForest
@@ -473,12 +494,13 @@
   - STTorsoClothingTorsoTurtlenecksGorka6B
   - STTorsoClothingTorsoTurtlenecksKhakiTurtleneck
   - STTorsoClothingTorsoTurtlenecksMatrosska
-  - STTorsoSTClothingTosroTurtlenecksCZ
-  - STTorsoSTClothingTosroTurtlenecksFr
-  - STTorsoSTClothingTosroTurtlenecksKz
-  - STTorsoSTClothingTosroTurtlenecksLit
-  - STTorsoSTClothingTosroTurtlenecksPol
-  - STTorsoSTClothingTosroTurtlenecksRu
+  # Zona 14: Disabled all of the foreign army shirts
+  #- STTorsoSTClothingTosroTurtlenecksCZ
+  #- STTorsoSTClothingTosroTurtlenecksFr
+  #- STTorsoSTClothingTosroTurtlenecksKz
+  #- STTorsoSTClothingTosroTurtlenecksLit
+  #- STTorsoSTClothingTosroTurtlenecksPol
+  #- STTorsoSTClothingTosroTurtlenecksRu
 
 # Zona14: Seraphim
 - type: loadoutGroup
@@ -555,8 +577,9 @@
   - STlegsClothingLegsJeansBlackCargo
   - STlegsClothingLegsJeansBrownCargo
   - STlegsClothingLegsJeansSandCargo
-  - STlegsClothingLegsJeansUa
-  - STlegsClothingLegsJeansUa2
+  # Zona 14: Disabled Ukrainian Army Pants
+  #- STlegsClothingLegsJeansUa
+  #- STlegsClothingLegsJeansUa2
   - STlegsSTClothingLegsPantsGray
   - STlegsClothingLegsBattlePantsBlack
   - STlegsClothingLegsVeryBlueJenas
@@ -586,8 +609,9 @@
   - STlegsClothingLegsJeansBlackCargo
   - STlegsClothingLegsJeansBrownCargo
   - STlegsClothingLegsJeansSandCargo
-  - STlegsClothingLegsJeansUa
-  - STlegsClothingLegsJeansUa2
+  # Zona 14: Disabled Ukrainian Army Pants
+  #- STlegsClothingLegsJeansUa
+  #- STlegsClothingLegsJeansUa2
   - STlegsSTClothingLegsPantsGray
   - STlegsClothingLegsBattlePantsBlack
   - STlegsClothingLegsVeryBlueJenas
@@ -625,8 +649,9 @@
   - STlegsClothingLegsJeansBlackCargo
   - STlegsClothingLegsJeansBrownCargo
   - STlegsClothingLegsJeansSandCargo
-  - STlegsClothingLegsJeansUa
-  - STlegsClothingLegsJeansUa2
+  # Zona 14: Disabled Ukrainian Army Pants
+  #- STlegsClothingLegsJeansUa
+  #- STlegsClothingLegsJeansUa2
   - STlegsSTClothingLegsPantsGray
   - STlegsClothingLegsBattlePantsBlack
   - STlegsClothingLegsVeryBlueJenas
@@ -732,8 +757,9 @@
   - STlegsClothingLegsJeansGreyCargo
   - STlegsClothingLegsJeansBlackCargo
   - STlegsClothingLegsJeansBrownCargo
-  - STlegsClothingLegsJeansUa
-  - STlegsClothingLegsJeansUa2
+  # Zona 14: Disabled Ukrainian Army Pants
+  #- STlegsClothingLegsJeansUa
+  #- STlegsClothingLegsJeansUa2
   - STlegsSTClothingLegsPantsGray
   - STlegsClothingLegsBattlePantsBlack
   - STlegsClothingLegsVeryBlueJenas

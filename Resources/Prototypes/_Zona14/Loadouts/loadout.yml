@@ -1,0 +1,7 @@
+# Zona14: General
+
+    # Zona14: Outer Clothes
+- type: loadout
+  id:  STOuterClothingStalkerMilitary
+  equipment:
+    outerClothing: Z14ClothingOuterJacketMili

@@ -10,5 +10,6 @@ loadout-group-st-ammunition = Ammunition
 loadout-group-st-backpack = Backpacks
 loadout-group-st-pocket-one = Pocket 1
 loadout-group-st-pocket-two = Pocket 2
-loadout-group-st-belt = Belt
+# Zona 14: changed from Belt to Belts
+loadout-group-st-belt = Belts 
 loadout-group-st-glasses = Glasses

@@ -50,11 +50,11 @@
   id: Military
   displayWeight: 1
   name: job-military
-  icon: army
+  icon: voen1ZONA14 # Zona14: changed the military patch to a better one
   description: job-military-desc
   rules: job-military-rules
   playTimeTracker: JobMilitary
-  whitelisted: false
+  whitelisted: true # Zona14: Military is now whitelisted
   requirements:
     # - !type:RoleTimeRequirement
     #   role: JobMilitary
@@ -77,7 +77,7 @@
           - Military
       - type: Bands
         band: Stalker
-        bandIcon: army
+        bandIcon: voen1ZONA14 # Zona14: changed the military patch to a better one
         bandProto: STMilitaryBand
         bandRankId: 1
       - type: BlockTackingHolyItems
@@ -101,7 +101,7 @@
   id: MilitaryHead
   displayWeight: 3
   name: job-military-head
-  icon: army
+  icon: voen2ZONA14 # Zona14: changed the military patch to a better one
   description: job-military-head-desc
   playTimeTracker: JobHeadMilitary
   rules: job-military-rules
@@ -125,7 +125,7 @@
             - MilitaryHead
         - type: Bands
           band: Stalker
-          bandIcon: army
+          bandIcon: voen2ZONA14 # Zona14: changed the military patch to a better one
           bandProto: STMilitaryBand
           bandRankId: 3
         - type: BlockTackingHolyItems
@@ -137,19 +137,22 @@
         - type: NpcFactionMember
           factions:
           - Military
-        - type: GuardFactionController
-          toggleOffAction: GuardFactionControllerOffAction
-          toggleOnAction: GuardFactionControllerOnAction
+        - type: Vocal # stalker EN change start
+          sounds:
+            Male: MaleHumanMilitary
+            Female: FemaleHumanMilitary
+            Unsexed: MaleHumanMilitary # stalker EN change end
+        # Zona14: removed the unnecessary abilities from militaryHead and replaced with the sounds instead
 
 # Zona14: added displayWeight so the rank will be from highest to lowest          
 - type: job
   id: MilitaryOfficer
   displayWeight: 2
   name: job-military-officer
-  icon: army
+  icon: voen3ZONA14 # Zona14: changed the military patch to a better one
   description: job-military-officer-desc
   playTimeTracker: JobOfficerMilitary
-  whitelisted: false
+  whitelisted: true # Zona14: military officer is now whitelisted
   requirements:
     # - !type:RoleTimeRequirement
     #   role: JobOfficerMilitary
@@ -172,7 +175,7 @@
             - MilitaryOfficer
         - type: Bands
           band: Stalker
-          bandIcon: army
+          bandIcon: voen3ZONA14 # Zona14: changed the military patch to a better one
           bandProto: STMilitaryBand
           bandRankId: 2
         - type: BlockTackingHolyItems
@@ -188,27 +191,31 @@
 - type: startingGear
   id: MilitaryGear
   equipment:
-    legs: ClothingLegsJeansUa
-    torso: ClothingTorsoTurtlenecksUa
-    shoes: STClothingShoesBootsCombatFilled
+  # Zona 14: Disabled starting clothes
+    #legs: ClothingLegsJeansUa
+    #torso: ClothingTorsoTurtlenecksUa
+    #shoes: STClothingShoesBootsCombatFilled
     id: MilitaryPDA
     dogtag: ClothingNeckDogtagMilitary
 
 - type: startingGear
   id: MilitaryGearOfficer
   equipment:
-    legs: ClothingLegsJeansUa
-    torso: ClothingTorsoTurtlenecksUa
-    shoes: STClothingShoesBootsCombatFilled
+  # Zona 14: Disabled starting clothes 
+    #legs: ClothingLegsJeansUa
+    #torso: ClothingTorsoTurtlenecksUa
+    #shoes: STClothingShoesBootsCombatFilled
     id: MilitaryPDA
-    dogtag: ClothingNeckDogtagMilitary
+    dogtag: ClothingNeckDogtagMilitaryCommander
+# Zona14: Replaced the normal dogtag to commander dogtag for officers    
 
 - type: startingGear
   id: MilitaryGearHead
   equipment:
-    legs: ClothingLegsJeansUa
-    torso: ClothingTorsoTurtlenecksUa
-    shoes: STClothingShoesBootsCombatFilled
+  # Zona 14: Disabled starting clothes
+    #legs: ClothingLegsJeansUa
+    #torso: ClothingTorsoTurtlenecksUa
+    #shoes: STClothingShoesBootsCombatFilled
     id: MilitaryPDA
     dogtag: ClothingNeckDogtagMilitaryCommander
 

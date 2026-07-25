@@ -117,7 +117,7 @@
 # Zona14: added StalkerDutyNCO to hierarchy order
 
 # Zona14: Private
-
+# Zona14: Disable StalkerNoviceDolg for now
 - type: job
   id: StalkerNoviceDolg
   setPreference: false

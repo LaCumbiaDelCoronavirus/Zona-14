@@ -23,7 +23,7 @@
   components:
     - type: Bands
       band: Stalker
-      bandIcon: army
+      bandIcon: voen1ZONA14 # Zona14: changed the military patch to a better one
       bandProto: STMilitaryBand
       bandRankId: 1
     - type: Access
@@ -41,7 +41,7 @@
   components:
     - type: Bands
       band: Stalker
-      bandIcon: army
+      bandIcon: voen2ZONA14 # Zona14: changed the military patch to a better one
       bandProto: STMilitaryBand
       bandRankId: 3
     - type: Access
