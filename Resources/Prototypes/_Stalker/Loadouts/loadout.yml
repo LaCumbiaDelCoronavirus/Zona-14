@@ -2,22 +2,22 @@
 - type: loadout
   id: STOuterClothingStalker
   equipment:
-    outerClothing: ClothingOuterJacketStalker
+    outerClothing: Z14ClothingOuterJacketStalker # Zona 14: added Zona 14 suffix instead of ST
 
 - type: loadout
   id: ClothingMaskGasZaryaMono
   equipment:
-    mask: ClothingMaskGasZaryaMono
+    mask: Z14ClothingMaskGasZaryaMono # Zona 14: Replace the ST gas mask to Zona 14 version
 
 - type: loadout
   id: ClothingMaskGasZarya
   equipment:
-    mask: ClothingMaskGasZarya
+    mask: Z14ClothingMaskGasZarya # Zona 14: Replace the ST gas mask to Zona 14 version
 
 - type: loadout
   id: ClothingOuterJacketNeytral
   equipment:
-    outerClothing: ClothingOuterJacketNeytral
+    outerClothing: Z14ClothingOuterJacketNeytral # Zona 14: added Zona 14 suffix instead of ST
 
 # Zona14: General
 
@@ -337,11 +337,11 @@
   id: STTorsoClothingTorsoTurtlenecksGorkaRus
   equipment:
     torso: ClothingTorsoTurtlenecksGorkaRus
-
-- type: loadout
-  id: STTorsoClothingTorsoTurtlenecksUN
-  equipment:
-    torso: ClothingTorsoTurtlenecksUN
+# Zona 14: Disabled UN Shirt 
+#- type: loadout
+#  id: STTorsoClothingTorsoTurtlenecksUN
+#  equipment:
+#    torso: ClothingTorsoTurtlenecksUN
 
 - type: loadout
   id: STTorsoClothingTorsoTurtlenecksFreedomCamouflage
@@ -432,36 +432,41 @@
   id: STTorsoClothingTorsoTurtlenecksMatrosska
   equipment:
     torso: ClothingTorsoTurtlenecksMatrosska
+# Zona 14: Disabled Czech Army Shirt
+#- type: loadout
+#  id: STTorsoSTClothingTosroTurtlenecksCZ
+#  equipment:
+#    torso: STClothingTosroTurtlenecksCZ
 
-- type: loadout
-  id: STTorsoSTClothingTosroTurtlenecksCZ
-  equipment:
-    torso: STClothingTosroTurtlenecksCZ
+# Zona 14: Disabled French Army Shirt
+#- type: loadout
+#  id: STTorsoSTClothingTosroTurtlenecksFr
+#  equipment:
+#    torso: STClothingTosroTurtlenecksFr
 
-- type: loadout
-  id: STTorsoSTClothingTosroTurtlenecksFr
-  equipment:
-    torso: STClothingTosroTurtlenecksFr
+# Zona 14: Disabled Kazakhstan Army Shirt
+#- type: loadout
+#  id: STTorsoSTClothingTosroTurtlenecksKz
+#  equipment:
+#    torso: STClothingTosroTurtlenecksKz
 
-- type: loadout
-  id: STTorsoSTClothingTosroTurtlenecksKz
-  equipment:
-    torso: STClothingTosroTurtlenecksKz
+# Zona 14: Disabled Litva Army Shirt
+#- type: loadout
+#  id: STTorsoSTClothingTosroTurtlenecksLit
+#  equipment:
+#    torso: STClothingTosroTurtlenecksLit
 
-- type: loadout
-  id: STTorsoSTClothingTosroTurtlenecksLit
-  equipment:
-    torso: STClothingTosroTurtlenecksLit
+# Zona 14: Disabled Poland Army Shirt
+#- type: loadout
+#  id: STTorsoSTClothingTosroTurtlenecksPol
+#  equipment:
+#    torso: STClothingTosroTurtlenecksPol
 
-- type: loadout
-  id: STTorsoSTClothingTosroTurtlenecksPol
-  equipment:
-    torso: STClothingTosroTurtlenecksPol
-
-- type: loadout
-  id: STTorsoSTClothingTosroTurtlenecksRu
-  equipment:
-    torso: STClothingTosroTurtlenecksRu
+# Zona 14: Disabled RU Army Shirt
+#- type: loadout
+#  id: STTorsoSTClothingTosroTurtlenecksRu
+#  equipment:
+#    torso: STClothingTosroTurtlenecksRu
 
 - type: loadout
   id: STTorsoClothingTorsoTankMilitary
@@ -488,35 +493,42 @@
     - Blunt
 
     # Zona14: Starting equipment in backpack
-- type: loadout
-  id: BaseGlockMag10
-  storage:
-    back:
-    - BaseGlockMag10
+    # Zona 14: Disable the extra mags from loadout
+#- type: loadout
+#  id: BaseGlockMag10
+#  storage:
+#    back:
+#    - BaseGlockMag10
 
-- type: loadout
-  id: BasePMMag
-  storage:
-    back:
-    - BasePMMag
+#- type: loadout
+#  id: BasePMMag
+#  storage:
+#    back:
+#    - BasePMMag
 
+#- type: loadout
+#  id: TTMag
+#  storage:
+#    back:
+#    - TTMag
+# Zona 14: changed to Zona 14 suffix instead of ST
 - type: loadout
-  id: TTMag
+  id: Z14STOintment
   storage:
     back:
-    - TTMag
-
+    - Z14STOintment
+# Zona 14: added brute pack
 - type: loadout
-  id: STOintment
+  id: Z14STBrutepack
   storage:
     back:
-    - STOintment
-
-- type: loadout
-  id: STGauze
-  storage:
-    back:
-    - STGauze
+    - Z14STBrutepack
+# Zona 14: Disabled STGauze as it is already included in the starter kit
+#- type: loadout
+#  id: STGauze
+#  storage:
+#    back:
+#    - STGauze
 
 - type: loadout
   id: DrinkWaterBottleFull
@@ -546,11 +558,12 @@
     suitstorage: STWeaponRifleSaiga545
 
     # Zona14: Ammo
+# Zona 14: replace the ammo with Zona14 suffix    
 - type: loadout
-  id: 7mmBuckshotBox
+  id: Z147mmBuckshotBox
   storage:
     back:
-    - 7mmBuckshotBox
+    - Z147mmBuckshotBox
 
 - type: loadout
   id: 7mmBuckshotBoxTwo
@@ -569,30 +582,48 @@
   storage:
     back:
     - 545FMJBox
-
+# Zona 14: replace the ammo with Zona14 suffix
 - type: loadout
-  id: 919RIPBox
+  id: Z14919PSOGJBox
   storage:
     back:
-    - 919RIPBox
-
+    - Z14919PSOGJBox
+# Zona 14: replace the ammo with Zona14 suffix
 - type: loadout
-  id: 918SP7Box
+  id: Z14918SP7Box
   storage:
     back:
-    - 918SP7Box
-
+    - Z14918SP7Box
+# Zona 14: replace the ammo with Zona14 suffix
 - type: loadout
-  id: 919PSOGJBox
+  id: Z14919RIPBox
   storage:
     back:
-    - 919PSOGJBox
-
+    - Z14919RIPBox
+# Zona 14: replace the ammo with Zona14 suffix
 - type: loadout
-  id: 918PGJBox
+  id: Z14918PGJBox
   storage:
     back:
-    - 918PGJBox
+    - Z14918PGJBox
+# Zona 14: add the new ammo with Zona14 suffix
+- type: loadout
+  id: Z14725LRNPCBox
+  storage:
+    back:
+    - Z14725LRNPCBox
+# Zona 14: add the new ammo with Zona14 suffix
+- type: loadout
+  id: Z14725PBox
+  storage:
+    back:
+    - Z14725PBox
+# Zona 14: add the new ammo with Zona14 suffix
+- type: loadout
+  id: Z1462mmBuckshotBox
+  storage:
+    back:
+    - Z1462mmBuckshotBox            
     # Zona14: Pocket 1
 - type: loadout
   id: STBoltBagFilled
@@ -620,9 +651,9 @@
 # End Zona14
     # Zona14: Pocket 2
 - type: loadout
-  id: STCombatKnife
+  id: Z14STCombatKnife # Zona 14: added Zona14 suffix knife instead
   equipment:
-    pocket2: STCombatKnife
+    pocket2: Z14STCombatKnife # Zona 14: added Zona14 suffix knife instead
     # Zona14: Backpacks
 - type: loadout
   id: STBackpack
@@ -642,7 +673,7 @@
 - type: loadout
   id: STMaskStalker
   equipment:
-    mask: ClothingMaskGasMarlya
+    mask: Z14ClothingMaskGasMarlya # Zona 14: Replace the ST gas mask to Zona 14 version
 
 - type: loadout
   id: ClothingMaskNeckBalaklava1
@@ -702,25 +733,25 @@
 - type: loadout
   id: STOuterClothingStalkerBandit
   equipment:
-    outerClothing: ClothingOuterJacketBandit
+    outerClothing: Z14ClothingOuterJacketBandit # Zona 14: added Zona 14 suffix instead of ST
 
 # Zona14: Duty
 - type: loadout
   id: STOuterClothingStalkerDolg
   equipment:
-    outerClothing: ClothingOuterJacketDolg
+    outerClothing: Z14ClothingOuterJacketDolg # Zona 14: added Zona 14 suffix instead of ST
 
 # Zona14: Freedom
 - type: loadout
   id: STOuterClothingStalkerFreedom
   equipment:
-    outerClothing: ClothingOuterJacketFreedom
+    outerClothing: Z14ClothingOuterJacketFreedom # Zona 14: added Zona 14 suffix instead of ST
 
 # Zona14: Scientists
 - type: loadout
   id: STOuterClothingStalkerSci
   equipment:
-    outerClothing: ClothingOuterJacketSCI
+    outerClothing: Z14ClothingOuterJacketSCI # Zona 14: added Zona 14 suffix instead of ST
 
 # Zona14: Seraphim
 - type: loadout

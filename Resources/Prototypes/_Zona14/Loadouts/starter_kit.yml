@@ -31,6 +31,33 @@
   storage:
     back:
     - Z14BasePMMag
+# Zona 14: added new weapons for the starter kit
+- type: loadout
+  id: Z14LoadoutStarterTT
+  dummyEntity: Z14WeaponPistolStalkerTT
+  equipment:
+    suitstorage: Z14WeaponPistolStalkerTT
+  storage:
+    back:
+    - Z14TTMag
+
+- type: loadout
+  id: Z14LoadoutStarterGlock
+  dummyEntity: Z14WeaponPistolStalkerGlock
+  equipment:
+    suitstorage: Z14WeaponPistolStalkerGlock
+  storage:
+    back:
+    - Z14BaseGlockMag10
+
+- type: loadout
+  id: Z14LoadoutStarterGSH18
+  dummyEntity: Z14WeaponPistolGSH18
+  equipment:
+    suitstorage: Z14WeaponPistolGSH18
+  storage:
+    back:
+    - Z14BaseGSH-18Mag10
 
 - type: loadout
   id: Z14LoadoutStarterSawedOff
@@ -39,7 +66,7 @@
     suitstorage: Z14STWeaponShotgunSawedOf
   storage:
     back:
-    - Z1462mmBuckshotBox
+    - Z147mmBuckshotBox # Zona 14: added the ammo with ZONA 14 suffix instead of ST
 
 - type: loadout
   id: Z14LoadoutStarterTOZ106
@@ -68,10 +95,33 @@
   minLimit: 1
   maxLimit: 1
   loadouts:
+  - Z14LoadoutStarterTT
   - Z14LoadoutStarterPM
   - Z14LoadoutStarterSawedOff
   - Z14LoadoutStarterTOZ106
   - Z14LoadoutStarterMP40
+ # Zona 14: added new starter group NATO and Warsaw Pact
+- type: loadoutGroup
+  id: Z14StarterWeaponGroupNATO
+  name: loadout-group-z14-starter-weaponNATO
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - Z14LoadoutStarterGlock
+  - Z14LoadoutStarterPM
+  - Z14LoadoutStarterSawedOff
+  - Z14LoadoutStarterMP40
+
+- type: loadoutGroup
+  id: Z14StarterWeaponGroupWarsawPact
+  name: loadout-group-z14-starter-weaponWarsawPact
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - Z14LoadoutStarterGSH18
+  - Z14LoadoutStarterPM
+  - Z14LoadoutStarterSawedOff
+  - Z14LoadoutStarterTOZ106
 
 # ── Supplies: all three, no choice ──────────────────────────
 # minLimit == maxLimit == number of options, so every rookie gets the lot.
@@ -88,7 +138,7 @@
   id: Z14LoadoutStarterBandage
   storage:
     back:
-    - STGauze
+    - Z14STGauze # Zona 14: added the gauze with ZONA 14 suffix instead of ST
 
 - type: loadout
   id: Z14LoadoutStarterBolts
