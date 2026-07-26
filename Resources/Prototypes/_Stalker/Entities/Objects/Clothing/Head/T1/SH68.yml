@@ -12,12 +12,12 @@
     armorClass: 1
     modifiers:
       coefficients:
-        Blunt: 0.95
-        Slash: 0.95
-        Piercing: 0.80
+        Blunt: 1.0     # Zona14: helmet bullet-protection removed (outfit-only armor)
+        Slash: 1.0
+        Piercing: 1.0
   - type: Craftable
   - type: Reflect
-    reflectProb: 0.05
+    reflectProb: 0     # Zona14: helmets have no combat stats
     spread: 360
     reflects:
       - NonEnergy

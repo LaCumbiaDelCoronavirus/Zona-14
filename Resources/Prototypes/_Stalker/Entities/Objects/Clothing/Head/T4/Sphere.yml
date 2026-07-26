@@ -18,13 +18,13 @@
     armorClass: 4
     modifiers:
       coefficients:
-        Blunt: 0.65
-        Slash: 0.60
-        Piercing: 0.85
-        Psy:   0.60
-        Radiation: 0.70
+        Blunt: 1.0     # Zona14: helmet bullet-protection removed (psy/rad kept)
+        Slash: 1.0
+        Piercing: 1.0
+        Psy:   1.0     # Zona14: helmets have no stats
+        Radiation: 1.0
   - type: Reflect
-    reflectProb: 0.10
+    reflectProb: 0     # Zona14: helmets have no combat stats
     spread: 360
     reflects:
       - NonEnergy
@@ -104,12 +104,12 @@
     armorClass: 3
     modifiers:
       coefficients:
-        Piercing: 0.75
-        Heat: 0.8
-        Shock: 0.80
-        Radiation: 0.80
+        Piercing: 1.0     # Zona14: helmet bullet-protection removed (elemental kept)
+        Heat: 1.0     # Zona14: helmets have no stats
+        Shock: 1.0
+        Radiation: 1.0
   - type: ExplosionResistance
-    damageCoefficient: 0.70
+    damageCoefficient: 1.0     # Zona14: helmets have no combat stats
 
 - type: entity
   parent: STClothingHeadBase
@@ -132,15 +132,15 @@
       armorClass: 4
       modifiers:
         coefficients:
-          Blunt: 0.9
-          Slash: 0.9
-          Piercing: 0.9
-          Psy:   0.9
-          Radiation: 0.9
+          Blunt: 1.0     # Zona14: helmet bullet-protection removed (psy/rad kept)
+          Slash: 1.0
+          Piercing: 1.0
+          Psy:   1.0     # Zona14: helmets have no stats
+          Radiation: 1.0
     - type: ExplosionResistance
-      damageCoefficient: 0.9
+      damageCoefficient: 1.0     # Zona14: helmets have no combat stats
     - type: Reflect
-      reflectProb: 0.10
+      reflectProb: 0     # Zona14: helmets have no combat stats
       spread: 360
       reflects:
         - NonEnergy
