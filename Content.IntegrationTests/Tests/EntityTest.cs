@@ -52,8 +52,10 @@ namespace Content.IntegrationTests.Tests
                 .Select(p => p.ID)
                 .ToList();
 
-            // Zona14: process entities in batches to stay under the 16 GB runner memory limit.
-            const int batchSize = 10000;
+            // Zona14: process entities in batches to stay under the runner's ~7 GB memory ceiling
+            // (private-repo GitHub runners, not the 16 GB previously assumed). Entities are deleted
+            // after every batch, so peak working set is one batch; 3000 leaves headroom as content grows.
+            const int batchSize = 3000;
 
             for (var i = 0; i < protoIds.Count; i += batchSize)
             {
@@ -199,9 +201,13 @@ namespace Content.IntegrationTests.Tests
                 .Select(p => p.ID)
                 .ToList();
 
-            // Zona14: process entities in batches to stay under the 16 GB runner memory limit.
-            // Each entity gets its own map + grid, so spawning all at once OOMs with large prototype counts.
-            const int batchSize = 10000;
+            // Zona14: process entities in batches to stay under the runner's memory ceiling. Private-repo
+            // GitHub runners have only ~7 GB RAM (not the 16 GB previously assumed), and Zona-14 now has
+            // ~18k spawnable prototypes (~2x the base game). Each entity gets its own map + grid and is
+            // dirtied + replicated to a connected client, so a 10k batch peaked >7 GB and intermittently
+            // OOM-killed the runner. Entities are deleted after every batch, so peak working set is one
+            // batch; 3000 keeps it well under 7 GB with headroom for future content growth.
+            const int batchSize = 3000;
             var checkedClient = false;
 
             for (var i = 0; i < protoIds.Count; i += batchSize)
