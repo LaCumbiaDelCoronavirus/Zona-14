@@ -32,6 +32,8 @@
           bandProto: STMercenariesBand
           bandRankId: 2
         - type: BlockTackingHolyItems
+        - type: FactionArtifactSlots
+          slots: 4 # Zona14: Mercenary faction artifact slots
         - type: TeethPull
           teethProto: ToothStalker
           pullingItemTag: PliersStalker
@@ -84,6 +86,8 @@
           bandProto: STMercenariesBand
           bandRankId: 2
         - type: BlockTackingHolyItems
+        - type: FactionArtifactSlots
+          slots: 4 # Zona14: Mercenary faction artifact slots
         - type: TeethPull
           teethProto: ToothStalker
           pullingItemTag: PliersStalker

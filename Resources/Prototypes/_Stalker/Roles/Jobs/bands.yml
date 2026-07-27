@@ -40,6 +40,8 @@
           factions:
           - BandsUnion
           - Bandit
+        - type: FactionArtifactSlots
+          slots: 3 # Zona14: Bandit faction artifact slots
         - type: Vocal # stalker EN change start
           sounds:
             Male: MaleHumanBandit
@@ -89,6 +91,8 @@
           factions:
           - BandsUnion
           - Bandit
+        - type: FactionArtifactSlots
+          slots: 3 # Zona14: Bandit faction artifact slots
         - type: Vocal # stalker EN change start
           sounds:
             Male: MaleHumanBandit

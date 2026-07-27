@@ -33,6 +33,7 @@
           bandProto: STDolgBand
           bandRankId: 2
         - type: BlockTackingHolyItems
+        - type: BlockArtifactUsage # Zona14: Duty artifact ban (lore) — holds regardless of worn suit
         - type: TeethPull
           teethProto: ToothStalker
           pullingItemTag: PliersStalker
@@ -81,6 +82,7 @@
           bandProto: STDolgBand
           bandRankId: 2
         - type: BlockTackingHolyItems
+        - type: BlockArtifactUsage # Zona14: Duty artifact ban (lore) — holds regardless of worn suit
         - type: TeethPull
           teethProto: ToothStalker
           pullingItemTag: PliersStalker
@@ -153,6 +155,7 @@
       bandProto: STDolgBand
       bandRankId: 2
     - type: BlockTackingHolyItems
+    - type: BlockArtifactUsage # Zona14: Duty artifact ban (lore) — holds regardless of worn suit
     - type: TeethPull
       teethProto: ToothStalker
       pullingItemTag: PliersStalker
