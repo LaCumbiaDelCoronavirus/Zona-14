@@ -62,7 +62,7 @@
     armorClass: 0
     modifiers:
       flatReductions:
-        Psy: 5
+        Psy: 0     # Zona14: helmets have no stats
 
 - type: entity
   parent: ClothingHeadBase

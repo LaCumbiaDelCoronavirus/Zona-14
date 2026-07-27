@@ -13,13 +13,13 @@
     armorClass: 3
     modifiers:
       coefficients:
-        Blunt: 0.8
-        Slash: 0.85
-        Piercing: 0.8
+        Blunt: 1.0     # Zona14: helmet bullet-protection removed (outfit-only armor)
+        Slash: 1.0
+        Piercing: 1.0
   - type: ExplosionResistance
-    damageCoefficient: 0.9
+    damageCoefficient: 1.0     # Zona14: helmets have no combat stats
   - type: Reflect
-    reflectProb: 0.12
+    reflectProb: 0     # Zona14: helmets have no combat stats
     spread: 360
     reflects:
       - NonEnergy
@@ -149,13 +149,13 @@
     armorClass: 3
     modifiers:
       coefficients:
-        Blunt: 0.9
-        Slash: 0.85
-        Piercing: 0.70
+        Blunt: 1.0     # Zona14: helmet bullet-protection removed (outfit-only armor)
+        Slash: 1.0
+        Piercing: 1.0
   - type: ExplosionResistance
-    damageCoefficient: 0.95
+    damageCoefficient: 1.0     # Zona14: helmets have no combat stats
   - type: Reflect
-    reflectProb: 0.15
+    reflectProb: 0     # Zona14: helmets have no combat stats
     spread: 360
     reflects:
       - NonEnergy

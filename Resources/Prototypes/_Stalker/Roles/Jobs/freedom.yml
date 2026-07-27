@@ -25,6 +25,8 @@
           factions:
           - BandsUnion
           - Freedom
+        - type: FactionArtifactSlots
+          slots: 5 # Zona14: Freedom faction artifact slots
         - type: Access
           tags:
             - Freedom
@@ -72,6 +74,8 @@
           factions:
           - BandsUnion
           - Freedom
+        - type: FactionArtifactSlots
+          slots: 5 # Zona14: Freedom faction artifact slots
         - type: Access
           tags:
             - Freedom
@@ -144,6 +148,8 @@
       factions:
       - BandsUnion
       - Freedom
+    - type: FactionArtifactSlots
+      slots: 5 # Zona14: Freedom faction artifact slots
     - type: Access
       tags:
       - FreedomNovice

@@ -36,6 +36,8 @@
       - type: NpcFactionMember
         factions:
         - Sci
+      - type: FactionArtifactSlots
+        slots: 4 # Zona14: Ecologist faction artifact slots
       - type: Vocal # stalker EN change start
         sounds:
           Male: MaleHumanEcologists
@@ -82,6 +84,8 @@
       - type: NpcFactionMember
         factions:
         - Sci
+      - type: FactionArtifactSlots
+        slots: 4 # Zona14: Ecologist faction artifact slots
       - type: Vocal # stalker EN change start
         sounds:
           Male: MaleHumanEcologists
@@ -128,6 +132,8 @@
       - type: NpcFactionMember
         factions:
         - Sci
+      - type: FactionArtifactSlots
+        slots: 4 # Zona14: Ecologist faction artifact slots
       - type: Vocal # stalker EN change start
         sounds:
           Male: MaleHumanEcologists
@@ -175,6 +181,8 @@
         - type: NpcFactionMember
           factions:
           - Sci
+        - type: FactionArtifactSlots
+          slots: 4 # Zona14: Ecologist faction artifact slots
         - type: Vocal # stalker EN change start
           sounds:
             Male: MaleHumanEcologists

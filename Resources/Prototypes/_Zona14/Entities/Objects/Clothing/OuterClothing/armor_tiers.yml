@@ -96,9 +96,9 @@
     armorClass: 1
     modifiers:
       flatReductions:
-        Blunt: 2
-        Slash: 2
-        Piercing: 2
+        Blunt: 1     # Zona14: TTK rework — physical rescaled per tier, elemental untouched
+        Slash: 1
+        Piercing: 1
         Heat: 1
         Cold: 1
         Shock: 1
@@ -107,9 +107,9 @@
         Compression: 1
         Psy: 1
       coefficients:
-        Blunt: 0.80
-        Slash: 0.80
-        Piercing: 0.80
+        Blunt: 0.86
+        Slash: 0.86
+        Piercing: 0.86
         Heat: 1.00
         Cold: 1.00
         Shock: 1.00
@@ -226,9 +226,9 @@
     armorClass: 2
     modifiers:
       flatReductions:
-        Blunt: 4
-        Slash: 4
-        Piercing: 4
+        Blunt: 1.5   # Zona14: TTK rework — physical rescaled per tier, elemental untouched
+        Slash: 1.5
+        Piercing: 1.5
         Heat: 2
         Cold: 2
         Shock: 2
@@ -237,9 +237,9 @@
         Compression: 2
         Psy: 2
       coefficients:
-        Blunt: 0.70
-        Slash: 0.70
-        Piercing: 0.70
+        Blunt: 0.73
+        Slash: 0.73
+        Piercing: 0.73
         Heat: 0.90
         Cold: 0.90
         Shock: 0.90
@@ -356,9 +356,9 @@
     armorClass: 3
     modifiers:
       flatReductions:
-        Blunt: 6
-        Slash: 6
-        Piercing: 6
+        Blunt: 2     # Zona14: TTK rework — physical rescaled per tier, elemental untouched
+        Slash: 2
+        Piercing: 2
         Heat: 3
         Cold: 3
         Shock: 3
@@ -486,9 +486,9 @@
     armorClass: 4
     modifiers:
       flatReductions:
-        Blunt: 8
-        Slash: 8
-        Piercing: 8
+        Blunt: 2.5   # Zona14: TTK rework — physical rescaled per tier, elemental untouched
+        Slash: 2.5
+        Piercing: 2.5
         Heat: 4
         Cold: 4
         Shock: 4
@@ -497,9 +497,9 @@
         Compression: 4
         Psy: 4
       coefficients:
-        Blunt: 0.50
-        Slash: 0.50
-        Piercing: 0.50
+        Blunt: 0.47
+        Slash: 0.47
+        Piercing: 0.47
         Heat: 0.70
         Cold: 0.70
         Shock: 0.70
@@ -616,9 +616,9 @@
     armorClass: 5
     modifiers:
       flatReductions:
-        Blunt: 10
-        Slash: 10
-        Piercing: 10
+        Blunt: 3     # Zona14: TTK rework — physical rescaled per tier, elemental untouched
+        Slash: 3
+        Piercing: 3
         Heat: 5
         Cold: 5
         Shock: 5
@@ -627,9 +627,9 @@
         Compression: 5
         Psy: 5
       coefficients:
-        Blunt: 0.40
-        Slash: 0.40
-        Piercing: 0.40
+        Blunt: 0.34
+        Slash: 0.34
+        Piercing: 0.34
         Heat: 0.60
         Cold: 0.60
         Shock: 0.60

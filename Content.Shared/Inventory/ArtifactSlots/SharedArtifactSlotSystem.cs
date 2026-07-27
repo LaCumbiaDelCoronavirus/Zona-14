@@ -1,6 +1,7 @@
 using System.Linq;
 using Content.Shared.Hands.EntitySystems;
 using Content.Shared.Inventory.Events;
+using Content.Shared._Zona14.Inventory.ArtifactSlots; // Zona14: FactionArtifactSlotsComponent lives under _Zona14
 
 namespace Content.Shared.Inventory.ArtifactSlots;
 
@@ -20,6 +21,7 @@ public sealed class SharedArtifactSlotSystem : EntitySystem
     {
         SubscribeLocalEvent<GrantsArtifactSlotsComponent, GotEquippedEvent>(OnEquipped);
         SubscribeLocalEvent<GrantsArtifactSlotsComponent, GotUnequippedEvent>(OnUnequipped);
+        SubscribeLocalEvent<FactionArtifactSlotsComponent, ComponentStartup>(OnFactionSlotsStartup);
     }
 
     private void OnEquipped(Entity<GrantsArtifactSlotsComponent> ent, ref GotEquippedEvent args)
@@ -36,6 +38,16 @@ public sealed class SharedArtifactSlotSystem : EntitySystem
             return;
 
         RecalculateActiveSlots(args.Equipee, inv);
+    }
+
+    /// <summary>
+    /// A faction slot grant can apply with no slot-granting suit worn, so recalculate as soon
+    /// as the component is added (jobs add it via AddComponentSpecial at spawn).
+    /// </summary>
+    private void OnFactionSlotsStartup(Entity<FactionArtifactSlotsComponent> ent, ref ComponentStartup args)
+    {
+        if (TryComp<InventoryComponent>(ent, out var inv))
+            RecalculateActiveSlots(ent, inv);
     }
 
     /// <summary>
@@ -63,6 +75,14 @@ public sealed class SharedArtifactSlotSystem : EntitySystem
                     hasGranter = true;
                 }
             }
+        }
+
+        // Zona14: a faction can grant a baseline slot count independent of the worn suit
+        // (e.g. Merc 4, Freedom 5). Acts as a floor — max'd with any worn granter above.
+        if (TryComp<FactionArtifactSlotsComponent>(uid, out var factionSlots) && factionSlots.Slots > maxSlots)
+        {
+            maxSlots = factionSlots.Slots;
+            hasGranter = true;
         }
 
         var activeCount = hasGranter ? maxSlots : 0;

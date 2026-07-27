@@ -89,6 +89,8 @@
       - type: NpcFactionMember
         factions:
         - Military
+      - type: FactionArtifactSlots
+        slots: 3 # Zona14: Military faction artifact slots
       - type: Vocal # stalker EN change start
         sounds:
           Male: MaleHumanMilitary
@@ -137,6 +139,8 @@
         - type: NpcFactionMember
           factions:
           - Military
+        - type: FactionArtifactSlots
+          slots: 3 # Zona14: Military faction artifact slots
         - type: Vocal # stalker EN change start
           sounds:
             Male: MaleHumanMilitary
@@ -182,6 +186,8 @@
         - type: NpcFactionMember
           factions:
           - Military
+        - type: FactionArtifactSlots
+          slots: 3 # Zona14: Military faction artifact slots
         - type: Vocal # stalker EN change start
           sounds:
             Male: MaleHumanMilitary

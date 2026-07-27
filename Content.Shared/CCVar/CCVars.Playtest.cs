@@ -33,7 +33,7 @@ public sealed partial class CCVars
         /// </summary>
         [CVarControl(AdminFlags.VarEdit)]
         public static readonly CVarDef<float> PlaytestProjectileDamageModifier =
-            CVarDef.Create("playtest.projectile_damage_modifier", 1f, CVar.SERVER | CVar.REPLICATED);
+            CVarDef.Create("playtest.projectile_damage_modifier", 0.40f, CVar.SERVER | CVar.REPLICATED); // Zona14: TTK rework — matched ~15 bullets to down
 
         /// <summary>
         ///     Scales the damage dealt by all hitscan attacks in the game.
@@ -97,35 +97,35 @@ public sealed partial class CCVars
         /// </summary>
         [CVarControl(AdminFlags.VarEdit)]
         public static readonly CVarDef<float> PlaytestPenTierBelow =
-            CVarDef.Create("playtest.pen_tier_below", 0.0f, CVar.SERVER | CVar.REPLICATED);
+            CVarDef.Create("playtest.pen_tier_below", 0.05f, CVar.SERVER | CVar.REPLICATED); // Zona14: TTK rework
 
         /// <summary>
         ///     Penetration fraction when projectile class matches armor class (classDiff = 0).
         /// </summary>
         [CVarControl(AdminFlags.VarEdit)]
         public static readonly CVarDef<float> PlaytestPenTierMatch =
-            CVarDef.Create("playtest.pen_tier_match", 0.5f, CVar.SERVER | CVar.REPLICATED);
+            CVarDef.Create("playtest.pen_tier_match", 0.10f, CVar.SERVER | CVar.REPLICATED); // Zona14: TTK rework
 
         /// <summary>
         ///     Penetration fraction when projectile is one tier above armor (classDiff = 1).
         /// </summary>
         [CVarControl(AdminFlags.VarEdit)]
         public static readonly CVarDef<float> PlaytestPenTierAboveOne =
-            CVarDef.Create("playtest.pen_tier_above_one", 0.75f, CVar.SERVER | CVar.REPLICATED);
+            CVarDef.Create("playtest.pen_tier_above_one", 0.48f, CVar.SERVER | CVar.REPLICATED); // Zona14: TTK rework
 
         /// <summary>
         ///     Penetration fraction when projectile is two+ tiers above armor (classDiff ≥ 2).
         /// </summary>
         [CVarControl(AdminFlags.VarEdit)]
         public static readonly CVarDef<float> PlaytestPenTierAboveTwo =
-            CVarDef.Create("playtest.pen_tier_above_two", 0.9f, CVar.SERVER | CVar.REPLICATED);
+            CVarDef.Create("playtest.pen_tier_above_two", 0.92f, CVar.SERVER | CVar.REPLICATED); // Zona14: TTK rework
 
         /// <summary>
         ///     Minimum damage floor as a fraction of original damage. Blunt supplement tops up if armor reduces below this.
         /// </summary>
         [CVarControl(AdminFlags.VarEdit)]
         public static readonly CVarDef<float> PlaytestMinProjectileDamageFloor =
-            CVarDef.Create("playtest.min_projectile_damage_floor", 0.25f, CVar.SERVER | CVar.REPLICATED);
+            CVarDef.Create("playtest.min_projectile_damage_floor", 0.38f, CVar.SERVER | CVar.REPLICATED); // Zona14: TTK rework — caps T1-vs-T5 ~30
         // End Zona14
 
 }
