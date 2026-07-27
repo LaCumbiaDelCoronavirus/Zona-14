@@ -203,7 +203,7 @@
       band: Stalker
       bandIcon: sci_rector
     - type: Loadout
-      prototypes: [ SciGear3 ]
+      prototypes: [ SciGear2 ]  # Zona14: SciGear3 was disabled in PR #82, replaced by SciGear2
     - type: NpcFactionMember
       factions:
       - Sci

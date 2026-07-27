@@ -13,7 +13,7 @@
   id: JobStalkerCutthroat
   groups:
   - STTrinketsGroupOne
-  - STTrinketsGroupTwo
+  #- STTrinketsGroupTwo # Zona14: group disabled in PR #82 (dangling ref)
   - STBackpackGroup
   - STStorageTrinkets
   - STShoesGroup
@@ -32,7 +32,7 @@
   id: JobStalkerScout
   groups:
   - STTrinketsGroupOne
-  - STTrinketsGroupTwo
+  #- STTrinketsGroupTwo # Zona14: group disabled in PR #82 (dangling ref)
   - STBackpackGroup
   - STStorageTrinkets
   - STShoesGroup
@@ -51,7 +51,7 @@
   id: JobStalkerDutyNCO
   groups:
   - STTrinketsGroupOne
-  - STTrinketsGroupTwo
+  #- STTrinketsGroupTwo # Zona14: group disabled in PR #82 (dangling ref)
   - STBackpackGroup
   - STStorageTrinkets
   - STShoesGroup
@@ -70,7 +70,7 @@
   id: JobMilitary
   groups:
   - STTrinketsGroupOne
-  - STTrinketsGroupTwo
+  #- STTrinketsGroupTwo # Zona14: group disabled in PR #82 (dangling ref)
   - STBackpackGroup
   - STStorageTrinkets
   - STShoesGroup
@@ -89,7 +89,7 @@
   id: JobMilitaryOfficer
   groups:
   - STTrinketsGroupOne
-  - STTrinketsGroupTwo
+  #- STTrinketsGroupTwo # Zona14: group disabled in PR #82 (dangling ref)
   - STBackpackGroup
   - STStorageTrinkets
   - STShoesGroup
@@ -108,7 +108,7 @@
   id: JobMilitaryHead
   groups:
   - STTrinketsGroupOne
-  - STTrinketsGroupTwo
+  #- STTrinketsGroupTwo # Zona14: group disabled in PR #82 (dangling ref)
   - STBackpackGroup
   - STStorageTrinkets
   - STShoesGroup

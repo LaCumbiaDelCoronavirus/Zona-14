@@ -541,7 +541,7 @@
   - STTorsoClothingTorsoTurtlenecksGorka6
   - STTorsoClothingTorsoTurtlenecksBereza
   - STTorsoClothingTorsoTurtlenecksGorkaRus
-  - STTorsoClothingTorsoTurtlenecksUN
+  #- STTorsoClothingTorsoTurtlenecksUN # Zona14: definition disabled in PR #82 (dangling ref)
   - STTorsoClothingTorsoTurtlenecksUa
   - STTorsoClothingTorsoTurtlenecksUa2
   - STTorsoClothingTorsoTurtlenecksBattleTurtleneckbBlack
@@ -551,12 +551,12 @@
   - STTorsoClothingTorsoTurtlenecksGorka6B
   - STTorsoClothingTorsoTurtlenecksKhakiTurtleneck
   - STTorsoClothingTorsoTurtlenecksMatrosska
-  - STTorsoSTClothingTosroTurtlenecksCZ
-  - STTorsoSTClothingTosroTurtlenecksFr
-  - STTorsoSTClothingTosroTurtlenecksKz
-  - STTorsoSTClothingTosroTurtlenecksLit
-  - STTorsoSTClothingTosroTurtlenecksPol
-  - STTorsoSTClothingTosroTurtlenecksRu
+  #- STTorsoSTClothingTosroTurtlenecksCZ # Zona14: definitions disabled in PR #82 (dangling refs)
+  #- STTorsoSTClothingTosroTurtlenecksFr
+  #- STTorsoSTClothingTosroTurtlenecksKz
+  #- STTorsoSTClothingTosroTurtlenecksLit
+  #- STTorsoSTClothingTosroTurtlenecksPol
+  #- STTorsoSTClothingTosroTurtlenecksRu
 
 - type: loadoutGroup
   id: STlegsGroupSera
@@ -678,7 +678,7 @@
   - STTorsoClothingTorsoTurtlenecksGorka6
   - STTorsoClothingTorsoTurtlenecksBereza
   - STTorsoClothingTorsoTurtlenecksGorkaRus
-  - STTorsoClothingTorsoTurtlenecksUN
+  #- STTorsoClothingTorsoTurtlenecksUN # Zona14: definition disabled in PR #82 (dangling ref)
   - STTorsoClothingTorsoTurtlenecksUa
   - STTorsoClothingTorsoTurtlenecksUa2
   - STTorsoClothingTorsoTurtlenecksBattleTurtleneckbBlack
@@ -688,12 +688,12 @@
   - STTorsoClothingTorsoTurtlenecksGorka6B
   - STTorsoClothingTorsoTurtlenecksKhakiTurtleneck
   - STTorsoClothingTorsoTurtlenecksMatrosska
-  - STTorsoSTClothingTosroTurtlenecksCZ
-  - STTorsoSTClothingTosroTurtlenecksFr
-  - STTorsoSTClothingTosroTurtlenecksKz
-  - STTorsoSTClothingTosroTurtlenecksLit
-  - STTorsoSTClothingTosroTurtlenecksPol
-  - STTorsoSTClothingTosroTurtlenecksRu
+  #- STTorsoSTClothingTosroTurtlenecksCZ # Zona14: definitions disabled in PR #82 (dangling refs)
+  #- STTorsoSTClothingTosroTurtlenecksFr
+  #- STTorsoSTClothingTosroTurtlenecksKz
+  #- STTorsoSTClothingTosroTurtlenecksLit
+  #- STTorsoSTClothingTosroTurtlenecksPol
+  #- STTorsoSTClothingTosroTurtlenecksRu
 
 
 # Zona14: Renegades
@@ -722,7 +722,7 @@
   - STTorsoClothingTorsoTurtlenecksGorka6
   - STTorsoClothingTorsoTurtlenecksBereza
   - STTorsoClothingTorsoTurtlenecksGorkaRus
-  - STTorsoClothingTorsoTurtlenecksUN
+  #- STTorsoClothingTorsoTurtlenecksUN # Zona14: definition disabled in PR #82 (dangling ref)
   - STTorsoClothingTorsoTurtlenecksUa
   - STTorsoClothingTorsoTurtlenecksUa2
   - STTorsoClothingTorsoTurtlenecksBattleTurtleneckbBlack
@@ -732,12 +732,12 @@
   - STTorsoClothingTorsoTurtlenecksGorka6B
   - STTorsoClothingTorsoTurtlenecksKhakiTurtleneck
   - STTorsoClothingTorsoTurtlenecksMatrosska
-  - STTorsoSTClothingTosroTurtlenecksCZ
-  - STTorsoSTClothingTosroTurtlenecksFr
-  - STTorsoSTClothingTosroTurtlenecksKz
-  - STTorsoSTClothingTosroTurtlenecksLit
-  - STTorsoSTClothingTosroTurtlenecksPol
-  - STTorsoSTClothingTosroTurtlenecksRu
+  #- STTorsoSTClothingTosroTurtlenecksCZ # Zona14: definitions disabled in PR #82 (dangling refs)
+  #- STTorsoSTClothingTosroTurtlenecksFr
+  #- STTorsoSTClothingTosroTurtlenecksKz
+  #- STTorsoSTClothingTosroTurtlenecksLit
+  #- STTorsoSTClothingTosroTurtlenecksPol
+  #- STTorsoSTClothingTosroTurtlenecksRu
 
 - type: loadoutGroup
   id: STlegsGroupRene
