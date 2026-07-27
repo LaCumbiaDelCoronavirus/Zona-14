@@ -58,7 +58,7 @@
   id: JobStalkerJournalist
   groups:
   - STTrinketsGroupOne
-  - STTrinketsGroupTwo
+  #- STTrinketsGroupTwo # Zona14: group disabled in PR #82 (dangling ref)
   - STBackpackGroup
   - STStorageTrinkets
   - STShoesGroup
@@ -76,7 +76,7 @@
   id: JobStalkerAtom
   groups:
   - STTrinketsGroupOne
-  - STTrinketsGroupTwo
+  #- STTrinketsGroupTwo # Zona14: group disabled in PR #82 (dangling ref)
   - STBackpackGroup
   - STStorageTrinkets
   - STShoesGroup
@@ -132,7 +132,7 @@
   id: JobStalkerGuide
   groups:
   - STTrinketsGroupOne
-  - STTrinketsGroupTwo
+  #- STTrinketsGroupTwo # Zona14: group disabled in PR #82 (dangling ref)
   - STBackpackGroup
   - STStorageTrinkets
   - STShoesGroup
@@ -268,7 +268,7 @@
   id: JobStalkerNoviceFreedom
   groups:
   - STTrinketsGroupOne
-  - STTrinketsGroupTwo
+  #- STTrinketsGroupTwo # Zona14: group disabled in PR #82 (dangling ref)
   - STBackpackGroup
   - STStorageTrinkets
   - STShoesGroup
@@ -366,7 +366,7 @@
   id: JobSeraphim
   groups:
   - STTrinketsGroupOne
-  - STTrinketsGroupTwo
+  #- STTrinketsGroupTwo # Zona14: group disabled in PR #82 (dangling ref)
   - STBackpackGroup
   - STStorageTrinkets
   - STShoesGroupSera
@@ -384,7 +384,7 @@
   id: JobSeraphimHead
   groups:
   - STTrinketsGroupOne
-  - STTrinketsGroupTwo
+  #- STTrinketsGroupTwo # Zona14: group disabled in PR #82 (dangling ref)
   - STBackpackGroup
   - STStorageTrinkets
   - STShoesGroupSera
@@ -402,7 +402,7 @@
   id: JobSeraphimCherubim
   groups:
   - STTrinketsGroupOne
-  - STTrinketsGroupTwo
+  #- STTrinketsGroupTwo # Zona14: group disabled in PR #82 (dangling ref)
   - STBackpackGroup
   - STStorageTrinkets
   - STShoesGroupSera
@@ -421,7 +421,7 @@
   id: JobStalkerClearSky
   groups:
   - STTrinketsGroupOne
-  - STTrinketsGroupTwo
+  #- STTrinketsGroupTwo # Zona14: group disabled in PR #82 (dangling ref)
   - STBackpackGroup
   - STStorageTrinkets
   - STShoesGroup
@@ -439,7 +439,7 @@
   id: JobStalkerClearSkyHead
   groups:
   - STTrinketsGroupOne
-  - STTrinketsGroupTwo
+  #- STTrinketsGroupTwo # Zona14: group disabled in PR #82 (dangling ref)
   - STBackpackGroup
   - STStorageTrinkets
   - STShoesGroup
@@ -459,7 +459,7 @@
   id: JobStalkerRene
   groups:
   - STTrinketsGroupOne
-  - STTrinketsGroupTwo
+  #- STTrinketsGroupTwo # Zona14: group disabled in PR #82 (dangling ref)
   - STBackpackGroup
   - STStorageTrinkets
   - STShoesGroup
