@@ -15,8 +15,10 @@ concurrency:
 jobs:
   # Zona14: sharded build+test matrix. Each entry self-builds (NuGet-restore is cached) and runs only
   # its slice on its own runner, so they run in parallel and wall-clock drops toward the longest shard.
-  # The integration shards run at NUnit.NumberOfTestWorkers=1 + workstation GC so each stays under the
-  # 16GB runner limit (the EntityTest spawn-all tests peak ~7.4GB; two in parallel OOM-kill the runner).
+  # The integration shards run at NUnit.NumberOfTestWorkers=1 + workstation GC + a best-effort swapfile so
+  # each stays within the private-repo runner's ~7 GB RAM (NOT the 16 GB previously assumed). The EntityTest
+  # spawn-all tests are the memory hogs and are batched in EntityTest.cs to keep peak working set under that
+  # ceiling as content grows (Zona-14 has ~2x the base game's prototypes).
   # Shards are balanced by measured duration; int-D is the exact negation of int-A/B/C so the union
   # covers every integration test with no overlap or gap.
   test:
@@ -89,11 +91,25 @@ jobs:
       shell: pwsh
       run: dotnet test --no-build --configuration DebugOpt Content.Tests/Content.Tests.csproj -- NUnit.ConsoleOut=0 NUnit.TestOutputXml="logs" NUnit.WorkDirectory="$(pwd)/test_results"
 
+    # Zona14: best-effort extra swap so the kernel can absorb transient memory spikes from the heaviest
+    # integration tests (SpawnAndDirtyAllEntities, ServerPrototypeSaveLoadSaveTest) instead of OOM-killing
+    # the ~7 GB private-repo runner — an OOM there surfaces as "The runner has received a shutdown signal".
+    # Every command is non-fatal (|| true) so a swap hiccup can never fail the build.
+    - name: Add swap space
+      if: matrix.kind == 'integration'
+      run: |
+        sudo fallocate -l 8G /mnt/ci-swapfile || sudo dd if=/dev/zero of=/mnt/ci-swapfile bs=1M count=8192 || true
+        sudo chmod 600 /mnt/ci-swapfile || true
+        sudo mkswap /mnt/ci-swapfile || true
+        sudo swapon /mnt/ci-swapfile || true
+        free -h || true
+
     - name: Run Content.IntegrationTests
       if: matrix.kind == 'integration'
       shell: pwsh
       run: |
-        # Zona14: workstation GC (gcServer=0) + single worker keeps this shard under the 16GB runner limit.
+        # Zona14: workstation GC (gcServer=0) + single worker + the swapfile above keep this shard within
+        # the private-repo runner's ~7 GB RAM (the spawn-all tests are additionally batched in EntityTest.cs).
         $env:DOTNET_gcServer=0
         dotnet test --no-build --configuration DebugOpt Content.IntegrationTests/Content.IntegrationTests.csproj --filter "${{ matrix.filter }}" -- NUnit.ConsoleOut=0 NUnit.MapWarningTo=Failed NUnit.NumberOfTestWorkers=1 NUnit.TestOutputXml="logs" NUnit.WorkDirectory="$(pwd)/test_results"
 
