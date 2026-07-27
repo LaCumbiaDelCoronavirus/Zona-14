@@ -3,7 +3,7 @@
   id: JobStalker
   groups:
   - STTrinketsGroupOne
-  - STTrinketsGroupTwo
+  #- STTrinketsGroupTwo # Zona 14: Disable STTrinketsGroupTwo
   - STBackpackGroup
   - STStorageTrinkets
   - STShoesGroup
@@ -22,7 +22,7 @@
   id: JobStalkerMercenary
   groups:
   - STTrinketsGroupOne
-  - STTrinketsGroupTwo
+  #- STTrinketsGroupTwo # Zona 14: Disable STTrinketsGroupTwo
   - STBackpackGroup
   - STStorageTrinkets
   - STShoesGroup
@@ -40,7 +40,7 @@
   id: JobStalkerHeadMercenary
   groups:
   - STTrinketsGroupOne
-  - STTrinketsGroupTwo
+  #- STTrinketsGroupTwo # Zona 14: Disable STTrinketsGroupTwo
   - STBackpackGroup
   - STStorageTrinkets
   - STShoesGroup
@@ -58,7 +58,7 @@
   id: JobStalkerJournalist
   groups:
   - STTrinketsGroupOne
-  - STTrinketsGroupTwo
+  #- STTrinketsGroupTwo # Zona14: group disabled in PR #82 (dangling ref)
   - STBackpackGroup
   - STStorageTrinkets
   - STShoesGroup
@@ -76,7 +76,7 @@
   id: JobStalkerAtom
   groups:
   - STTrinketsGroupOne
-  - STTrinketsGroupTwo
+  #- STTrinketsGroupTwo # Zona14: group disabled in PR #82 (dangling ref)
   - STBackpackGroup
   - STStorageTrinkets
   - STShoesGroup
@@ -94,7 +94,7 @@
   id: JobStalkerRookie
   groups:
   - STTrinketsGroupOne
-  - STTrinketsGroupTwo
+  #- STTrinketsGroupTwo # Zona 14: Disable STTrinketsGroupTwo
   - STBackpackGroup
   - STStorageTrinkets
   - STShoesGroup
@@ -113,7 +113,7 @@
   id: JobStalkerVeteran
   groups:
   - STTrinketsGroupOne
-  - STTrinketsGroupTwo
+  #- STTrinketsGroupTwo # Zona 14: Disable STTrinketsGroupTwo
   - STBackpackGroup
   - STStorageTrinkets
   - STShoesGroup
@@ -123,7 +123,7 @@
   - STlegsGroupVeteran
   - STTorsoGroupVeteran
   # Zona14: rookie starter kit; was STSuitstorageGroup
-  - Z14StarterWeaponGroup
+  - Z14StarterWeaponGroupNATO
   - STStorage
   - STStorageAmmunition
   - STGlasses
@@ -132,7 +132,7 @@
   id: JobStalkerGuide
   groups:
   - STTrinketsGroupOne
-  - STTrinketsGroupTwo
+  #- STTrinketsGroupTwo # Zona14: group disabled in PR #82 (dangling ref)
   - STBackpackGroup
   - STStorageTrinkets
   - STShoesGroup
@@ -151,7 +151,7 @@
   id: JobStalkerBandit
   groups:
   - STTrinketsGroupOne
-  - STTrinketsGroupTwo
+  #- STTrinketsGroupTwo # Zona 14: Disable STTrinketsGroupTwo
   - STBackpackGroup
   - STStorageTrinkets
   - STShoesGroup
@@ -170,7 +170,7 @@
   id: JobStalkerHeadBandit
   groups:
   - STTrinketsGroupOne
-  - STTrinketsGroupTwo
+  #- STTrinketsGroupTwo # Zona 14: Disable STTrinketsGroupTwo
   - STBackpackGroup
   - STStorageTrinkets
   - STShoesGroup
@@ -191,7 +191,7 @@
   id: JobStalkerDolg
   groups:
   - STTrinketsGroupOne
-  - STTrinketsGroupTwo
+  #- STTrinketsGroupTwo # Zona 14: Disable STTrinketsGroupTwo
   - STBackpackGroup
   - STStorageTrinkets
   - STShoesGroup
@@ -200,7 +200,7 @@
   - STlegsGroup
   - STTorsoGroupDolg
   # Zona14: rookie starter kit; was STSuitstorageGroup
-  - Z14StarterWeaponGroup
+  - Z14StarterWeaponGroupWarsawPact
   - STStorage
   - STStorageAmmunition
   - STGlasses
@@ -210,7 +210,7 @@
   id: JobStalkerNoviceDolg
   groups:
   - STTrinketsGroupOne
-  - STTrinketsGroupTwo
+  #- STTrinketsGroupTwo # Zona 14: Disable STTrinketsGroupTwo
   - STBackpackGroup
   - STStorageTrinkets
   - STShoesGroup
@@ -228,7 +228,7 @@
   id: JobStalkerHeadDolg
   groups:
   - STTrinketsGroupOne
-  - STTrinketsGroupTwo
+  #- STTrinketsGroupTwo # Zona 14: Disable STTrinketsGroupTwo
   - STBackpackGroup
   - STStorageTrinkets
   - STShoesGroup
@@ -237,7 +237,7 @@
   - STlegsGroup
   - STTorsoGroupDolg
   # Zona14: rookie starter kit; was STSuitstorageGroup
-  - Z14StarterWeaponGroup
+  - Z14StarterWeaponGroupWarsawPact
   - STStorage
   - STStorageAmmunition
   - STGlasses
@@ -249,7 +249,7 @@
   id: JobStalkerFreedom
   groups:
   - STTrinketsGroupOne
-  - STTrinketsGroupTwo
+  #- STTrinketsGroupTwo # Zona 14: Disable STTrinketsGroupTwo
   - STBackpackGroup
   - STStorageTrinkets
   - STShoesGroup
@@ -258,7 +258,7 @@
   - STlegsGroupFreedom
   - STTorsoGroupFreedom
   # Zona14: rookie starter kit; was STSuitstorageGroup
-  - Z14StarterWeaponGroup
+  - Z14StarterWeaponGroupNATO
   - STStorage
   - STStorageAmmunition
   - STGlasses
@@ -268,7 +268,7 @@
   id: JobStalkerNoviceFreedom
   groups:
   - STTrinketsGroupOne
-  - STTrinketsGroupTwo
+  #- STTrinketsGroupTwo # Zona14: group disabled in PR #82 (dangling ref)
   - STBackpackGroup
   - STStorageTrinkets
   - STShoesGroup
@@ -286,7 +286,7 @@
   id: JobStalkerHeadFreedom
   groups:
   - STTrinketsGroupOne
-  - STTrinketsGroupTwo
+  #- STTrinketsGroupTwo # Zona 14: Disable STTrinketsGroupTwo
   - STBackpackGroup
   - STStorageTrinkets
   - STShoesGroup
@@ -295,7 +295,7 @@
   - STlegsGroupFreedom
   - STTorsoGroupFreedom
   # Zona14: rookie starter kit; was STSuitstorageGroup
-  - Z14StarterWeaponGroup
+  - Z14StarterWeaponGroupNATO
   - STStorage
   - STStorageAmmunition
   - STGlasses
@@ -307,7 +307,7 @@
   id: Jobsci
   groups:
   - STTrinketsGroupOne
-  - STTrinketsGroupTwo
+  #- STTrinketsGroupTwo # Zona 14: Disable STTrinketsGroupTwo
   - STBackpackGroup
   - STStorageTrinkets
   - STShoesGroup
@@ -326,7 +326,7 @@
   id: Jobsci_decan
   groups:
   - STTrinketsGroupOne
-  - STTrinketsGroupTwo
+  #- STTrinketsGroupTwo # Zona 14: Disable STTrinketsGroupTwo
   - STBackpackGroup
   - STStorageTrinkets
   - STShoesGroup
@@ -345,7 +345,7 @@
   id: Jobsci_rector
   groups:
   - STTrinketsGroupOne
-  - STTrinketsGroupTwo
+  #- STTrinketsGroupTwo # Zona 14: Disable STTrinketsGroupTwo
   - STBackpackGroup
   - STStorageTrinkets
   - STShoesGroup
@@ -366,7 +366,7 @@
   id: JobSeraphim
   groups:
   - STTrinketsGroupOne
-  - STTrinketsGroupTwo
+  #- STTrinketsGroupTwo # Zona14: group disabled in PR #82 (dangling ref)
   - STBackpackGroup
   - STStorageTrinkets
   - STShoesGroupSera
@@ -384,7 +384,7 @@
   id: JobSeraphimHead
   groups:
   - STTrinketsGroupOne
-  - STTrinketsGroupTwo
+  #- STTrinketsGroupTwo # Zona14: group disabled in PR #82 (dangling ref)
   - STBackpackGroup
   - STStorageTrinkets
   - STShoesGroupSera
@@ -402,7 +402,7 @@
   id: JobSeraphimCherubim
   groups:
   - STTrinketsGroupOne
-  - STTrinketsGroupTwo
+  #- STTrinketsGroupTwo # Zona14: group disabled in PR #82 (dangling ref)
   - STBackpackGroup
   - STStorageTrinkets
   - STShoesGroupSera
@@ -421,7 +421,7 @@
   id: JobStalkerClearSky
   groups:
   - STTrinketsGroupOne
-  - STTrinketsGroupTwo
+  #- STTrinketsGroupTwo # Zona14: group disabled in PR #82 (dangling ref)
   - STBackpackGroup
   - STStorageTrinkets
   - STShoesGroup
@@ -439,7 +439,7 @@
   id: JobStalkerClearSkyHead
   groups:
   - STTrinketsGroupOne
-  - STTrinketsGroupTwo
+  #- STTrinketsGroupTwo # Zona14: group disabled in PR #82 (dangling ref)
   - STBackpackGroup
   - STStorageTrinkets
   - STShoesGroup
@@ -459,7 +459,7 @@
   id: JobStalkerRene
   groups:
   - STTrinketsGroupOne
-  - STTrinketsGroupTwo
+  #- STTrinketsGroupTwo # Zona14: group disabled in PR #82 (dangling ref)
   - STBackpackGroup
   - STStorageTrinkets
   - STShoesGroup

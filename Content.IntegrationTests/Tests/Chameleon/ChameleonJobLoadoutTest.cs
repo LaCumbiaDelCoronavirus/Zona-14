@@ -44,6 +44,10 @@ public sealed class ChameleonJobLoadoutTest : InteractionTest
         "sci",
         "sci_decan",
         "sci_rector",
+        // Zona14: Military faction jobs — whitelisted in PR #82; like the other faction jobs they don't use chameleon clothing.
+        "Military", // Zona14
+        "MilitaryHead", // Zona14
+        "MilitaryOfficer", // Zona14
     ];
 
     [Test]

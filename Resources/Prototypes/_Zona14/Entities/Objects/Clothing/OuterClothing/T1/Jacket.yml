@@ -479,3 +479,19 @@
   - type: HideLayerClothing
     slots:
     - Hair
+
+- type: entity
+  parent: Z14ArmorBaseT1PvP
+  id: Z14ClothingOuterJacketMili
+  categories: [ Zona14 ]
+  suffix: Z14
+  name: Military Jacket
+  description: A standard-issue olive-tan camouflage combat jacket worn by military forces operating in the Zone. Built for durability, utility, and camouflage in varied terrain.
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Clothing/outerClothing/jacket_military.rsi
+  - type: Clothing
+    sprite: _Stalker/Objects/Clothing/outerClothing/jacket_military.rsi
+  - type: ToggleableClothing
+    clothingPrototype: Z14ClothingOuterJacketSeraHatHood
+    slot: head

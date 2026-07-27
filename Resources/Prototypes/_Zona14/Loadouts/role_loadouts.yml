@@ -13,7 +13,7 @@
   id: JobStalkerCutthroat
   groups:
   - STTrinketsGroupOne
-  - STTrinketsGroupTwo
+  #- STTrinketsGroupTwo # Zona14: group disabled in PR #82 (dangling ref)
   - STBackpackGroup
   - STStorageTrinkets
   - STShoesGroup
@@ -32,7 +32,7 @@
   id: JobStalkerScout
   groups:
   - STTrinketsGroupOne
-  - STTrinketsGroupTwo
+  #- STTrinketsGroupTwo # Zona14: group disabled in PR #82 (dangling ref)
   - STBackpackGroup
   - STStorageTrinkets
   - STShoesGroup
@@ -40,7 +40,7 @@
   - STBeltStalkerGroup
   - STlegsGroupFreedom
   - STTorsoGroupFreedom
-  - Z14StarterWeaponGroup
+  - Z14StarterWeaponGroupNATO
   - STStorage
   - STStorageAmmunition
   - STGlasses
@@ -51,7 +51,7 @@
   id: JobStalkerDutyNCO
   groups:
   - STTrinketsGroupOne
-  - STTrinketsGroupTwo
+  #- STTrinketsGroupTwo # Zona14: group disabled in PR #82 (dangling ref)
   - STBackpackGroup
   - STStorageTrinkets
   - STShoesGroup
@@ -59,10 +59,66 @@
   - STBeltStalkerGroup
   - STlegsGroup
   - STTorsoGroupDolg
-  - Z14StarterWeaponGroup
+  - Z14StarterWeaponGroupWarsawPact
   - STStorage
   - STStorageAmmunition
   - STGlasses
   - STOuterClothingDolg
   - Z14StarterSuppliesGroup
 
+- type: roleLoadout
+  id: JobMilitary
+  groups:
+  - STTrinketsGroupOne
+  #- STTrinketsGroupTwo # Zona14: group disabled in PR #82 (dangling ref)
+  - STBackpackGroup
+  - STStorageTrinkets
+  - STShoesGroup
+  - STMaskStalkerGroup
+  - STBeltStalkerGroup
+  - STlegsGroupMilitary
+  - STTorsoGroupMilitary
+  - Z14StarterWeaponGroupWarsawPact
+  - STStorage
+  - STStorageAmmunition
+  - STGlasses
+  - STOuterClothingMilitary
+  - Z14StarterSuppliesGroup
+
+- type: roleLoadout
+  id: JobMilitaryOfficer
+  groups:
+  - STTrinketsGroupOne
+  #- STTrinketsGroupTwo # Zona14: group disabled in PR #82 (dangling ref)
+  - STBackpackGroup
+  - STStorageTrinkets
+  - STShoesGroup
+  - STMaskStalkerGroup
+  - STBeltStalkerGroup
+  - STlegsGroupMilitary
+  - STTorsoGroupMilitary
+  - Z14StarterWeaponGroupWarsawPact
+  - STStorage
+  - STStorageAmmunition
+  - STGlasses
+  - STOuterClothingMilitary
+  - Z14StarterSuppliesGroup
+
+- type: roleLoadout
+  id: JobMilitaryHead
+  groups:
+  - STTrinketsGroupOne
+  #- STTrinketsGroupTwo # Zona14: group disabled in PR #82 (dangling ref)
+  - STBackpackGroup
+  - STStorageTrinkets
+  - STShoesGroup
+  - STMaskStalkerGroup
+  - STBeltStalkerGroup
+  - STlegsGroupMilitary
+  - STTorsoGroupMilitary
+  - Z14StarterWeaponGroupWarsawPact
+  - STStorage
+  - STStorageAmmunition
+  - STGlasses
+  - STOuterClothingMilitary
+  - Z14StarterSuppliesGroup    

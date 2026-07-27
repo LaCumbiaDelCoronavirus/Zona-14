@@ -1,3 +1,4 @@
+using Content.Shared.Inventory;
 using Content.Shared.Inventory.Events;
 
 namespace Content.Shared._Zona14.Inventory.ArtifactSlots;

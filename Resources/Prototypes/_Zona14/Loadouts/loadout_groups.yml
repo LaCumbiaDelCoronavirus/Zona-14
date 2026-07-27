@@ -1,0 +1,63 @@
+# Zona 14: new military loadout for Zona 14
+- type: loadoutGroup
+  id: STTorsoGroupMilitary
+  name: loadout-group-st-torso
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - STTorsoClothingTorsoTurtlenecksUa
+  - STTorsoClothingTorsoTurtlenecksUa2
+  - STTorsoClothingTorsoSweaterStalkerGreen
+  - STTorsoClothingTorsoTShirtPivozavr
+  - STTorsoClothingTorsoTShirtSailorSuit
+  - STTorsoClothingTorsoTShirtColorBlack
+  - STTorsoClothingTorsoShirtRedPlaid
+  - STTorsoClothingTorsoTurtlenecksBlack
+  - STTorsoClothingTorsoTurtlenecksGorka
+  - STTorsoClothingTorsoTurtlenecksGorka6
+  - STTorsoClothingTorsoTurtlenecksBereza
+  - STTorsoClothingTorsoTurtlenecksGorkaRus
+  - STTorsoClothingTorsoTurtlenecksBattleTurtleneckbBlack
+  - STTorsoClothingTorsoTurtlenecksBlackTurtleneck
+  - STTorsoClothingTorsoTurtlenecksCombatForest
+  - STTorsoClothingTorsoTurtlenecksGorka5
+  - STTorsoClothingTorsoTurtlenecksGorka6B
+  - STTorsoClothingTorsoTurtlenecksKhakiTurtleneck
+  - STTorsoClothingTorsoTurtlenecksMatrosska
+
+- type: loadoutGroup
+  id: STlegsGroupMilitary
+  name: loadout-group-st-legs
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - STlegsClothingLegsJeansUa
+  - STlegsClothingLegsJeansUa2
+  - STlegsClothingLegsJeansBlue
+  - STlegsClothingLegsJeansStalker
+  - STlegsClothingLegsJeansRussianPixel
+  - STlegsClothingLegsJeansBlackNew
+  - STlegsClothingLegsJeansGorka
+  - STlegsClothingLegsJeansGorka6
+  - STlegsClothingLegsJeansBereza
+  - STlegsClothingLegsJeansGreenCargo
+  - STlegsClothingLegsJeansGreyCargo
+  - STlegsClothingLegsJeansBlackCargo
+  - STlegsClothingLegsJeansBrownCargo
+  - STlegsClothingLegsJeansSandCargo
+  - STlegsSTClothingLegsPantsGray
+  - STlegsClothingLegsBattlePantsBlack
+  - STlegsClothingLegsVeryBlueJenas
+  - STlegsClothingLegsCombatForest
+  - STlegsClothingLegsGorka5
+  - STlegsClothingLegsGorka6b
+  - STlegsClothingLegsNavyPants
+  - STlegsClothingLegsRussianNumber
+
+- type: loadoutGroup
+  id: STOuterClothingMilitary
+  name: loadout-group-st-outer
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - STOuterClothingStalkerMilitary
